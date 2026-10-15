@@ -4,7 +4,6 @@ export const CONFIG = {
 
   // VPS 서버(server/index.js)의 API 주소. 기본값은 같은 서버의 /api 입니다.
   // 빌드할 때 VITE_API_BASE="" 로 비우면 이 기기 안에서만 저장되는 테스트 모드로 동작합니다.
-  // (GitHub Pages 빌드는 서버가 없으므로 테스트 모드로 빌드됩니다.)
   apiBase: import.meta.env.VITE_API_BASE ?? "/api",
 
   // 테스트 모드에서만 쓰는 운영자 화면(#admin) 접속 번호.
