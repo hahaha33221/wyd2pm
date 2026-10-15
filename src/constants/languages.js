@@ -10,7 +10,8 @@ export const LANGS = [
 export const T = {
   ko: {
     title: "무엇이 궁금하세요?",
-    ph: "예: 절두산 순교성지",
+    ph: "예: 숙소, 비자, 순례자앱",
+    subtitle: "제2차 국제준비회의 세션 질의응답",
     live: "실시간 연결됨",
     local: "테스트 모드 · 이 기기에만 저장",
     found: (n) => `답변 ${n}개`,
@@ -58,7 +59,8 @@ export const T = {
   },
   en: {
     title: "What can we help with?",
-    ph: "e.g. Jeoldusan Martyrs' Shrine",
+    ph: "e.g. accommodation, visa, app",
+    subtitle: "2nd International Preparatory Meeting · Session Q&A",
     live: "Live",
     local: "Test mode · saved on this device only",
     found: (n) => `${n} answer${n === 1 ? "" : "s"}`,
@@ -106,7 +108,8 @@ export const T = {
   },
   es: {
     title: "¿En qué podemos ayudarte?",
-    ph: "ej. Santuario de Jeoldusan",
+    ph: "ej. alojamiento, visado, app",
+    subtitle: "2.ª Reunión Preparatoria Internacional · Preguntas de las sesiones",
     live: "En directo",
     local: "Modo de prueba · solo en este dispositivo",
     found: (n) => `${n} respuesta${n === 1 ? "" : "s"}`,
@@ -154,7 +157,8 @@ export const T = {
   },
   fr: {
     title: "Comment pouvons-nous aider ?",
-    ph: "ex. Sanctuaire de Jeoldusan",
+    ph: "ex. hébergement, visa, appli",
+    subtitle: "2e Réunion préparatoire internationale · Questions des sessions",
     live: "En direct",
     local: "Mode test · enregistré sur cet appareil",
     found: (n) => `${n} réponse${n === 1 ? "" : "s"}`,
@@ -202,7 +206,8 @@ export const T = {
   },
   it: {
     title: "Come possiamo aiutarti?",
-    ph: "es. Santuario di Jeoldusan",
+    ph: "es. alloggio, visto, app",
+    subtitle: "2º Incontro preparatorio internazionale · Domande delle sessioni",
     live: "In diretta",
     local: "Modalità test · salvato solo su questo dispositivo",
     found: (n) => `${n} rispost${n === 1 ? "a" : "e"}`,
@@ -250,7 +255,8 @@ export const T = {
   },
   pt: {
     title: "Como podemos ajudar?",
-    ph: "ex. Santuário de Jeoldusan",
+    ph: "ex. alojamento, visto, app",
+    subtitle: "2.ª Reunião Preparatória Internacional · Perguntas das sessões",
     live: "Ao vivo",
     local: "Modo de teste · guardado só neste aparelho",
     found: (n) => `${n} respost${n === 1 ? "a" : "as"}`,

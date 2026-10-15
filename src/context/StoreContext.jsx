@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect, useMemo, useCallback } from "react";
+import React, { createContext, useContext, useState, useEffect, useMemo } from "react";
 import { CONFIG } from "../constants/config";
 import { SEED } from "../constants/seedData";
 
@@ -127,16 +127,14 @@ class ApiStore {
 
 const storeInstance = CONFIG.apiBase ? new ApiStore(CONFIG.apiBase) : new LocalStore();
 
+// 개발 중 파일이 다시 불러와질 때 이전 실시간 연결을 닫습니다 (닫지 않으면 연결이 쌓여 화면이 멈춤).
+if (import.meta.hot) {
+  import.meta.hot.dispose(() => storeInstance.es?.close());
+}
+
 export function StoreProvider({ children }) {
   const [data, setData] = useState({ faq: {}, questions: {}, answers: {} });
   const [live, setLive] = useState(false);
-  const [mine, setMine] = useState(() => {
-    try {
-      return JSON.parse(localStorage.getItem("lfaq.mine") || "[]");
-    } catch {
-      return [];
-    }
-  });
 
   useEffect(() => {
     const unsubscribe = storeInstance.subscribe((newData, isLive) => {
@@ -150,68 +148,7 @@ export function StoreProvider({ children }) {
     return () => unsubscribe();
   }, []);
 
-  const addQuestion = useCallback(async (text, lang) => {
-    const id = await storeInstance.add("questions", {
-      text,
-      lang,
-      status: "new",
-      createdAt: Date.now()
-    });
-    setMine((prev) => {
-      const next = [...prev, id];
-      localStorage.setItem("lfaq.mine", JSON.stringify(next));
-      return next;
-    });
-    return id;
-  }, []);
-
-  const answerQuestion = useCallback(async (id, answer, addToFaq = false, questionText = "", lang = "ko") => {
-    await storeInstance.patch("questions", id, {
-      answer,
-      status: "answered",
-      answeredAt: Date.now()
-    });
-    if (addToFaq && questionText) {
-      await storeInstance.add("faq", {
-        q: { [lang]: questionText },
-        a: { [lang]: answer },
-        createdAt: Date.now()
-      });
-    }
-  }, []);
-
-  const hideQuestion = useCallback(async (id) => {
-    await storeInstance.patch("questions", id, { status: "hidden" });
-  }, []);
-
-  const reopenQuestion = useCallback(async (id) => {
-    await storeInstance.patch("questions", id, { status: "new" });
-  }, []);
-
-  const saveSeedAnswer = useCallback(async (seedId, lang, answer) => {
-    await storeInstance.patch("answers", seedId, { [lang]: answer });
-  }, []);
-
-  const addCustomFaq = useCallback(async (q, a, lang) => {
-    await storeInstance.add("faq", {
-      q: { [lang]: q },
-      a: { [lang]: a },
-      createdAt: Date.now()
-    });
-  }, []);
-
-  const deleteCustomFaq = useCallback(async (id) => {
-    await storeInstance.remove("faq", id);
-  }, []);
-
-  const wipeAllQuestions = useCallback(async () => {
-    const qIds = Object.keys(data.questions || {});
-    for (const id of qIds) {
-      await storeInstance.remove("questions", id);
-    }
-  }, [data.questions]);
-
-  // Combined FAQ list with Seed overrides and pending status
+  // 엑셀에서 만든 FAQ(SEED). 서버에 덧붙인 답변(answers)·FAQ(faq)가 있으면 함께 보여줍니다.
   const faqs = useMemo(() => {
     const ov = data.answers || {};
     const seeds = SEED.map((it) => {
@@ -226,27 +163,12 @@ export function StoreProvider({ children }) {
       };
     });
     const custom = Object.values(data.faq || {});
-    return [...seeds, ...custom].sort((a, b) => (a.pending ? 1 : 0) - (b.pending ? 1 : 0));
+    // 엑셀 순서를 그대로 둡니다 (화면에서 주제별로 묶어 보여줌).
+    return [...seeds, ...custom];
   }, [data.answers, data.faq]);
 
   return (
-    <StoreContext.Provider
-      value={{
-        data,
-        live,
-        mine,
-        faqs,
-        isCloud: !!CONFIG.apiBase,
-        addQuestion,
-        answerQuestion,
-        hideQuestion,
-        reopenQuestion,
-        saveSeedAnswer,
-        addCustomFaq,
-        deleteCustomFaq,
-        wipeAllQuestions
-      }}
-    >
+    <StoreContext.Provider value={{ data, live, faqs, isCloud: !!CONFIG.apiBase }}>
       {children}
     </StoreContext.Provider>
   );

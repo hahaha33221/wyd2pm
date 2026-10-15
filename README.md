@@ -1,12 +1,22 @@
 # WYD SEOUL 2027 · 안내 데스크 Q&A
 
-참가자는 QR로 들어와 다국어(6개 언어) FAQ를 검색하고, 운영자는 `#admin`에서 답변을 관리하며, 큰 화면은 `#screen`으로 송출합니다.
+제2차 국제준비회의 세션 질문에 대한 답변집입니다. 참가자는 QR로 들어와 구분·주제별로 질문을 찾아보고 검색합니다.
 
 | 주소 | 화면 |
 | --- | --- |
 | `/` | 참가자 FAQ |
-| `/#admin` | 운영자 화면 (접속 번호 필요) |
-| `/#screen` | 송출용 큰 화면 |
+| `/#admin` | 운영자 화면 (QR 코드, 상태 확인 · 접속 번호 필요) |
+
+## 질문·답변 바꾸기
+
+엑셀 파일이 원본입니다. 엑셀을 고친 뒤 아래를 실행하면 `src/constants/seedData.js`가 다시 만들어집니다.
+
+```bash
+pip install openpyxl     # 처음 한 번
+python3 scripts/import_xlsx.py "2PM_세션별 질문 및 답변_KOR_v0.2.xlsx"
+```
+
+엑셀의 `질문` 시트는 `구분 / 주제 / 세부 항목 / 질문 / 답변` 열을 지켜야 합니다. 바꾼 뒤 커밋·푸시하고 VPS에서 `bash deploy/deploy.sh`를 실행하세요.
 
 ## 구성
 
@@ -36,7 +46,6 @@ pnpm dev            # 터미널 2: 화면 (/api 는 3000번으로 프록시)
 | --- | --- | --- |
 | GET | `/api/data` | 누구나 |
 | GET | `/api/stream` (SSE) | 누구나 |
-| POST | `/api/questions` | 누구나 (text, lang만 저장) |
 | POST | `/api/auth` | 접속 번호 확인 |
 | POST/PATCH/DELETE | `/api/{faq,questions,answers}[/:id]` | 운영자 (`X-Admin-Code` 헤더) |
 

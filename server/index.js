@@ -14,8 +14,9 @@ const DATA_FILE = path.resolve(process.env.DATA_FILE || path.join(ROOT, "data", 
 const DIST = path.join(ROOT, "dist");
 
 const COLLECTIONS = ["faq", "questions", "answers"];
-// 참가자도 쓸 수 있는 곳. 나머지 쓰기는 운영자 번호가 필요합니다.
-const PUBLIC_WRITE = new Set(["POST questions"]);
+// 참가자도 쓸 수 있는 곳. 지금은 질문 보내기 기능을 껐으므로 모든 쓰기에 운영자 번호가 필요합니다.
+// 다시 켜려면 "POST questions" 를 넣으세요.
+const PUBLIC_WRITE = new Set([]);
 const MAX_BODY = 64 * 1024;
 
 // ── 저장소 ──
