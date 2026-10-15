@@ -62,7 +62,7 @@ export default function QrTab() {
       </div>
 
       <p className="note no-print" style={{ marginTop: "20px" }}>
-        주소가 <code>file://</code>로 시작하면 모바일에서 QR로 열리지 않습니다. 웹에 배포한 뒤(예: GitHub Pages, Vercel, Netlify)
+        주소가 <code>file://</code>로 시작하면 모바일에서 QR로 열리지 않습니다. VPS에 배포한 뒤
         해당 주소를 <code>src/constants/config.js</code>의 <code>publicUrl</code>에 지정하세요.
       </p>
     </div>

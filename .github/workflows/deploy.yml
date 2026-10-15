@@ -40,6 +40,9 @@ jobs:
 
       - name: Build
         run: pnpm run build
+        env:
+          # GitHub Pages에는 서버가 없으므로 테스트 모드(기기 내 저장)로 빌드합니다.
+          VITE_API_BASE: ''
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

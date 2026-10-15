@@ -68,55 +68,28 @@ class LocalStore {
   }
 }
 
-class FireStore {
-  constructor(url) {
-    this.url = url.replace(/\/$/, "");
+// VPS 서버(server/index.js)와 주고받는 저장소. 실시간 갱신은 SSE(/api/stream)로 받습니다.
+class ApiStore {
+  constructor(base) {
+    this.base = base.replace(/\/$/, "");
     this.live = false;
     this.subs = [];
     this.data = { faq: {}, questions: {}, answers: {} };
-    this.es = null;
     this.connect();
   }
   connect() {
-    try {
-      this.es = new EventSource(this.url + "/.json");
-      this.es.addEventListener("put", (e) => this.apply(JSON.parse(e.data), true));
-      this.es.addEventListener("patch", (e) => this.apply(JSON.parse(e.data), false));
-      this.es.onopen = () => {
-        this.live = true;
-        this.emit();
-      };
-      this.es.onerror = () => {
-        this.live = false;
-        this.emit();
-      };
-    } catch {
+    this.es = new EventSource(this.base + "/stream");
+    this.es.addEventListener("data", (e) => {
+      const d = JSON.parse(e.data) || {};
+      this.data = { faq: d.faq || {}, questions: d.questions || {}, answers: d.answers || {} };
+      this.live = true;
+      this.emit();
+    });
+    this.es.onerror = () => {
+      // EventSource가 알아서 다시 연결합니다.
       this.live = false;
       this.emit();
-    }
-  }
-  apply(msg, isPut) {
-    const parts = (msg.path || "").split("/").filter(Boolean);
-    if (!parts.length) {
-      this.data = msg.data || {};
-    } else {
-      let node = this.data;
-      for (let i = 0; i < parts.length - 1; i++) {
-        node[parts[i]] = node[parts[i]] || {};
-        node = node[parts[i]];
-      }
-      const k = parts[parts.length - 1];
-      if (isPut) {
-        if (msg.data === null) delete node[k];
-        else node[k] = msg.data;
-      } else {
-        Object.assign((node[k] = node[k] || {}), msg.data);
-      }
-    }
-    this.data.faq = this.data.faq || {};
-    this.data.questions = this.data.questions || {};
-    this.data.answers = this.data.answers || {};
-    this.emit();
+    };
   }
   emit() {
     this.subs.forEach((f) => f(this.data, this.live));
@@ -128,32 +101,31 @@ class FireStore {
       this.subs = this.subs.filter((s) => s !== f);
     };
   }
+  async request(method, url, body) {
+    const r = await fetch(this.base + url, {
+      method,
+      headers: {
+        "Content-Type": "application/json",
+        "X-Admin-Code": sessionStorage.getItem("lfaq.code") || ""
+      },
+      body: body === undefined ? undefined : JSON.stringify(body)
+    });
+    if (!r.ok) throw new Error(`${method} ${url} → ${r.status}`);
+    return r.json();
+  }
   async add(path, obj) {
-    const r = await fetch(`${this.url}/${path}.json`, {
-      method: "POST",
-      body: JSON.stringify(obj)
-    });
-    const j = await r.json();
-    await fetch(`${this.url}/${path}/${j.name}.json`, {
-      method: "PATCH",
-      body: JSON.stringify({ id: j.name })
-    });
-    return j.name;
+    const j = await this.request("POST", `/${path}`, obj);
+    return j.id;
   }
   async patch(path, id, obj) {
-    await fetch(`${this.url}/${path}/${id}.json`, {
-      method: "PATCH",
-      body: JSON.stringify(obj)
-    });
+    await this.request("PATCH", `/${path}/${id}`, obj);
   }
   async remove(path, id) {
-    await fetch(`${this.url}/${path}/${id}.json`, {
-      method: "DELETE"
-    });
+    await this.request("DELETE", `/${path}/${id}`);
   }
 }
 
-const storeInstance = CONFIG.dbUrl ? new FireStore(CONFIG.dbUrl) : new LocalStore();
+const storeInstance = CONFIG.apiBase ? new ApiStore(CONFIG.apiBase) : new LocalStore();
 
 export function StoreProvider({ children }) {
   const [data, setData] = useState({ faq: {}, questions: {}, answers: {} });
@@ -264,7 +236,7 @@ export function StoreProvider({ children }) {
         live,
         mine,
         faqs,
-        isCloud: !!CONFIG.dbUrl,
+        isCloud: !!CONFIG.apiBase,
         addQuestion,
         answerQuestion,
         hideQuestion,

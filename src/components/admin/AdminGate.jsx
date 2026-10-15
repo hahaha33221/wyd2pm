@@ -8,10 +8,27 @@ export default function AdminGate({ onUnlock }) {
   const { t } = useLanguage();
   const { showToast } = useToast();
 
-  const handleUnlock = (e) => {
+  const handleUnlock = async (e) => {
     e.preventDefault();
-    if (code.trim() === CONFIG.adminCode) {
+    const entered = code.trim();
+    let ok = false;
+    if (CONFIG.apiBase) {
+      try {
+        const r = await fetch(CONFIG.apiBase.replace(/\/$/, "") + "/auth", {
+          method: "POST",
+          headers: { "X-Admin-Code": entered }
+        });
+        ok = r.ok;
+      } catch {
+        showToast(t.networkError);
+        return;
+      }
+    } else {
+      ok = entered === CONFIG.adminCode;
+    }
+    if (ok) {
       sessionStorage.setItem("lfaq.ok", "1");
+      sessionStorage.setItem("lfaq.code", entered);
       onUnlock();
     } else {
       showToast(t.wrongCode);
