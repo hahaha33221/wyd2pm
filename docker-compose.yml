@@ -10,3 +10,25 @@ services:
       - "127.0.0.1:18797:3000"   # 외부에는 nginx(443)로만 엽니다
     volumes:
       - ./data:/data
+
+  # 이 앱 전용 PostgreSQL. 서버의 다른 DB(MySQL 3306, PostgreSQL 5432·5433)와 따로 돌고,
+  # 바깥 포트를 열지 않아 같은 컴포즈 안(호스트 이름 wyd2pm-qna-db)에서만 접속됩니다.
+  wyd2pm-qna-db:
+    image: postgres:16-alpine
+    container_name: wyd2pm-qna-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: wyd2pm_qna
+      POSTGRES_USER: wyd2pm
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD 를 .env 에 넣으세요}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db:/docker-entrypoint-initdb.d/sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U wyd2pm -d wyd2pm_qna"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:

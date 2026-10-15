@@ -24,7 +24,9 @@ python3 scripts/import_db.py "WYD_2nd_Prep_Meeting_QA_DB.xlsx"
 | `Opinions` | No / 관련 항목 / 의견 | 의견 (관련 항목별) |
 | `Meeting_Info` | 항목 / 내용 | 회의 정보 |
 
-바꾼 뒤 커밋·푸시하고 VPS에서 `bash deploy/deploy.sh`를 실행하세요.
+같은 스크립트가 VPS 데이터베이스용 `db/seed.sql`도 만듭니다 (테이블 설계는 `db/schema.sql`).
+
+바꾼 뒤 커밋·푸시하고 VPS에서 `bash deploy/deploy.sh`를 실행하세요 (DB 반영 포함).
 
 ## 구성
 

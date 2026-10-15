@@ -42,6 +42,28 @@ cd /opt/wyd2pm-qna && docker compose down
 rm /etc/nginx/sites-enabled/wyd2pm-qna && nginx -t && systemctl reload nginx
 ```
 
+## 데이터베이스 (PostgreSQL)
+
+이 앱 전용 컨테이너 `wyd2pm-qna-db`(postgres:16-alpine)입니다. 바깥 포트를 열지 않으며, 데이터는 Docker 볼륨 `wyd2pm-qna_pgdata`에 저장됩니다.
+
+| 테이블 | 엑셀 시트 | 내용 |
+| --- | --- | --- |
+| `meeting_info` | Meeting_Info | 회의 정보 (항목·내용) |
+| `qa_section` / `qa_topic` / `qa_subtopic` | QA_DB 분류 열 | 대분류 > 중분류 > 소분류 |
+| `qa_item` | QA_DB | 질문번호·분류·순서·공개 여부 |
+| `qa_item_i18n` | QA_DB | 언어별 질문·답변 (지금은 ko) |
+| `opinion` | Opinions | 의견 (관련 항목·내용) |
+| `inquiry` | — | 나중에 쓸 참가자 질문 접수 (비어 있음) |
+| `qa_view` (보기) | — | 질문을 분류와 합쳐 보는 보기 |
+
+```bash
+cd /opt/wyd2pm-qna && bash db/apply.sh      # 테이블 만들기 + 엑셀 내용 반영 (여러 번 실행해도 안전)
+docker compose exec wyd2pm-qna-db psql -U wyd2pm -d wyd2pm_qna   # 직접 조회
+docker compose exec -T wyd2pm-qna-db pg_dump -U wyd2pm wyd2pm_qna > backup-$(date +%F).sql   # 백업
+```
+
+`.env`에 `POSTGRES_PASSWORD`가 있어야 합니다 (처음 설치 때 `openssl rand -hex 16`으로 만들기).
+
 ## 데이터 백업
 
 질문·답변은 `/opt/wyd2pm-qna/data/db.json` 한 파일입니다.
