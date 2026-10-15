@@ -9,6 +9,8 @@ export const LANGS = [
 
 export const T = {
   ko: {
+    topicLabel: "주제",
+    subLabel: "세부 항목",
     title: "무엇이 궁금하세요?",
     ph: "예: 숙소, 비자, 순례자앱",
     subtitle: "제2차 국제준비회의 세션 질의응답",
@@ -58,6 +60,8 @@ export const T = {
     urlCopy: "주소 복사"
   },
   en: {
+    topicLabel: "Topic",
+    subLabel: "Sub-topic",
     title: "What can we help with?",
     ph: "e.g. accommodation, visa, app",
     subtitle: "2nd International Preparatory Meeting · Session Q&A",
@@ -107,6 +111,8 @@ export const T = {
     urlCopy: "Copy URL"
   },
   es: {
+    topicLabel: "Tema",
+    subLabel: "Subtema",
     title: "¿En qué podemos ayudarte?",
     ph: "ej. alojamiento, visado, app",
     subtitle: "2.ª Reunión Preparatoria Internacional · Preguntas de las sesiones",
@@ -156,6 +162,8 @@ export const T = {
     urlCopy: "Copiar enlace"
   },
   fr: {
+    topicLabel: "Thème",
+    subLabel: "Sous-thème",
     title: "Comment pouvons-nous aider ?",
     ph: "ex. hébergement, visa, appli",
     subtitle: "2e Réunion préparatoire internationale · Questions des sessions",
@@ -205,6 +213,8 @@ export const T = {
     urlCopy: "Copier le lien"
   },
   it: {
+    topicLabel: "Tema",
+    subLabel: "Sottotema",
     title: "Come possiamo aiutarti?",
     ph: "es. alloggio, visto, app",
     subtitle: "2º Incontro preparatorio internazionale · Domande delle sessioni",
@@ -254,6 +264,8 @@ export const T = {
     urlCopy: "Copia link"
   },
   pt: {
+    topicLabel: "Tema",
+    subLabel: "Subtema",
     title: "Como podemos ajudar?",
     ph: "ex. alojamento, visto, app",
     subtitle: "2.ª Reunião Preparatória Internacional · Perguntas das sessões",

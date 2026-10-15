@@ -26,7 +26,7 @@ export default function FaqAccordion({ items }) {
       {items.map((it) => {
         const isOpen = !!openIds[it.id];
         const questionText = pick(it.q, lang);
-        const tagText = it.sub ? pick(it.sub, lang) : it.tag ? pick(it.tag, lang) : null;
+        const tagText = it.tag ? pick(it.tag, lang) : null;
         const answerText = pick(it.a, lang);
 
         return (

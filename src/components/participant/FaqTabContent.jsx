@@ -6,6 +6,19 @@ export default function FaqTabContent({ faqs }) {
   const { lang, pick, t } = useLanguage();
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedSection, setSelectedSection] = useState("all");
+  const [selectedTopic, setSelectedTopic] = useState("all");
+  const [selectedSub, setSelectedSub] = useState("all");
+
+  const name = (obj) => (obj ? pick(obj, lang) : "");
+  const chooseSection = (v) => {
+    setSelectedSection(v);
+    setSelectedTopic("all");
+    setSelectedSub("all");
+  };
+  const chooseTopic = (v) => {
+    setSelectedTopic(v);
+    setSelectedSub("all");
+  };
 
   // 구분(엑셀 순서 그대로)
   const sections = useMemo(() => {
@@ -17,12 +30,30 @@ export default function FaqTabContent({ faqs }) {
     return Array.from(seen, ([name, no]) => ({ name, no }));
   }, [faqs, lang, pick]);
 
-  // 구분과 검색어로 거르기
+  // 선택한 구분의 주제, 선택한 주제의 세부 항목 (엑셀 순서, 개수 포함)
+  const countBy = (list, key) => {
+    const m = new Map();
+    list.forEach((item) => {
+      const v = name(item[key]);
+      if (v) m.set(v, (m.get(v) || 0) + 1);
+    });
+    return Array.from(m, ([label, count]) => ({ label, count }));
+  };
+  const inSection = useMemo(
+    () => (selectedSection === "all" ? faqs : faqs.filter((it) => name(it.section) === selectedSection)),
+    [faqs, selectedSection, lang]
+  );
+  const topics = useMemo(() => countBy(inSection, "topic"), [inSection]);
+  const subs = useMemo(
+    () => (selectedTopic === "all" ? [] : countBy(inSection.filter((it) => name(it.topic) === selectedTopic), "sub")),
+    [inSection, selectedTopic]
+  );
+
+  // 구분·주제·세부 항목과 검색어로 거르기
   const filtered = useMemo(() => {
-    let list = faqs;
-    if (selectedSection !== "all") {
-      list = list.filter((item) => item.section && pick(item.section, lang) === selectedSection);
-    }
+    let list = inSection;
+    if (selectedTopic !== "all") list = list.filter((it) => name(it.topic) === selectedTopic);
+    if (selectedSub !== "all") list = list.filter((it) => name(it.sub) === selectedSub);
     const q = searchQuery.trim().toLowerCase();
     if (!q) return list;
     const words = q.split(/\s+/);
@@ -33,7 +64,7 @@ export default function FaqTabContent({ faqs }) {
         .toLowerCase();
       return words.every((w) => hay.includes(w));
     });
-  }, [faqs, searchQuery, selectedSection, lang, pick]);
+  }, [inSection, searchQuery, selectedTopic, selectedSub, lang]);
 
   // 주제별로 묶기 (순서 유지)
   const groups = useMemo(() => {
@@ -41,13 +72,20 @@ export default function FaqTabContent({ faqs }) {
     filtered.forEach((item) => {
       const section = item.section ? pick(item.section, lang) : "";
       const topic = item.topic ? pick(item.topic, lang) : "";
+      const subName = item.sub ? pick(item.sub, lang) : "";
       const key = `${section}|${topic}`;
       let g = out[out.length - 1];
       if (!g || g.key !== key) {
-        g = { key, section, topic, items: [] };
+        g = { key, section, topic, count: 0, subs: [] };
         out.push(g);
       }
-      g.items.push(item);
+      let sg = g.subs[g.subs.length - 1];
+      if (!sg || sg.name !== subName) {
+        sg = { name: subName, items: [] };
+        g.subs.push(sg);
+      }
+      sg.items.push(item);
+      g.count += 1;
     });
     return out;
   }, [filtered, lang, pick]);
@@ -62,7 +100,7 @@ export default function FaqTabContent({ faqs }) {
             role="tab"
             aria-selected={selectedSection === "all"}
             className={`section-tab ${selectedSection === "all" ? "active" : ""}`}
-            onClick={() => setSelectedSection("all")}
+            onClick={() => chooseSection("all")}
           >
             {t.allCategories}
           </button>
@@ -73,12 +111,64 @@ export default function FaqTabContent({ faqs }) {
               role="tab"
               aria-selected={selectedSection === name}
               className={`section-tab ${selectedSection === name ? "active" : ""}`}
-              onClick={() => setSelectedSection(name)}
+              onClick={() => chooseSection(name)}
             >
               {no && <span className="section-tab-no">{no}</span>}
               {name}
             </button>
           ))}
+        </div>
+      )}
+
+      {/* 주제 · 세부 항목 */}
+      {topics.length > 0 && (
+        <div className="chip-block">
+          <div className="chip-label">{t.topicLabel}</div>
+          <div className="chip-wrap">
+            <button
+              type="button"
+              className={`category-chip ${selectedTopic === "all" ? "active" : ""}`}
+              onClick={() => chooseTopic("all")}
+            >
+              {t.allCategories}
+            </button>
+            {topics.map(({ label, count }) => (
+              <button
+                key={label}
+                type="button"
+                className={`category-chip ${selectedTopic === label ? "active" : ""}`}
+                onClick={() => chooseTopic(label)}
+              >
+                {label}
+                <span className="chip-count">{count}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+      {subs.length > 0 && (
+        <div className="chip-block">
+          <div className="chip-label">{t.subLabel}</div>
+          <div className="chip-wrap">
+            <button
+              type="button"
+              className={`category-chip sub ${selectedSub === "all" ? "active" : ""}`}
+              onClick={() => setSelectedSub("all")}
+            >
+              {t.allCategories}
+            </button>
+            {subs.map(({ label, count }) => (
+              <button
+                key={label}
+                type="button"
+                className={`category-chip sub ${selectedSub === label ? "active" : ""}`}
+                onClick={() => setSelectedSub(label)}
+              >
+                {label}
+                <span className="chip-count">{count}</span>
+              </button>
+            ))}
+          </div>
         </div>
       )}
 
@@ -131,10 +221,15 @@ export default function FaqTabContent({ faqs }) {
                   <span className="topic-heading-section">{g.section}</span>
                 )}
                 {g.topic}
-                <span className="topic-heading-count">{g.items.length}</span>
+                <span className="topic-heading-count">{g.count}</span>
               </h2>
             )}
-            <FaqAccordion items={g.items} />
+            {g.subs.map((sg) => (
+              <div key={sg.name || "-"} className="sub-group">
+                {sg.name && <h3 className="sub-heading">{sg.name}</h3>}
+                <FaqAccordion items={sg.items} />
+              </div>
+            ))}
           </section>
         ))
       )}

@@ -1497,3 +1497,49 @@ code {
   -webkit-appearance: none;
   display: none;
 }
+
+/* 주제 · 세부 항목 칩 */
+.chip-block {
+  margin-bottom: 12px;
+}
+
+.chip-label {
+  margin: 0 0 6px 2px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.chip-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chip-wrap .category-chip {
+  gap: 5px;
+}
+
+.category-chip.sub {
+  min-height: 32px;
+  padding: 5px 12px;
+  font-size: 13px;
+}
+
+.chip-count {
+  font-size: 11.5px;
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+/* 세부 항목 묶음 */
+.sub-group + .sub-group {
+  margin-top: 14px;
+}
+
+.sub-heading {
+  margin: 0 0 8px 2px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--wyd-blue);
+}
