@@ -16,7 +16,7 @@
 ## 최초 설치
 
 ```bash
-git clone https://github.com/hahaha33221/WYDQaA.git /opt/wyd2pm-qna
+git clone https://github.com/hahaha33221/wyd2pm.git /opt/wyd2pm-qna
 cd /opt/wyd2pm-qna
 cp .env.example .env && nano .env          # ADMIN_CODE 설정
 mkdir -p data && chown 1000:1000 data      # 컨테이너(node 사용자)가 쓸 수 있게
