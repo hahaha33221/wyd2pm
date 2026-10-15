@@ -1,0 +1,11 @@
+# Vercel로 올리지 않을 파일 (원본 엑셀·문서, 백업, 서버 데이터)
+*.xlsx
+*.docx
+backup
+data
+.env
+node_modules
+dist
+.claude
+.env*
+.vercel
