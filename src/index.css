@@ -1407,6 +1407,8 @@ code {
 }
 
 .wyd-notice {
+  /* 문구 안의 줄바꿈(\n)을 그대로 보여 줌 */
+  white-space: pre-line;
   margin: 10px auto 0;
   max-width: 520px;
   font-size: 13.5px;
@@ -2046,4 +2048,12 @@ mark {
 .langs button:disabled {
   opacity: 0.45;
   cursor: not-allowed;
+}
+
+/* 넓은 화면: 안내 문구의 각 줄이 한 줄로 들어가도록 폭을 넓힘 (휴대폰에서는 화면 폭에 맞춰 줄바꿈) */
+@media (min-width: 720px) {
+  .wyd-header-text,
+  .wyd-notice {
+    max-width: 700px;
+  }
 }
