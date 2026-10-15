@@ -1435,6 +1435,13 @@ code {
 .wyd-org {
   margin-top: 4px;
   font-weight: 600;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* 발행 시점과 조직위원회를 두 줄로, 가운데 정렬 */
+.wyd-org-line {
+  display: block;
 }
 
 /* 브라우저 기본 검색 지우기(✕) 버튼 숨김 — 직접 만든 지우기 버튼과 겹침 */

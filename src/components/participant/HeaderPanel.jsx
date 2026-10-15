@@ -58,7 +58,8 @@ export default function HeaderPanel({ onOpenLangModal, onOpenMenu }) {
           {t.contact}: <a href={`mailto:${CONFIG.contactEmail}`}>{CONFIG.contactEmail}</a>
         </p>
         <p className="wyd-org">
-          {CONFIG.noticeDate} · {t.org}
+          <span className="wyd-org-line">{CONFIG.noticeDate}</span>
+          <span className="wyd-org-line">{t.org}</span>
         </p>
       </div>
     </header>
