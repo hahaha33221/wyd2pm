@@ -9,6 +9,7 @@ export const LANGS = [
 
 export const T = {
   ko: {
+    introHint: "로고를 눌러 시작하세요",
     topicLabel: "주제",
     subLabel: "세부 항목",
     title: "무엇이 궁금하세요?",
@@ -60,6 +61,7 @@ export const T = {
     urlCopy: "주소 복사"
   },
   en: {
+    introHint: "Tap the logo to enter",
     topicLabel: "Topic",
     subLabel: "Sub-topic",
     title: "What can we help with?",
@@ -111,6 +113,7 @@ export const T = {
     urlCopy: "Copy URL"
   },
   es: {
+    introHint: "Toca el logo para entrar",
     topicLabel: "Tema",
     subLabel: "Subtema",
     title: "¿En qué podemos ayudarte?",
@@ -162,6 +165,7 @@ export const T = {
     urlCopy: "Copiar enlace"
   },
   fr: {
+    introHint: "Touchez le logo pour entrer",
     topicLabel: "Thème",
     subLabel: "Sous-thème",
     title: "Comment pouvons-nous aider ?",
@@ -213,6 +217,7 @@ export const T = {
     urlCopy: "Copier le lien"
   },
   it: {
+    introHint: "Tocca il logo per entrare",
     topicLabel: "Tema",
     subLabel: "Sottotema",
     title: "Come possiamo aiutarti?",
@@ -264,6 +269,7 @@ export const T = {
     urlCopy: "Copia link"
   },
   pt: {
+    introHint: "Toque no logótipo para entrar",
     topicLabel: "Tema",
     subLabel: "Subtema",
     title: "Como podemos ajudar?",
