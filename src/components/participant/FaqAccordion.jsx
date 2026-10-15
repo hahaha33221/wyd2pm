@@ -58,6 +58,7 @@ export default function FaqAccordion({ items, query = "" }) {
               <div className="qa-summary-content">
                 {crumb && (
                   <div className="qa-tags">
+                    {it.no && <span className="qa-no">{it.no}</span>}
                     <span className="category-pill-tag">{crumb}</span>
                     {subText && <span className="category-pill-tag sub">{subText}</span>}
                   </div>

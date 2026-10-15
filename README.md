@@ -9,14 +9,22 @@
 
 ## 질문·답변 바꾸기
 
-엑셀 파일이 원본입니다. 엑셀을 고친 뒤 아래를 실행하면 `src/constants/seedData.js`가 다시 만들어집니다.
+엑셀 `WYD_2nd_Prep_Meeting_QA_DB.xlsx`가 원본입니다. 엑셀을 고친 뒤 아래를 실행하면 `src/constants/seedData.js`가 다시 만들어집니다.
 
 ```bash
 pip install openpyxl     # 처음 한 번
-python3 scripts/import_xlsx.py "2PM_세션별 질문 및 답변_KOR_v0.2.xlsx"
+python3 scripts/import_db.py "WYD_2nd_Prep_Meeting_QA_DB.xlsx"
 ```
 
-엑셀의 `질문` 시트는 `구분 / 주제 / 세부 항목 / 질문 / 답변` 열을 지켜야 합니다. 바꾼 뒤 커밋·푸시하고 VPS에서 `bash deploy/deploy.sh`를 실행하세요.
+시트 3개를 읽고, 왼쪽 네비게이션도 시트별로 나옵니다.
+
+| 시트 | 열 | 네비게이션 |
+| --- | --- | --- |
+| `QA_DB` | No / 질문번호 / 대분류코드 / 대분류 / 중분류번호 / 중분류 / 소분류코드 / 소분류 / 질문 / 답변 | 질의응답 (대분류 > 중분류 > 소분류) |
+| `Opinions` | No / 관련 항목 / 의견 | 의견 (관련 항목별) |
+| `Meeting_Info` | 항목 / 내용 | 회의 정보 |
+
+바꾼 뒤 커밋·푸시하고 VPS에서 `bash deploy/deploy.sh`를 실행하세요.
 
 ## 구성
 

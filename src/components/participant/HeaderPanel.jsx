@@ -3,12 +3,19 @@ import { useLanguage } from "../../context/LanguageContext";
 import { CONFIG } from "../../constants/config";
 import logoImg from "../../assets/logo.png";
 
-export default function HeaderPanel({ onOpenLangModal }) {
+export default function HeaderPanel({ onOpenLangModal, onOpenMenu }) {
   const { lang, langs, t } = useLanguage();
   const currentLangName = langs.find((l) => l.code === lang)?.name || "Language";
 
   return (
     <header className="wyd-header">
+      {/* 좁은 화면에서 왼쪽 네비게이션 열기 */}
+      <button type="button" className="menu-btn" onClick={onOpenMenu} aria-label={t.menu}>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true">
+          <path d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
       <div className="wyd-header-top">
         <div />
         <button
