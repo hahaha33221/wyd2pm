@@ -22,8 +22,6 @@ export default function IntroScreen({ onEnter }) {
 
       <div className="intro-center">
         <button type="button" className="intro-logo-btn" onClick={enter} aria-label={t.introHint}>
-          <span className="intro-ring r1" aria-hidden="true" />
-          <span className="intro-ring r2" aria-hidden="true" />
           <img src={logoImg} alt="WYD SEOUL 2027" className="intro-logo" />
         </button>
 
