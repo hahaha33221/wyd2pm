@@ -30,6 +30,13 @@ python3 scripts/import_xlsx.py "2PM_세션별 질문 및 답변_KOR_v0.2.xlsx"
 - 기본(`/api`): **서버 모드** — VPS의 `data/db.json`에 저장, 모든 기기에 실시간 반영
 - 빈 값(`""`): **테스트 모드** — 브라우저 안에만 저장
 
+## 배포 방식 두 가지
+
+- **VPS (서버 모드):** `docker compose up -d --build` — [docs/VPS.md](docs/VPS.md)
+- **Vercel (정적 사이트):** 저장소를 Vercel에 연결하면 `vercel.json`대로 서버 없이 빌드됩니다. 프로젝트 이름을 `wyd2pmqna`로 하면 주소가 `wyd2pmqna.vercel.app`이 됩니다.
+
+링크 미리보기(제목 `2PM세션Q&A`, 이미지 `public/og-image.png`)는 `index.html`의 `og:` 태그에 있습니다. 실제 주소가 정해지면 `og:url`, `og:image`를 그 주소로 바꾸세요.
+
 ## 로컬 개발
 
 ```bash

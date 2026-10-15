@@ -1,5 +1,6 @@
 import React from "react";
 import { useLanguage } from "../../context/LanguageContext";
+import { CONFIG } from "../../constants/config";
 import logoImg from "../../assets/logo.png";
 
 export default function HeaderPanel({ onOpenLangModal }) {
@@ -42,9 +43,16 @@ export default function HeaderPanel({ onOpenLangModal }) {
         />
       </div>
 
+      {/* 히어로: 제목 · 안내 문구 · 문의처 · 발행 */}
       <div className="wyd-header-text">
-        <h1 className="wyd-title">{t.title}</h1>
-        <p className="wyd-subtitle">{t.subtitle}</p>
+        <h1 className="wyd-title">{t.heroTitle}</h1>
+        <p className="wyd-notice">{t.heroNotice}</p>
+        <p className="wyd-contact">
+          {t.contact}: <a href={`mailto:${CONFIG.contactEmail}`}>{CONFIG.contactEmail}</a>
+        </p>
+        <p className="wyd-org">
+          {CONFIG.noticeDate} · {t.org}
+        </p>
       </div>
     </header>
   );

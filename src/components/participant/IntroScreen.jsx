@@ -25,7 +25,7 @@ export default function IntroScreen({ onEnter }) {
           <img src={logoImg} alt="WYD SEOUL 2027" className="intro-logo" />
         </button>
 
-        <p className="intro-subtitle">{t.subtitle}</p>
+        <p className="intro-subtitle">{t.heroTitle}</p>
         <p className="intro-hint">
           <span className="intro-hint-dot" aria-hidden="true" />
           {t.introHint}

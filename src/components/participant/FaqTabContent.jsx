@@ -1,6 +1,37 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
 import { useLanguage } from "../../context/LanguageContext";
 import FaqAccordion from "./FaqAccordion";
+
+// 한 번에 보여줄 질문 수. 끝에 닿으면 이만큼씩 더 불러옵니다(무한 스크롤).
+const PAGE_SIZE = 20;
+
+function ChipRow({ label, items, selected, onSelect, allLabel, small }) {
+  return (
+    <div className="chip-block">
+      <div className="chip-label">{label}</div>
+      <div className="chip-wrap">
+        <button
+          type="button"
+          className={`category-chip ${small ? "sub" : ""} ${selected === "all" ? "active" : ""}`}
+          onClick={() => onSelect("all")}
+        >
+          {allLabel}
+        </button>
+        {items.map(({ label: name, count }) => (
+          <button
+            key={name}
+            type="button"
+            className={`category-chip ${small ? "sub" : ""} ${selected === name ? "active" : ""}`}
+            onClick={() => onSelect(name)}
+          >
+            {name}
+            <span className="chip-count">{count}</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 export default function FaqTabContent({ faqs }) {
   const { lang, pick, t } = useLanguage();
@@ -8,6 +39,8 @@ export default function FaqTabContent({ faqs }) {
   const [selectedSection, setSelectedSection] = useState("all");
   const [selectedTopic, setSelectedTopic] = useState("all");
   const [selectedSub, setSelectedSub] = useState("all");
+  const [visible, setVisible] = useState(PAGE_SIZE);
+  const sentinelRef = useRef(null);
 
   const name = (obj) => (obj ? pick(obj, lang) : "");
   const chooseSection = (v) => {
@@ -20,36 +53,32 @@ export default function FaqTabContent({ faqs }) {
     setSelectedSub("all");
   };
 
-  // 구분(엑셀 순서 그대로)
-  const sections = useMemo(() => {
-    const seen = new Map();
-    faqs.forEach((item) => {
-      const name = item.section ? pick(item.section, lang) : "";
-      if (name && !seen.has(name)) seen.set(name, item.sectionNo || "");
-    });
-    return Array.from(seen, ([name, no]) => ({ name, no }));
-  }, [faqs, lang, pick]);
-
-  // 선택한 구분의 주제, 선택한 주제의 세부 항목 (엑셀 순서, 개수 포함)
-  const countBy = (list, key) => {
+  // 같은 값끼리 세기 (엑셀 순서 유지)
+  const countBy = (list, key, noKey) => {
     const m = new Map();
     list.forEach((item) => {
       const v = name(item[key]);
-      if (v) m.set(v, (m.get(v) || 0) + 1);
+      if (!v) return;
+      const prev = m.get(v) || { label: v, no: noKey ? item[noKey] : "", count: 0 };
+      prev.count += 1;
+      m.set(v, prev);
     });
-    return Array.from(m, ([label, count]) => ({ label, count }));
+    return Array.from(m.values());
   };
+
+  // 1단계 구분 → 2단계 주제(구분을 고르면) → 3단계 세부 항목(주제를 고르면)
+  const sections = useMemo(() => countBy(faqs, "section", "sectionNo"), [faqs, lang]);
   const inSection = useMemo(
     () => (selectedSection === "all" ? faqs : faqs.filter((it) => name(it.section) === selectedSection)),
     [faqs, selectedSection, lang]
   );
-  const topics = useMemo(() => countBy(inSection, "topic"), [inSection]);
+  const topics = useMemo(() => (selectedSection === "all" ? [] : countBy(inSection, "topic")), [inSection, selectedSection]);
   const subs = useMemo(
     () => (selectedTopic === "all" ? [] : countBy(inSection.filter((it) => name(it.topic) === selectedTopic), "sub")),
     [inSection, selectedTopic]
   );
 
-  // 구분·주제·세부 항목과 검색어로 거르기
+  // 분류와 검색어로 거르기
   const filtered = useMemo(() => {
     let list = inSection;
     if (selectedTopic !== "all") list = list.filter((it) => name(it.topic) === selectedTopic);
@@ -66,113 +95,37 @@ export default function FaqTabContent({ faqs }) {
     });
   }, [inSection, searchQuery, selectedTopic, selectedSub, lang]);
 
-  // 주제별로 묶기 (순서 유지)
-  const groups = useMemo(() => {
-    const out = [];
-    filtered.forEach((item) => {
-      const section = item.section ? pick(item.section, lang) : "";
-      const topic = item.topic ? pick(item.topic, lang) : "";
-      const subName = item.sub ? pick(item.sub, lang) : "";
-      const key = `${section}|${topic}`;
-      let g = out[out.length - 1];
-      if (!g || g.key !== key) {
-        g = { key, section, topic, count: 0, subs: [] };
-        out.push(g);
-      }
-      let sg = g.subs[g.subs.length - 1];
-      if (!sg || sg.name !== subName) {
-        sg = { name: subName, items: [] };
-        g.subs.push(sg);
-      }
-      sg.items.push(item);
-      g.count += 1;
-    });
-    return out;
-  }, [filtered, lang, pick]);
+  // 조건이 바뀌면 처음 20개부터 다시
+  useEffect(() => {
+    setVisible(PAGE_SIZE);
+  }, [searchQuery, selectedSection, selectedTopic, selectedSub]);
+
+  // 목록 끝이 보이면 더 불러오기
+  useEffect(() => {
+    const el = sentinelRef.current;
+    if (!el || !("IntersectionObserver" in window)) return undefined;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) setVisible((v) => v + PAGE_SIZE);
+      },
+      { rootMargin: "400px 0px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [filtered.length, visible]);
+
+  const shown = filtered.slice(0, visible);
+  const hasMore = visible < filtered.length;
+  const sectionNo = sections.find((s) => s.label === selectedSection)?.no;
+  const path = [
+    selectedSection !== "all" && (sectionNo ? `${sectionNo}. ${selectedSection}` : selectedSection),
+    selectedTopic !== "all" && selectedTopic,
+    selectedSub !== "all" && selectedSub
+  ].filter(Boolean);
 
   return (
     <div className="faq-tab-container">
-      {/* 구분 선택 */}
-      {sections.length > 0 && (
-        <div className="section-tabs" role="tablist" aria-label="Sections">
-          <button
-            type="button"
-            role="tab"
-            aria-selected={selectedSection === "all"}
-            className={`section-tab ${selectedSection === "all" ? "active" : ""}`}
-            onClick={() => chooseSection("all")}
-          >
-            {t.allCategories}
-          </button>
-          {sections.map(({ name, no }) => (
-            <button
-              key={name}
-              type="button"
-              role="tab"
-              aria-selected={selectedSection === name}
-              className={`section-tab ${selectedSection === name ? "active" : ""}`}
-              onClick={() => chooseSection(name)}
-            >
-              {no && <span className="section-tab-no">{no}</span>}
-              {name}
-            </button>
-          ))}
-        </div>
-      )}
-
-      {/* 주제 · 세부 항목 */}
-      {topics.length > 0 && (
-        <div className="chip-block">
-          <div className="chip-label">{t.topicLabel}</div>
-          <div className="chip-wrap">
-            <button
-              type="button"
-              className={`category-chip ${selectedTopic === "all" ? "active" : ""}`}
-              onClick={() => chooseTopic("all")}
-            >
-              {t.allCategories}
-            </button>
-            {topics.map(({ label, count }) => (
-              <button
-                key={label}
-                type="button"
-                className={`category-chip ${selectedTopic === label ? "active" : ""}`}
-                onClick={() => chooseTopic(label)}
-              >
-                {label}
-                <span className="chip-count">{count}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-      {subs.length > 0 && (
-        <div className="chip-block">
-          <div className="chip-label">{t.subLabel}</div>
-          <div className="chip-wrap">
-            <button
-              type="button"
-              className={`category-chip sub ${selectedSub === "all" ? "active" : ""}`}
-              onClick={() => setSelectedSub("all")}
-            >
-              {t.allCategories}
-            </button>
-            {subs.map(({ label, count }) => (
-              <button
-                key={label}
-                type="button"
-                className={`category-chip sub ${selectedSub === label ? "active" : ""}`}
-                onClick={() => setSelectedSub(label)}
-              >
-                {label}
-                <span className="chip-count">{count}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* 검색 */}
+      {/* 1. 통합 검색 */}
       <div className="wyd-search-box">
         <svg
           className="search-icon"
@@ -206,32 +159,68 @@ export default function FaqTabContent({ faqs }) {
         ) : null}
       </div>
 
+      {/* 2. 분류: 구분(큰 버튼) → 주제 → 세부 항목 */}
+      <div className="section-tabs" role="tablist" aria-label="Sections">
+        <button
+          type="button"
+          role="tab"
+          aria-selected={selectedSection === "all"}
+          className={`section-tab ${selectedSection === "all" ? "active" : ""}`}
+          onClick={() => chooseSection("all")}
+        >
+          {t.allCategories}
+        </button>
+        {sections.map(({ label, no }) => (
+          <button
+            key={label}
+            type="button"
+            role="tab"
+            aria-selected={selectedSection === label}
+            className={`section-tab ${selectedSection === label ? "active" : ""}`}
+            onClick={() => chooseSection(label)}
+          >
+            {no && <span className="section-tab-no">{no}.</span>}
+            {label}
+          </button>
+        ))}
+      </div>
+
+      {topics.length > 0 && (
+        <ChipRow
+          label={t.topicLabel}
+          items={topics}
+          selected={selectedTopic}
+          onSelect={chooseTopic}
+          allLabel={t.allCategories}
+        />
+      )}
+      {subs.length > 0 && (
+        <ChipRow
+          label={t.subLabel}
+          items={subs}
+          selected={selectedSub}
+          onSelect={setSelectedSub}
+          allLabel={t.allCategories}
+          small
+        />
+      )}
+
+      {/* 현재 위치 · 개수 */}
       <div className="faq-count-badge">
+        {path.length > 0 && <span className="faq-path">{path.join(" > ")}</span>}
         <span>{t.found(filtered.length)}</span>
       </div>
 
-      {groups.length === 0 ? (
-        <FaqAccordion items={[]} />
-      ) : (
-        groups.map((g) => (
-          <section key={g.key} className="topic-group">
-            {(g.topic || g.section) && (
-              <h2 className="topic-heading">
-                {selectedSection === "all" && g.section && (
-                  <span className="topic-heading-section">{g.section}</span>
-                )}
-                {g.topic}
-                <span className="topic-heading-count">{g.count}</span>
-              </h2>
-            )}
-            {g.subs.map((sg) => (
-              <div key={sg.name || "-"} className="sub-group">
-                {sg.name && <h3 className="sub-heading">{sg.name}</h3>}
-                <FaqAccordion items={sg.items} />
-              </div>
-            ))}
-          </section>
-        ))
+      {/* 3. 아코디언 목록 */}
+      <FaqAccordion items={shown} query={searchQuery} />
+
+      {/* 4. 무한 스크롤 (자동으로 안 될 때를 위한 버튼 포함) */}
+      {hasMore && (
+        <div ref={sentinelRef} className="load-more">
+          <button type="button" className="load-more-btn" onClick={() => setVisible((v) => v + PAGE_SIZE)}>
+            {t.more} ({shown.length} / {filtered.length})
+          </button>
+        </div>
       )}
     </div>
   );

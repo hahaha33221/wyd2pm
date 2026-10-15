@@ -10,6 +10,10 @@ export const CONFIG = {
   // 서버 모드에서는 VPS의 ADMIN_CODE 환경변수로 확인합니다.
   adminCode: "2027",
 
+  // 첫 화면(히어로)에 표시할 문의 이메일과 작성 시점
+  contactEmail: "inquiries@wydseoul.org",
+  noticeDate: "2026.10",
+
   // QR이 가리킬 주소. 비워두면 지금 보고 있는 주소를 씁니다.
   publicUrl: ""
 };

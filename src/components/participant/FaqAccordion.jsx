@@ -1,7 +1,16 @@
 import React, { useState } from "react";
 import { useLanguage } from "../../context/LanguageContext";
 
-export default function FaqAccordion({ items }) {
+// 검색어를 굵게 표시합니다.
+function Highlight({ text, query }) {
+  const words = (query || "").trim().split(/\s+/).filter(Boolean);
+  if (!words.length) return text;
+  const escaped = words.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const parts = text.split(new RegExp(`(${escaped.join("|")})`, "gi"));
+  return parts.map((part, i) => (i % 2 ? <mark key={i}>{part}</mark> : part));
+}
+
+export default function FaqAccordion({ items, query = "" }) {
   const { lang, pick, t } = useLanguage();
   const [openIds, setOpenIds] = useState({});
 
@@ -26,8 +35,10 @@ export default function FaqAccordion({ items }) {
       {items.map((it) => {
         const isOpen = !!openIds[it.id];
         const questionText = pick(it.q, lang);
-        const tagText = it.tag ? pick(it.tag, lang) : null;
         const answerText = pick(it.a, lang);
+        // 카드 위 분류 표시: 구분 > 주제 (· 세부 항목)
+        const crumb = [it.section, it.topic].filter(Boolean).map((o) => pick(o, lang)).join(" > ");
+        const subText = it.sub ? pick(it.sub, lang) : "";
 
         return (
           <div key={it.id} className={`qa-card ${isOpen ? "open" : ""}`}>
@@ -45,8 +56,18 @@ export default function FaqAccordion({ items }) {
               aria-expanded={isOpen}
             >
               <div className="qa-summary-content">
-                {tagText && <span className="category-pill-tag">{tagText}</span>}
-                <div className="qa-question-title">{questionText}</div>
+                {crumb && (
+                  <div className="qa-tags">
+                    <span className="category-pill-tag">{crumb}</span>
+                    {subText && <span className="category-pill-tag sub">{subText}</span>}
+                  </div>
+                )}
+                <div className="qa-question-title">
+                  <span className="qa-mark q">Q.</span>
+                  <span>
+                    <Highlight text={questionText} query={query} />
+                  </span>
+                </div>
               </div>
               <span className="qa-summary-arrow" aria-hidden="true" />
             </div>
@@ -59,7 +80,12 @@ export default function FaqAccordion({ items }) {
                     <p className="pending-text">{t.soon}</p>
                   </div>
                 ) : (
-                  <div className="answer-text-wrap">{answerText}</div>
+                  <div className="qa-answer">
+                    <span className="qa-mark a">A.</span>
+                    <div className="answer-text-wrap">
+                      <Highlight text={answerText} query={query} />
+                    </div>
+                  </div>
                 )}
               </div>
             )}

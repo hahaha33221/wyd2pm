@@ -9,6 +9,11 @@ export const LANGS = [
 
 export const T = {
   ko: {
+    heroTitle: "2027 서울 WYD 제2차 국제준비회의 세션발표 Q&A",
+    heroNotice: "세션 3~6 중 실시간 질의(피전홀)를 통해 접수된 주요 문의사항과 조직위원회의 답변을 확인하실 수 있습니다. 본 답변은 현재 시점의 검토 기준에 따른 안내로, 향후 내부 정책 및 상황 변화에 따라 수록된 내용이 변경되거나 업데이트될 수 있습니다.",
+    contact: "문의",
+    org: "2027 서울 세계청년대회 조직위원회",
+    more: "더 보기",
     introHint: "로고를 눌러 시작하세요",
     topicLabel: "주제",
     subLabel: "세부 항목",
@@ -61,6 +66,11 @@ export const T = {
     urlCopy: "주소 복사"
   },
   en: {
+    heroTitle: "WYD Seoul 2027 · 2nd International Preparatory Meeting — Session Q&A",
+    heroNotice: "Here you can find the main questions received through live Q&A (Pigeonhole) during Sessions 3–6, together with the Local Organising Committee's answers. These answers reflect our current review and may be changed or updated as internal policies and circumstances evolve.",
+    contact: "Contact",
+    org: "Local Organising Committee of WYD Seoul 2027",
+    more: "Show more",
     introHint: "Tap the logo to enter",
     topicLabel: "Topic",
     subLabel: "Sub-topic",
@@ -113,6 +123,11 @@ export const T = {
     urlCopy: "Copy URL"
   },
   es: {
+    heroTitle: "JMJ Seúl 2027 · 2.ª Reunión Preparatoria Internacional — Preguntas y respuestas de las sesiones",
+    heroNotice: "Aquí puede consultar las principales preguntas recibidas mediante las preguntas en directo (Pigeonhole) durante las sesiones 3 a 6, junto con las respuestas del Comité Organizador Local. Estas respuestas reflejan la revisión actual y pueden modificarse o actualizarse según la evolución de las políticas internas y las circunstancias.",
+    contact: "Contacto",
+    org: "Comité Organizador Local de la JMJ Seúl 2027",
+    more: "Ver más",
     introHint: "Toca el logo para entrar",
     topicLabel: "Tema",
     subLabel: "Subtema",
@@ -165,6 +180,11 @@ export const T = {
     urlCopy: "Copiar enlace"
   },
   fr: {
+    heroTitle: "JMJ Séoul 2027 · 2e Réunion préparatoire internationale — Questions-réponses des sessions",
+    heroNotice: "Retrouvez ici les principales questions reçues lors des questions en direct (Pigeonhole) pendant les sessions 3 à 6, ainsi que les réponses du Comité d'organisation local. Ces réponses reflètent l'examen actuel et peuvent être modifiées ou mises à jour selon l'évolution des politiques internes et des circonstances.",
+    contact: "Contact",
+    org: "Comité d'organisation local des JMJ Séoul 2027",
+    more: "Voir plus",
     introHint: "Touchez le logo pour entrer",
     topicLabel: "Thème",
     subLabel: "Sous-thème",
@@ -217,6 +237,11 @@ export const T = {
     urlCopy: "Copier le lien"
   },
   it: {
+    heroTitle: "GMG Seoul 2027 · 2º Incontro preparatorio internazionale — Domande e risposte delle sessioni",
+    heroNotice: "Qui trovi le principali domande ricevute tramite le domande in diretta (Pigeonhole) durante le sessioni 3–6, insieme alle risposte del Comitato Organizzatore Locale. Le risposte riflettono la valutazione attuale e potranno essere modificate o aggiornate in base all'evoluzione delle politiche interne e delle circostanze.",
+    contact: "Contatti",
+    org: "Comitato Organizzatore Locale della GMG Seoul 2027",
+    more: "Mostra altro",
     introHint: "Tocca il logo per entrare",
     topicLabel: "Tema",
     subLabel: "Sottotema",
@@ -269,6 +294,11 @@ export const T = {
     urlCopy: "Copia link"
   },
   pt: {
+    heroTitle: "JMJ Seul 2027 · 2.ª Reunião Preparatória Internacional — Perguntas e respostas das sessões",
+    heroNotice: "Aqui pode consultar as principais perguntas recebidas através das perguntas em direto (Pigeonhole) durante as sessões 3 a 6, juntamente com as respostas do Comité Organizador Local. Estas respostas refletem a análise atual e poderão ser alteradas ou atualizadas consoante a evolução das políticas internas e das circunstâncias.",
+    contact: "Contacto",
+    org: "Comité Organizador Local da JMJ Seul 2027",
+    more: "Mostrar mais",
     introHint: "Toque no logótipo para entrar",
     topicLabel: "Tema",
     subLabel: "Subtema",
