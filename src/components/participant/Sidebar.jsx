@@ -1,6 +1,6 @@
 import React, { useMemo, useState, useEffect } from "react";
 import { useLanguage } from "../../context/LanguageContext";
-import { OPINIONS, MEETING_INFO } from "../../constants/seedData";
+import { MEETING_INFO } from "../../constants/seedData";
 
 // 같은 값끼리 묶기 (엑셀 순서 유지). key는 한국어 원문이라 언어를 바꿔도 선택이 유지됩니다.
 function groupBy(list, getKey, getLabel, getNo) {
@@ -14,7 +14,7 @@ function groupBy(list, getKey, getLabel, getNo) {
   return Array.from(m.values());
 }
 
-// 왼쪽 네비게이션: 엑셀 시트별(회의 정보 · 질의응답 · 의견)로 묶습니다.
+// 왼쪽 네비게이션: 엑셀 시트별(회의 정보 · 질의응답)로 묶습니다. 의견(Opinions) 시트는 화면에 싣지 않습니다.
 export default function Sidebar({ faqs, nav, onNavigate, open, onClose, onCollapse }) {
   const { lang, pick, t } = useLanguage();
   const name = (o) => (o ? pick(o, lang) : "");
@@ -176,18 +176,6 @@ export default function Sidebar({ faqs, nav, onNavigate, open, onClose, onCollap
           })}
         </div>
 
-        {/* Opinions 시트: 분류는 의견 화면 안에서 고릅니다 */}
-        <div className="nav-group">
-          <div className="nav-group-label">{t.navOpinions}</div>
-          <button
-            type="button"
-            className={`nav-item ${active(nav.view === "opinions")}`}
-            onClick={() => go({ view: "opinions" })}
-          >
-            <span className="nav-item-text">{t.allOpinions}</span>
-            <span className="nav-count">{OPINIONS.length}</span>
-          </button>
-        </div>
       </nav>
     </>
   );

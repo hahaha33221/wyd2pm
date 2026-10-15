@@ -4,7 +4,6 @@ import HeaderPanel from "./HeaderPanel";
 import Sidebar from "./Sidebar";
 import FaqTabContent from "./FaqTabContent";
 import MeetingInfoView from "./MeetingInfoView";
-import OpinionsView from "./OpinionsView";
 import IntroScreen from "./IntroScreen";
 import LanguageModal from "../common/LanguageModal";
 
@@ -91,7 +90,6 @@ export default function ParticipantView() {
 
         <main className="participant-main app-main">
           {nav.view === "info" && <MeetingInfoView />}
-          {nav.view === "opinions" && <OpinionsView />}
           {nav.view === "qa" && (
             <FaqTabContent
               faqs={faqs}

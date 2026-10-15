@@ -21,7 +21,7 @@ python3 scripts/import_db.py "WYD_2nd_Prep_Meeting_QA_DB.xlsx"
 | 시트 | 열 | 네비게이션 |
 | --- | --- | --- |
 | `QA_DB` | No / 질문번호 / 대분류코드 / 대분류 / 중분류번호 / 중분류 / 소분류코드 / 소분류 / 질문 / 답변 | 질의응답 (대분류 > 중분류 > 소분류) |
-| `Opinions` | No / 관련 항목 / 의견 | 의견 (관련 항목별) |
+| `Opinions` | No / 관련 항목 / 의견 | (화면에 싣지 않음, DB에만 저장) |
 | `Meeting_Info` | 항목 / 내용 | 회의 정보 |
 
 같은 스크립트가 VPS 데이터베이스용 `db/seed.sql`도 만듭니다 (테이블 설계는 `db/schema.sql`).
@@ -59,7 +59,7 @@ python3 scripts/import_db.py "WYD_2nd_Prep_Meeting_QA_DB.xlsx"
 
 | 언어 | 초안 번역 |
 | --- | --- |
-| English (en) | 완료 (질문 146 · 의견 · 회의 정보 · 분류) |
+| English (en) | 완료 (질문 146 · 회의 정보 · 분류) |
 | Español (es) | 완료 |
 | Français (fr) | 완료 |
 | Italiano (it) | 없음 |
