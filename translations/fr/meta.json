@@ -1,0 +1,85 @@
+{
+  "sections": {
+    "Ⅰ": "Candidature et inscription",
+    "Ⅱ": "Accompagnement des pèlerins",
+    "Ⅲ": "Arrivée et organisation sur place",
+    "Ⅳ": "Programme"
+  },
+  "topics": {
+    "Ⅰ-1": "Inscription",
+    "Ⅰ-2": "Visa, K-ETA",
+    "Ⅰ-3": "Volontaires",
+    "Ⅱ-1": "Forfaits du pèlerin",
+    "Ⅱ-2": "Protection, mineurs",
+    "Ⅱ-3": "Personnes en situation de handicap",
+    "Ⅲ-1": "Accréditation",
+    "Ⅲ-2": "Application du pèlerin",
+    "Ⅲ-3": "Comité d'organisation local",
+    "Ⅳ-1": "Journées dans les diocèses (JDD)",
+    "Ⅳ-2": "Événement principal (Journées mondiales de la jeunesse, JMJ)"
+  },
+  "subtopics": {
+    "Ⅰ-1-a": "Types de groupe",
+    "Ⅰ-1-b": "Comment s'inscrire",
+    "Ⅰ-1-c": "Paiement et fonds",
+    "Ⅰ-1-d": "Inscription des évêques",
+    "Ⅱ-1-a": "Transport",
+    "Ⅱ-1-b": "Hébergement",
+    "Ⅱ-1-c": "Repas",
+    "Ⅱ-1-d": "Assistance médicale",
+    "Ⅲ-1-a": "Kit du pèlerin",
+    "Ⅲ-1-b": "Déroulement de l'accréditation",
+    "Ⅲ-1-c": "Centre des pèlerins",
+    "Ⅲ-2-a": "Fonctions",
+    "Ⅲ-2-b": "Carte prépayée",
+    "Ⅳ-2-a": "Messe d'ouverture · Accueil du Pape · Chemin de croix",
+    "Ⅳ-2-b": "Veillée · Messe de clôture",
+    "Ⅳ-2-c": "Festival de la jeunesse",
+    "Ⅳ-2-d": "Foire culturelle catholique (Foire des vocations · Parc de la Réconciliation)",
+    "Ⅳ-2-e": "Rencontre avec les évêques (catéchèse)"
+  },
+  "meeting": {
+    "회의명": {
+      "label": "Réunion",
+      "value": "2e Réunion préparatoire internationale des Journées mondiales de la jeunesse Séoul 2027"
+    },
+    "일자": {
+      "label": "Dates",
+      "value": "Du lundi 14 au jeudi 17 septembre 2026"
+    },
+    "장소": {
+      "label": "Lieu",
+      "value": "Nest Hotel (Incheon)"
+    },
+    "참가인원": {
+      "label": "Participants",
+      "value": "Environ 270 personnes au total, dont des représentants de diocèses, d'instituts religieux et d'associations ecclésiales d'une centaine de pays"
+    },
+    "주최/주관": {
+      "label": "Organisateurs",
+      "value": "Dicastère pour les laïcs, la famille et la vie ; Comité d'organisation local des JMJ Séoul 2027"
+    }
+  },
+  "opinionTopics": {
+    "숙소": "Hébergement",
+    "체크인": "Accréditation",
+    "조직위원회 관련": "Comité d'organisation local",
+    "[본대회] 개막미사·교황 환영행사·십자가의 길": "[Événement principal] Messe d'ouverture · Accueil du Pape · Chemin de croix",
+    "[본대회] 전례": "[Événement principal] Liturgie"
+  },
+  "opinions": {
+    "1": "Vingt-cinq personnes par toilette dans un même hébergement, cela semble un peu insuffisant.",
+    "2": "Si une délégation loge seule à l'hôtel, l'expérience du partage (des échanges) ne risque-t-elle pas d'être moins riche ? Que recommandez-vous ?",
+    "3": "Les Sous-groupes avec et sans hébergement d'un même Macrogroupe peuvent-ils être accrédités ensemble ? Comme il n'y a qu'un seul Centre des pèlerins, nous craignons que ce soit déroutant si les Sous-groupes doivent aller d'un lieu à l'autre.",
+    "4": "Si de jeunes pèlerins viennent de leur pays dans le pays hôte et n'en repartent pas, devenant migrants ou demandeurs d'asile, quels en sont les avantages et les inconvénients du point de vue de l'Église et du point de vue du gouvernement ?",
+    "5": "La justification de l'inclusion de jeunes protestants va à l'encontre de l'enseignement de l'Église sur l'œcuménisme (mouvement pour l'unité). Manipuler de jeunes chrétiens pour les convertir au catholicisme contrevient aux principes du dialogue interreligieux de l'Église. Nous vous demandons de corriger cela, de ne pas utiliser les jeunes protestants comme des 'accessoires' et de les traiter avec la dignité qui leur est due.",
+    "6": "Pour beaucoup de jeunes, les JMJ sont une véritable expérience de rencontre avec la diversité des langues et des cultures du monde entier. Mais c'est aussi une expérience de l'Église catholique qui montre comment l'universalité de l'Église peut être rendue plus concrète grâce à la participation des Églises catholiques orientales, en vue de JMJ qui pourraient se tenir dans un pays d'Afrique ou du Moyen-Orient, et à travers cet événement qui se tient ici même, à Séoul.",
+    "7": "Comment les pèlerins qui ne peuvent pas être physiquement présents aux JMJ pourraient-ils participer à l'événement ?",
+    "8": "La perception psychologique de 'l'intérieur' et de 'l'extérieur' est importante. Une fois la limite du stade fixée, les personnes présentes dans le Parc de la Paix comprendront naturellement que les principales célébrations ont lieu dans le stade. Aussi excellent que soit le programme à l'extérieur du stade, il pourrait être difficile d'effacer cette perception.",
+    "9": "Le Stade de la Coupe du monde de Séoul nous inquiète. Même si l'attribution des places est équitable, la barrière physique elle-même peut suggérer l'exclusion. Pour les grandes délégations, il sera difficile d'expliquer pourquoi certains entrent dans le stade tandis que d'autres doivent suivre sur un écran. Les jeunes pourraient hésiter à venir. Devoir regarder de loin sur un écran pendant que d'autres sont dans le stade sera décourageant. Nous vous demandons de reconsidérer ce choix.",
+    "10": "Nous restons profondément inquiets du fait que le dispositif du stade se contente de gérer la limite de capacité au lieu de la résoudre. La rotation et le dispositif du Parc de la Paix sont peut-être équitables, mais beaucoup de pèlerins se sentiront encore exclus des principales célébrations. Les jeunes consentent de grands sacrifices pour venir aux JMJ. S'ils ne peuvent pas participer pleinement aux célébrations, beaucoup se demanderont à juste titre : 'À quoi bon y aller ?'",
+    "11": "Le système de stade proposé vise à gérer la restriction d'accès plutôt qu'à résoudre le problème de capacité. Le dispositif '3 rotations / pas de double attribution' peut répartir équitablement la possibilité d'entrer dans le stade, mais de nombreux pèlerins inscrits ne pourront malgré tout pas participer aux célébrations à l'intérieur du stade principal où ont lieu certains événements.",
+    "12": "Stade : nous craignons des encombrements et de la confusion. Faire tourner un très grand nombre de pèlerins entre le stade et le Parc de la Paix, avec des itinéraires d'entrée et de sortie différents pour chaque célébration, pourrait poser de grandes difficultés de circulation des foules et de communication. Lorsque des centaines de milliers de personnes se déplacent en même temps, même un petit malentendu peut rapidement devenir un problème de sécurité et pastoral.",
+    "13": "Nous vous demandons d'accorder une attention particulière à la liturgie. Si possible, tenez compte du fait qu'elle s'adresse à des jeunes. Depuis les célébrations du Jubilé, les jeunes et leurs accompagnateurs demandent que la liturgie soit soigneusement préparée et attentive à la nouvelle génération (chants, gestes, silence, etc.)."
+  }
+}

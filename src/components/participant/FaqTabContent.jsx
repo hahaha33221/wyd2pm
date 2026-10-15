@@ -16,9 +16,10 @@ export default function FaqTabContent({ faqs, section = "all", topic = "all", su
 
   const filtered = useMemo(() => {
     let list = faqs;
-    if (section !== "all") list = list.filter((it) => name(it.section) === section);
-    if (topic !== "all") list = list.filter((it) => name(it.topic) === topic);
-    if (sub !== "all") list = list.filter((it) => name(it.sub) === sub);
+    // section·topic·sub 는 한국어 원문 값입니다 (언어를 바꿔도 선택 유지)
+    if (section !== "all") list = list.filter((it) => it.section?.ko === section);
+    if (topic !== "all") list = list.filter((it) => it.topic?.ko === topic);
+    if (sub !== "all") list = list.filter((it) => it.sub?.ko === sub);
     const q = searchQuery.trim().toLowerCase();
     if (!q) return list;
     const words = q.split(/\s+/);
@@ -53,12 +54,20 @@ export default function FaqTabContent({ faqs, section = "all", topic = "all", su
 
   const shown = filtered.slice(0, visible);
   const hasMore = visible < filtered.length;
-  const sectionNo = faqs.find((it) => name(it.section) === section)?.sectionNo;
-  const path = [
-    section !== "all" && (sectionNo ? `${sectionNo}. ${section}` : section),
-    topic !== "all" && topic,
-    sub !== "all" && sub
-  ].filter(Boolean);
+  // 현재 위치는 고른 언어로 보여줍니다
+  const sample = faqs.find(
+    (it) =>
+      (section === "all" || it.section?.ko === section) &&
+      (topic === "all" || it.topic?.ko === topic) &&
+      (sub === "all" || it.sub?.ko === sub)
+  );
+  const path = sample
+    ? [
+        section !== "all" && (sample.sectionNo ? `${sample.sectionNo}. ${name(sample.section)}` : name(sample.section)),
+        topic !== "all" && name(sample.topic),
+        sub !== "all" && name(sample.sub)
+      ].filter(Boolean)
+    : [];
 
   return (
     <div className="faq-tab-container">

@@ -2,13 +2,13 @@ import React, { useMemo, useState, useEffect } from "react";
 import { useLanguage } from "../../context/LanguageContext";
 import { OPINIONS, MEETING_INFO } from "../../constants/seedData";
 
-// 같은 값끼리 묶기 (엑셀 순서 유지)
-function groupBy(list, getKey, getNo) {
+// 같은 값끼리 묶기 (엑셀 순서 유지). key는 한국어 원문이라 언어를 바꿔도 선택이 유지됩니다.
+function groupBy(list, getKey, getLabel, getNo) {
   const m = new Map();
   list.forEach((item) => {
     const k = getKey(item);
     if (!k) return;
-    if (!m.has(k)) m.set(k, { label: k, no: getNo ? getNo(item) : "", items: [] });
+    if (!m.has(k)) m.set(k, { key: k, label: getLabel(item), no: getNo ? getNo(item) : "", items: [] });
     m.get(k).items.push(item);
   });
   return Array.from(m.values());
@@ -22,11 +22,11 @@ export default function Sidebar({ faqs, nav, onNavigate, open, onClose, onCollap
   // 대분류 > 중분류 > 소분류 트리
   const tree = useMemo(
     () =>
-      groupBy(faqs, (it) => name(it.section), (it) => it.sectionNo).map((s) => ({
+      groupBy(faqs, (it) => it.section?.ko, (it) => name(it.section), (it) => it.sectionNo).map((s) => ({
         ...s,
-        topics: groupBy(s.items, (it) => name(it.topic), (it) => it.topicNo).map((tp) => ({
+        topics: groupBy(s.items, (it) => it.topic?.ko, (it) => name(it.topic), (it) => it.topicNo).map((tp) => ({
           ...tp,
-          subs: groupBy(tp.items, (it) => name(it.sub), (it) => it.subNo)
+          subs: groupBy(tp.items, (it) => it.sub?.ko, (it) => name(it.sub), (it) => it.subNo)
         }))
       })),
     [faqs, lang]
@@ -90,23 +90,23 @@ export default function Sidebar({ faqs, nav, onNavigate, open, onClose, onCollap
           </button>
 
           {tree.map((s) => {
-            const sOpen = !!expanded[s.label];
+            const sOpen = !!expanded[s.key];
             return (
-              <div key={s.label} className="nav-branch">
+              <div key={s.key} className="nav-branch">
                 <div className="nav-row">
                   <button
                     type="button"
                     className={`nav-caret ${sOpen ? "open" : ""}`}
-                    onClick={() => toggle(s.label)}
+                    onClick={() => toggle(s.key)}
                     aria-label={s.label}
                     aria-expanded={sOpen}
                   />
                   <button
                     type="button"
-                    className={`nav-item lvl1 ${active(isQa && nav.section === s.label && nav.topic === "all")}`}
+                    className={`nav-item lvl1 ${active(isQa && nav.section === s.key && nav.topic === "all")}`}
                     onClick={() => {
-                      setExpanded((e) => ({ ...e, [s.label]: true }));
-                      go({ view: "qa", section: s.label, topic: "all", sub: "all" });
+                      setExpanded((e) => ({ ...e, [s.key]: true }));
+                      go({ view: "qa", section: s.key, topic: "all", sub: "all" });
                     }}
                   >
                     <span className="nav-item-text">
@@ -119,7 +119,7 @@ export default function Sidebar({ faqs, nav, onNavigate, open, onClose, onCollap
 
                 {sOpen &&
                   s.topics.map((tp) => {
-                    const key = `${s.label}|${tp.label}`;
+                    const key = `${s.key}|${tp.key}`;
                     const hasSubs = tp.subs.length > 0;
                     const tOpen = !!expanded[key];
                     return (
@@ -138,10 +138,10 @@ export default function Sidebar({ faqs, nav, onNavigate, open, onClose, onCollap
                           )}
                           <button
                             type="button"
-                            className={`nav-item lvl2 ${active(isQa && nav.section === s.label && nav.topic === tp.label && nav.sub === "all")}`}
+                            className={`nav-item lvl2 ${active(isQa && nav.section === s.key && nav.topic === tp.key && nav.sub === "all")}`}
                             onClick={() => {
                               if (hasSubs) setExpanded((e) => ({ ...e, [key]: true }));
-                              go({ view: "qa", section: s.label, topic: tp.label, sub: "all" });
+                              go({ view: "qa", section: s.key, topic: tp.key, sub: "all" });
                             }}
                           >
                             <span className="nav-item-text">
@@ -156,10 +156,10 @@ export default function Sidebar({ faqs, nav, onNavigate, open, onClose, onCollap
                           tOpen &&
                           tp.subs.map((sb) => (
                             <button
-                              key={sb.label}
+                              key={sb.key}
                               type="button"
-                              className={`nav-item lvl3 ${active(isQa && nav.section === s.label && nav.topic === tp.label && nav.sub === sb.label)}`}
-                              onClick={() => go({ view: "qa", section: s.label, topic: tp.label, sub: sb.label })}
+                              className={`nav-item lvl3 ${active(isQa && nav.section === s.key && nav.topic === tp.key && nav.sub === sb.key)}`}
+                              onClick={() => go({ view: "qa", section: s.key, topic: tp.key, sub: sb.key })}
                             >
                               <span className="nav-item-text">
                                 {sb.no && <span className="nav-no">{sb.no}.</span>}

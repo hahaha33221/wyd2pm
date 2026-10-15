@@ -35,6 +35,8 @@ export default function LanguageModal({ isOpen, onClose }) {
               key={l.code}
               type="button"
               aria-pressed={l.code === lang}
+              disabled={l.disabled}
+              title={l.disabled ? "준비 중" : undefined}
               onClick={() => {
                 setLang(l.code);
                 onClose();

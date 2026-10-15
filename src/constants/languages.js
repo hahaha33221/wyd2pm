@@ -1,11 +1,13 @@
+// 한국어 외 언어는 번역 검수 전이라 "(테스트)"를 붙이고 비활성(선택 불가)으로 둡니다.
+// 확인된 번역으로 바꾼 뒤 켜려면 해당 언어의 disabled 를 지우세요 (test 도 지우면 "(테스트)"가 빠짐).
 export const LANGS = [
   { code: "ko", name: "한국어" },
-  { code: "en", name: "English" },
-  { code: "es", name: "Español" },
-  { code: "fr", name: "Français" },
-  { code: "it", name: "Italiano" },
-  { code: "pt", name: "Português" }
-];
+  { code: "en", name: "English", test: true, disabled: true },
+  { code: "es", name: "Español", test: true, disabled: true },
+  { code: "fr", name: "Français", test: true, disabled: true },
+  { code: "it", name: "Italiano", test: true, disabled: true },
+  { code: "pt", name: "Português", test: true, disabled: true }
+].map((l) => ({ ...l, name: l.test ? `${l.name} (테스트)` : l.name }));
 
 export const T = {
   ko: {

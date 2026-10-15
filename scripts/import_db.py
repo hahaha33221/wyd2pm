@@ -9,6 +9,12 @@ VPS 데이터베이스용 SQL(db/seed.sql)로 바꿉니다.
   - Opinions     : No / 관련 항목 / 의견
   - Meeting_Info : 항목 / 내용
 엑셀이 원본입니다. 내용을 고칠 때는 엑셀을 고친 뒤 이 스크립트를 다시 실행하세요.
+
+다른 언어는 translations/<언어코드>/*.json 에서 읽어 합칩니다 (한국어는 엑셀 그대로, 바꾸지 않음).
+  - qa         : {"Q1": {"q": "...", "a": "..."}}
+  - sections   : {"Ⅰ": "..."}            topics: {"Ⅰ-1": "..."}   subtopics: {"Ⅰ-1-a": "..."}
+  - meeting    : {"회의명": {"label": "...", "value": "..."}}
+  - opinions   : {"1": "..."}            opinionTopics: {"숙소": "..."}
 필요: pip install openpyxl
 """
 import json
@@ -20,6 +26,7 @@ import openpyxl
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "src" / "constants" / "seedData.js"
+TRANSLATIONS = ROOT / "translations"
 SQL_OUT = ROOT / "db" / "seed.sql"
 
 
@@ -68,10 +75,10 @@ def build_sql(qa, opinions, info, source):
     ]
     for i, r in enumerate(info):
         out.append(
-            f"INSERT INTO meeting_info (label, value, sort_order) VALUES ({q(r['label'])}, {q(r['value'])}, {i}) "
+            f"INSERT INTO meeting_info (label, value, sort_order) VALUES ({q(r['label']['ko'])}, {q(r['value']['ko'])}, {i}) "
             "ON CONFLICT (label) DO UPDATE SET value = EXCLUDED.value, sort_order = EXCLUDED.sort_order;"
         )
-    labels = ", ".join(q(r["label"]) for r in info) or "NULL"
+    labels = ", ".join(q(r["label"]["ko"]) for r in info) or "NULL"
     out.append(f"DELETE FROM meeting_info WHERE label NOT IN ({labels});")
 
     out += ["", "-- 분류: 대분류 > 중분류 > 소분류"]
@@ -119,10 +126,15 @@ def build_sql(qa, opinions, info, source):
             "ON CONFLICT (question_no) DO UPDATE SET section_id = EXCLUDED.section_id, topic_id = EXCLUDED.topic_id, "
             "subtopic_id = EXCLUDED.subtopic_id, sort_order = EXCLUDED.sort_order, updated_at = now();"
         )
+        for lang, question in it["q"].items():
+            out.append(
+                "INSERT INTO qa_item_i18n (item_id, lang, question, answer) "
+                f"SELECT id, {q(lang)}, {q(question)}, {q(it['a'].get(lang))} FROM qa_item WHERE question_no = {q(it['no'])} "
+                "ON CONFLICT (item_id, lang) DO UPDATE SET question = EXCLUDED.question, answer = EXCLUDED.answer, updated_at = now();"
+            )
+        langs = ", ".join(q(lang) for lang in it["q"])
         out.append(
-            "INSERT INTO qa_item_i18n (item_id, lang, question, answer) "
-            f"SELECT id, 'ko', {q(it['q']['ko'])}, {q(it['a'].get('ko'))} FROM qa_item WHERE question_no = {q(it['no'])} "
-            "ON CONFLICT (item_id, lang) DO UPDATE SET question = EXCLUDED.question, answer = EXCLUDED.answer, updated_at = now();"
+            f"DELETE FROM qa_item_i18n WHERE item_id = (SELECT id FROM qa_item WHERE question_no = {q(it['no'])}) AND lang NOT IN ({langs});"
         )
     nos = ", ".join(q(it["no"]) for it in qa) or "NULL"
     out += [
@@ -135,12 +147,61 @@ def build_sql(qa, opinions, info, source):
     ]
     for i, o in enumerate(opinions):
         out.append(
-            f"INSERT INTO opinion (no, topic, content, sort_order) VALUES ({o['no']}, {q(o['topic'])}, {q(o['text'])}, {i}) "
+            f"INSERT INTO opinion (no, topic, content, sort_order) VALUES ({o['no']}, {q(o['topic']['ko'])}, {q(o['text']['ko'])}, {i}) "
             "ON CONFLICT (no) DO UPDATE SET topic = EXCLUDED.topic, content = EXCLUDED.content, sort_order = EXCLUDED.sort_order;"
         )
     op_nos = ", ".join(str(o["no"]) for o in opinions) or "NULL"
     out += [f"DELETE FROM opinion WHERE no NOT IN ({op_nos});", "", "COMMIT;", ""]
     return "\n".join(out)
+
+
+def load_translations():
+    """translations/<lang>/*.json 을 언어별로 합칩니다."""
+    out = {}
+    if not TRANSLATIONS.is_dir():
+        return out
+    for lang_dir in sorted(p for p in TRANSLATIONS.iterdir() if p.is_dir()):
+        merged = {}
+        for f in sorted(lang_dir.glob("*.json")):
+            for key, val in json.loads(f.read_text(encoding="utf-8")).items():
+                merged.setdefault(key, {}).update(val)
+        out[lang_dir.name] = merged
+    return out
+
+
+def apply_translations(qa, opinions, info, tr, problems):
+    """한국어(ko)는 그대로 두고 다른 언어 값만 더합니다."""
+    for lang, t in tr.items():
+        if lang == "ko":
+            continue
+        missing = 0
+        for it in qa:
+            tk = f"{it['sectionNo']}-{it['topicNo']}"
+            if it["sectionNo"] in t.get("sections", {}):
+                it["section"][lang] = t["sections"][it["sectionNo"]]
+            if tk in t.get("topics", {}):
+                it["topic"][lang] = t["topics"][tk]
+            if it.get("sub") and f"{tk}-{it['subNo']}" in t.get("subtopics", {}):
+                it["sub"][lang] = t["subtopics"][f"{tk}-{it['subNo']}"]
+            row = t.get("qa", {}).get(it["no"])
+            if row and row.get("q"):
+                it["q"][lang] = row["q"]
+                if row.get("a") and it["a"]:
+                    it["a"][lang] = row["a"]
+            else:
+                missing += 1
+        for o in opinions:
+            if o["topic"]["ko"] in t.get("opinionTopics", {}):
+                o["topic"][lang] = t["opinionTopics"][o["topic"]["ko"]]
+            if str(o["no"]) in t.get("opinions", {}):
+                o["text"][lang] = t["opinions"][str(o["no"])]
+        for r in info:
+            m = t.get("meeting", {}).get(r["label"]["ko"])
+            if m:
+                r["label"][lang] = m.get("label", "")
+                r["value"][lang] = m.get("value", "")
+        if missing:
+            problems.append(f"{lang}: 번역이 없는 질문 {missing}개 (화면에는 한국어로 표시)")
 
 
 def sheet(wb, name):
@@ -183,18 +244,20 @@ def main():
         {
             "id": f"O{r['No'] or row_no}",
             "no": int(r["No"]) if r["No"].isdigit() else row_no,
-            "topic": clean(r["관련 항목"], one_line=True),
-            "text": r["의견"],
+            "topic": {"ko": clean(r["관련 항목"], one_line=True)},
+            "text": {"ko": r["의견"]},
         }
         for row_no, r in rows(sheet(wb, "Opinions"), ["No", "관련 항목", "의견"])
         if r["의견"]
     ]
 
     info = [
-        {"label": r["항목"], "value": r["내용"]}
+        {"label": {"ko": r["항목"]}, "value": {"ko": r["내용"]}}
         for _, r in rows(sheet(wb, "Meeting_Info"), ["항목", "내용"])
         if r["항목"]
     ]
+
+    apply_translations(qa, opinions, info, load_translations(), problems)
 
     def js(v):
         return json.dumps(v, ensure_ascii=False, indent=2)

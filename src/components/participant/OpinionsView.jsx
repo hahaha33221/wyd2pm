@@ -4,15 +4,21 @@ import { OPINIONS } from "../../constants/seedData";
 
 // Opinions 시트: 답변 없이 참고용으로 보여주는 의견. 관련 항목은 화면 안에서 골라 봅니다.
 export default function OpinionsView() {
-  const { t } = useLanguage();
+  const { lang, pick, t } = useLanguage();
   const [topic, setTopic] = useState("all");
 
   const topics = useMemo(() => {
     const m = new Map();
-    OPINIONS.forEach((o) => o.topic && m.set(o.topic, (m.get(o.topic) || 0) + 1));
-    return Array.from(m, ([label, count]) => ({ label, count }));
-  }, []);
-  const list = topic === "all" ? OPINIONS : OPINIONS.filter((o) => o.topic === topic);
+    // key는 한국어 원문이라 언어를 바꿔도 선택이 유지됩니다
+    OPINIONS.forEach((o) => {
+      const key = o.topic.ko;
+      const prev = m.get(key) || { key, label: pick(o.topic, lang), count: 0 };
+      prev.count += 1;
+      m.set(key, prev);
+    });
+    return Array.from(m.values());
+  }, [lang, pick]);
+  const list = topic === "all" ? OPINIONS : OPINIONS.filter((o) => o.topic.ko === topic);
 
   return (
     <section>
@@ -32,14 +38,14 @@ export default function OpinionsView() {
           {t.allCategories}
           <span className="chip-count">{OPINIONS.length}</span>
         </button>
-        {topics.map(({ label, count }) => (
+        {topics.map(({ key, label, count }) => (
           <button
-            key={label}
+            key={key}
             type="button"
             role="tab"
-            aria-selected={topic === label}
-            className={`category-chip ${topic === label ? "active" : ""}`}
-            onClick={() => setTopic(label)}
+            aria-selected={topic === key}
+            className={`category-chip ${topic === key ? "active" : ""}`}
+            onClick={() => setTopic(key)}
           >
             {label}
             <span className="chip-count">{count}</span>
@@ -53,8 +59,8 @@ export default function OpinionsView() {
       <div className="faq-list">
         {list.map((o) => (
           <article key={o.id} className="opinion-card">
-            {o.topic && <span className="category-pill-tag">{o.topic}</span>}
-            <p className="opinion-text">{o.text}</p>
+            <span className="category-pill-tag">{pick(o.topic, lang)}</span>
+            <p className="opinion-text">{pick(o.text, lang)}</p>
           </article>
         ))}
       </div>

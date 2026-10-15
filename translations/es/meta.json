@@ -1,0 +1,85 @@
+{
+  "sections": {
+    "Ⅰ": "Solicitud e inscripción",
+    "Ⅱ": "Apoyo a los peregrinos",
+    "Ⅲ": "Llegada y organización sobre el terreno",
+    "Ⅳ": "Programa"
+  },
+  "topics": {
+    "Ⅰ-1": "Inscripción",
+    "Ⅰ-2": "Visado, K-ETA",
+    "Ⅰ-3": "Voluntarios",
+    "Ⅱ-1": "Paquetes del peregrino",
+    "Ⅱ-2": "Protección, menores",
+    "Ⅱ-3": "Personas con discapacidad",
+    "Ⅲ-1": "Acreditación",
+    "Ⅲ-2": "App del peregrino",
+    "Ⅲ-3": "Comité Organizador Local",
+    "Ⅳ-1": "Días en las Diócesis (DID)",
+    "Ⅳ-2": "Evento principal (Jornada Mundial de la Juventud, JMJ)"
+  },
+  "subtopics": {
+    "Ⅰ-1-a": "Tipos de grupo",
+    "Ⅰ-1-b": "Cómo inscribirse",
+    "Ⅰ-1-c": "Pago y fondos",
+    "Ⅰ-1-d": "Inscripción de obispos",
+    "Ⅱ-1-a": "Transporte",
+    "Ⅱ-1-b": "Alojamiento",
+    "Ⅱ-1-c": "Comidas",
+    "Ⅱ-1-d": "Asistencia médica",
+    "Ⅲ-1-a": "Kit del peregrino",
+    "Ⅲ-1-b": "Proceso de acreditación",
+    "Ⅲ-1-c": "Centro del Peregrino",
+    "Ⅲ-2-a": "Funciones",
+    "Ⅲ-2-b": "Tarjeta prepago",
+    "Ⅳ-2-a": "Misa de apertura · Acogida del Papa · Vía Crucis",
+    "Ⅳ-2-b": "Vigilia · Misa de clausura",
+    "Ⅳ-2-c": "Festival de la Juventud",
+    "Ⅳ-2-d": "Feria Cultural Católica (Feria Vocacional · Parque de la Reconciliación)",
+    "Ⅳ-2-e": "Encuentro con los obispos (catequesis)"
+  },
+  "meeting": {
+    "회의명": {
+      "label": "Reunión",
+      "value": "2.ª Reunión Preparatoria Internacional de la Jornada Mundial de la Juventud Seúl 2027"
+    },
+    "일자": {
+      "label": "Fechas",
+      "value": "Del lunes 14 al jueves 17 de septiembre de 2026"
+    },
+    "장소": {
+      "label": "Lugar",
+      "value": "Nest Hotel (Incheon)"
+    },
+    "참가인원": {
+      "label": "Participantes",
+      "value": "Unas 270 personas en total, entre representantes de diócesis, institutos religiosos y asociaciones eclesiales de unos 100 países"
+    },
+    "주최/주관": {
+      "label": "Organizadores",
+      "value": "Dicasterio para los Laicos, la Familia y la Vida; Comité Organizador Local de la JMJ Seúl 2027"
+    }
+  },
+  "opinionTopics": {
+    "숙소": "Alojamiento",
+    "체크인": "Acreditación",
+    "조직위원회 관련": "Comité Organizador Local",
+    "[본대회] 개막미사·교황 환영행사·십자가의 길": "[Evento principal] Misa de apertura · Acogida del Papa · Vía Crucis",
+    "[본대회] 전례": "[Evento principal] Liturgia"
+  },
+  "opinions": {
+    "1": "Veinticinco personas por baño en un mismo alojamiento parece algo insuficiente.",
+    "2": "Si una delegación se aloja por su cuenta en un hotel, ¿no podría ser menos rica la experiencia de compartir (intercambio)? ¿Qué recomiendan?",
+    "3": "¿Pueden acreditarse juntos los Subgrupos con y sin alojamiento de un mismo Macrogrupo? Como solo hay un Centro del Peregrino, nos preocupa que resulte confuso si los Subgrupos tienen que ir de un lugar a otro.",
+    "4": "Si jóvenes peregrinos vienen de su país al país anfitrión y no regresan, convirtiéndose en migrantes o solicitantes de asilo, ¿qué ventajas e inconvenientes tiene esto desde el punto de vista de la Iglesia y desde el del Gobierno?",
+    "5": "El fundamento para incluir a jóvenes protestantes contradice la doctrina de la Iglesia sobre el ecumenismo (movimiento de unidad). Manipular a jóvenes cristianos para convertirlos al catolicismo vulnera los principios de diálogo interreligioso de la Iglesia. Les pedimos que lo corrijan, que no utilicen a los jóvenes protestantes como 'atrezo' y que los traten con la dignidad que merecen.",
+    "6": "Para muchos jóvenes, la JMJ es una auténtica experiencia de encuentro con las diversas lenguas y culturas del mundo entero. Pero es también una experiencia de la Iglesia católica que muestra cómo puede hacerse más concreta la universalidad de la Iglesia mediante la participación de las Iglesias católicas orientales, de cara a una JMJ que podría celebrarse en un país de África o de Oriente Medio, y a través de este evento que se celebra aquí mismo, en Seúl.",
+    "7": "Cómo podrían participar en el evento los peregrinos que no pueden asistir físicamente a la JMJ.",
+    "8": "La percepción psicológica de 'dentro' y 'fuera' es importante. Una vez fijado el límite del estadio, las personas del Parque de la Paz se darán cuenta de forma natural de que los actos principales se desarrollan dentro del estadio. Por excelente que sea el programa fuera del estadio, puede ser difícil eliminar esa percepción.",
+    "9": "Nos preocupa el Estadio de la Copa del Mundo de Seúl. Aunque la asignación de asientos sea justa, la propia barrera física puede sugerir exclusión. En el caso de las delegaciones grandes, será difícil explicar por qué unos entran en el estadio y otros tienen que verlo en una pantalla. Puede que los jóvenes no quieran asistir. Tener que verlo de lejos en una pantalla mientras otros están dentro del estadio será desalentador. Les pedimos que lo reconsideren.",
+    "10": "Seguimos muy preocupados porque el sistema del estadio se limita a gestionar la restricción de aforo en lugar de resolverla. La rotación y el sistema del Parque de la Paz pueden ser justos, pero muchos peregrinos seguirán sintiéndose al margen de los actos principales. Los jóvenes hacen grandes sacrificios para asistir a la JMJ. Si no pueden participar plenamente en los actos, muchos se preguntarán con razón: '¿Para qué ir?'",
+    "11": "El sistema de estadio propuesto se centra en gestionar la restricción de acceso más que en resolver el problema de aforo. El sistema de '3 rotaciones / sin asignación duplicada' puede repartir de forma justa la oportunidad de entrar en el estadio, pero aun así muchos peregrinos inscritos no podrán participar en los actos dentro del estadio principal donde se celebran determinados actos.",
+    "12": "Estadio: nos preocupa que se produzcan aglomeraciones y confusión. Al hacer rotar a un enorme número de peregrinos entre el estadio y el Parque de la Paz, con rutas de entrada y salida distintas para cada acto, pueden surgir grandes dificultades en el movimiento de la multitud y en la comunicación. Cuando cientos de miles de personas se mueven a la vez, incluso un pequeño malentendido puede convertirse rápidamente en un problema de seguridad y pastoral.",
+    "13": "Les pedimos que presten especial atención a la liturgia. Si es posible, tengan en cuenta que los destinatarios son jóvenes. Desde los actos del Jubileo, los jóvenes y sus responsables han pedido que la liturgia se prepare con esmero y tenga en cuenta a la nueva generación (en los cantos, los gestos, el silencio, etc.)."
+  }
+}

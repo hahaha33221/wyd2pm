@@ -1,0 +1,85 @@
+{
+  "sections": {
+    "Ⅰ": "Application and Registration",
+    "Ⅱ": "Pilgrim Support",
+    "Ⅲ": "Arrival and On-site Operations",
+    "Ⅳ": "Programme"
+  },
+  "topics": {
+    "Ⅰ-1": "Registration",
+    "Ⅰ-2": "Visa, K-ETA",
+    "Ⅰ-3": "Volunteers",
+    "Ⅱ-1": "Pilgrim Packages",
+    "Ⅱ-2": "Safeguarding, Minors",
+    "Ⅱ-3": "Persons with Disabilities",
+    "Ⅲ-1": "Check-in",
+    "Ⅲ-2": "Pilgrim App",
+    "Ⅲ-3": "Local Organising Committee",
+    "Ⅳ-1": "Days in the Dioceses (DID)",
+    "Ⅳ-2": "Main Event (World Youth Day, WYD)"
+  },
+  "subtopics": {
+    "Ⅰ-1-a": "Group Types",
+    "Ⅰ-1-b": "How to Register",
+    "Ⅰ-1-c": "Payment and Funds",
+    "Ⅰ-1-d": "Bishops' Registration",
+    "Ⅱ-1-a": "Transport",
+    "Ⅱ-1-b": "Accommodation",
+    "Ⅱ-1-c": "Meals",
+    "Ⅱ-1-d": "Medical Support",
+    "Ⅲ-1-a": "Pilgrim Kit",
+    "Ⅲ-1-b": "Check-in Process",
+    "Ⅲ-1-c": "Pilgrim Centre",
+    "Ⅲ-2-a": "Features",
+    "Ⅲ-2-b": "Prepaid Card",
+    "Ⅳ-2-a": "Opening Mass · Papal Welcome · Way of the Cross",
+    "Ⅳ-2-b": "Vigil · Closing Mass",
+    "Ⅳ-2-c": "Youth Festival",
+    "Ⅳ-2-d": "Catholic Cultural Fair (Vocations Fair · Park of Reconciliation)",
+    "Ⅳ-2-e": "Meeting with Bishops (Catechesis)"
+  },
+  "meeting": {
+    "회의명": {
+      "label": "Meeting",
+      "value": "2nd International Preparatory Meeting for World Youth Day Seoul 2027"
+    },
+    "일자": {
+      "label": "Dates",
+      "value": "Mon 14 – Thu 17 September 2026"
+    },
+    "장소": {
+      "label": "Venue",
+      "value": "Nest Hotel (Incheon)"
+    },
+    "참가인원": {
+      "label": "Participants",
+      "value": "About 270 people in total, including representatives of dioceses, religious institutes and ecclesial associations from some 100 countries"
+    },
+    "주최/주관": {
+      "label": "Organisers",
+      "value": "Dicastery for Laity, Family and Life; Local Organising Committee of WYD Seoul 2027"
+    }
+  },
+  "opinionTopics": {
+    "숙소": "Accommodation",
+    "체크인": "Check-in",
+    "조직위원회 관련": "Local Organising Committee",
+    "[본대회] 개막미사·교황 환영행사·십자가의 길": "[Main Event] Opening Mass · Papal Welcome · Way of the Cross",
+    "[본대회] 전례": "[Main Event] Liturgy"
+  },
+  "opinions": {
+    "1": "Twenty-five people per toilet in the same accommodation seems a little insufficient.",
+    "2": "If a delegation stays in a hotel on its own, might the experience of sharing (exchange) be less rich? What would you recommend?",
+    "3": "Can Subgroups with and without accommodation within the same Macrogroup check in together? Since there is only one Pilgrim Centre, we are worried it could be confusing if the Subgroups have to move between different places.",
+    "4": "If young pilgrims come from their own country to the host country and do not return, becoming migrants or asylum seekers, what are the advantages and disadvantages from the Church's perspective and from the government's perspective respectively?",
+    "5": "The rationale for including Protestant young people goes against the Church's teaching on ecumenism (the unity movement). Manipulating Christian young people in order to convert them to Catholicism violates the Church's principles of interreligious dialogue. Please correct this, do not use Protestant young people like 'props', and treat them with the dignity they deserve.",
+    "6": "For many young people, WYD is a genuine experience of encountering the diverse languages and cultures of the whole world. But it is also an experience of the Catholic Church that shows how the universality of the Church can be realised more concretely through the participation of the Eastern Catholic Churches — ahead of a WYD that might be held in an African or Middle Eastern country, and through this event held right here in Seoul.",
+    "7": "How pilgrims who cannot physically attend WYD might take part in the event.",
+    "8": "The psychological perception of 'inside' and 'outside' matters. Once the boundary of the stadium is set, people in the Peace Park will naturally realise that the main events are taking place inside the stadium. However excellent the programme outside the stadium may be, it may be difficult to remove this perception.",
+    "9": "We are concerned about Seoul World Cup Stadium. Even if seating allocation is fair, the physical barrier itself can suggest exclusion. For large delegations, it will be hard to explain why some people go into the stadium while others have to watch on a screen. Young people may be reluctant to attend. Having to watch on a screen from afar while others are inside the stadium will be discouraging. We ask you to reconsider.",
+    "10": "We remain deeply concerned that the stadium approach merely manages the capacity limit rather than solving it. Rotation and the Peace Park approach may be fair, but many pilgrims will still feel left out of the main events. Young people make great sacrifices to attend WYD. If they cannot take part fully in the events, many will naturally ask, 'What is the point of going?'",
+    "11": "The proposed stadium system focuses on managing restricted entry rather than solving the capacity problem. The '3 rotations / no double allocation' approach may distribute the opportunity to enter the stadium fairly, but even so, many registered pilgrims will not be able to take part in the events inside the main stadium where particular events are held.",
+    "12": "Stadium – we are worried about congestion and confusion. Rotating huge numbers of pilgrims between the stadium and the Peace Park, with different entry and exit routes for each event, could cause major difficulties in crowd movement and communication. When hundreds of thousands of people are moving at once, even a minor misunderstanding can quickly turn into a safety and pastoral problem.",
+    "13": "Please pay particular attention to the liturgy. If possible, please take into account that the participants are young people. Since the Jubilee events, young people and their leaders have asked that the liturgy be carefully prepared and attentive to the new generation (in music, gestures, silence, etc.)."
+  }
+}

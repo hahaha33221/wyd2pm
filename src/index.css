@@ -2072,3 +2072,9 @@ mark {
     display: inline-block;
   }
 }
+
+/* 비활성 언어 (번역 검수 전) */
+.langs button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}

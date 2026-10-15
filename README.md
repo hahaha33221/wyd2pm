@@ -40,6 +40,31 @@ python3 scripts/import_db.py "WYD_2nd_Prep_Meeting_QA_DB.xlsx"
 - 기본(`/api`): **서버 모드** — VPS의 `data/db.json`에 저장, 모든 기기에 실시간 반영
 - 빈 값(`""`): **테스트 모드** — 브라우저 안에만 저장
 
+## 자동 배포 (GitHub Actions → Vercel)
+
+`main`에 푸시하면 `.github/workflows/vercel-deploy.yml`이 https://wyd2pmqna.vercel.app 에 자동 배포합니다.
+저장소 Settings → Secrets and variables → Actions 에 아래가 있어야 합니다.
+
+| 종류 | 이름 | 값 |
+| --- | --- | --- |
+| Secret | `VERCEL_TOKEN` | Vercel 계정 토큰 (https://vercel.com/account/tokens) |
+| Variable | `VERCEL_ORG_ID` | Vercel 팀 ID (설정됨) |
+| Variable | `VERCEL_PROJECT_ID` | wyd2pmqna 프로젝트 ID (설정됨) |
+
+## 다른 언어 (번역)
+
+한국어는 엑셀 원문 그대로이고, 다른 언어는 `translations/<언어코드>/*.json`에 따로 있습니다.
+지금은 한국어만 켜져 있고 나머지는 "(테스트)" 표시와 함께 비활성입니다. 확인된 번역으로 파일을 바꾼 뒤
+`src/constants/languages.js`에서 해당 언어의 `disabled`(와 `test`)를 지우면 켜집니다.
+
+| 언어 | 초안 번역 |
+| --- | --- |
+| English (en) | 완료 (질문 146 · 의견 · 회의 정보 · 분류) |
+| Español (es) | 완료 |
+| Français (fr) | 완료 |
+| Italiano (it) | 없음 |
+| Português (pt) | 없음 |
+
 ## 배포 방식 두 가지
 
 - **VPS (서버 모드):** `docker compose up -d --build` — [docs/VPS.md](docs/VPS.md)
