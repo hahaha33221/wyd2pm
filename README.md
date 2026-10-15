@@ -54,8 +54,13 @@ python3 scripts/import_db.py "WYD_2nd_Prep_Meeting_QA_DB.xlsx"
 ## 다른 언어 (번역)
 
 한국어는 엑셀 원문 그대로이고, 다른 언어는 `translations/<언어코드>/*.json`에 따로 있습니다.
-지금은 한국어만 켜져 있고 나머지는 "(테스트)" 표시와 함께 비활성입니다. 확인된 번역으로 파일을 바꾼 뒤
-`src/constants/languages.js`에서 해당 언어의 `disabled`(와 `test`)를 지우면 켜집니다.
+지금은 한국어만 켜져 있고 나머지는 "(테스트)" 표시와 함께 비활성입니다. 켜진 언어의 번역만 화면 파일에 실리고,
+모든 번역은 VPS DB에 저장됩니다. 언어를 켜려면:
+
+1. 확인된 번역으로 `translations/<언어코드>/*.json`을 바꿉니다.
+2. `src/constants/enabledLangs.json`에 언어 코드를 추가합니다 (예: `["ko", "en"]`).
+3. `python3 scripts/import_db.py "<엑셀 파일>"`을 다시 실행합니다.
+4. 검수가 끝났으면 `src/constants/languages.js`에서 그 언어의 `test: true`를 지워 "(테스트)" 표시를 없앱니다.
 
 | 언어 | 초안 번역 |
 | --- | --- |

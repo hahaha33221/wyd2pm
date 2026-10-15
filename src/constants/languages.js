@@ -1,13 +1,20 @@
-// 한국어 외 언어는 번역 검수 전이라 "(테스트)"를 붙이고 비활성(선택 불가)으로 둡니다.
-// 확인된 번역으로 바꾼 뒤 켜려면 해당 언어의 disabled 를 지우세요 (test 도 지우면 "(테스트)"가 빠짐).
+import ENABLED_LANGS from "./enabledLangs.json";
+
+// 켜진 언어는 enabledLangs.json 하나로 정합니다. 변환 스크립트(scripts/import_db.py)도 이 파일을 읽어
+// 켜진 언어의 번역만 화면 데이터에 넣습니다 (꺼진 언어 번역은 화면 파일에 실리지 않음, DB에는 모두 저장).
+// 언어를 켜려면: enabledLangs.json 에 코드를 추가 → 변환 스크립트 다시 실행 → 검수가 끝났으면 test 를 지워 "(테스트)" 제거.
 export const LANGS = [
   { code: "ko", name: "한국어" },
-  { code: "en", name: "English", test: true, disabled: true },
-  { code: "es", name: "Español", test: true, disabled: true },
-  { code: "fr", name: "Français", test: true, disabled: true },
-  { code: "it", name: "Italiano", test: true, disabled: true },
-  { code: "pt", name: "Português", test: true, disabled: true }
-].map((l) => ({ ...l, name: l.test ? `${l.name} (테스트)` : l.name }));
+  { code: "en", name: "English", test: true },
+  { code: "es", name: "Español", test: true },
+  { code: "fr", name: "Français", test: true },
+  { code: "it", name: "Italiano", test: true },
+  { code: "pt", name: "Português", test: true }
+].map((l) => ({
+  ...l,
+  name: l.test ? `${l.name} (테스트)` : l.name,
+  disabled: !ENABLED_LANGS.includes(l.code)
+}));
 
 export const T = {
   ko: {

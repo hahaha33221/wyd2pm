@@ -27,6 +27,7 @@ import openpyxl
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "src" / "constants" / "seedData.js"
 TRANSLATIONS = ROOT / "translations"
+ENABLED_LANGS = ROOT / "src" / "constants" / "enabledLangs.json"
 SQL_OUT = ROOT / "db" / "seed.sql"
 
 
@@ -258,6 +259,20 @@ def main():
     ]
 
     apply_translations(qa, opinions, info, load_translations(), problems)
+    # DB(seed.sql)에는 모든 번역을 넣고, 화면 데이터(seedData.js)에는 켜진 언어만 넣습니다.
+    sql = build_sql(qa, opinions, info, Path(sys.argv[1]).name)
+    enabled = set(json.loads(ENABLED_LANGS.read_text(encoding="utf-8"))) | {"ko"}
+
+    def only_enabled(v):
+        if isinstance(v, dict) and "ko" in v:
+            return {k: x for k, x in v.items() if k in enabled}
+        if isinstance(v, dict):
+            return {k: only_enabled(x) for k, x in v.items()}
+        if isinstance(v, list):
+            return [only_enabled(x) for x in v]
+        return v
+
+    qa, opinions, info = only_enabled(qa), only_enabled(opinions), only_enabled(info)
 
     def js(v):
         return json.dumps(v, ensure_ascii=False, indent=2)
@@ -276,9 +291,10 @@ def main():
     )
 
     SQL_OUT.parent.mkdir(exist_ok=True)
-    SQL_OUT.write_text(build_sql(qa, opinions, info, Path(sys.argv[1]).name), encoding="utf-8")
+    SQL_OUT.write_text(sql, encoding="utf-8")
 
     print(f"질문 {len(qa)}개 · 의견 {len(opinions)}개 · 회의 정보 {len(info)}개 → {OUT.relative_to(ROOT)}, {SQL_OUT.relative_to(ROOT)}")
+    print(f"  화면에 싣는 언어: {', '.join(sorted(enabled))} (나머지 번역은 DB에만)")
     for p in problems:
         print("  ! " + p)
 
