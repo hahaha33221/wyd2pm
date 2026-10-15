@@ -12,7 +12,8 @@
 
 - `src/` — React + Vite 화면
 - `server/index.js` — VPS용 Node 서버 (외부 패키지 없음). `dist/`를 내보내고 `/api`로 데이터를 저장·실시간 전송(SSE)
-- `deploy/` — VPS 배포용 systemd 서비스, nginx 설정, 배포 스크립트
+- `Dockerfile`, `docker-compose.yml` — VPS에서 컨테이너로 실행 (서버의 다른 서비스와 분리)
+- `deploy/` — nginx 설정, 배포 스크립트
 
 동작 모드는 빌드 시 `VITE_API_BASE`로 정해집니다.
 

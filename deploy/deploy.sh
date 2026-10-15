@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# VPS에서 최신 코드를 받아 다시 빌드하고 서버를 재시작합니다.
-# 사용: cd /srv/wyd-qna && bash deploy/deploy.sh
+# VPS에서 최신 코드를 받아 컨테이너를 다시 빌드·재시작합니다. 다른 서비스는 건드리지 않습니다.
+# 사용: cd /opt/wyd2pm-qna && bash deploy/deploy.sh
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
 git pull --ff-only
-pnpm install --frozen-lockfile
-pnpm run build
-sudo systemctl restart wyd-qna
-sudo systemctl --no-pager --lines=5 status wyd-qna
+docker compose up -d --build
+docker image prune -f --filter "label=com.docker.compose.project=wyd2pm-qna" >/dev/null || true
+sleep 2
+curl -fsS http://127.0.0.1:18797/api/data >/dev/null && echo "OK: wyd2pm-qna 동작 중"

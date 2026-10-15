@@ -1,0 +1,12 @@
+# VPS: /opt/wyd2pm-qna 에서 `docker compose up -d --build`
+# 이름(wyd2pm-qna)과 포트(18797)는 서버의 기존 서비스(wyd-backend 8090 등)와 겹치지 않게 정했습니다.
+services:
+  wyd2pm-qna:
+    build: .
+    container_name: wyd2pm-qna
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "127.0.0.1:18797:3000"   # 외부에는 nginx(443)로만 엽니다
+    volumes:
+      - ./data:/data

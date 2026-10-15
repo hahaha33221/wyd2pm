@@ -1,68 +1,47 @@
-# VPS 배포 안내 (초안)
+# VPS 배포 안내
 
-Ubuntu 22.04/24.04 기준입니다. 도메인은 `qna.example.com`, 설치 위치는 `/srv/wyd-qna`로 가정합니다.
+서버 `31.97.71.87`(Ubuntu 24.04)에는 이미 여러 서비스가 돌고 있으므로, **기존 것을 하나도 건드리지 않는 방식**으로 올립니다.
 
-## 1. 기본 설치 (최초 1회)
+## 기존 서비스와 겹치지 않게 정한 것
 
-```bash
-sudo apt update && sudo apt install -y nginx git
-curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
-sudo apt install -y nodejs
-sudo corepack enable            # pnpm 사용
-sudo useradd -r -m -d /srv/wyd-qna -s /bin/bash wyd
-```
+| 항목 | 이 앱 | 이미 사용 중이라 피한 것 |
+| --- | --- | --- |
+| 이름 | `wyd2pm-qna` | `wyd-backend`(컨테이너·nginx·/srv) |
+| 설치 위치 | `/opt/wyd2pm-qna` | /opt/dorandoran, /opt/finalcheck, /srv/wyd-backend 등 |
+| 내부 포트 | `127.0.0.1:18797` | 3306·4000·5005·5432·6379·8080·8081·8090·8095·8787·18787 등 |
+| 주소 | `https://wyd2pm.31-97-71-87.sslip.io` | 다른 sslip.io 서브도메인들 |
+| Node | Docker 안의 Node 22 | 서버의 Node 20(다른 서비스가 사용)은 그대로 |
+| 방화벽 | 변경 없음 (80·443만 사용) | |
 
-## 2. 코드 받기와 빌드
-
-```bash
-sudo -u wyd git clone https://github.com/hahaha33221/WYDQaA.git /srv/wyd-qna
-cd /srv/wyd-qna
-sudo -u wyd cp .env.example .env     # ADMIN_CODE 를 꼭 바꾸세요
-sudo -u wyd pnpm install --frozen-lockfile
-sudo -u wyd pnpm run build
-```
-
-## 3. 서버 상시 실행 (systemd)
+## 최초 설치
 
 ```bash
-sudo cp deploy/wyd-qna.service /etc/systemd/system/
-sudo systemctl daemon-reload
-sudo systemctl enable --now wyd-qna
-curl -s http://127.0.0.1:3000/api/data     # {"faq":{},...} 가 나오면 정상
+git clone https://github.com/hahaha33221/WYDQaA.git /opt/wyd2pm-qna
+cd /opt/wyd2pm-qna
+cp .env.example .env && nano .env          # ADMIN_CODE 설정
+mkdir -p data && chown 1000:1000 data      # 컨테이너(node 사용자)가 쓸 수 있게
+docker compose up -d --build
+curl -s http://127.0.0.1:18797/api/data    # {"faq":{},...} 가 나오면 정상
+
+cp deploy/nginx.conf /etc/nginx/sites-available/wyd2pm-qna
+ln -s /etc/nginx/sites-available/wyd2pm-qna /etc/nginx/sites-enabled/
+nginx -t && systemctl reload nginx         # nginx -t 가 실패하면 reload 하지 않음
+certbot --nginx -d wyd2pm.31-97-71-87.sslip.io
 ```
 
-## 4. nginx + HTTPS
+## 업데이트
 
 ```bash
-sudo cp deploy/nginx.conf /etc/nginx/sites-available/wyd-qna   # server_name 수정
-sudo ln -s /etc/nginx/sites-available/wyd-qna /etc/nginx/sites-enabled/
-sudo nginx -t && sudo systemctl reload nginx
-sudo apt install -y certbot python3-certbot-nginx
-sudo certbot --nginx -d qna.example.com
-sudo ufw allow 'Nginx Full' && sudo ufw allow OpenSSH && sudo ufw enable
+cd /opt/wyd2pm-qna && bash deploy/deploy.sh
 ```
 
-## 5. 이후 업데이트
+## 되돌리기 (이 앱만 제거)
 
 ```bash
-cd /srv/wyd-qna && bash deploy/deploy.sh
+cd /opt/wyd2pm-qna && docker compose down
+rm /etc/nginx/sites-enabled/wyd2pm-qna && nginx -t && systemctl reload nginx
 ```
-
-`deploy.sh`는 `wyd` 사용자로 실행하고, 그 사용자에게 `systemctl restart wyd-qna` sudo 권한을 주거나 root로 실행하세요.
 
 ## 데이터 백업
 
-질문·답변은 `/srv/wyd-qna/data/db.json` 한 파일입니다. 행사 기간에는 주기적으로 복사해 두세요.
-
-```bash
-sudo crontab -e
-# 10분마다 백업
-*/10 * * * * cp /srv/wyd-qna/data/db.json /srv/wyd-qna/data/backup-$(date +\%H\%M).json
-```
-
-## 확인할 것 (VPS 정보 받은 뒤 확정)
-
-- [ ] VPS OS·접속 계정 (root / sudo 사용자)
-- [ ] 도메인 연결 여부 (없으면 IP로 우선 운영, HTTPS는 도메인 필요)
-- [ ] 같은 VPS에 다른 서비스가 있는지 (포트 3000·nginx 설정 충돌)
-- [ ] GitHub Pages 배포를 계속 둘지, VPS로 완전히 옮길지
+질문·답변은 `/opt/wyd2pm-qna/data/db.json` 한 파일입니다.
