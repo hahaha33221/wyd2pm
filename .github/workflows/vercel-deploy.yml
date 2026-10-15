@@ -17,6 +17,8 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # 배포가 멈춰도 오래 붙잡혀 있지 않도록 (보통 1분 안에 끝남)
+    timeout-minutes: 10
     env:
       VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
       VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
@@ -41,7 +43,8 @@ jobs:
           cache: pnpm
 
       - name: Install Vercel CLI
-        run: npm install --global vercel@latest
+        # 갑작스러운 CLI 변경으로 배포가 깨지지 않게 버전을 고정합니다
+        run: npm install --global vercel@64.2.0
 
       - name: Pull Vercel settings
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
