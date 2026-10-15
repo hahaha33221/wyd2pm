@@ -9,6 +9,7 @@ export const LANGS = [
 
 export const T = {
   ko: {
+    collapseNav: "목차 접기",
     menu: "목차",
     close: "닫기",
     navInfo: "회의 정보",
@@ -77,6 +78,7 @@ export const T = {
     urlCopy: "주소 복사"
   },
   en: {
+    collapseNav: "Hide contents",
     menu: "Contents",
     close: "Close",
     navInfo: "Meeting",
@@ -145,6 +147,7 @@ export const T = {
     urlCopy: "Copy URL"
   },
   es: {
+    collapseNav: "Ocultar índice",
     menu: "Índice",
     close: "Cerrar",
     navInfo: "Reunión",
@@ -213,6 +216,7 @@ export const T = {
     urlCopy: "Copiar enlace"
   },
   fr: {
+    collapseNav: "Masquer le sommaire",
     menu: "Sommaire",
     close: "Fermer",
     navInfo: "Réunion",
@@ -281,6 +285,7 @@ export const T = {
     urlCopy: "Copier le lien"
   },
   it: {
+    collapseNav: "Nascondi l'indice",
     menu: "Indice",
     close: "Chiudi",
     navInfo: "Incontro",
@@ -349,6 +354,7 @@ export const T = {
     urlCopy: "Copia link"
   },
   pt: {
+    collapseNav: "Ocultar índice",
     menu: "Índice",
     close: "Fechar",
     navInfo: "Reunião",

@@ -15,7 +15,7 @@ function groupBy(list, getKey, getNo) {
 }
 
 // 왼쪽 네비게이션: 엑셀 시트별(회의 정보 · 질의응답 · 의견)로 묶습니다.
-export default function Sidebar({ faqs, nav, onNavigate, open, onClose }) {
+export default function Sidebar({ faqs, nav, onNavigate, open, onClose, onCollapse }) {
   const { lang, pick, t } = useLanguage();
   const name = (o) => (o ? pick(o, lang) : "");
 
@@ -31,7 +31,6 @@ export default function Sidebar({ faqs, nav, onNavigate, open, onClose }) {
       })),
     [faqs, lang]
   );
-  const opinionGroups = useMemo(() => groupBy(OPINIONS, (o) => o.topic), []);
 
   // 펼침 상태: 선택된 대분류·중분류는 자동으로 펼침
   const [expanded, setExpanded] = useState({});
@@ -60,6 +59,12 @@ export default function Sidebar({ faqs, nav, onNavigate, open, onClose }) {
           <span className="sidebar-title">{t.menu}</span>
           <button type="button" className="sidebar-close" onClick={onClose} aria-label={t.close}>
             ✕
+          </button>
+          <button type="button" className="sidebar-collapse" onClick={onCollapse} title={t.collapseNav} aria-label={t.collapseNav}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" />
+              <path d="M20 4v16" />
+            </svg>
           </button>
         </div>
 
@@ -171,28 +176,17 @@ export default function Sidebar({ faqs, nav, onNavigate, open, onClose }) {
           })}
         </div>
 
-        {/* Opinions 시트 */}
+        {/* Opinions 시트: 분류는 의견 화면 안에서 고릅니다 */}
         <div className="nav-group">
           <div className="nav-group-label">{t.navOpinions}</div>
           <button
             type="button"
-            className={`nav-item ${active(nav.view === "opinions" && nav.opTopic === "all")}`}
-            onClick={() => go({ view: "opinions", opTopic: "all" })}
+            className={`nav-item ${active(nav.view === "opinions")}`}
+            onClick={() => go({ view: "opinions" })}
           >
             <span className="nav-item-text">{t.allOpinions}</span>
             <span className="nav-count">{OPINIONS.length}</span>
           </button>
-          {opinionGroups.map((g) => (
-            <button
-              key={g.label}
-              type="button"
-              className={`nav-item lvl2 ${active(nav.view === "opinions" && nav.opTopic === g.label)}`}
-              onClick={() => go({ view: "opinions", opTopic: g.label })}
-            >
-              <span className="nav-item-text">{g.label}</span>
-              <span className="nav-count">{g.items.length}</span>
-            </button>
-          ))}
         </div>
       </nav>
     </>

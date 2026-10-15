@@ -16,12 +16,37 @@ const readIntroSeen = () => {
   }
 };
 
-const START = { view: "qa", section: "all", topic: "all", sub: "all", opTopic: "all" };
+const START = { view: "qa", section: "all", topic: "all", sub: "all" };
+const WIDE = "(min-width: 960px)";
+
+const readCollapsed = () => {
+  try {
+    return localStorage.getItem("lfaq.navCollapsed") === "1";
+  } catch {
+    return false;
+  }
+};
 
 export default function ParticipantView() {
   const { faqs } = useStore();
   const [isLangModalOpen, setIsLangModalOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  // 넓은 화면에서 목차를 접어 둘지 (다음 방문 때도 기억)
+  const [collapsed, setCollapsed] = useState(readCollapsed);
+
+  const setCollapsedSaved = (v) => {
+    setCollapsed(v);
+    try {
+      localStorage.setItem("lfaq.navCollapsed", v ? "1" : "0");
+    } catch {
+      /* 저장이 막혀 있어도 동작에는 문제 없음 */
+    }
+  };
+  // 햄버거 버튼: 넓은 화면에서는 목차 펼치기, 좁은 화면에서는 서랍처럼 열기
+  const openMenu = () => {
+    if (window.matchMedia?.(WIDE).matches) setCollapsedSaved(false);
+    else setMenuOpen(true);
+  };
   // 왼쪽 네비게이션에서 고른 화면과 분류
   const [nav, setNav] = useState(START);
   // 처음 들어올 때만 로고 화면을 보여줍니다 (같은 창에서 새로고침하면 바로 본문).
@@ -48,31 +73,32 @@ export default function ParticipantView() {
   }
 
   return (
-    <div className="app-shell page-enter">
+    <div className={`app-shell page-enter ${collapsed ? "nav-collapsed" : ""}`}>
       <Sidebar
         faqs={faqs}
         nav={nav}
         onNavigate={navigate}
         open={menuOpen}
         onClose={() => setMenuOpen(false)}
+        onCollapse={() => setCollapsedSaved(true)}
       />
 
       <div className="participant-view-root">
         <HeaderPanel
           onOpenLangModal={() => setIsLangModalOpen(true)}
-          onOpenMenu={() => setMenuOpen(true)}
+          onOpenMenu={openMenu}
         />
 
         <main className="participant-main app-main">
           {nav.view === "info" && <MeetingInfoView />}
-          {nav.view === "opinions" && <OpinionsView topic={nav.opTopic} />}
+          {nav.view === "opinions" && <OpinionsView />}
           {nav.view === "qa" && (
             <FaqTabContent
               faqs={faqs}
               section={nav.section}
               topic={nav.topic}
               sub={nav.sub}
-              onOpenMenu={() => setMenuOpen(true)}
+              onOpenMenu={openMenu}
             />
           )}
         </main>
