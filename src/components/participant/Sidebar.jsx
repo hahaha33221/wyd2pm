@@ -1,6 +1,5 @@
 import React, { useMemo, useState, useEffect } from "react";
 import { useLanguage } from "../../context/LanguageContext";
-import { MEETING_INFO } from "../../constants/seedData";
 
 // 같은 값끼리 묶기 (엑셀 순서 유지). key는 한국어 원문이라 언어를 바꿔도 선택이 유지됩니다.
 function groupBy(list, getKey, getLabel, getNo) {
@@ -73,7 +72,6 @@ export default function Sidebar({ faqs, nav, onNavigate, open, onClose, onCollap
           <div className="nav-group-label">{t.navInfo}</div>
           <button type="button" className={`nav-item ${active(nav.view === "info")}`} onClick={() => go({ view: "info" })}>
             <span className="nav-item-text">{t.navInfoItem}</span>
-            <span className="nav-count">{MEETING_INFO.length}</span>
           </button>
         </div>
 
