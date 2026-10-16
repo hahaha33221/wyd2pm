@@ -430,12 +430,13 @@ button {
   letter-spacing: -0.01em;
 }
 
+/* 질문 글자는 굵게 하지 않고 답변과 같은 크기로 (색은 검정 유지) */
 .qa-question-title {
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 400;
   color: var(--wyd-navy);
-  line-height: 1.45;
-  letter-spacing: -0.015em;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
 }
 
 .qa-summary-arrow {
@@ -2056,4 +2057,56 @@ mark {
   .wyd-notice {
     max-width: 700px;
   }
+}
+
+/* Q&A 소개 > 취합 개요 */
+.overview-heading {
+  margin: 22px 0 6px;
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--wyd-navy);
+}
+
+.overview .view-title + .overview-heading {
+  margin-top: 6px;
+}
+
+.overview-list {
+  margin: 0;
+  padding: 0 0 0 18px;
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--text-main);
+}
+
+.overview-list li {
+  margin: 4px 0;
+}
+
+.overview-list li::marker {
+  color: var(--text-muted);
+}
+
+.overview-sub {
+  list-style: none;
+  margin-left: -18px !important;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 8px;
+  padding: 6px 0;
+}
+
+.overview-sub-label {
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.overview-sub ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.overview-sub ul li {
+  margin: 0 0 2px;
 }

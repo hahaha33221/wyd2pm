@@ -28,6 +28,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "src" / "constants" / "seedData.js"
 TRANSLATIONS = ROOT / "translations"
 ENABLED_LANGS = ROOT / "src" / "constants" / "enabledLangs.json"
+KO_OVERRIDES = ROOT / "overrides" / "ko.json"
 SQL_OUT = ROOT / "db" / "seed.sql"
 
 
@@ -156,6 +157,26 @@ def build_sql(qa, opinions, info, source):
     return "\n".join(out)
 
 
+def apply_ko_overrides(qa):
+    """overrides/ko.json 의 문장 교체를 적용합니다. 바꿀 문장을 못 찾으면 멈춥니다."""
+    if not KO_OVERRIDES.exists():
+        return []
+    rules = json.loads(KO_OVERRIDES.read_text(encoding="utf-8")).get("answers", {})
+    by_no = {it["no"]: it for it in qa}
+    done = []
+    for no, edits in rules.items():
+        it = by_no.get(no)
+        if not it:
+            sys.exit(f"overrides/ko.json: {no} 질문이 엑셀에 없습니다.")
+        for e in edits:
+            ans = it["a"].get("ko", "")
+            if e["from"] not in ans:
+                sys.exit(f"overrides/ko.json: {no} 답변에서 바꿀 문장을 찾지 못했습니다 → {e['from'][:40]}…")
+            it["a"]["ko"] = ans.replace(e["from"], e["to"])
+            done.append(no)
+    return done
+
+
 def load_translations():
     """translations/<lang>/*.json 을 언어별로 합칩니다."""
     out = {}
@@ -259,6 +280,7 @@ def main():
         if r["항목"]
     ]
 
+    overridden = apply_ko_overrides(qa)
     apply_translations(qa, opinions, info, load_translations(), problems)
     # DB(seed.sql)에는 모든 번역을 넣고, 화면 데이터(seedData.js)에는 켜진 언어만 넣습니다.
     sql = build_sql(qa, opinions, info, Path(sys.argv[1]).name)
@@ -296,6 +318,8 @@ def main():
 
     print(f"질문 {len(qa)}개 · 의견 {len(opinions)}개 · 회의 정보 {len(info)}개 → {OUT.relative_to(ROOT)}, {SQL_OUT.relative_to(ROOT)}")
     print(f"  화면에 싣는 언어: {', '.join(sorted(enabled))} (나머지 번역은 DB에만)")
+    if overridden:
+        print(f"  한국어 문장 교체(overrides/ko.json): {', '.join(overridden)}")
     for p in problems:
         print("  ! " + p)
 

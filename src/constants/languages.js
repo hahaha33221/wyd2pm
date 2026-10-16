@@ -18,11 +18,12 @@ export const LANGS = [
 
 export const T = {
   ko: {
+    meetingOverview: "회의 개요",
     collapseNav: "목차 접기",
     menu: "목차",
     close: "닫기",
-    navInfo: "회의 정보",
-    navInfoItem: "회의 개요",
+    navInfo: "Q&A 소개",
+    navInfoItem: "취합 개요",
     navQa: "질의응답",
     allQa: "전체 질문",
     categories: "분류",
@@ -83,11 +84,12 @@ export const T = {
     urlCopy: "주소 복사"
   },
   en: {
+    meetingOverview: "Meeting overview",
     collapseNav: "Hide contents",
     menu: "Contents",
     close: "Close",
-    navInfo: "Meeting",
-    navInfoItem: "Meeting overview",
+    navInfo: "About this Q&A",
+    navInfoItem: "Compilation overview",
     navQa: "Q&A",
     allQa: "All questions",
     categories: "Categories",
@@ -148,11 +150,12 @@ export const T = {
     urlCopy: "Copy URL"
   },
   es: {
+    meetingOverview: "Resumen de la reunión",
     collapseNav: "Ocultar índice",
     menu: "Índice",
     close: "Cerrar",
-    navInfo: "Reunión",
-    navInfoItem: "Resumen de la reunión",
+    navInfo: "Sobre estas preguntas",
+    navInfoItem: "Resumen de la recopilación",
     navQa: "Preguntas y respuestas",
     allQa: "Todas las preguntas",
     categories: "Categorías",
@@ -213,11 +216,12 @@ export const T = {
     urlCopy: "Copiar enlace"
   },
   fr: {
+    meetingOverview: "Aperçu de la réunion",
     collapseNav: "Masquer le sommaire",
     menu: "Sommaire",
     close: "Fermer",
-    navInfo: "Réunion",
-    navInfoItem: "Aperçu de la réunion",
+    navInfo: "À propos de ces Q&R",
+    navInfoItem: "Aperçu de la compilation",
     navQa: "Questions-réponses",
     allQa: "Toutes les questions",
     categories: "Catégories",
@@ -278,11 +282,12 @@ export const T = {
     urlCopy: "Copier le lien"
   },
   it: {
+    meetingOverview: "Panoramica dell'incontro",
     collapseNav: "Nascondi l'indice",
     menu: "Indice",
     close: "Chiudi",
-    navInfo: "Incontro",
-    navInfoItem: "Panoramica dell'incontro",
+    navInfo: "Informazioni su queste domande",
+    navInfoItem: "Panoramica della raccolta",
     navQa: "Domande e risposte",
     allQa: "Tutte le domande",
     categories: "Categorie",
@@ -343,11 +348,12 @@ export const T = {
     urlCopy: "Copia link"
   },
   pt: {
+    meetingOverview: "Resumo da reunião",
     collapseNav: "Ocultar índice",
     menu: "Índice",
     close: "Fechar",
-    navInfo: "Reunião",
-    navInfoItem: "Resumo da reunião",
+    navInfo: "Sobre estas perguntas",
+    navInfoItem: "Resumo da compilação",
     navQa: "Perguntas e respostas",
     allQa: "Todas as perguntas",
     categories: "Categorias",
