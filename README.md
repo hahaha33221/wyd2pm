@@ -58,21 +58,21 @@ python3 scripts/import_db.py "WYD_2nd_Prep_Meeting_QA_DB.xlsx"
 ## 다른 언어 (번역)
 
 한국어는 엑셀 원문 그대로이고, 다른 언어는 `translations/<언어코드>/*.json`에 따로 있습니다.
-지금은 한국어와 영어가 켜져 있고 나머지는 "(테스트)" 표시와 함께 비활성입니다. 켜진 언어의 번역만 화면 파일에 실리고,
+지금은 6개 언어가 모두 켜져 있습니다. 켜진 언어의 번역만 화면 파일에 실리고,
 모든 번역은 VPS DB에 저장됩니다. 언어를 켜려면:
 
 1. 확인된 번역으로 `translations/<언어코드>/*.json`을 바꿉니다.
 2. `src/constants/enabledLangs.json`에 언어 코드를 추가합니다 (예: `["ko", "en"]`).
 3. `python3 scripts/import_db.py "<엑셀 파일>"`을 다시 실행합니다.
-4. 검수가 끝났으면 `src/constants/languages.js`에서 그 언어의 `test: true`를 지워 "(테스트)" 표시를 없앱니다.
+4. 검수 전 번역이면 `src/constants/languages.js`에서 그 언어에 `test: true`를 붙여 "(테스트)"로 표시할 수 있습니다.
 
-| 언어 | 초안 번역 |
+| 언어 | 번역 |
 | --- | --- |
 | English (en) | **켜짐.** 질문·답변 146개, 분류명, 취합 개요 모두 확인된 영어(엑셀·워드 2026-10-19) |
-| Español (es) | 완료 |
-| Français (fr) | 완료 |
-| Italiano (it) | 없음 |
-| Português (pt) | 없음 |
+| Español (es) | **켜짐.** 확인된 영어를 기준으로 번역 (2026-10-19, 원어민 검수 전) |
+| Français (fr) | **켜짐.** 확인된 영어를 기준으로 번역 (2026-10-19, 원어민 검수 전) |
+| Italiano (it) | **켜짐.** 확인된 영어를 기준으로 번역 (2026-10-19, 원어민 검수 전) |
+| Português (pt) | **켜짐.** 확인된 영어를 기준으로 번역 (2026-10-19, 원어민 검수 전) |
 
 ## 배포 방식 두 가지
 

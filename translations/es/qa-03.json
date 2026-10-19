@@ -1,188 +1,51 @@
 {
+  "_출처": "확인된 영어(translations/en/qa.json)를 기준으로 번역 (2026-10-19)",
   "qa": {
-    "Q101": {
-      "q": "Pensamos elegir un paquete sin alojamiento y nos acompañan sacerdotes. Los días en que no hay Misa programada en la JMJ, ¿cómo podemos conseguir una parroquia cercana donde nuestro sacerdote celebre la Misa para nuestro grupo?",
-      "a": "La mayoría de las parroquias de Seúl se asignarán a grupos con paquetes con alojamiento, y los grupos asignados tendrán prioridad para usarlas. Les pedimos comprensión, ya que deberán solicitar su uso en los horarios en que no las utilicen los grupos asignados."
-    },
-    "Q102": {
-      "q": "¿Se ofrecerán materiales de seguridad y sensibilización sobre herejías, sectas y actividades similares para los peregrinos que se preparan para la JMJ?",
-      "a": "La Comisión sobre pseudorreligiones de la Conferencia Episcopal de Corea está preparando materiales informativos, y el borrador está en revisión. Tras la revisión, se traducirán a los idiomas oficiales y se distribuirán."
-    },
-    "Q103": {
-      "q": "Parece que deberíamos indicar como fecha de entrada no la de llegada a Seúl, sino la correspondiente al visado de entrada para los Días en las Diócesis.\n¿Pueden los participantes en los Días en las Diócesis solicitar el visado con la dirección del Comité Organizador de Seúl?",
-      "a": "La fecha de entrada en Corea debe ser la fecha real de llegada a Corea según el vuelo, independientemente de que participen o no en los Días en las Diócesis. Además, como el visado se solicita con los documentos emitidos por la JMJ, recomendamos indicar los datos del Comité Organizador Local como dirección y contacto en Corea al hacer la solicitud. No obstante, las fechas de entrada y salida deben coincidir con el calendario real de los vuelos."
-    },
-    "Q104": {
-      "q": "¿Se compartirá la información sobre alergias con los responsables de los Días en las Diócesis? La inscripción y el pago de la cuota y la contribución de los Días en las Diócesis se harán por separado, pero ¿se facilitará un enlace? ¿Hay que volver a introducirlo todo por completo y por separado?",
-      "a": "Al solicitar los Días en las Diócesis, por ahora solo se ha registrado el número de participantes; más adelante, cuando se envíe la lista a la diócesis, se pedirán los datos detallados. En ese momento se recogerán las alergias y otras particularidades. El donativo de los Días en las Diócesis se pagará a la diócesis de destino mediante transferencia bancaria."
-    },
-    "Q105": {
-      "q": "¿Puede la diócesis que organiza los Días en las Diócesis cubrir el coste del transporte hasta Seúl?",
-      "a": "Los Días en las Diócesis se organizan de forma distinta en cada diócesis. Para el traslado al evento principal después de los Días en las Diócesis, consulten directamente con la diócesis en la que deseen participar."
-    },
-    "Q106": {
-      "q": "Al participar en los Días en las Diócesis, ¿el transporte desde el aeropuerto hasta la diócesis anfitriona, desde Seúl hasta la diócesis anfitriona y, al terminar, hasta el alojamiento en Seúl lo proporcionan los organizadores o está incluido en el paquete, o debe organizarlo cada delegación o grupo?",
-      "a": "Los Días en las Diócesis se organizan de forma distinta en cada diócesis. Para el transporte desde el aeropuerto hasta la diócesis anfitriona y desde la diócesis anfitriona hasta el evento principal, consulten directamente con la diócesis en la que deseen participar."
-    },
-    "Q107": {
-      "q": "¿Cuándo comienza la inscripción para los Días en las Diócesis?",
-      "a": "La inscripción para los Días en las Diócesis ya ha comenzado. Se puede solicitar en persona, por teléfono, por correo electrónico o en la web de los Días en las Diócesis (https://wyd2027did.org). No obstante, es difícil solicitar plaza en las diócesis que ya han completado la capacidad preparada para los Días en las Diócesis."
-    },
-    "Q108": {
-      "q": "¿El periodo de los Días en las Diócesis también está cubierto por el seguro?",
-      "a": "Las diócesis que organizan los Días en las Diócesis están contratando un seguro del evento. No obstante, los peregrinos deben contratar su propio seguro de viaje personal."
-    },
-    "Q109": {
-      "q": "¿Hay alguna solución de alojamiento para quienes lleguen antes del 29 de julio de 2027 para los Días en las Diócesis?",
-      "a": "Los Días en las Diócesis se organizan de forma distinta en cada diócesis. Para el alojamiento en caso de llegada anticipada, consulten directamente con la diócesis en la que deseen participar."
-    },
-    "Q110": {
-      "q": "¿Los menores se alojarán en familias cuando participen en los Días en las Diócesis?",
-      "a": "Actualmente, la mayoría de las diócesis preparan el alojamiento en familias como opción básica. Cuando los menores participen en los Días en las Diócesis, solo se alojarán en familias si van acompañados de un tutor. Asegúrense de contar con suficientes tutores para el número de menores. Para alojamientos distintos del alojamiento en familias, consulten directamente con la diócesis en la que deseen participar."
-    },
-    "Q111": {
-      "q": "Parece que muchas diócesis ya están completas. ¿Es demasiado tarde para que encontremos una diócesis?",
-      "a": "A 7 de octubre, se ha cubierto el 55 % de la capacidad preparada para los peregrinos de los Días en las Diócesis. Todavía hay margen, e incluso si las solicitudes superan la capacidad preparada por la Iglesia en Corea para los Días en las Diócesis, hay margen para acogerlas. Todos los peregrinos que deseen participar en los Días en las Diócesis son bienvenidos. No se preocupen y presenten su solicitud."
-    },
-    "Q112": {
-      "q": "¿Desde cuándo es válida la inscripción en los Días en las Diócesis? Algunas diócesis ya se han puesto en contacto con nosotros, pero la inscripción en la JMJ propiamente dicha no empieza hasta octubre. ¿Basta con la inscripción en los Días en las Diócesis para que sea válida, o solo es válida tras inscribirse en la JMJ?",
-      "a": "La inscripción en los Días en las Diócesis se realiza por separado del evento principal. Ya ha comenzado y se desarrolla en los tres pasos siguientes.\n1) Registro del número de participantes 2) Registro de la lista de participantes 3) Pago del donativo del peregrino\nA modo de referencia, una vez cubierta la capacidad preparada por la diócesis en la que desean participar, ya no se podrá solicitar plaza en esa diócesis."
-    },
-    "Q113": {
-      "q": "Además, ¿el traslado de los Días en las Diócesis a la JMJ es el 2 o el 3 de agosto?",
-      "a": "Los Días en las Diócesis se celebran del 29 de julio al 2 de agosto de 2027, con cinco días y cuatro noches. Tras las actividades del 2 de agosto, ese mismo día se trasladan al evento principal."
-    },
-    "Q114": {
-      "q": "¿Cómo se están integrando en el programa de los DID los movimientos internacionales, las comunidades y las asociaciones laicales, cada uno con su carisma propio?",
-      "a": "Los Días en las Diócesis se orientan a la experiencia de la Iglesia local por parte de los peregrinos. Para la integración de su carisma propio con el programa de los Días en las Diócesis, consulten directamente con la diócesis en la que deseen participar."
-    },
-    "Q115": {
-      "q": "¿Cuál es el coste y cómo se paga? ¿Es gratuito o hay una cuota aparte? ¿Se paga al inscribirse o directamente a la diócesis?",
-      "a": "El donativo del peregrino para los Días en las Diócesis es igual en todas las diócesis: 100 $. La mayoría de las diócesis ofrecen alojamiento en familia, desayuno, seguro del evento y recuerdos. Para las comidas distintas del desayuno, el transporte y otros gastos, consulten directamente con la diócesis en la que deseen participar."
-    },
-    "Q116": {
-      "q": "Nos preocupa mucho la situación del Estadio de la Copa del Mundo y el Parque de la Paz. El estadio tiene capacidad para 60.000 personas, así que no habrá oportunidad de rotar a la gente de forma justa. Muchos lo sentirán como algo muy injusto, y este plan seguirá dejando fuera y rechazando a muchos jóvenes. En cada uno de los tres actos del Parque de la Paz/Estadio de la Copa del Mundo, ¿con qué criterio se seleccionará a los grupos para los asientos interiores y exteriores? ¿Por sorteo? ¿Qué se puede hacer para que esto no parezca excluyente? Parece una situación que divide entre 'los que tienen y los que no'. Los jóvenes necesitan algo que no sea excluyente. Esperamos que la Iglesia no vuelva a ser una organización que los rechaza.",
-      "a": "Como responsables del evento, comprendemos plenamente la preocupación de quien pregunta. Estableceremos principios y criterios de comunicación y asignación para que esa preocupación no se convierta en injusticia. Además, pondremos en marcha diversas medidas de atención y comunicación para que sentarse dentro del estadio no sea un privilegio y sentarse en el Parque de la Paz no signifique quedar al margen."
-    },
-    "Q117": {
-      "q": "En las divisiones del Vía Crucis no aparecen Centroamérica y el Caribe. ¿Se tendrán en cuenta?",
-      "a": "La división por continentes del Vía Crucis y de todos los actos del evento principal se basa en los continentes según la división de la Santa Sede."
-    },
-    "Q118": {
-      "q": "En los actos principales, como la Misa de apertura, la ceremonia de acogida del Papa y el Vía Crucis, ¿con qué criterio se asignarán a los grupos y peregrinos las zonas dentro y fuera del estadio? Quisiéramos saber si, por ejemplo, las delegaciones de las Conferencias Episcopales tendrán prioridad, y si será por asignación previa o por sorteo. Además, ¿qué medidas habrá para que los peregrinos que superen la capacidad del estadio puedan participar de forma significativa en los actos y Misas sobre el terreno?",
-      "a": "Los asientos del estadio se asignarán con antelación, pero no se dará prioridad a determinados clérigos. La Jornada de la Juventud debe dar prioridad a los jóvenes marginados, a las personas con discapacidad y a los jóvenes representantes de cada país. Se están estudiando diversos medios y medidas de atención para los peregrinos del parque. Estamos preparando diversas formas de atención y comunicación para que el estadio no sea un privilegio y para que sentarse en el parque no deje sensación de perderse algo."
-    },
-    "Q119": {
-      "q": "Nos preocupa que los actos se desarrollen de forma cerrada dentro del estadio y den una sensación de aislamiento. Aunque el Papa desee ser un pastor cercano, puede ser difícil sentir que es un evento para todos.",
-      "a": "Estamos estudiando diversas formas de evitar que el evento se desarrolle aislado dentro del estadio. Estamos preparando diversas formas de conectar no solo con los jóvenes del otro lado del mundo, más allá del estadio y de Seúl, sino también con los jóvenes que estén fuera del estadio."
-    },
-    "Q120": {
-      "q": "¿Hay actualmente información clara sobre dónde nos dejará el transporte y cuánto tendrán que caminar aproximadamente los jóvenes desde allí hasta el lugar de la Misa de clausura?",
-      "a": "El plan de funcionamiento se está elaborando, y poco antes del evento se distribuirá una guía de transporte para los peregrinos."
-    },
-    "Q121": {
-      "q": "Les pedimos una respuesta sobre la información confidencial del lugar de la Misa de clausura. ¿Quieren decir que no podemos compartirla con los obispos y responsables que nos pregunten? ¿Se puede compartir internamente? ¿O quieren decir que esta información debe quedarse en esta sala?",
-      "a": "La información sobre el lugar de la Misa de clausura puede compartirse internamente a nivel de Conferencias Episcopales y diócesis. Sin embargo, no debe compartirse en medios públicos (televisión, internet, YouTube, artículos de prensa, redes sociales personales, etc.) antes del anuncio oficial. Les pedimos que esperen con espíritu de oración hasta que se anuncie."
-    },
-    "Q122": {
-      "q": "Quisiéramos preguntar por el lugar de la Misa de clausura. ¿Podrían ubicar a los sacerdotes en las zonas A1 y A3? Así los jóvenes también podrían situarse en la zona A2, justo delante del escenario.",
-      "a": "Las zonas situadas delante del escenario se gestionarán de forma especial. Está previsto ubicar los asientos de los sacerdotes en una zona delantera aparte, y los jóvenes representantes, los jóvenes de sectores marginados y los participantes especiales se gestionarán por separado y se sentarán delante del escenario. La distribución concreta de los asientos solo se confirmará cuando se cierre la inscripción de peregrinos."
-    },
-    "Q123": {
-      "q": "¿Se publicará con antelación una lista de los objetos que se pueden y no se pueden llevar a la Misa de apertura y a la de clausura? Por ejemplo, ¿se puede montar una tienda de campaña en la Misa de clausura?",
-      "a": "Los objetos permitidos se anunciarán con antelación y, por sentido común, se limitarán a lo necesario para pasar una noche al raso. No se permite montar tiendas de campaña."
-    },
-    "Q124": {
-      "q": "En los actos del último día en la Base Aérea de Seúl, ¿habrá voluntarios que guíen a los peregrinos hacia sus zonas asignadas? En el último evento, algunos peregrinos tendían a no respetar sus zonas asignadas e intentaban ocupar sitios cerca del escenario.",
-      "a": "El COL está preparando todos los actos en los que se prevé gran afluencia de público dando la máxima prioridad a la seguridad. Para la seguridad de los peregrinos, prepararemos y aplicaremos numerosas medidas, incluido el despliegue de voluntarios."
-    },
-    "Q125": {
-      "q": "¿Cómo podemos llegar a la Base Aérea de Seúl para asistir a la Vigilia y a la Misa? ¿Se puede ir en transporte público?",
-      "a": "El desplazamiento será en metro y a pie. Los detalles se comunicarán en una\nguía de transporte para los peregrinos que se distribuirá poco antes del evento."
-    },
-    "Q126": {
-      "q": "¿Hay un plan alternativo en caso de lluvias torrenciales durante la Vigilia?",
-      "a": "En caso de lluvias torrenciales durante la Vigilia, está previsto utilizar las grandes carpas, hangares y otras instalaciones montadas en el lugar,\ny estamos preparando medidas concretas para caso de lluvia."
-    },
-    "Q127": {
-      "q": "¿Qué medidas se tomarán para proteger a los peregrinos en los actos al aire libre, como la Vigilia y la Misa de clausura, frente a las olas de calor y lluvias torrenciales previstas durante la JMJ? ¿El COL proporcionará sombra, agua potable y zonas de descanso? ¿Pueden indicarnos qué deben preparar los participantes, como gorras o sombrillas?",
-      "a": "Está previsto instalar dentro del recinto zonas de espera y carpas para hacer frente a las olas de calor y a las lluvias torrenciales, pero como será difícil acoger a todos, cada persona debe llevar su propia gorra y sombrilla. Lo recordaremos de nuevo cuando se abra la inscripción."
-    },
-    "Q128": {
-      "q": "Si al lugar de la Vigilia acuden más peregrinos de lo previsto y se supera la capacidad o se produce aglomeración, ¿qué medidas de control de acceso y de participación alternativa habrá para que ningún peregrino se quede sin entrar? En Lisboa, algunos peregrinos no pudieron entrar en el lugar de la Vigilia por la aglomeración.",
-      "a": "Estamos preparando indicaciones para un desplazamiento escalonado por grupos, para que el mayor número posible de peregrinos pueda asistir a la Misa de clausura."
-    },
-    "Q129": {
-      "q": "¿Cómo se organizarán la concelebración de los sacerdotes y la participación litúrgica de los diáconos en las Misas principales? Indíquennos si se necesita inscripción previa o verificación específica, y si las vestiduras litúrgicas, como el alba (Alb) y la estola (Stole), debe llevarlas cada uno.",
-      "a": "Para la Misa de apertura se está considerando reservar para los sacerdotes los asientos situados detrás del escenario. Para la Misa de clausura, con el fin de acercar más a los jóvenes al altar, se está considerando situar los asientos de los sacerdotes en los extremos izquierdo y derecho de la zona de los jóvenes. Ese día se repartirán gratuitamente sobre el terreno albas y estolas conmemorativas."
-    },
-    "Q130": {
-      "q": "¿Qué oportunidades y procedimientos hay en la JMJ para que organizaciones juveniles internacionales y organizadores externos propongan actos generales, talleres o actos paralelos, y participen y colaboren en ellos? ¿Qué deben preparar las organizaciones que deseen participar en el Festival de la Juventud, y cuáles son el procedimiento de solicitud y asignación de espacios y puestos y el coste de participación?",
-      "a": "Las organizaciones que deseen participar en el Festival de la Juventud pueden solicitar a través del sistema de inscripción el proyecto que quieran realizar. Son posibles proyectos de diversos géneros, como actuaciones, charlas, exposiciones, oración y alabanza o talleres, y la participación es gratuita. Pueden participar todos los países. La selección final de los equipos participantes la hacen la Santa Sede y el COL, y el COL asigna y proporciona los lugares."
-    },
-    "Q131": {
-      "q": "¿Cómo actúan los jóvenes de otros países en su Festival de la Juventud? ¿Hay que inscribirse? ¿Se asignan lugares? ¿Hay que pagar una cuota de participación?",
-      "a": "El Festival de la Juventud y la Feria Vocacional solo se celebran durante el evento principal, en la diócesis sede del evento principal. Los grupos u organizaciones que deseen participar pueden solicitarlo a través del sistema de inscripción. El Festival de la Juventud no tiene cuota de participación; para la Feria Vocacional se requiere un coste de 700 dólares estadounidenses por un puesto o 1.300 dólares estadounidenses por dos puestos. En el Festival de la Juventud, el equipo que realiza el proyecto puede elegir el idioma libremente. La mayoría incluye el inglés."
-    },
-    "Q132": {
-      "q": "¿En qué web podemos consultar el procedimiento para participar en el Festival de la Juventud y la Feria Vocacional? ¿Cómo podemos informarnos? Para enriquecer aún más esta experiencia, ¿podemos difundir ampliamente esta información en nuestros países? Quisiéramos saber cuándo, dónde y en qué formato se celebrarán la City of Joy, la Feria Vocacional y el Festival de la Juventud en la JMJ, si se repartirán entre varias diócesis y si habrá programas por grupos lingüísticos.",
-      "a": "Se puede solicitar la participación en el Festival de la Juventud y la Feria Vocacional a través del sistema de inscripción. Está previsto que el sistema de inscripción se abra hacia finales de octubre, y se puede acceder a él desde la web oficial (https://wydseoul.org/). Para enriquecer aún más esta experiencia, les pedimos que difundan ampliamente la web oficial."
-    },
-    "Q133": {
-      "q": "¿Cómo se inscriben los sacerdotes para confesar durante el 'Parque de la Reconciliación'?",
-      "a": "Los sacerdotes se inscriben en el sistema de inscripción junto con su grupo de peregrinos. Como la inscripción del grupo la hace el líder, los sacerdotes que deseen confesar en el 'Parque de la Reconciliación' deben comunicarle las fechas y horas en que están disponibles. Los sacerdotes que peregrinan solos, sin grupo, pueden inscribirse como grupo de una persona."
-    },
-    "Q134": {
-      "q": "¿Qué significa 'puesto' en la Feria Vocacional?",
-      "a": "En la Feria Vocacional (Feria Cultural Católica), un 'puesto' es un espacio de 3 m x 3 m formado por una carpa o un stand que se asigna a cada instituto religioso o asociación apostólica/de piedad que participa en la feria. Cada instituto religioso puede solicitar hasta dos."
-    },
-    "Q135": {
-      "q": "¿En qué consiste la Feria Vocacional? ¿Para qué se usa concretamente la cuota de participación?",
-      "a": "La Feria Vocacional es un evento que ayuda a los peregrinos a discernir su propia vocación compartiendo con ellos el carisma y la espiritualidad de cada instituto religioso o asociación participante. La cuota de participación se destina al alquiler del recinto y al montaje de los puestos."
-    },
-    "Q136": {
-      "q": "¿Cuál es el criterio para seleccionar a los sacerdotes que confesarán? ¿Solo pueden participar sacerdotes seleccionados o cualquiera? ¿Deben indicar los sacerdotes su participación al inscribirse?",
-      "a": "Cualquier sacerdote puede participar, pero debe estar inscrito en el sistema de inscripción para la verificación de su identidad."
-    },
-    "Q137": {
-      "q": "¿Cuántos días funcionará el Parque de la Reconciliación durante este evento? ¿Cuántas horas al día habrá confesiones? ¿Podrán los jóvenes entrar y salir libremente del parque? Durante el Jubileo en Roma, el acceso a los lugares de confesión fue muy limitado y casi controlado.",
-      "a": "El 'Parque de la Reconciliación' funcionará de martes a viernes de la semana del evento principal, de 13:00 a 17:00.\nPor el sigilo sacramental, los jóvenes no podrán pasear libremente por el parque.\nSe podrá entrar al parque siguiendo un recorrido establecido y las indicaciones de los voluntarios. Cualquier persona preparada puede recibir el sacramento de la confesión."
-    },
-    "Q138": {
-      "q": "Si nos alojamos en un hotel, ¿cómo se nos indicará el camino al lugar de la catequesis?",
-      "a": "Los grupos que hayan organizado su propio alojamiento, como hoteles, también deben desplazarse según el lugar de catequesis asignado. La información sobre los lugares de catequesis y los desplazamientos se anunciará más adelante."
-    },
-    "Q139": {
-      "q": "En Panamá se nos facilitaron materiales de catequesis antes de los actos previos y del evento principal. ¿Será así también esta vez?",
-      "a": "Si es posible, prevemos que se faciliten antes del evento principal."
-    },
-    "Q140": {
-      "q": "Aunque nuestro alojamiento esté algo alejado de Seúl, ¿se nos puede asignar el lugar de catequesis más cercano teniendo en cuenta la ubicación del alojamiento?",
-      "a": "El trayecto y el tiempo desde el alojamiento hasta el lugar de catequesis varían según la ubicación del alojamiento, por lo que les pedimos que lo consulten con una app de mapas u otra herramienta a partir de la dirección del lugar que se les indique."
-    },
-    "Q141": {
-      "q": "¿Cómo se solicita la catequesis y se organizará como un programa participativo y dinámico como en Lisboa?",
-      "a": "Las catequesis se organizarán estimando el número de participantes una vez seleccionados los ponentes. Prevemos que se desarrollen de forma similar a Lisboa."
-    },
-    "Q142": {
-      "q": "¿Pueden indicarnos en qué idiomas se impartirán las catequesis?",
-      "a": "Prevemos que se impartan en los seis idiomas oficiales."
-    },
-    "Q143": {
-      "q": "¿Cuándo se confirmarán y comunicarán los lugares de catequesis?",
-      "a": "Se confirmarán de forma escalonada a partir de aproximadamente un mes antes del evento y se comunicarán por correo electrónico."
-    },
-    "Q144": {
-      "q": "Si el número total de inscritos supera la capacidad de los lugares de catequesis, ¿cómo se conseguirán y asignarán los lugares y las plazas para que todos los peregrinos puedan participar en las catequesis?",
-      "a": "Se siguen comprobando de forma continua los lugares de catequesis, y haremos todo lo posible para que todos los participantes que hayan solicitado la catequesis puedan asistir."
-    },
-    "Q145": {
-      "q": "Si queremos organizar una catequesis, ¿debemos avisar con antelación?",
-      "a": "Los ponentes y los temas de las catequesis los selecciona el DLFL."
-    },
-    "Q146": {
-      "q": "¿Qué debemos hacer para participar como animadores de la catequesis?",
-      "a": "Les informaremos a medida que avancemos en las conversaciones con el DLFL sobre las catequesis."
-    }
+    "Q101": {"q": "Nos alojamos en un alojamiento que no es del COL y nos acompañan nuestros sacerdotes. Los días en que no hay Misa programada en la JMJ, ¿cómo podemos encontrar una parroquia cercana donde nuestro sacerdote pueda celebrar la Misa para nuestro grupo?", "a": "La mayoría de las parroquias de Seúl se asignarán a grupos con paquetes con alojamiento, por lo que esos grupos asignados tendrán prioridad para usarlas. Les pedimos comprensión, ya que tendrán que solicitar su uso en horarios en que no las utilicen los grupos asignados."},
+    "Q102": {"q": "¿Se facilitarán a los peregrinos que se preparan para la JMJ materiales de seguridad y sensibilización sobre grupos heréticos y actividades sectarias?", "a": "La Comisión contra las Pseudorreligiones de la Conferencia Episcopal Católica de Corea está preparando materiales informativos, y el borrador está en revisión. Tras la revisión, se traducirán a los idiomas oficiales y se distribuirán."},
+    "Q103": {"q": "Parece que la fecha de entrada debería indicarse como la fecha de entrada del visado para los Días en las Diócesis, y no como la fecha de llegada a Seúl.\n¿Pueden los participantes en los DID solicitar el visado con la dirección del COL de Seúl?", "a": "La fecha de entrada en Corea debe ser la fecha real de llegada de su vuelo a Corea, participen o no en los Días en las Diócesis.\n\nLas solicitudes de visado se hacen sobre la base de documentos emitidos por la JMJ, por lo que recomendamos indicar los datos del COL de la JMJ como dirección y contacto en Corea. No obstante, las fechas de entrada y salida deben coincidir con el calendario real de sus vuelos."},
+    "Q104": {"q": "¿Se compartirá la información sobre alergias con los responsables de los Días en las Diócesis?\nLa inscripción y el pago de la cuota y la contribución de los Días en las Diócesis serán probablemente aparte, pero ¿se facilitará un enlace? ¿O hay que volver a introducirlo todo de forma totalmente separada?", "a": "En esta fase de la solicitud de los Días en las Diócesis, solo se ha registrado el tamaño de los grupos. La información detallada se pedirá más adelante, cuando se envíe la lista de nombres a la diócesis, y en ese momento se recogerán las alergias y otras necesidades especiales.\n\nLa contribución de los Días en las Diócesis se paga a la diócesis de acogida mediante transferencia bancaria."},
+    "Q105": {"q": "¿Puede la diócesis que acoge los DID cubrir el coste del transporte hasta Seúl?", "a": "Los Días en las Diócesis se organizan de forma distinta en cada diócesis. Para el desplazamiento a Seúl después de los Días en las Diócesis, contacten directamente con la diócesis a la que deseen unirse."},
+    "Q106": {"q": "Para los Días en las Diócesis, ¿el transporte desde el aeropuerto hasta la diócesis de acogida, desde Seúl hasta la diócesis de acogida y, al terminar los DID, hasta el alojamiento en Seúl lo proporcionan los anfitriones o está incluido en el paquete, o debe organizarlo cada delegación o grupo?", "a": "Los Días en las Diócesis se organizan de forma distinta en cada diócesis. Para el transporte desde el aeropuerto hasta la diócesis de acogida y desde la diócesis de acogida hasta Seúl, contacten directamente con la diócesis a la que deseen unirse."},
+    "Q107": {"q": "¿Cuándo comienza la inscripción para los Días en las Diócesis?", "a": "La inscripción para los Días en las Diócesis ya ha comenzado. Pueden solicitarla en persona, por teléfono, por correo electrónico o a través de la web de los Días en las Diócesis (https://wyd2027did.org). No obstante, es difícil solicitar plaza en una diócesis cuyas plazas para los Días en las Diócesis ya estén cubiertas."},
+    "Q108": {"q": "¿El periodo de los Días en las Diócesis también está cubierto por el seguro?", "a": "Las diócesis que acogen los Días en las Diócesis están contratando un seguro de responsabilidad civil para el evento. No obstante, el seguro de viaje personal deben contratarlo los propios peregrinos."},
+    "Q109": {"q": "¿Hay alguna solución de alojamiento para quienes lleguen para los DID antes del 29 de julio de 2027?", "a": "Los Días en las Diócesis se organizan de forma distinta en cada diócesis. Para el alojamiento en caso de llegada anticipada, contacten directamente con la diócesis a la que deseen unirse."},
+    "Q110": {"q": "¿Los menores que participen en los Días en las Diócesis se alojarán en familias?", "a": "Actualmente, la mayoría de las diócesis preparan el alojamiento en familias como opción estándar. Los menores que participen en los Días en las Diócesis solo se alojarán en familias si van acompañados de un acompañante. Asegúrense de contar con suficientes acompañantes para el número de menores. Para alojamientos distintos del alojamiento en familias, contacten directamente con la diócesis a la que deseen unirse."},
+    "Q111": {"q": "Parece que muchas diócesis ya están completas. ¿Es demasiado tarde para que encontremos una diócesis?", "a": "A 7 de octubre, se han recibido solicitudes para el 55 % de las plazas preparadas para los peregrinos de los Días en las Diócesis. Todavía hay sitio, e incluso si las solicitudes superan las plazas preparadas por la Iglesia en Corea, hay capacidad para acogerlas. Todos los peregrinos que deseen participar en los Días en las Diócesis son bienvenidos. Presenten su solicitud sin preocupación."},
+    "Q112": {"q": "¿Desde cuándo es válida la inscripción en los DID? Algunas diócesis ya se han puesto en contacto con nosotros, pero la inscripción propiamente dicha en la JMJ no empieza hasta octubre. ¿Es válida la inscripción en los DID por sí sola, o solo una vez que nos hayamos inscrito en la JMJ?", "a": "La inscripción en los Días en las Diócesis es independiente de la inscripción en la JMJ Seúl 2027. Ya ha comenzado y se desarrolla en tres pasos:\n1) registro del tamaño del grupo 2) registro de la lista de nombres 3) pago de la contribución del peregrino\nTengan en cuenta que, una vez cubiertas las plazas preparadas por la diócesis a la que desean unirse, ya no podrán solicitar plaza en esa diócesis."},
+    "Q113": {"q": "Además, ¿el traslado de los DID a la JMJ es el 2 o el 3 de agosto?", "a": "Los Días en las Diócesis duran cinco días y cuatro noches, del 29 de julio al 2 de agosto de 2027.\nTras el programa del 2 de agosto, los peregrinos se trasladan al Evento Principal ese mismo día."},
+    "Q114": {"q": "¿Cómo se están integrando los movimientos internacionales, las comunidades y las asociaciones laicales en el programa de los DID, ejerciendo al mismo tiempo sus propios carismas?", "a": "Los Días en las Diócesis están pensados para que los peregrinos vivan la experiencia de la Iglesia local. Para integrar su propio carisma en el programa de los Días en las Diócesis, contacten directamente con la diócesis a la que deseen unirse."},
+    "Q115": {"q": "¿Cuánto cuesta y cómo se paga? ¿Es gratuito o hay un cargo aparte? ¿El pago se hace al inscribirse o directamente a la diócesis?", "a": "La contribución del peregrino para los Días en las Diócesis es la misma en todas las diócesis: 100 $. La mayoría de las diócesis ofrecen alojamiento en familia, desayuno, seguro del evento y un recuerdo. Para las comidas distintas del desayuno, el transporte y otros gastos, contacten directamente con la diócesis a la que deseen unirse."},
+    "Q116": {"q": "Si el acto se celebra dentro del estadio, no habrá oportunidad de rotar a la gente de forma justa. Muchos lo sentirán como algo profundamente injusto, y el plan seguirá acabando por excluir y rechazar a muchos jóvenes.\n¿Con qué criterio se seleccionará a los grupos para los asientos interiores y exteriores? ¿Será por sorteo? ¿Qué se puede hacer para que esto no parezca excluyente? Parece una situación que divide a 'los que tienen' de 'los que no tienen'. Los jóvenes necesitan algo que no sea excluyente. Esperamos que la Iglesia no vuelva a convertirse en una institución que los rechaza.", "a": "Como responsables de los actos, comprendemos plenamente su preocupación. Estableceremos principios y criterios de comunicación y asignación para que esta preocupación no se convierta en injusticia. También pondremos en marcha diversas medidas de atención y medios de comunicación para que ningún peregrino se sienta excluido por el lugar donde esté sentado."},
+    "Q117": {"q": "Centroamérica y el Caribe no aparecen en las divisiones regionales del Vía Crucis. ¿Se tendrán en cuenta?", "a": "Las divisiones continentales del Vía Crucis y de todos los actos del Evento Principal siguen los continentes según la división de la Santa Sede."},
+    "Q118": {"q": "Si el acto se celebra dentro del estadio, ¿con qué criterio se asignan a los grupos y peregrinos los lugares dentro y fuera del estadio? ¿Hay prioridad para las delegaciones de las conferencias episcopales y similares, y es por asignación previa o por sorteo? ¿Y qué se hará para que los peregrinos que superen la capacidad del estadio también puedan participar de forma significativa en los actos y Misas sobre el terreno?", "a": "Los asientos dentro del estadio se asignarán con antelación, pero no se dará prioridad a determinados clérigos. La Jornada Mundial de la Juventud debe dar prioridad a los jóvenes marginados, a las personas con discapacidad y a los jóvenes representantes de cada país. Se están estudiando diversas soluciones y medidas para los peregrinos que estén fuera del estadio. Estamos preparando diversas medidas de atención y medios de comunicación para que estar dentro del estadio no se convierta en un privilegio y quienes estén fuera no sientan que se lo pierden."},
+    "Q119": {"q": "Nos preocupa que los actos se celebren a puerta cerrada dentro del estadio y den una sensación de aislamiento. Aunque el Santo Padre quiera ser un pastor que se acerca, puede ser difícil sentir que se trata de un encuentro para todos.", "a": "Estamos estudiando diversas formas de evitar que el evento quede aislado dentro del estadio. Estamos preparando diversas formas de conectar no solo con los jóvenes más allá del estadio y de Seúl, al otro lado del mundo, sino también con los jóvenes que estén fuera del estadio."},
+    "Q120": {"q": "¿Hay ya información clara sobre dónde nos dejará el transporte y, aproximadamente, cuánto tendrán que caminar los jóvenes desde allí hasta el lugar de la Misa de Clausura?", "a": "El plan de funcionamiento se está elaborando actualmente, y poco antes del evento se distribuirá una guía de transporte para los peregrinos."},
+    "Q121": {"q": "Les pedimos una respuesta sobre la información confidencial del lugar de la Misa de Clausura. ¿Quieren decir que no puede compartirse con los obispos y responsables que pregunten por ella? ¿Se puede compartir internamente? ¿O esta información debe quedarse en esta sala?", "a": "La información sobre el lugar de la Misa de Clausura puede compartirse internamente a nivel de conferencias episcopales y diócesis. Sin embargo, no debe compartirse por canales públicos (radio y televisión, internet, YouTube, artículos de prensa, redes sociales personales, etc.) antes del anuncio oficial. Les rogamos que esperen con espíritu de oración hasta que se anuncie."},
+    "Q122": {"q": "Sobre el lugar de la Misa de Clausura: ¿podrían ubicar a los sacerdotes en los sectores A1 y A3? Así los jóvenes podrían ocupar el sector A2, justo delante del escenario.", "a": "Los sectores situados delante del escenario se gestionarán de forma especial. Está previsto ubicar los asientos de los sacerdotes en un sector delantero aparte, y los jóvenes representantes, los jóvenes de comunidades marginadas y los participantes especiales se gestionarán por separado y se sentarán delante del escenario. La distribución exacta de los asientos solo se confirmará una vez cerrada la inscripción de peregrinos."},
+    "Q123": {"q": "¿Se publicará con antelación una lista de los objetos que se pueden y no se pueden llevar a las Misas de Apertura y de Clausura? Por ejemplo, ¿podemos montar tiendas de campaña en la Misa de Clausura?", "a": "Los objetos que se pueden llevar se anunciarán con antelación y se limitarán a lo razonablemente necesario para una noche al aire libre. No se pueden montar tiendas de campaña."},
+    "Q124": {"q": "En la Misa de Clausura, ¿habrá voluntarios que guíen a los peregrinos hacia sus sectores asignados? En el último evento, algunos peregrinos tendían a no respetar sus sectores asignados e intentaban ocupar sitios cerca del escenario.", "a": "Para todos los actos en los que se prevé gran afluencia de público, el COL se está preparando con la seguridad como primera prioridad. Para la seguridad de los peregrinos, prepararemos y aplicaremos numerosas medidas, incluido el despliegue de voluntarios."},
+    "Q125": {"q": "¿Cómo llegamos al lugar de la Vigilia y la Misa de Clausura? ¿Podemos ir en transporte público?", "a": "El desplazamiento será en metro y a pie. Los detalles figurarán en la guía de transporte para los peregrinos, que se distribuirá poco antes del evento."},
+    "Q126": {"q": "¿Hay un plan alternativo en caso de lluvias intensas durante la Vigilia?", "a": "Si hay lluvias intensas durante la Vigilia, está previsto utilizar las grandes carpas, hangares y otras estructuras del lugar, y estamos preparando un plan concreto para caso de lluvia."},
+    "Q127": {"q": "¿Qué medidas protegerán a los peregrinos en los actos al aire libre, como la Vigilia y la Misa de Clausura, frente a las olas de calor y las lluvias intensas previstas durante la JMJ? ¿Proporcionará el COL sombra, agua potable y zonas de descanso? ¿Pueden indicarnos qué deben llevar los propios participantes, como gorras y sombrillas?", "a": "Está previsto instalar zonas de espera o carpas dentro del recinto para protegerse del calor y de las lluvias intensas, pero no podrán acoger a todos, por lo que cada persona debe llevar su propia gorra y sombrilla (paraguas para el sol). Lo recordaremos una vez abierta la inscripción."},
+    "Q128": {"q": "Si al lugar de la Vigilia acuden más peregrinos de lo previsto y se supera la capacidad o se produce aglomeración, ¿qué medidas de control de acceso y formas alternativas de participación habrá para que ningún peregrino se quede sin poder entrar? En Lisboa, algunos peregrinos no pudieron entrar en el lugar de la Vigilia por la aglomeración.", "a": "Estamos preparando indicaciones de desplazamiento escalonado para cada grupo, para que el mayor número posible de peregrinos pueda asistir a la Misa de Clausura."},
+    "Q129": {"q": "¿Cómo se organizarán la concelebración de los sacerdotes y la participación litúrgica de los diáconos en las Misas principales? Indíquennos si se necesita inscripción previa o verificación aparte, y si cada uno debe llevar sus propias vestiduras, como el alba y la estola.", "a": "Para la Misa de Apertura, estamos considerando asientos exclusivos para los sacerdotes detrás del escenario. Para la Misa de Clausura, con el fin de acercar a los jóvenes al altar, estamos considerando situar los asientos de los sacerdotes en los extremos izquierdo y derecho de la zona de los jóvenes. La distribución de estolas y vestiduras está actualmente en estudio. Daremos más detalles una vez confirmada."},
+    "Q130": {"q": "¿Qué oportunidades y procedimientos existen para que organizaciones juveniles internacionales y organizadores externos propongan actos generales, talleres o actos paralelos, participen en ellos o colaboren en la JMJ Seúl 2027?\n\n¿Qué deben preparar las organizaciones que deseen participar en el Festival de la Juventud, y cuáles son los procedimientos de solicitud y asignación de espacios o stands y los costes de participación?", "a": "Las organizaciones que deseen participar en el Festival de la Juventud pueden presentar a través del sistema de inscripción el proyecto que quieran realizar. Son posibles proyectos de muchos géneros —actuaciones, charlas, exposiciones, oración y alabanza, talleres y más— y la participación es gratuita. Pueden participar organizaciones de todos los países. La selección final de los equipos participantes la realizan la Santa Sede y el COL, y el COL asigna y proporciona los lugares."},
+    "Q131": {"q": "¿Cómo actúan los jóvenes de otros países en el Festival de la Juventud? ¿Hay que inscribirse? ¿Se asigna un lugar? ¿Tienen que pagar una cuota de participación?", "a": "El Festival de la Juventud y la Feria Vocacional solo se celebran durante la JMJ, en la diócesis anfitriona. Los grupos u organizaciones que deseen participar pueden solicitarlo a través del sistema de inscripción. El Festival de la Juventud no tiene cuota de participación; para la Feria Vocacional hay una tarifa de 700 USD por un stand y de 1.300 USD por dos. En el Festival de la Juventud, el equipo que realiza un proyecto puede decidir el idioma como desee. La mayoría incluye el inglés."},
+    "Q132": {"q": "¿En qué web o página podemos consultar el procedimiento para participar en el Festival de la Juventud y la Feria Vocacional? ¿Cómo podemos informarnos? ¿Podemos difundir ampliamente esta información en cada uno de nuestros países para enriquecer aún más la experiencia?\n\n¿Cuándo, dónde y en qué formato se celebrarán la City of Joy, la Feria Vocacional y el Festival de la Juventud de la JMJ Seúl 2027? ¿Se repartirán entre varias diócesis y habrá programas por grupos lingüísticos?", "a": "Pueden solicitar la participación en el Festival de la Juventud y la Feria Vocacional a través del sistema de inscripción. Está previsto que el sistema de inscripción se abra hacia finales de octubre, y se puede acceder a él a través de la web oficial de la JMJ (https://wydseoul.org/). Para enriquecer aún más esta experiencia, les rogamos que ayuden a difundir ampliamente la web oficial de la JMJ."},
+    "Q133": {"q": "¿Cómo se inscriben los sacerdotes para confesar en el Parque de la Reconciliación?", "a": "Los sacerdotes se inscriben junto con su grupo de peregrinos en el sistema de inscripción. Como la inscripción del grupo la hace el líder del grupo, los sacerdotes que deseen confesar en el Parque de la Reconciliación deben indicar a su líder las fechas y horas en que están disponibles. Los sacerdotes que peregrinan solos, sin grupo, pueden inscribirse como grupo de una sola persona."},
+    "Q134": {"q": "¿Qué significa 'stand' en la Feria Vocacional?", "a": "En la Feria Vocacional, un 'stand' es un espacio de 3 m × 3 m, formado por una carpa o un expositor, que se asigna a cada congregación religiosa o asociación apostólica o de piedad participante. Cada congregación puede solicitar hasta dos."},
+    "Q135": {"q": "¿En qué consiste la Feria Vocacional? ¿Para qué se usa concretamente la cuota de participación?", "a": "La Feria Vocacional ayuda a los peregrinos a discernir su propia vocación compartiendo con ellos el carisma y la espiritualidad de cada congregación u organización participante. La cuota de participación se destina al alquiler del recinto y al montaje de los stands."},
+    "Q136": {"q": "¿Cuáles son los criterios para seleccionar a los sacerdotes que confesarán? ¿Solo pueden participar los sacerdotes seleccionados o cualquiera? ¿Deben indicar los sacerdotes al inscribirse si participarán?", "a": "Cualquier sacerdote puede participar, pero debe estar inscrito en el sistema de inscripción para la verificación de su identidad."},
+    "Q137": {"q": "¿Cuántos días abrirá el Parque de la Reconciliación durante el evento? ¿Cuántas horas al día habrá confesiones? ¿Pueden los jóvenes entrar y salir libremente del parque? En el Jubileo de Roma, el acceso a los lugares donde se confesaba estaba muy restringido, casi controlado.", "a": "El Parque de la Reconciliación abrirá de martes a viernes de la semana del Evento Principal, de 13:00 a 17:00.\nPor el sigilo sacramental, los jóvenes no pueden pasear libremente por el parque.\nLa entrada al parque sigue un recorrido establecido bajo la guía de los voluntarios. Cualquier persona preparada puede recibir el Sacramento de la Reconciliación."},
+    "Q138": {"q": "Si nos alojamos en un hotel, ¿cómo se nos indicará la forma de llegar al lugar de la catequesis?", "a": "Los grupos que hayan organizado su propio alojamiento, como un hotel, también deben desplazarse a su lugar de catequesis asignado. La información sobre los lugares de las catequesis y cómo llegar se anunciará más adelante."},
+    "Q139": {"q": "En Panamá se facilitaron materiales de catequesis antes de los actos previos y del evento principal. ¿Ocurrirá lo mismo esta vez?", "a": "Prevemos que se faciliten antes del evento principal, si es posible."},
+    "Q140": {"q": "Aunque nuestro alojamiento esté algo lejos de Seúl, ¿se nos puede asignar el lugar de catequesis más cercano teniendo en cuenta su ubicación?", "a": "El trayecto y el tiempo de viaje desde su alojamiento hasta el lugar de catequesis dependen de dónde se alojen, por lo que les rogamos que los consulten con una app de mapas o similar, a partir de la dirección del lugar que se les indique."},
+    "Q141": {"q": "¿Cómo nos apuntamos a las catequesis? ¿Serán programas participativos y dinámicos como los de la JMJ Lisboa 2023?", "a": "Las catequesis se llevarán a cabo una vez seleccionados los ponentes y estimado el número de participantes. Prevemos que se desarrollen de forma muy parecida a Lisboa."},
+    "Q142": {"q": "¿Pueden indicarnos los idiomas que se usarán en las sesiones de catequesis?", "a": "Prevemos que se impartan en los seis idiomas oficiales de la JMJ Seúl 2027."},
+    "Q143": {"q": "¿Cuándo se confirmarán y anunciarán los lugares de las catequesis?", "a": "Se confirmarán de forma escalonada y se anunciarán por correo electrónico a partir de aproximadamente un mes antes del evento."},
+    "Q144": {"q": "Si el número total de inscritos supera la capacidad de los lugares de las catequesis, ¿cómo se conseguirán y asignarán los lugares y las plazas para que todos los peregrinos puedan participar en una catequesis?", "a": "Los lugares de las catequesis se están comprobando de forma continua, y haremos todo lo posible para que todos los participantes que se hayan apuntado a una catequesis puedan asistir."},
+    "Q145": {"q": "Si queremos organizar catequesis, ¿debemos avisarles con antelación?", "a": "Los ponentes y los temas de las catequesis los selecciona el DLFL."},
+    "Q146": {"q": "¿Qué debemos hacer para participar como animadores de catequesis?", "a": "Compartiremos información sobre las catequesis a medida que avancen las conversaciones con el DLFL."}
   }
 }

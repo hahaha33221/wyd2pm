@@ -1,0 +1,64 @@
+{
+  "_출처": "확인된 영어(분류: 영어 엑셀, 회의 개요: 영어 취합개요 워드)를 기준으로 번역 (2026-10-19)",
+  "sections": {
+    "Ⅰ": "Candidatura e iscrizione",
+    "Ⅱ": "Supporto ai pellegrini",
+    "Ⅲ": "Arrivo e operazioni sul posto",
+    "Ⅳ": "Programmi"
+  },
+  "topics": {
+    "Ⅰ-1": "Iscrizione",
+    "Ⅰ-2": "Visti e K-ETA",
+    "Ⅰ-3": "Volontari",
+    "Ⅱ-1": "Pacchetti del pellegrino",
+    "Ⅱ-2": "Tutela e minori",
+    "Ⅱ-3": "Supporto all'accessibilità",
+    "Ⅲ-1": "Check-in",
+    "Ⅲ-2": "App del Pellegrino",
+    "Ⅲ-3": "Questioni relative al Comitato Organizzatore Locale (COL)",
+    "Ⅳ-1": "Giornate nelle Diocesi (GD)",
+    "Ⅳ-2": "Giornata Mondiale della Gioventù (GMG)"
+  },
+  "subtopics": {
+    "Ⅰ-1-a": "Tipi di gruppo",
+    "Ⅰ-1-b": "Come iscriversi",
+    "Ⅰ-1-c": "Pagamento e Fondo di Solidarietà",
+    "Ⅰ-1-d": "Iscrizione dei vescovi",
+    "Ⅱ-1-a": "Trasporti",
+    "Ⅱ-1-b": "Alloggio",
+    "Ⅱ-1-c": "Pasti",
+    "Ⅱ-1-d": "Assistenza medica",
+    "Ⅲ-1-a": "Kit del pellegrino",
+    "Ⅲ-1-b": "Procedura di check-in",
+    "Ⅲ-1-c": "Centro del Pellegrino",
+    "Ⅲ-2-a": "Funzioni",
+    "Ⅲ-2-b": "Pass del Pellegrino (carta)",
+    "Ⅳ-2-a": "Messa di Apertura · Cerimonia di Accoglienza del Papa · Via Crucis",
+    "Ⅳ-2-b": "Veglia · Messa di Chiusura",
+    "Ⅳ-2-c": "Festival della Gioventù",
+    "Ⅳ-2-d": "Fiera delle Vocazioni (incl. Parco della Riconciliazione)",
+    "Ⅳ-2-e": "Catechesi"
+  },
+  "meeting": {
+    "회의명": {
+      "label": "Incontro",
+      "value": "Secondo Incontro Preparatorio della GMG Seoul 2027"
+    },
+    "일자": {
+      "label": "Date",
+      "value": "Da lunedì 14 a giovedì 17 settembre 2026"
+    },
+    "장소": {
+      "label": "Luogo",
+      "value": "Nest Hotel, Incheon"
+    },
+    "참가인원": {
+      "label": "Partecipanti",
+      "value": "Circa 270 rappresentanti di diocesi, congregazioni religiose e associazioni ecclesiali da circa 100 paesi"
+    },
+    "주최/주관": {
+      "label": "Organizzatori",
+      "value": "Dicastero per i Laici, la Famiglia e la Vita\nComitato Organizzatore Locale della GMG Seoul 2027"
+    }
+  }
+}

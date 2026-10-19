@@ -1,0 +1,64 @@
+{
+  "_출처": "확인된 영어(분류: 영어 엑셀, 회의 개요: 영어 취합개요 워드)를 기준으로 번역 (2026-10-19)",
+  "sections": {
+    "Ⅰ": "Candidatura e inscrição",
+    "Ⅱ": "Apoio aos peregrinos",
+    "Ⅲ": "Chegada e operações no local",
+    "Ⅳ": "Programas"
+  },
+  "topics": {
+    "Ⅰ-1": "Inscrição",
+    "Ⅰ-2": "Vistos e K-ETA",
+    "Ⅰ-3": "Voluntários",
+    "Ⅱ-1": "Pacotes do peregrino",
+    "Ⅱ-2": "Proteção e menores",
+    "Ⅱ-3": "Apoio à acessibilidade",
+    "Ⅲ-1": "Credenciamento",
+    "Ⅲ-2": "App do Peregrino",
+    "Ⅲ-3": "Assuntos do Comité Organizador Local (COL)",
+    "Ⅳ-1": "Dias nas Dioceses (DND)",
+    "Ⅳ-2": "Jornada Mundial da Juventude (JMJ)"
+  },
+  "subtopics": {
+    "Ⅰ-1-a": "Tipos de grupo",
+    "Ⅰ-1-b": "Como se inscrever",
+    "Ⅰ-1-c": "Pagamento e Fundo de Solidariedade",
+    "Ⅰ-1-d": "Inscrição dos bispos",
+    "Ⅱ-1-a": "Transporte",
+    "Ⅱ-1-b": "Alojamento",
+    "Ⅱ-1-c": "Refeições",
+    "Ⅱ-1-d": "Assistência médica",
+    "Ⅲ-1-a": "Kit do peregrino",
+    "Ⅲ-1-b": "Procedimento de credenciamento",
+    "Ⅲ-1-c": "Centro do Peregrino",
+    "Ⅲ-2-a": "Funcionalidades",
+    "Ⅲ-2-b": "Passe do Peregrino (cartão)",
+    "Ⅳ-2-a": "Missa de Abertura · Cerimónia de Acolhimento do Papa · Via-Sacra",
+    "Ⅳ-2-b": "Vigília · Missa de Encerramento",
+    "Ⅳ-2-c": "Festival da Juventude",
+    "Ⅳ-2-d": "Feira Vocacional (incl. Parque da Reconciliação)",
+    "Ⅳ-2-e": "Catequeses"
+  },
+  "meeting": {
+    "회의명": {
+      "label": "Reunião",
+      "value": "Segunda Reunião Preparatória da JMJ Seul 2027"
+    },
+    "일자": {
+      "label": "Datas",
+      "value": "De segunda-feira, 14, a quinta-feira, 17 de setembro de 2026"
+    },
+    "장소": {
+      "label": "Local",
+      "value": "Nest Hotel, Incheon"
+    },
+    "참가인원": {
+      "label": "Participantes",
+      "value": "Cerca de 270 representantes de dioceses, congregações religiosas e associações eclesiais de cerca de 100 países"
+    },
+    "주최/주관": {
+      "label": "Organizadores",
+      "value": "Dicastério para os Leigos, a Família e a Vida\nComité Organizador Local da JMJ Seul 2027"
+    }
+  }
+}

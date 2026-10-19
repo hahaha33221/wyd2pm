@@ -2,14 +2,15 @@ import ENABLED_LANGS from "./enabledLangs.json";
 
 // 켜진 언어는 enabledLangs.json 하나로 정합니다. 변환 스크립트(scripts/import_db.py)도 이 파일을 읽어
 // 켜진 언어의 번역만 화면 데이터에 넣습니다 (꺼진 언어 번역은 화면 파일에 실리지 않음, DB에는 모두 저장).
-// 언어를 켜려면: enabledLangs.json 에 코드를 추가 → 변환 스크립트 다시 실행 → 검수가 끝났으면 test 를 지워 "(테스트)" 제거.
+// 언어를 켜려면: enabledLangs.json 에 코드를 추가 → 변환 스크립트 다시 실행. 검수 전이면 test: true 를 붙여 "(테스트)" 표시.
 export const LANGS = [
   { code: "ko", name: "한국어" },
   { code: "en", name: "English" }, // 확인된 영어 (2026-10-19)
-  { code: "es", name: "Español", test: true },
-  { code: "fr", name: "Français", test: true },
-  { code: "it", name: "Italiano", test: true },
-  { code: "pt", name: "Português", test: true }
+  // es·fr·it·pt: 확인된 영어를 기준으로 번역해 활성화 (2026-10-19)
+  { code: "es", name: "Español" },
+  { code: "fr", name: "Français" },
+  { code: "it", name: "Italiano" },
+  { code: "pt", name: "Português" }
 ].map((l) => ({
   ...l,
   name: l.test ? `${l.name} (테스트)` : l.name,
@@ -152,18 +153,19 @@ export const T = {
     urlCopy: "Copy URL"
   },
   es: {
+    noticeDate: "Octubre de 2026",
     meetingOverview: "Resumen de la reunión",
     collapseNav: "Ocultar índice",
     menu: "Índice",
     close: "Cerrar",
-    navInfo: "Sobre estas preguntas",
-    navInfoItem: "Resumen de la recopilación",
+    navInfo: "Sobre estas preguntas y respuestas",
+    navInfoItem: "Resumen",
     navQa: "Preguntas y respuestas",
     allQa: "Todas las preguntas",
     categories: "Categorías",
-    heroTitle: "JMJ Seúl 2027 · 2.ª Reunión Preparatoria Internacional — Preguntas y respuestas de las sesiones",
-    heroNotice: "Aquí puede consultar las principales preguntas recibidas mediante las preguntas en directo (Pigeonhole) durante las sesiones 3 a 6, junto con las respuestas del Comité Organizador Local. Estas respuestas reflejan la revisión actual y pueden modificarse o actualizarse según la evolución de las políticas internas y las circunstancias.",
-    contact: "Contacto",
+    heroTitle: "Preguntas y respuestas de las sesiones de la Segunda Reunión Preparatoria de la JMJ Seúl 2027",
+    heroNotice: "Este documento presenta las principales preguntas recibidas mediante las preguntas en tiempo real (“Pigeonhole Live”) durante las sesiones 3 a 6, junto con las respuestas del Comité Organizador Local.\nEstas respuestas reflejan el estado actual de la revisión y pueden modificarse o actualizarse de acuerdo con las futuras políticas internas y la evolución de las circunstancias.",
+    contact: "Consultas",
     org: "Comité Organizador Local de la JMJ Seúl 2027",
     more: "Ver más",
     introHint: "Toca el logo para entrar",
@@ -218,18 +220,19 @@ export const T = {
     urlCopy: "Copiar enlace"
   },
   fr: {
+    noticeDate: "Octobre 2026",
     meetingOverview: "Aperçu de la réunion",
     collapseNav: "Masquer le sommaire",
     menu: "Sommaire",
     close: "Fermer",
-    navInfo: "À propos de ces Q&R",
-    navInfoItem: "Aperçu de la compilation",
+    navInfo: "À propos de ces questions-réponses",
+    navInfoItem: "Aperçu",
     navQa: "Questions-réponses",
     allQa: "Toutes les questions",
     categories: "Catégories",
-    heroTitle: "JMJ Séoul 2027 · 2e Réunion préparatoire internationale — Questions-réponses des sessions",
-    heroNotice: "Retrouvez ici les principales questions reçues lors des questions en direct (Pigeonhole) pendant les sessions 3 à 6, ainsi que les réponses du Comité d'organisation local. Ces réponses reflètent l'examen actuel et peuvent être modifiées ou mises à jour selon l'évolution des politiques internes et des circonstances.",
-    contact: "Contact",
+    heroTitle: "Questions-réponses des sessions de la Deuxième réunion préparatoire des JMJ Séoul 2027",
+    heroNotice: "Ce document présente les principales questions reçues lors des questions en temps réel (« Pigeonhole Live ») pendant les sessions 3 à 6, ainsi que les réponses du Comité d'organisation local.\nCes réponses reflètent l'état actuel de l'examen et pourront être révisées ou mises à jour en fonction des futures politiques internes et de l'évolution des circonstances.",
+    contact: "Renseignements",
     org: "Comité d'organisation local des JMJ Séoul 2027",
     more: "Voir plus",
     introHint: "Touchez le logo pour entrer",
@@ -284,18 +287,19 @@ export const T = {
     urlCopy: "Copier le lien"
   },
   it: {
+    noticeDate: "Ottobre 2026",
     meetingOverview: "Panoramica dell'incontro",
     collapseNav: "Nascondi l'indice",
     menu: "Indice",
     close: "Chiudi",
-    navInfo: "Informazioni su queste domande",
-    navInfoItem: "Panoramica della raccolta",
+    navInfo: "Informazioni su queste domande e risposte",
+    navInfoItem: "Panoramica",
     navQa: "Domande e risposte",
     allQa: "Tutte le domande",
     categories: "Categorie",
-    heroTitle: "GMG Seoul 2027 · 2º Incontro preparatorio internazionale — Domande e risposte delle sessioni",
-    heroNotice: "Qui trovi le principali domande ricevute tramite le domande in diretta (Pigeonhole) durante le sessioni 3–6, insieme alle risposte del Comitato Organizzatore Locale. Le risposte riflettono la valutazione attuale e potranno essere modificate o aggiornate in base all'evoluzione delle politiche interne e delle circostanze.",
-    contact: "Contatti",
+    heroTitle: "Domande e risposte delle sessioni del Secondo Incontro Preparatorio della GMG Seoul 2027",
+    heroNotice: "Questo documento presenta le principali domande ricevute tramite le domande in tempo reale (“Pigeonhole Live”) durante le sessioni 3–6, insieme alle risposte del Comitato Organizzatore Locale.\nQueste risposte riflettono lo stato attuale della valutazione e potranno essere modificate o aggiornate in linea con le future politiche interne e con l'evolversi delle circostanze.",
+    contact: "Informazioni",
     org: "Comitato Organizzatore Locale della GMG Seoul 2027",
     more: "Mostra altro",
     introHint: "Tocca il logo per entrare",
@@ -350,18 +354,19 @@ export const T = {
     urlCopy: "Copia link"
   },
   pt: {
+    noticeDate: "Outubro de 2026",
     meetingOverview: "Resumo da reunião",
     collapseNav: "Ocultar índice",
     menu: "Índice",
     close: "Fechar",
-    navInfo: "Sobre estas perguntas",
-    navInfoItem: "Resumo da compilação",
+    navInfo: "Sobre estas perguntas e respostas",
+    navInfoItem: "Resumo",
     navQa: "Perguntas e respostas",
     allQa: "Todas as perguntas",
     categories: "Categorias",
-    heroTitle: "JMJ Seul 2027 · 2.ª Reunião Preparatória Internacional — Perguntas e respostas das sessões",
-    heroNotice: "Aqui pode consultar as principais perguntas recebidas através das perguntas em direto (Pigeonhole) durante as sessões 3 a 6, juntamente com as respostas do Comité Organizador Local. Estas respostas refletem a análise atual e poderão ser alteradas ou atualizadas consoante a evolução das políticas internas e das circunstâncias.",
-    contact: "Contacto",
+    heroTitle: "Perguntas e respostas das sessões da Segunda Reunião Preparatória da JMJ Seul 2027",
+    heroNotice: "Este documento apresenta as principais perguntas recebidas através das perguntas em tempo real (“Pigeonhole Live”) durante as sessões 3 a 6, juntamente com as respostas do Comité Organizador Local.\nEstas respostas refletem o estado atual da análise e poderão ser revistas ou atualizadas de acordo com as futuras políticas internas e a evolução das circunstâncias.",
+    contact: "Informações",
     org: "Comité Organizador Local da JMJ Seul 2027",
     more: "Mostrar mais",
     introHint: "Toque no logótipo para entrar",
