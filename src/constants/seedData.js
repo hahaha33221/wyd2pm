@@ -621,7 +621,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "결제 및 기금관련",
-      "en": "Payment and Funds"
+      "en": "Payment & Solidarity Fund"
     },
     "subNo": "c"
   },
@@ -648,7 +648,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "결제 및 기금관련",
-      "en": "Payment and Funds"
+      "en": "Payment & Solidarity Fund"
     },
     "subNo": "c"
   },
@@ -675,7 +675,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "결제 및 기금관련",
-      "en": "Payment and Funds"
+      "en": "Payment & Solidarity Fund"
     },
     "subNo": "c"
   },
@@ -702,7 +702,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "결제 및 기금관련",
-      "en": "Payment and Funds"
+      "en": "Payment & Solidarity Fund"
     },
     "subNo": "c"
   },
@@ -729,7 +729,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "결제 및 기금관련",
-      "en": "Payment and Funds"
+      "en": "Payment & Solidarity Fund"
     },
     "subNo": "c"
   },
@@ -756,7 +756,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "결제 및 기금관련",
-      "en": "Payment and Funds"
+      "en": "Payment & Solidarity Fund"
     },
     "subNo": "c"
   },
@@ -783,7 +783,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "결제 및 기금관련",
-      "en": "Payment and Funds"
+      "en": "Payment & Solidarity Fund"
     },
     "subNo": "c"
   },
@@ -810,7 +810,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "결제 및 기금관련",
-      "en": "Payment and Funds"
+      "en": "Payment & Solidarity Fund"
     },
     "subNo": "c"
   },
@@ -905,7 +905,7 @@ export const SEED = [
     "sectionNo": "Ⅰ",
     "topic": {
       "ko": "비자,K-ETA",
-      "en": "Visa, K-ETA"
+      "en": "Visas and K-ETA"
     },
     "topicNo": "2",
     "q": {
@@ -927,7 +927,7 @@ export const SEED = [
     "sectionNo": "Ⅰ",
     "topic": {
       "ko": "비자,K-ETA",
-      "en": "Visa, K-ETA"
+      "en": "Visas and K-ETA"
     },
     "topicNo": "2",
     "q": {
@@ -949,7 +949,7 @@ export const SEED = [
     "sectionNo": "Ⅰ",
     "topic": {
       "ko": "비자,K-ETA",
-      "en": "Visa, K-ETA"
+      "en": "Visas and K-ETA"
     },
     "topicNo": "2",
     "q": {
@@ -971,7 +971,7 @@ export const SEED = [
     "sectionNo": "Ⅰ",
     "topic": {
       "ko": "비자,K-ETA",
-      "en": "Visa, K-ETA"
+      "en": "Visas and K-ETA"
     },
     "topicNo": "2",
     "q": {
@@ -993,7 +993,7 @@ export const SEED = [
     "sectionNo": "Ⅰ",
     "topic": {
       "ko": "비자,K-ETA",
-      "en": "Visa, K-ETA"
+      "en": "Visas and K-ETA"
     },
     "topicNo": "2",
     "q": {
@@ -1015,7 +1015,7 @@ export const SEED = [
     "sectionNo": "Ⅰ",
     "topic": {
       "ko": "비자,K-ETA",
-      "en": "Visa, K-ETA"
+      "en": "Visas and K-ETA"
     },
     "topicNo": "2",
     "q": {
@@ -1116,7 +1116,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "교통",
-      "en": "Transport"
+      "en": "Transportation"
     },
     "subNo": "a"
   },
@@ -1143,7 +1143,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "교통",
-      "en": "Transport"
+      "en": "Transportation"
     },
     "subNo": "a"
   },
@@ -1170,7 +1170,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "교통",
-      "en": "Transport"
+      "en": "Transportation"
     },
     "subNo": "a"
   },
@@ -1616,7 +1616,7 @@ export const SEED = [
     "sectionNo": "Ⅱ",
     "topic": {
       "ko": "세이프가딩, 미성년자",
-      "en": "Safeguarding, Minors"
+      "en": "Safeguarding and Minors"
     },
     "topicNo": "2",
     "q": {
@@ -1638,7 +1638,7 @@ export const SEED = [
     "sectionNo": "Ⅱ",
     "topic": {
       "ko": "세이프가딩, 미성년자",
-      "en": "Safeguarding, Minors"
+      "en": "Safeguarding and Minors"
     },
     "topicNo": "2",
     "q": {
@@ -1660,7 +1660,7 @@ export const SEED = [
     "sectionNo": "Ⅱ",
     "topic": {
       "ko": "세이프가딩, 미성년자",
-      "en": "Safeguarding, Minors"
+      "en": "Safeguarding and Minors"
     },
     "topicNo": "2",
     "q": {
@@ -1682,7 +1682,7 @@ export const SEED = [
     "sectionNo": "Ⅱ",
     "topic": {
       "ko": "세이프가딩, 미성년자",
-      "en": "Safeguarding, Minors"
+      "en": "Safeguarding and Minors"
     },
     "topicNo": "2",
     "q": {
@@ -1704,7 +1704,7 @@ export const SEED = [
     "sectionNo": "Ⅱ",
     "topic": {
       "ko": "세이프가딩, 미성년자",
-      "en": "Safeguarding, Minors"
+      "en": "Safeguarding and Minors"
     },
     "topicNo": "2",
     "q": {
@@ -1726,7 +1726,7 @@ export const SEED = [
     "sectionNo": "Ⅱ",
     "topic": {
       "ko": "세이프가딩, 미성년자",
-      "en": "Safeguarding, Minors"
+      "en": "Safeguarding and Minors"
     },
     "topicNo": "2",
     "q": {
@@ -1748,7 +1748,7 @@ export const SEED = [
     "sectionNo": "Ⅱ",
     "topic": {
       "ko": "세이프가딩, 미성년자",
-      "en": "Safeguarding, Minors"
+      "en": "Safeguarding and Minors"
     },
     "topicNo": "2",
     "q": {
@@ -1770,7 +1770,7 @@ export const SEED = [
     "sectionNo": "Ⅱ",
     "topic": {
       "ko": "세이프가딩, 미성년자",
-      "en": "Safeguarding, Minors"
+      "en": "Safeguarding and Minors"
     },
     "topicNo": "2",
     "q": {
@@ -1792,7 +1792,7 @@ export const SEED = [
     "sectionNo": "Ⅱ",
     "topic": {
       "ko": "세이프가딩, 미성년자",
-      "en": "Safeguarding, Minors"
+      "en": "Safeguarding and Minors"
     },
     "topicNo": "2",
     "q": {
@@ -1814,7 +1814,7 @@ export const SEED = [
     "sectionNo": "Ⅱ",
     "topic": {
       "ko": "장애인",
-      "en": "Persons with Disabilities"
+      "en": "Accessibility Support"
     },
     "topicNo": "3",
     "q": {
@@ -1836,7 +1836,7 @@ export const SEED = [
     "sectionNo": "Ⅱ",
     "topic": {
       "ko": "장애인",
-      "en": "Persons with Disabilities"
+      "en": "Accessibility Support"
     },
     "topicNo": "3",
     "q": {
@@ -1858,7 +1858,7 @@ export const SEED = [
     "sectionNo": "Ⅱ",
     "topic": {
       "ko": "장애인",
-      "en": "Persons with Disabilities"
+      "en": "Accessibility Support"
     },
     "topicNo": "3",
     "q": {
@@ -1947,7 +1947,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "체크인 진행",
-      "en": "Check-in Process"
+      "en": "Check-in Procedure"
     },
     "subNo": "b"
   },
@@ -1974,7 +1974,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "체크인 진행",
-      "en": "Check-in Process"
+      "en": "Check-in Procedure"
     },
     "subNo": "b"
   },
@@ -2001,7 +2001,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "순례자 센터",
-      "en": "Pilgrim Centre"
+      "en": "Pilgrim Center"
     },
     "subNo": "c"
   },
@@ -2028,7 +2028,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "순례자 센터",
-      "en": "Pilgrim Centre"
+      "en": "Pilgrim Center"
     },
     "subNo": "c"
   },
@@ -2406,7 +2406,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "선불카드",
-      "en": "Prepaid Card"
+      "en": "Pilgrim Pass (Card)"
     },
     "subNo": "b"
   },
@@ -2433,7 +2433,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "선불카드",
-      "en": "Prepaid Card"
+      "en": "Pilgrim Pass (Card)"
     },
     "subNo": "b"
   },
@@ -2460,7 +2460,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "선불카드",
-      "en": "Prepaid Card"
+      "en": "Pilgrim Pass (Card)"
     },
     "subNo": "b"
   },
@@ -2487,7 +2487,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "선불카드",
-      "en": "Prepaid Card"
+      "en": "Pilgrim Pass (Card)"
     },
     "subNo": "b"
   },
@@ -2514,7 +2514,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "선불카드",
-      "en": "Prepaid Card"
+      "en": "Pilgrim Pass (Card)"
     },
     "subNo": "b"
   },
@@ -2541,7 +2541,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "선불카드",
-      "en": "Prepaid Card"
+      "en": "Pilgrim Pass (Card)"
     },
     "subNo": "b"
   },
@@ -2555,7 +2555,7 @@ export const SEED = [
     "sectionNo": "Ⅲ",
     "topic": {
       "ko": "조직위원회 관련",
-      "en": "Local Organising Committee"
+      "en": "Local Organizing Committee (LOC) Matters"
     },
     "topicNo": "3",
     "q": {
@@ -2577,7 +2577,7 @@ export const SEED = [
     "sectionNo": "Ⅲ",
     "topic": {
       "ko": "조직위원회 관련",
-      "en": "Local Organising Committee"
+      "en": "Local Organizing Committee (LOC) Matters"
     },
     "topicNo": "3",
     "q": {
@@ -2599,7 +2599,7 @@ export const SEED = [
     "sectionNo": "Ⅲ",
     "topic": {
       "ko": "조직위원회 관련",
-      "en": "Local Organising Committee"
+      "en": "Local Organizing Committee (LOC) Matters"
     },
     "topicNo": "3",
     "q": {
@@ -2621,7 +2621,7 @@ export const SEED = [
     "sectionNo": "Ⅲ",
     "topic": {
       "ko": "조직위원회 관련",
-      "en": "Local Organising Committee"
+      "en": "Local Organizing Committee (LOC) Matters"
     },
     "topicNo": "3",
     "q": {
@@ -2638,7 +2638,7 @@ export const SEED = [
     "no": "Q103",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
@@ -2660,7 +2660,7 @@ export const SEED = [
     "no": "Q104",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
@@ -2682,7 +2682,7 @@ export const SEED = [
     "no": "Q105",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
@@ -2704,7 +2704,7 @@ export const SEED = [
     "no": "Q106",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
@@ -2726,7 +2726,7 @@ export const SEED = [
     "no": "Q107",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
@@ -2748,7 +2748,7 @@ export const SEED = [
     "no": "Q108",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
@@ -2770,7 +2770,7 @@ export const SEED = [
     "no": "Q109",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
@@ -2792,7 +2792,7 @@ export const SEED = [
     "no": "Q110",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
@@ -2814,7 +2814,7 @@ export const SEED = [
     "no": "Q111",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
@@ -2836,7 +2836,7 @@ export const SEED = [
     "no": "Q112",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
@@ -2858,7 +2858,7 @@ export const SEED = [
     "no": "Q113",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
@@ -2880,7 +2880,7 @@ export const SEED = [
     "no": "Q114",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
@@ -2902,7 +2902,7 @@ export const SEED = [
     "no": "Q115",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
@@ -2924,12 +2924,12 @@ export const SEED = [
     "no": "Q116",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -2942,7 +2942,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "개막미사 · 교황 환영 행사 · 십자가의 길",
-      "en": "Opening Mass · Papal Welcome · Way of the Cross"
+      "en": "Opening Mass · Papal Welcome Ceremony · Way of the Cross"
     },
     "subNo": "a"
   },
@@ -2951,12 +2951,12 @@ export const SEED = [
     "no": "Q117",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -2969,7 +2969,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "개막미사 · 교황 환영 행사 · 십자가의 길",
-      "en": "Opening Mass · Papal Welcome · Way of the Cross"
+      "en": "Opening Mass · Papal Welcome Ceremony · Way of the Cross"
     },
     "subNo": "a"
   },
@@ -2978,12 +2978,12 @@ export const SEED = [
     "no": "Q118",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -2996,7 +2996,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "개막미사 · 교황 환영 행사 · 십자가의 길",
-      "en": "Opening Mass · Papal Welcome · Way of the Cross"
+      "en": "Opening Mass · Papal Welcome Ceremony · Way of the Cross"
     },
     "subNo": "a"
   },
@@ -3005,12 +3005,12 @@ export const SEED = [
     "no": "Q119",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3023,7 +3023,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "개막미사 · 교황 환영 행사 · 십자가의 길",
-      "en": "Opening Mass · Papal Welcome · Way of the Cross"
+      "en": "Opening Mass · Papal Welcome Ceremony · Way of the Cross"
     },
     "subNo": "a"
   },
@@ -3032,12 +3032,12 @@ export const SEED = [
     "no": "Q120",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3059,12 +3059,12 @@ export const SEED = [
     "no": "Q121",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3086,12 +3086,12 @@ export const SEED = [
     "no": "Q122",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3113,12 +3113,12 @@ export const SEED = [
     "no": "Q123",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3140,12 +3140,12 @@ export const SEED = [
     "no": "Q124",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3167,12 +3167,12 @@ export const SEED = [
     "no": "Q125",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3194,12 +3194,12 @@ export const SEED = [
     "no": "Q126",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3221,12 +3221,12 @@ export const SEED = [
     "no": "Q127",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3248,12 +3248,12 @@ export const SEED = [
     "no": "Q128",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3275,12 +3275,12 @@ export const SEED = [
     "no": "Q129",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3302,12 +3302,12 @@ export const SEED = [
     "no": "Q130",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3329,12 +3329,12 @@ export const SEED = [
     "no": "Q131",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3356,12 +3356,12 @@ export const SEED = [
     "no": "Q132",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3383,12 +3383,12 @@ export const SEED = [
     "no": "Q133",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3401,7 +3401,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)",
-      "en": "Catholic Cultural Fair (Vocations Fair · Park of Reconciliation)"
+      "en": "Vocations Fair (incl. Reconciliation Park)"
     },
     "subNo": "d"
   },
@@ -3410,12 +3410,12 @@ export const SEED = [
     "no": "Q134",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3428,7 +3428,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)",
-      "en": "Catholic Cultural Fair (Vocations Fair · Park of Reconciliation)"
+      "en": "Vocations Fair (incl. Reconciliation Park)"
     },
     "subNo": "d"
   },
@@ -3437,12 +3437,12 @@ export const SEED = [
     "no": "Q135",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3455,7 +3455,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)",
-      "en": "Catholic Cultural Fair (Vocations Fair · Park of Reconciliation)"
+      "en": "Vocations Fair (incl. Reconciliation Park)"
     },
     "subNo": "d"
   },
@@ -3464,12 +3464,12 @@ export const SEED = [
     "no": "Q136",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3482,7 +3482,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)",
-      "en": "Catholic Cultural Fair (Vocations Fair · Park of Reconciliation)"
+      "en": "Vocations Fair (incl. Reconciliation Park)"
     },
     "subNo": "d"
   },
@@ -3491,12 +3491,12 @@ export const SEED = [
     "no": "Q137",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3509,7 +3509,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)",
-      "en": "Catholic Cultural Fair (Vocations Fair · Park of Reconciliation)"
+      "en": "Vocations Fair (incl. Reconciliation Park)"
     },
     "subNo": "d"
   },
@@ -3518,12 +3518,12 @@ export const SEED = [
     "no": "Q138",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3536,7 +3536,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "주교와의 만남 (교리교육)",
-      "en": "Meeting with Bishops (Catechesis)"
+      "en": "Catecheses"
     },
     "subNo": "e"
   },
@@ -3545,12 +3545,12 @@ export const SEED = [
     "no": "Q139",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3563,7 +3563,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "주교와의 만남 (교리교육)",
-      "en": "Meeting with Bishops (Catechesis)"
+      "en": "Catecheses"
     },
     "subNo": "e"
   },
@@ -3572,12 +3572,12 @@ export const SEED = [
     "no": "Q140",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3590,7 +3590,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "주교와의 만남 (교리교육)",
-      "en": "Meeting with Bishops (Catechesis)"
+      "en": "Catecheses"
     },
     "subNo": "e"
   },
@@ -3599,12 +3599,12 @@ export const SEED = [
     "no": "Q141",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3617,7 +3617,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "주교와의 만남 (교리교육)",
-      "en": "Meeting with Bishops (Catechesis)"
+      "en": "Catecheses"
     },
     "subNo": "e"
   },
@@ -3626,12 +3626,12 @@ export const SEED = [
     "no": "Q142",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3644,7 +3644,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "주교와의 만남 (교리교육)",
-      "en": "Meeting with Bishops (Catechesis)"
+      "en": "Catecheses"
     },
     "subNo": "e"
   },
@@ -3653,12 +3653,12 @@ export const SEED = [
     "no": "Q143",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3671,7 +3671,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "주교와의 만남 (교리교육)",
-      "en": "Meeting with Bishops (Catechesis)"
+      "en": "Catecheses"
     },
     "subNo": "e"
   },
@@ -3680,12 +3680,12 @@ export const SEED = [
     "no": "Q144",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3698,7 +3698,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "주교와의 만남 (교리교육)",
-      "en": "Meeting with Bishops (Catechesis)"
+      "en": "Catecheses"
     },
     "subNo": "e"
   },
@@ -3707,12 +3707,12 @@ export const SEED = [
     "no": "Q145",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3725,7 +3725,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "주교와의 만남 (교리교육)",
-      "en": "Meeting with Bishops (Catechesis)"
+      "en": "Catecheses"
     },
     "subNo": "e"
   },
@@ -3734,12 +3734,12 @@ export const SEED = [
     "no": "Q146",
     "section": {
       "ko": "프로그램",
-      "en": "Programme"
+      "en": "Programs"
     },
     "sectionNo": "Ⅳ",
     "topic": {
       "ko": "본대회(World Youth Day, WYD)",
-      "en": "Main Event (World Youth Day, WYD)"
+      "en": "World Youth Day (WYD)"
     },
     "topicNo": "2",
     "q": {
@@ -3752,7 +3752,7 @@ export const SEED = [
     },
     "sub": {
       "ko": "주교와의 만남 (교리교육)",
-      "en": "Meeting with Bishops (Catechesis)"
+      "en": "Catecheses"
     },
     "subNo": "e"
   }

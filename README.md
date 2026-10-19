@@ -68,7 +68,7 @@ python3 scripts/import_db.py "WYD_2nd_Prep_Meeting_QA_DB.xlsx"
 
 | 언어 | 초안 번역 |
 | --- | --- |
-| English (en) | **켜짐.** 질문·답변 146개와 취합 개요는 확인된 영어(엑셀·워드 2026-10-19). 분류명은 초안 |
+| English (en) | **켜짐.** 질문·답변 146개, 분류명, 취합 개요 모두 확인된 영어(엑셀·워드 2026-10-19) |
 | Español (es) | 완료 |
 | Français (fr) | 완료 |
 | Italiano (it) | 없음 |

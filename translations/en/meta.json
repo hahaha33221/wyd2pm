@@ -1,43 +1,43 @@
 {
-  "_출처": "meeting: #[2PM]세션발표 Q&A_취합개요_EN_261019.docx (확인됨). 그 외 분류명 등은 초안(미확인).",
+  "_출처": "sections·topics·subtopics: #2PM_Session_Q_A_Final_EN_261019.xlsx 분류 열 (확인됨, 2026-10-19). meeting: 취합개요 영어 워드 (확인됨). opinions 등 나머지는 초안.",
   "sections": {
     "Ⅰ": "Application and Registration",
     "Ⅱ": "Pilgrim Support",
     "Ⅲ": "Arrival and On-site Operations",
-    "Ⅳ": "Programme"
+    "Ⅳ": "Programs"
   },
   "topics": {
     "Ⅰ-1": "Registration",
-    "Ⅰ-2": "Visa, K-ETA",
+    "Ⅰ-2": "Visas and K-ETA",
     "Ⅰ-3": "Volunteers",
     "Ⅱ-1": "Pilgrim Packages",
-    "Ⅱ-2": "Safeguarding, Minors",
-    "Ⅱ-3": "Persons with Disabilities",
+    "Ⅱ-2": "Safeguarding and Minors",
+    "Ⅱ-3": "Accessibility Support",
     "Ⅲ-1": "Check-in",
     "Ⅲ-2": "Pilgrim App",
-    "Ⅲ-3": "Local Organising Committee",
+    "Ⅲ-3": "Local Organizing Committee (LOC) Matters",
     "Ⅳ-1": "Days in the Dioceses (DID)",
-    "Ⅳ-2": "Main Event (World Youth Day, WYD)"
+    "Ⅳ-2": "World Youth Day (WYD)"
   },
   "subtopics": {
     "Ⅰ-1-a": "Group Types",
     "Ⅰ-1-b": "How to Register",
-    "Ⅰ-1-c": "Payment and Funds",
+    "Ⅰ-1-c": "Payment & Solidarity Fund",
     "Ⅰ-1-d": "Bishops' Registration",
-    "Ⅱ-1-a": "Transport",
+    "Ⅱ-1-a": "Transportation",
     "Ⅱ-1-b": "Accommodation",
     "Ⅱ-1-c": "Meals",
     "Ⅱ-1-d": "Medical Support",
     "Ⅲ-1-a": "Pilgrim Kit",
-    "Ⅲ-1-b": "Check-in Process",
-    "Ⅲ-1-c": "Pilgrim Centre",
+    "Ⅲ-1-b": "Check-in Procedure",
+    "Ⅲ-1-c": "Pilgrim Center",
     "Ⅲ-2-a": "Features",
-    "Ⅲ-2-b": "Prepaid Card",
-    "Ⅳ-2-a": "Opening Mass · Papal Welcome · Way of the Cross",
+    "Ⅲ-2-b": "Pilgrim Pass (Card)",
+    "Ⅳ-2-a": "Opening Mass · Papal Welcome Ceremony · Way of the Cross",
     "Ⅳ-2-b": "Vigil · Closing Mass",
     "Ⅳ-2-c": "Youth Festival",
-    "Ⅳ-2-d": "Catholic Cultural Fair (Vocations Fair · Park of Reconciliation)",
-    "Ⅳ-2-e": "Meeting with Bishops (Catechesis)"
+    "Ⅳ-2-d": "Vocations Fair (incl. Reconciliation Park)",
+    "Ⅳ-2-e": "Catecheses"
   },
   "meeting": {
     "회의명": {
