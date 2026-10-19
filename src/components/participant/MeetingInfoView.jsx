@@ -21,7 +21,7 @@ export default function MeetingInfoView() {
         ))}
       </dl>
 
-      {OVERVIEW_SECTIONS.map((section, i) => (
+      {(OVERVIEW_SECTIONS[lang] || OVERVIEW_SECTIONS.ko).map((section, i) => (
         <div key={section.title} className="overview-section">
           <h3 className="overview-heading">
             {i + 2}. {section.title}

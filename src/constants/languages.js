@@ -5,7 +5,7 @@ import ENABLED_LANGS from "./enabledLangs.json";
 // 언어를 켜려면: enabledLangs.json 에 코드를 추가 → 변환 스크립트 다시 실행 → 검수가 끝났으면 test 를 지워 "(테스트)" 제거.
 export const LANGS = [
   { code: "ko", name: "한국어" },
-  { code: "en", name: "English", test: true },
+  { code: "en", name: "English" }, // 확인된 영어 (2026-10-19)
   { code: "es", name: "Español", test: true },
   { code: "fr", name: "Français", test: true },
   { code: "it", name: "Italiano", test: true },
@@ -18,6 +18,7 @@ export const LANGS = [
 
 export const T = {
   ko: {
+    noticeDate: "2026.10",
     meetingOverview: "회의 개요",
     collapseNav: "목차 접기",
     menu: "목차",
@@ -84,19 +85,20 @@ export const T = {
     urlCopy: "주소 복사"
   },
   en: {
-    meetingOverview: "Meeting overview",
+    noticeDate: "October 2026",
+    meetingOverview: "Meeting Overview",
     collapseNav: "Hide contents",
     menu: "Contents",
     close: "Close",
     navInfo: "About this Q&A",
-    navInfoItem: "Compilation overview",
+    navInfoItem: "Overview",
     navQa: "Q&A",
     allQa: "All questions",
     categories: "Categories",
-    heroTitle: "WYD Seoul 2027 · 2nd International Preparatory Meeting — Session Q&A",
-    heroNotice: "Here you can find the main questions received through live Q&A (Pigeonhole) during Sessions 3–6, together with the Local Organising Committee's answers. These answers reflect our current review and may be changed or updated as internal policies and circumstances evolve.",
-    contact: "Contact",
-    org: "Local Organising Committee of WYD Seoul 2027",
+    heroTitle: "WYD Seoul 2027 Second Preparatory Meeting Session Q&A",
+    heroNotice: "This document presents the key questions received through real-time Q&A (“Pigeonhole Live”) during Sessions 3–6, together with the answers from the Local Organizing Committee.\nThese answers reflect the current status of review and may be revised or updated in line with future internal policies and changing circumstances.",
+    contact: "Inquiries",
+    org: "WYD Seoul 2027 Local Organizing Committee",
     more: "Show more",
     introHint: "Tap the logo to enter",
     topicLabel: "Topic",

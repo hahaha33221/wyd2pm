@@ -58,7 +58,7 @@ python3 scripts/import_db.py "WYD_2nd_Prep_Meeting_QA_DB.xlsx"
 ## 다른 언어 (번역)
 
 한국어는 엑셀 원문 그대로이고, 다른 언어는 `translations/<언어코드>/*.json`에 따로 있습니다.
-지금은 한국어만 켜져 있고 나머지는 "(테스트)" 표시와 함께 비활성입니다. 켜진 언어의 번역만 화면 파일에 실리고,
+지금은 한국어와 영어가 켜져 있고 나머지는 "(테스트)" 표시와 함께 비활성입니다. 켜진 언어의 번역만 화면 파일에 실리고,
 모든 번역은 VPS DB에 저장됩니다. 언어를 켜려면:
 
 1. 확인된 번역으로 `translations/<언어코드>/*.json`을 바꿉니다.
@@ -68,7 +68,7 @@ python3 scripts/import_db.py "WYD_2nd_Prep_Meeting_QA_DB.xlsx"
 
 | 언어 | 초안 번역 |
 | --- | --- |
-| English (en) | 완료 (질문 146 · 회의 정보 · 분류) |
+| English (en) | **켜짐.** 질문·답변 146개와 취합 개요는 확인된 영어(엑셀·워드 2026-10-19). 분류명은 초안 |
 | Español (es) | 완료 |
 | Français (fr) | 완료 |
 | Italiano (it) | 없음 |

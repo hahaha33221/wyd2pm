@@ -8,21 +8,26 @@ export const SEED = [
     "id": "Q1",
     "no": "Q1",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "한 나라의 그룹 (교구·단체·개별 그룹)은 독립적으로 등록할 수 있나요, 아니면 주교회의의 승인이나 통합 등록이 필요한가요?"
+      "ko": "한 나라의 그룹 (교구·단체·개별 그룹)은 독립적으로 등록할 수 있나요, 아니면 주교회의의 승인이나 통합 등록이 필요한가요?",
+      "en": "Can a group from one country (a diocese, organization or individual group) register independently, or does it need the episcopal conference's approval or a joint registration?"
     },
     "a": {
-      "ko": "한 나라의 각 교구·단체·개별 그룹은 등록시스템을 통해 독립적으로 등록할 수 있으며, 반드시 주교회의를 통해 통합 등록해야 하는 것은 아닙니다.\n다만, 주교회의의 사전 승인이나 국가 차원의 참가 조율이 필요한지는 각국 주교회의의 내부 방침에 따라 다를 수 있으므로, 해당 주교회의 또는 국가 WYD 담당자에게 확인해 주시기 바랍니다."
+      "ko": "한 나라의 각 교구·단체·개별 그룹은 등록시스템을 통해 독립적으로 등록할 수 있으며, 반드시 주교회의를 통해 통합 등록해야 하는 것은 아닙니다.\n다만, 주교회의의 사전 승인이나 국가 차원의 참가 조율이 필요한지는 각국 주교회의의 내부 방침에 따라 다를 수 있으므로, 해당 주교회의 또는 국가 WYD 담당자에게 확인해 주시기 바랍니다.",
+      "en": "Each diocese, organization or individual group in a country can register independently through the registration system; it does not have to register jointly through the episcopal conference.\nHowever, whether prior approval from the episcopal conference or national-level coordination of participation is needed may depend on each episcopal conference's internal policy, so please check with your episcopal conference or national WYD coordinator."
     },
     "sub": {
-      "ko": "그룹유형"
+      "ko": "그룹유형",
+      "en": "Group Types"
     },
     "subNo": "a"
   },
@@ -30,21 +35,26 @@ export const SEED = [
     "id": "Q2",
     "no": "Q2",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "그룹 규모별로 필요한 리더와 부리더의 수는 몇 명이며, 추가 리더를 추후 지정할 수 있나요? 또한 그룹 리더와 하위그룹 리더가 열람·관리할 수 있는 정보의 범위는 어디까지인가요?"
+      "ko": "그룹 규모별로 필요한 리더와 부리더의 수는 몇 명이며, 추가 리더를 추후 지정할 수 있나요? 또한 그룹 리더와 하위그룹 리더가 열람·관리할 수 있는 정보의 범위는 어디까지인가요?",
+      "en": "How many leaders and assistant leaders are required for each group size, and can additional leaders be designated later? Also, how much information can group leaders and Subgroup leaders view and manage?"
     },
     "a": {
-      "ko": "단일그룹(Single Group)과 대규모그룹(Macrogroup)은 각각 그룹 대표 1명과 부대표 1명으로 구성됩니다. 그룹 규모가 크거나 서울 도착 출발 일정·패키지가 서로 다른 경우에는 대규모그룹 내에 하위그룹(Subgroup)을 구성할 수 있습니다. 하위그룹은 대규모그룹 대표의 계정과 별도의 계정으로 생성할 수 있으며, 이 경우 하위 그룹에도 대표 1명과 부대표 1명을 지정합니다.\n하위그룹 대표와 부대표는 해당 하위그룹의 등록 정보 열람·수정 및 결제를 진행할 수 있습니다. 별도의 계정으로 생성된 하위그룹에 대해서는 대규모그룹 대표가 등록 정보를 열람하고 결제할 수 있지만, 정보를 직접 수정할 권한은 부여되지 않습니다."
+      "ko": "단일그룹(Single Group)과 대규모그룹(Macrogroup)은 각각 그룹 대표 1명과 부대표 1명으로 구성됩니다. 그룹 규모가 크거나 서울 도착 출발 일정·패키지가 서로 다른 경우에는 대규모그룹 내에 하위그룹(Subgroup)을 구성할 수 있습니다. 하위그룹은 대규모그룹 대표의 계정과 별도의 계정으로 생성할 수 있으며, 이 경우 하위 그룹에도 대표 1명과 부대표 1명을 지정합니다.\n하위그룹 대표와 부대표는 해당 하위그룹의 등록 정보 열람·수정 및 결제를 진행할 수 있습니다. 별도의 계정으로 생성된 하위그룹에 대해서는 대규모그룹 대표가 등록 정보를 열람하고 결제할 수 있지만, 정보를 직접 수정할 권한은 부여되지 않습니다.",
+      "en": "A Single Group and a Macrogroup each have one group leader and one second group leader. If a group is large, or its members have different arrival and departure dates in Seoul or different packages, Subgroups can be formed within the Macrogroup. A Subgroup can be created with an account separate from the Macrogroup leader's account, and in that case the Subgroup also designates one group leader and one second group leader.\nThe Subgroup's group leader and second group leader can view and edit that Subgroup's registration information and make payment. For a Subgroup created with a separate account, the Macrogroup's group leader can view its registration information and make payment, but is not given permission to edit the information directly."
     },
     "sub": {
-      "ko": "그룹유형"
+      "ko": "그룹유형",
+      "en": "Group Types"
     },
     "subNo": "a"
   },
@@ -52,21 +62,26 @@ export const SEED = [
     "id": "Q3",
     "no": "Q3",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "대규모그룹(Macrogroup)에서 한 가족을 하나의 하위 그룹(Subgroup)으로 인정할 수 있나요? 최소 인원 기준은 무엇인가요?\n또한 공동 숙박 시 미성년자가 성인과 분리될 경우 누가 그들을 책임지나요?"
+      "ko": "대규모그룹(Macrogroup)에서 한 가족을 하나의 하위 그룹(Subgroup)으로 인정할 수 있나요? 최소 인원 기준은 무엇인가요?\n또한 공동 숙박 시 미성년자가 성인과 분리될 경우 누가 그들을 책임지나요?",
+      "en": "Can a single family be recognized as one Subgroup within a Macrogroup? What is the minimum number of people? And in shared accommodation, if minors are separated from adults, who is responsible for them?"
     },
     "a": {
-      "ko": "대규모그룹(Macrogroup)의 최소 인원 제한은 없습니다. 대규모그룹에서 하위 그룹(Subgroup)을 구성할 때의 기준은 같은 패키지와 서울 도착/출발 일정입니다. 따라서 한 가족이 같은 패키지를 선택하고 서울에 머무르는 일정이 같다면 하나의 하위그룹으로 구성할 수 있습니다.\n서울 WYD 미성년자보호지침에 따르면 성인과 미성년자의 숙소는 분리하는 것을 기본 원칙으로 합니다. 그러나 각 국가의 주교회의 및 국가별 미성년자보호 규정과 실질적인 안전 요건을 함께 고려하여 적용할 필요가 있습니다.\n예를 들어, 일부 국가에서는 성인 인솔자라 하더라도 미성년자와 동일한 숙소를 사용할 수 없도록 규정하고 있습니다. 이러한 경우에는 인솔자가 미성년자 숙소와 가까운 공간에 머물며, 문제가 발생할 때 신속하게 대응할 수 있도록 운영할 수 있습니다. 또한 어떤 국가에서는 성인 인솔자 2명이 미성년자 숙소에 함께 머물면서 교대로 감독 역할을 수행하는 방식으로 운영하기도 합니다.\n반대로, 특정 국가의 주교회의 또는 국가 기준에서 미성년자의 안전과 보호를 위해 성인 인솔자가 책임을 맡은 미성년자들과 같은 공간에서 숙박하는 것이 더 적절하다고 판단하는 경우에는, 해당 기준에 따라 동일한 공간에서 숙박하는 것도 가능합니다. 이 경우에도 미성년자 대표를 지정하여 비상 상황 발생 시 즉시 인솔자에게 연락할 수 있도록 하는 등 적절한 보호 조치를 마련해야 합니다.\n따라서 미성년자 숙소 운영 방식은 각 국가의 미성년자보호 규정과 현장의 안전 상황에 따라 다양한 방안이 적용될 수 있으며, 모든 경우에 일률적으로 적용되는 단일 정책을 정하기는 어렵습니다.\n서울 WYD 조직위원회는 서울 WYD의 미성년자보호지침을 제시하는 동시에, 공동 LOC인 각 국가 주교회의의 미성년자보호지침과 기준을 존중합니다. 다만, 해당 기준에 따라 어떠한 숙소 운영 방식을 선택할 것인지에 대한 결정과 그에 따른 책임은 각 순례자 그룹이 부담하게 됩니다."
+      "ko": "대규모그룹(Macrogroup)의 최소 인원 제한은 없습니다. 대규모그룹에서 하위 그룹(Subgroup)을 구성할 때의 기준은 같은 패키지와 서울 도착/출발 일정입니다. 따라서 한 가족이 같은 패키지를 선택하고 서울에 머무르는 일정이 같다면 하나의 하위그룹으로 구성할 수 있습니다.\n서울 WYD 미성년자보호지침에 따르면 성인과 미성년자의 숙소는 분리하는 것을 기본 원칙으로 합니다. 그러나 각 국가의 주교회의 및 국가별 미성년자보호 규정과 실질적인 안전 요건을 함께 고려하여 적용할 필요가 있습니다.\n예를 들어, 일부 국가에서는 성인 인솔자라 하더라도 미성년자와 동일한 숙소를 사용할 수 없도록 규정하고 있습니다. 이러한 경우에는 인솔자가 미성년자 숙소와 가까운 공간에 머물며, 문제가 발생할 때 신속하게 대응할 수 있도록 운영할 수 있습니다. 또한 어떤 국가에서는 성인 인솔자 2명이 미성년자 숙소에 함께 머물면서 교대로 감독 역할을 수행하는 방식으로 운영하기도 합니다.\n반대로, 특정 국가의 주교회의 또는 국가 기준에서 미성년자의 안전과 보호를 위해 성인 인솔자가 책임을 맡은 미성년자들과 같은 공간에서 숙박하는 것이 더 적절하다고 판단하는 경우에는, 해당 기준에 따라 동일한 공간에서 숙박하는 것도 가능합니다. 이 경우에도 미성년자 대표를 지정하여 비상 상황 발생 시 즉시 인솔자에게 연락할 수 있도록 하는 등 적절한 보호 조치를 마련해야 합니다.\n따라서 미성년자 숙소 운영 방식은 각 국가의 미성년자보호 규정과 현장의 안전 상황에 따라 다양한 방안이 적용될 수 있으며, 모든 경우에 일률적으로 적용되는 단일 정책을 정하기는 어렵습니다.\n서울 WYD 조직위원회는 서울 WYD의 미성년자보호지침을 제시하는 동시에, 공동 LOC인 각 국가 주교회의의 미성년자보호지침과 기준을 존중합니다. 다만, 해당 기준에 따라 어떠한 숙소 운영 방식을 선택할 것인지에 대한 결정과 그에 따른 책임은 각 순례자 그룹이 부담하게 됩니다.",
+      "en": "There is no minimum size for a Macrogroup. The criteria for forming a Subgroup within a Macrogroup are the same package and the same arrival/departure dates in Seoul. A family that chooses the same package and has the same stay in Seoul can therefore form one Subgroup.\nUnder the Safeguarding Policy of WYD Seoul 2027, the basic principle is that adults and minors are accommodated separately. This must, however, be applied together with the safeguarding rules of each country's episcopal conference and national regulations, and with practical safety requirements.\nFor example, some countries do not allow even adult chaperones to use the same accommodation as minors. In such cases, chaperones can stay in a space close to the minors' accommodation so that they can respond quickly if a problem arises. In some countries, two adult chaperones stay in the minors' accommodation and take turns supervising.\nConversely, where a country's episcopal conference or national standards consider it more appropriate for the safety and protection of minors that adult chaperones sleep in the same space as the minors in their care, sleeping in the same space is also possible in line with those standards. Even then, appropriate safeguards must be in place, such as designating a minor representative who can contact the chaperone immediately in an emergency.\nThe arrangements for minors' accommodation may therefore vary according to each country's safeguarding rules and the safety situation on site, and it is difficult to set a single policy that applies uniformly in every case.\nThe WYD Seoul 2027 LOC sets out the Safeguarding Policy of WYD Seoul 2027 while respecting the safeguarding policies and standards of each country's episcopal conference, as co-organizers. The decision on which accommodation arrangement to choose under those standards, and the responsibility that follows from it, rest with each pilgrim group."
     },
     "sub": {
-      "ko": "그룹유형"
+      "ko": "그룹유형",
+      "en": "Group Types"
     },
     "subNo": "a"
   },
@@ -74,21 +89,26 @@ export const SEED = [
     "id": "Q4",
     "no": "Q4",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "저희 교구(비카리아) 소속으로 등록된 대표자가 다른 나라에서 오는 경우(예: 해외 거주 본당 신자의 자녀가 부모와 동행하고자 하는 경우), 저희 조직 아래로 등록하는 것이 맞나요?"
+      "ko": "저희 교구(비카리아) 소속으로 등록된 대표자가 다른 나라에서 오는 경우(예: 해외 거주 본당 신자의 자녀가 부모와 동행하고자 하는 경우), 저희 조직 아래로 등록하는 것이 맞나요?",
+      "en": "If a representative registered under our diocese (vicariate) is coming from another country (e.g. the child of a parishioner living abroad who wants to accompany their parents), is it right to register them under our organization?"
     },
     "a": {
-      "ko": "해외에 거주하거나 다른 나라에서 출발하는 참가자라도, 귀 교구(비카리아) 그룹의 일원으로 함께 참가하고 그룹 리더의 인솔과 관리 아래 활동할 예정이라면 해당 그룹에 포함하여 등록하실 수 있습니다. 예를 들어, 해외에 거주하는 본당 신자의 자녀가 부모와 함께 귀 교구 그룹에 참가하는 경우에도 같은 그룹으로 등록할 수 있습니다."
+      "ko": "해외에 거주하거나 다른 나라에서 출발하는 참가자라도, 귀 교구(비카리아) 그룹의 일원으로 함께 참가하고 그룹 리더의 인솔과 관리 아래 활동할 예정이라면 해당 그룹에 포함하여 등록하실 수 있습니다. 예를 들어, 해외에 거주하는 본당 신자의 자녀가 부모와 함께 귀 교구 그룹에 참가하는 경우에도 같은 그룹으로 등록할 수 있습니다.",
+      "en": "A participant who lives abroad or departs from another country can be registered in your diocesan (vicariate) group if they will take part as a member of that group, under the group leader's guidance and supervision. For example, the child of a parishioner living abroad who joins your diocesan group with their parents can be registered in the same group."
     },
     "sub": {
-      "ko": "그룹유형"
+      "ko": "그룹유형",
+      "en": "Group Types"
     },
     "subNo": "a"
   },
@@ -96,21 +116,26 @@ export const SEED = [
     "id": "Q5",
     "no": "Q5",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "국제기구나 여러 국가·교구로 구성된 단체의 경우, 동일한 그룹 또는 대규모그룹(Macrogroup)안에 서로 다른 날짜·시간·항공편·교통수단으로 도착하거나 출발할 경우 등록과 패키지 선택은 어떻게 진행해야 하나요?"
+      "ko": "국제기구나 여러 국가·교구로 구성된 단체의 경우, 동일한 그룹 또는 대규모그룹(Macrogroup)안에 서로 다른 날짜·시간·항공편·교통수단으로 도착하거나 출발할 경우 등록과 패키지 선택은 어떻게 진행해야 하나요?",
+      "en": "For international organizations or bodies made up of several countries or dioceses, how should registration and package selection be handled when members of the same group or Macrogroup arrive or depart on different dates, at different times, or by different flights or means of transport?"
     },
     "a": {
-      "ko": "소속 국제기구 또는 교구의 이름으로 하나의 대규모그룹(Macrogroup)을 등록한 후, 동일한 패키지와 서울 체류 일정을 가진 참가자들끼리 하위그룹(Subgroup)을 구성하여 등록하시면 됩니다. 각 하위그룹은 최대 150명까지 등록할 수 있습니다."
+      "ko": "소속 국제기구 또는 교구의 이름으로 하나의 대규모그룹(Macrogroup)을 등록한 후, 동일한 패키지와 서울 체류 일정을 가진 참가자들끼리 하위그룹(Subgroup)을 구성하여 등록하시면 됩니다. 각 하위그룹은 최대 150명까지 등록할 수 있습니다.",
+      "en": "Register one Macrogroup in the name of your international organization or diocese, and then register Subgroups made up of participants who share the same package and the same stay in Seoul. Each Subgroup can register up to 150 people."
     },
     "sub": {
-      "ko": "그룹유형"
+      "ko": "그룹유형",
+      "en": "Group Types"
     },
     "subNo": "a"
   },
@@ -118,21 +143,26 @@ export const SEED = [
     "id": "Q6",
     "no": "Q6",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "사제, 부제, 수도자는 일반 순례자 그룹의 일원으로 등록하나요, 아니면 별도로 등록해야 하나요? 사제가 대규모그룹(Macrogroup)에 속한 경우에도 동일한 방식으로 등록하나요?"
+      "ko": "사제, 부제, 수도자는 일반 순례자 그룹의 일원으로 등록하나요, 아니면 별도로 등록해야 하나요? 사제가 대규모그룹(Macrogroup)에 속한 경우에도 동일한 방식으로 등록하나요?",
+      "en": "Do priests, deacons and religious register as members of an ordinary pilgrim group, or do they register separately? Is it the same when a priest belongs to a Macrogroup?"
     },
     "a": {
-      "ko": "사제, 부제, 수도자 모두 일반 순례자 그룹의 참가자로 등록합니다. 대규모그룹(Macrogroup)의 경우에도 실제 순례자 등록은 하위그룹(Subgroup) 단위로 이루어지므로, 자신이 속한 하위그룹에 포함하여 등록합니다. 사제와 부제는 일반 순례자와 달리 신분 확인 및 성직자 관련 준비를 위해 개인 정보를 별도로 입력해야 하며, 그룹 대표가 정보를 취합하여 등록 시스템에 입력합니다."
+      "ko": "사제, 부제, 수도자 모두 일반 순례자 그룹의 참가자로 등록합니다. 대규모그룹(Macrogroup)의 경우에도 실제 순례자 등록은 하위그룹(Subgroup) 단위로 이루어지므로, 자신이 속한 하위그룹에 포함하여 등록합니다. 사제와 부제는 일반 순례자와 달리 신분 확인 및 성직자 관련 준비를 위해 개인 정보를 별도로 입력해야 하며, 그룹 대표가 정보를 취합하여 등록 시스템에 입력합니다.",
+      "en": "Priests, deacons and religious all register as participants in an ordinary pilgrim group. In a Macrogroup too, pilgrims are actually registered by Subgroup, so they are registered in the Subgroup they belong to. Unlike other pilgrims, priests and deacons must have their personal details entered separately for identity verification and clergy-related preparations; the group leader collects this information and enters it in the registration system."
     },
     "sub": {
-      "ko": "그룹유형"
+      "ko": "그룹유형",
+      "en": "Group Types"
     },
     "subNo": "a"
   },
@@ -140,21 +170,26 @@ export const SEED = [
     "id": "Q7",
     "no": "Q7",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "저희는 국제 그룹의 코디네이터입니다. 하나의 대규모그룹(Macrogroup)을 만들고 국가별로 하위그룹(Subgroup)을 두는 것이 나을까요, 아니면 국가별로 각각 대규모그룹을 만들고 그 안에서 패키지별 하위그룹을 두는 것이 나을까요?"
+      "ko": "저희는 국제 그룹의 코디네이터입니다. 하나의 대규모그룹(Macrogroup)을 만들고 국가별로 하위그룹(Subgroup)을 두는 것이 나을까요, 아니면 국가별로 각각 대규모그룹을 만들고 그 안에서 패키지별 하위그룹을 두는 것이 나을까요?",
+      "en": "We are the coordinators of an international group. Is it better to create one Macrogroup with a Subgroup for each country, or a separate Macrogroup for each country with Subgroups by package inside it?"
     },
     "a": {
-      "ko": "국제 그룹의 등록 구조는 그룹의 운영 방식과 국가별 담당자의 역할을 고려하여 선택하시는 것이 좋습니다. 국제 코디네이터가 전체 그룹을 통합 관리하고 국가별 담당자가 각 하위그룹을 관리하려는 경우에는, 하나의 매크로그룹 아래 국가별 하위그룹을 구성하는 방식을 고려할 수 있습니다. 반면, 국가별로 참가자 관리와 등록·납부를 독립적으로 진행하는 경우에는 국가별로 각각 대규모그룹을 구성하는 방식이 관리에 더 편리할 수 있습니다. 패키지별 하위그룹 구성 여부는 각 국가의 참가자 구성과 패키지 선택에 따라 검토해 주시기 바랍니다."
+      "ko": "국제 그룹의 등록 구조는 그룹의 운영 방식과 국가별 담당자의 역할을 고려하여 선택하시는 것이 좋습니다. 국제 코디네이터가 전체 그룹을 통합 관리하고 국가별 담당자가 각 하위그룹을 관리하려는 경우에는, 하나의 매크로그룹 아래 국가별 하위그룹을 구성하는 방식을 고려할 수 있습니다. 반면, 국가별로 참가자 관리와 등록·납부를 독립적으로 진행하는 경우에는 국가별로 각각 대규모그룹을 구성하는 방식이 관리에 더 편리할 수 있습니다. 패키지별 하위그룹 구성 여부는 각 국가의 참가자 구성과 패키지 선택에 따라 검토해 주시기 바랍니다.",
+      "en": "The registration structure for an international group is best chosen in light of how the group operates and the role of each country's coordinator. If the international coordinator will manage the whole group and each country's coordinator will manage a Subgroup, you could form country Subgroups under one Macrogroup. If, on the other hand, each country will manage its participants and its registration and payment independently, a separate Macrogroup for each country may be easier to manage. Whether to form Subgroups by package should be considered according to each country's participants and package choices."
     },
     "sub": {
-      "ko": "그룹유형"
+      "ko": "그룹유형",
+      "en": "Group Types"
     },
     "subNo": "a"
   },
@@ -162,21 +197,26 @@ export const SEED = [
     "id": "Q8",
     "no": "Q8",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "단일그룹(Single Group)의 순례자 수가 늘어나면 자동으로 대규모그룹 (Macrogroup)으로 전환되나요?"
+      "ko": "단일그룹(Single Group)의 순례자 수가 늘어나면 자동으로 대규모그룹 (Macrogroup)으로 전환되나요?",
+      "en": "If the number of pilgrims in a Single Group grows, is it automatically converted into a Macrogroup?"
     },
     "a": {
-      "ko": "단일그룹(Single Group)의 순례자 수가 늘어나더라도 자동으로 대규모그룹(Macrogroup)으로 전환되지는 않습니다. 단일그룹은 최대 150명까지 등록할 수 있으므로, 참가 인원이 150명을 초과할 가능성이 있다면 처음부터 대규모그룹으로 등록해야 합니다. 그룹 유형은 등록을 시작할 때 선택하며, 등록을 시작한 이후에는 변경할 수 없습니다."
+      "ko": "단일그룹(Single Group)의 순례자 수가 늘어나더라도 자동으로 대규모그룹(Macrogroup)으로 전환되지는 않습니다. 단일그룹은 최대 150명까지 등록할 수 있으므로, 참가 인원이 150명을 초과할 가능성이 있다면 처음부터 대규모그룹으로 등록해야 합니다. 그룹 유형은 등록을 시작할 때 선택하며, 등록을 시작한 이후에는 변경할 수 없습니다.",
+      "en": "A Single Group is not automatically converted into a Macrogroup when its number of pilgrims grows. A Single Group can register up to 150 people, so if your numbers may exceed 150, you must register as a Macrogroup from the start. The group type is chosen when registration begins and cannot be changed once registration has started."
     },
     "sub": {
-      "ko": "그룹유형"
+      "ko": "그룹유형",
+      "en": "Group Types"
     },
     "subNo": "a"
   },
@@ -184,21 +224,26 @@ export const SEED = [
     "id": "Q9",
     "no": "Q9",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "단일그룹(Single Group)과 대규모그룹(Macrogroup)의 차이가 단순히 인원 수만이 아니라고 하셨는데, 대규모그룹이 되기 위해 충족해야 하는 조건(특성)과 대규모그룹으로 등록했을 때의 장점은 무엇입니까?"
+      "ko": "단일그룹(Single Group)과 대규모그룹(Macrogroup)의 차이가 단순히 인원 수만이 아니라고 하셨는데, 대규모그룹이 되기 위해 충족해야 하는 조건(특성)과 대규모그룹으로 등록했을 때의 장점은 무엇입니까?",
+      "en": "You said the difference between a Single Group and a Macrogroup is not just the number of people. What conditions (characteristics) must be met to be a Macrogroup, and what are the advantages of registering as one?"
     },
     "a": {
-      "ko": "단일그룹(Single Group)과 대규모그룹(Macrogroup)의 차이는 참가 인원뿐 아니라, 참가 일정과 패키지 구성 및 등록 관리 방식에 있습니다. 단일그룹은 최대 150명까지 별도의 하위그룹(Subgroup) 없이 하나의 그룹으로 등록하는 방식으로, 모든 참가자의 참가 일정과 패키지가 동일한 경우에 적합합니다. 대규모그룹은 최대 5,000명까지 등록할 수 있으며, 참가 일정이나 패키지가 서로 다른 참가자들을 하위그룹으로 나누어 관리할 수 있습니다. 각 하위그룹은 동일한 패키지와 도착일·출발일을 가진 참가자들로 구성합니다. 대규모그룹의 장점은 하나의 조직 아래 여러 하위그룹을 두면서도, 하위그룹별로 등록·정보 수정·결제를 독립적으로 진행할 수 있다는 점입니다. 따라서 그룹 규모뿐 아니라 참가 일정과 패키지의 다양성, 하위그룹별 관리 필요성을 고려하여 등록 방식을 선택하시면 됩니다"
+      "ko": "단일그룹(Single Group)과 대규모그룹(Macrogroup)의 차이는 참가 인원뿐 아니라, 참가 일정과 패키지 구성 및 등록 관리 방식에 있습니다. 단일그룹은 최대 150명까지 별도의 하위그룹(Subgroup) 없이 하나의 그룹으로 등록하는 방식으로, 모든 참가자의 참가 일정과 패키지가 동일한 경우에 적합합니다. 대규모그룹은 최대 5,000명까지 등록할 수 있으며, 참가 일정이나 패키지가 서로 다른 참가자들을 하위그룹으로 나누어 관리할 수 있습니다. 각 하위그룹은 동일한 패키지와 도착일·출발일을 가진 참가자들로 구성합니다. 대규모그룹의 장점은 하나의 조직 아래 여러 하위그룹을 두면서도, 하위그룹별로 등록·정보 수정·결제를 독립적으로 진행할 수 있다는 점입니다. 따라서 그룹 규모뿐 아니라 참가 일정과 패키지의 다양성, 하위그룹별 관리 필요성을 고려하여 등록 방식을 선택하시면 됩니다",
+      "en": "The difference between a Single Group and a Macrogroup lies not only in the number of participants but also in the participation dates, the package arrangements and how registration is managed. A Single Group registers up to 150 people as one group without Subgroups, and suits groups in which every participant has the same dates and package. A Macrogroup can register up to 5,000 people and can manage participants with different dates or packages by dividing them into Subgroups. Each Subgroup is made up of participants with the same package and the same arrival and departure dates. The advantage of a Macrogroup is that, while keeping several Subgroups under one organization, each Subgroup can register, edit its information and pay independently. Please choose the registration type in light of not only group size but also the variety of dates and packages and the need to manage each Subgroup separately."
     },
     "sub": {
-      "ko": "그룹유형"
+      "ko": "그룹유형",
+      "en": "Group Types"
     },
     "subNo": "a"
   },
@@ -206,21 +251,26 @@ export const SEED = [
     "id": "Q10",
     "no": "Q10",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "한국까지는 개별적으로 이동하지만 동일한 그룹에 속한 사람들은 별도의 하위그룹(Subgroup)을 만들어야 하나요?"
+      "ko": "한국까지는 개별적으로 이동하지만 동일한 그룹에 속한 사람들은 별도의 하위그룹(Subgroup)을 만들어야 하나요?",
+      "en": "Do people who belong to the same group but travel to Korea individually need to form a separate Subgroup?"
     },
     "a": {
-      "ko": "한국까지 개별적으로 이동하더라도, 대회 기간 중 동일한 일정에, 동일한 패키지를 이용하여, 동일한 그룹 리더의 인솔과 관리 아래 활동할 예정이라면 별도의 하위그룹을 구성하지 않고 같은 그룹으로 등록하실 수 있습니다. 다만, 참가자별로 선택하는 패키지나 참가 일정이 다른 경우에는 하위그룹 구성이 필요할 수 있으므로, 등록시스템의 세부 기준을 확인해 주시기 바랍니다."
+      "ko": "한국까지 개별적으로 이동하더라도, 대회 기간 중 동일한 일정에, 동일한 패키지를 이용하여, 동일한 그룹 리더의 인솔과 관리 아래 활동할 예정이라면 별도의 하위그룹을 구성하지 않고 같은 그룹으로 등록하실 수 있습니다. 다만, 참가자별로 선택하는 패키지나 참가 일정이 다른 경우에는 하위그룹 구성이 필요할 수 있으므로, 등록시스템의 세부 기준을 확인해 주시기 바랍니다.",
+      "en": "Even if they travel to Korea individually, they can register in the same group without forming a separate Subgroup, provided they will follow the same schedule during WYD Seoul 2027, use the same package, and take part under the guidance and supervision of the same group leader. If participants choose different packages or dates, however, Subgroups may be needed, so please check the detailed criteria in the registration system."
     },
     "sub": {
-      "ko": "그룹유형"
+      "ko": "그룹유형",
+      "en": "Group Types"
     },
     "subNo": "a"
   },
@@ -228,21 +278,26 @@ export const SEED = [
     "id": "Q11",
     "no": "Q11",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "저희가 150명 미만의 단일그룹(Single Group)인데 서로 다른 두 가지 교통수단으로 도착할 경우, 같은 그룹으로 등록하고 두 곳에서 각각 픽업 받을 수 있나요?"
+      "ko": "저희가 150명 미만의 단일그룹(Single Group)인데 서로 다른 두 가지 교통수단으로 도착할 경우, 같은 그룹으로 등록하고 두 곳에서 각각 픽업 받을 수 있나요?",
+      "en": "We are a Single Group of fewer than 150 people arriving by two different means of transport. Can we register as one group and be picked up at two different places?"
     },
     "a": {
-      "ko": "150명 미만의 단일그룹(Single Group)이 서로 다른 교통수단으로 도착하더라도, 동일한 일정과 패키지로 같은 그룹 리더의 인솔과 관리 아래 참가할 예정이라면 같은 그룹으로 등록하실 수 있습니다.\n다만, 같은 그룹으로 등록하는 것과 두 곳에서 각각 픽업을 제공받는 것은 별개의 사항입니다. 현재 조직위원회에서는 공항 도착 시 별도의 픽업 서비스를 제공할 계획이 없으므로, 각 도착 장소에서 체크인 장소 및 숙소까지는 직접 이동해 주시기 바랍니다. 숙소에서 주요 행사장과 교리교육 장소 등으로 이동하실 때는 패키지에 포함된 교통카드를 이용해 대중교통 수단을 이용하실 수 있습니다."
+      "ko": "150명 미만의 단일그룹(Single Group)이 서로 다른 교통수단으로 도착하더라도, 동일한 일정과 패키지로 같은 그룹 리더의 인솔과 관리 아래 참가할 예정이라면 같은 그룹으로 등록하실 수 있습니다.\n다만, 같은 그룹으로 등록하는 것과 두 곳에서 각각 픽업을 제공받는 것은 별개의 사항입니다. 현재 조직위원회에서는 공항 도착 시 별도의 픽업 서비스를 제공할 계획이 없으므로, 각 도착 장소에서 체크인 장소 및 숙소까지는 직접 이동해 주시기 바랍니다. 숙소에서 주요 행사장과 교리교육 장소 등으로 이동하실 때는 패키지에 포함된 교통카드를 이용해 대중교통 수단을 이용하실 수 있습니다.",
+      "en": "A Single Group of fewer than 150 people can register as one group even if its members arrive by different means of transport, provided they will take part on the same schedule and package under the guidance and supervision of the same group leader.\nRegistering as one group and being picked up at two places are, however, separate matters. The LOC currently has no plans to provide a pickup service on arrival at the airport, so please make your own way from each arrival point to the check-in location and your accommodation. For travel from your accommodation to the main venues and catechesis venues, you can use public transport with the transport card included in your package."
     },
     "sub": {
-      "ko": "그룹유형"
+      "ko": "그룹유형",
+      "en": "Group Types"
     },
     "subNo": "a"
   },
@@ -250,21 +305,26 @@ export const SEED = [
     "id": "Q12",
     "no": "Q12",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "교구당 구성할 수 있는 대규모그룹(Macrogroup)의 수에 제한이 있나요?"
+      "ko": "교구당 구성할 수 있는 대규모그룹(Macrogroup)의 수에 제한이 있나요?",
+      "en": "Is there a limit on the number of Macrogroups a diocese can form?"
     },
     "a": {
-      "ko": "대규모그룹(Macrogroup) 수의 제한은 없으며, 그룹 내 인원만 5,000명 이하로 제한합니다."
+      "ko": "대규모그룹(Macrogroup) 수의 제한은 없으며, 그룹 내 인원만 5,000명 이하로 제한합니다.",
+      "en": "There is no limit on the number of Macrogroups; only the number of people in a group is limited, to 5,000 or fewer."
     },
     "sub": {
-      "ko": "그룹유형"
+      "ko": "그룹유형",
+      "en": "Group Types"
     },
     "subNo": "a"
   },
@@ -272,21 +332,26 @@ export const SEED = [
     "id": "Q13",
     "no": "Q13",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "등록 과정에서 주교회의는 어떤 역할을 하나요? 모든 그룹이 주교회의 청소년부의 승인을 받아야 하나요?"
+      "ko": "등록 과정에서 주교회의는 어떤 역할을 하나요? 모든 그룹이 주교회의 청소년부의 승인을 받아야 하나요?",
+      "en": "What role does the episcopal conference play in the registration process? Do all groups need the approval of the episcopal conference's youth department?"
     },
     "a": {
-      "ko": "각 주교회의는 등록 과정에서의 역할을 자율적으로 결정할 수 있습니다. 조직위는 한 국가의 모든 그룹이 등록하기 위해 반드시 해당 주교회의 청소년 담당 부서의 승인을 받도록 요구하지 않습니다."
+      "ko": "각 주교회의는 등록 과정에서의 역할을 자율적으로 결정할 수 있습니다. 조직위는 한 국가의 모든 그룹이 등록하기 위해 반드시 해당 주교회의 청소년 담당 부서의 승인을 받도록 요구하지 않습니다.",
+      "en": "Each episcopal conference is allowed to decide its role in registration. The LOC does not require all groups from a country to have the approval of the episcopal conference's youth department in order to register."
     },
     "sub": {
-      "ko": "등록방법"
+      "ko": "등록방법",
+      "en": "How to Register"
     },
     "subNo": "b"
   },
@@ -294,21 +359,26 @@ export const SEED = [
     "id": "Q14",
     "no": "Q14",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "저희 그룹은 교구대회(Days in the Dioceses)에 참가하지만, 자체 프로그램을 준비하고(숙소도 자체적으로 마련) LOC의 물류 지원이 필요 없습니다. 등록 포털에서 교구대회 참가 여부를 '예'로 체크해야 하나요, '아니오'로 체크해야 하나요?"
+      "ko": "저희 그룹은 교구대회(Days in the Dioceses)에 참가하지만, 자체 프로그램을 준비하고(숙소도 자체적으로 마련) LOC의 물류 지원이 필요 없습니다. 등록 포털에서 교구대회 참가 여부를 '예'로 체크해야 하나요, '아니오'로 체크해야 하나요?",
+      "en": "Our group is taking part in Days in the Dioceses, but we are preparing our own program (and arranging our own accommodation) and do not need the LOC's logistical support. On the registration portal, should we tick 'Yes' or 'No' for participation in Days in the Dioceses?"
     },
     "a": {
-      "ko": "교구대회 준비 및 운영상의 참조를 위해 참가여부를 '예'로 체크해 주시기 바랍니다."
+      "ko": "교구대회 준비 및 운영상의 참조를 위해 참가여부를 '예'로 체크해 주시기 바랍니다.",
+      "en": "Please tick 'Yes' so that it can be taken into account in preparing and running Days in the Dioceses."
     },
     "sub": {
-      "ko": "등록방법"
+      "ko": "등록방법",
+      "en": "How to Register"
     },
     "subNo": "b"
   },
@@ -316,21 +386,26 @@ export const SEED = [
     "id": "Q15",
     "no": "Q15",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "등록이 시작되는 시점부터 각 국가 담당자가 등록 관련 문의를 해결할 수 있도록 직접적인 지원이 제공되나요? 또한 단계별 안내가 담긴 전체 영상을 제공해주시나요?"
+      "ko": "등록이 시작되는 시점부터 각 국가 담당자가 등록 관련 문의를 해결할 수 있도록 직접적인 지원이 제공되나요? 또한 단계별 안내가 담긴 전체 영상을 제공해주시나요?",
+      "en": "From the start of registration, will direct support be provided so that each country's coordinator can resolve registration queries? And will you provide a full video with step-by-step guidance?"
     },
     "a": {
-      "ko": "각국 담당자들이 등록 관련 문의에 원활하게 대응할 수 있도록 지원 방안과 안내 자료를 준비하고 있습니다. 담당자 대상 직접 지원 방식과 단계별 등록 절차를 설명하는 전체 영상의 제공 여부는 현재 내부적으로 검토·논의 중이며, 구체적인 내용과 제공 일정은 확정되는 대로 안내드리겠습니다."
+      "ko": "각국 담당자들이 등록 관련 문의에 원활하게 대응할 수 있도록 지원 방안과 안내 자료를 준비하고 있습니다. 담당자 대상 직접 지원 방식과 단계별 등록 절차를 설명하는 전체 영상의 제공 여부는 현재 내부적으로 검토·논의 중이며, 구체적인 내용과 제공 일정은 확정되는 대로 안내드리겠습니다.",
+      "en": "We are preparing support measures and guidance materials so that each country's coordinators can respond smoothly to registration queries. Whether to offer direct support for coordinators, and a full video explaining the registration procedure step by step, is currently under internal review and discussion; we will share the details and timing as soon as they are confirmed."
     },
     "sub": {
-      "ko": "등록방법"
+      "ko": "등록방법",
+      "en": "How to Register"
     },
     "subNo": "b"
   },
@@ -338,21 +413,26 @@ export const SEED = [
     "id": "Q16",
     "no": "Q16",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "그룹 등록은 전액 결제가 완료된 후에만 공식 확정(구역, 숙소 등 배정 포함)되나요, 아니면 등록 포털에 기본 정보를 처음 제출한 시점에 이미 확정되나요?"
+      "ko": "그룹 등록은 전액 결제가 완료된 후에만 공식 확정(구역, 숙소 등 배정 포함)되나요, 아니면 등록 포털에 기본 정보를 처음 제출한 시점에 이미 확정되나요?",
+      "en": "Is a group registration officially confirmed (including allocation of zones, accommodation, etc.) only after full payment, or is it already confirmed when basic information is first submitted on the registration portal?"
     },
     "a": {
-      "ko": "그룹 등록은 참가 분담금의 전액 결제가 완료된 후에만 공식 확정됩니다."
+      "ko": "그룹 등록은 참가 분담금의 전액 결제가 완료된 후에만 공식 확정됩니다.",
+      "en": "A group registration is officially confirmed only once the Participation Contribution has been paid in full."
     },
     "sub": {
-      "ko": "등록방법"
+      "ko": "등록방법",
+      "en": "How to Register"
     },
     "subNo": "b"
   },
@@ -360,21 +440,26 @@ export const SEED = [
     "id": "Q17",
     "no": "Q17",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "사제 등록 및 인증을 위해 필요한 서류는 무엇인가요? Celebret, 사목허가증 및 Good Standing 증명서 등이 필요한지 궁금합니다. 또한 수도회 소속 사제의 경우 관구장의 증명서로 충분한지, 아니면 교구장 주교의 증명서가 필요한지도 안내 부탁드립니다."
+      "ko": "사제 등록 및 인증을 위해 필요한 서류는 무엇인가요? Celebret, 사목허가증 및 Good Standing 증명서 등이 필요한지 궁금합니다. 또한 수도회 소속 사제의 경우 관구장의 증명서로 충분한지, 아니면 교구장 주교의 증명서가 필요한지도 안내 부탁드립니다.",
+      "en": "What documents are needed to register and verify priests? Are a celebret, faculties and a certificate of good standing required? For priests of a religious order, is a certificate from the provincial sufficient, or is one from the diocesan bishop required?"
     },
     "a": {
-      "ko": "사제는 소속 그룹의 일원으로 등록하며, 사제 신분 확인을 위해서는 신분증 사진, 소속 교구 직권자가 발급한 사제 신분증명서, 미성년자 및 취약 성인 보호 확인서를 제출해야 합니다. 수도회 소속 사제의 경우에는 소속 관구장의 증명서를 제출하시면 됩니다."
+      "ko": "사제는 소속 그룹의 일원으로 등록하며, 사제 신분 확인을 위해서는 신분증 사진, 소속 교구 직권자가 발급한 사제 신분증명서, 미성년자 및 취약 성인 보호 확인서를 제출해야 합니다. 수도회 소속 사제의 경우에는 소속 관구장의 증명서를 제출하시면 됩니다.",
+      "en": "Priests register as members of their group. To verify their status as priests, they must submit a photo of their ID, a certificate of priestly status issued by the Ordinary of their diocese, and a safeguarding declaration for minors and vulnerable adults. Priests of a religious order may submit a certificate from their provincial."
     },
     "sub": {
-      "ko": "등록방법"
+      "ko": "등록방법",
+      "en": "How to Register"
     },
     "subNo": "b"
   },
@@ -382,21 +467,26 @@ export const SEED = [
     "id": "Q18",
     "no": "Q18",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "등록은 언제 시작되나요? 대규모그룹(Macrogroup)의 순례자 등록을 순차적으로 나눠서 할 수 있나요 ? 아니면 한번에 완료해야 하나요 ?"
+      "ko": "등록은 언제 시작되나요? 대규모그룹(Macrogroup)의 순례자 등록을 순차적으로 나눠서 할 수 있나요 ? 아니면 한번에 완료해야 하나요 ?",
+      "en": "When does registration begin? Can the pilgrims of a Macrogroup be registered in stages, or must it all be done at once?"
     },
     "a": {
-      "ko": "온라인 등록은 10월 23일에 시작할 예정이며, 대규모그룹(Macrogroup)의 전체 등록을 한 번에 진행하실 필요는 없습니다. 등록시스템의 '임시 저장(Save as draft)' 기능을 이용하여 입력한 내용을 저장한 후, 추후 추가 정보를 입력하거나 기존 내용을 수정하실 수 있습니다. 필요한 등록 정보를 모두 입력하고 확인한 뒤 결제를 진행해 주시기 바랍니다. 또한 대규모그룹 내에 하위그룹(Subgroup)을 구성하여, 준비가 완료된 하위그룹부터 등록하고 나머지 그룹은 준비되는 대로 순차적으로 등록하실 수 있습니다."
+      "ko": "온라인 등록은 10월 23일에 시작할 예정이며, 대규모그룹(Macrogroup)의 전체 등록을 한 번에 진행하실 필요는 없습니다. 등록시스템의 '임시 저장(Save as draft)' 기능을 이용하여 입력한 내용을 저장한 후, 추후 추가 정보를 입력하거나 기존 내용을 수정하실 수 있습니다. 필요한 등록 정보를 모두 입력하고 확인한 뒤 결제를 진행해 주시기 바랍니다. 또한 대규모그룹 내에 하위그룹(Subgroup)을 구성하여, 준비가 완료된 하위그룹부터 등록하고 나머지 그룹은 준비되는 대로 순차적으로 등록하실 수 있습니다.",
+      "en": "Online registration is scheduled to open at the end of October, and a Macrogroup does not need to complete its whole registration at once. Using the registration system's 'Save as draft' function, you can save what you have entered and later add further information or edit it. Please make payment after entering and checking all the required registration information. You can also form Subgroups within the Macrogroup, register the Subgroups that are ready first, and register the rest one by one as they become ready."
     },
     "sub": {
-      "ko": "등록방법"
+      "ko": "등록방법",
+      "en": "How to Register"
     },
     "subNo": "b"
   },
@@ -404,21 +494,26 @@ export const SEED = [
     "id": "Q19",
     "no": "Q19",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "순례자의 연령 기준과 참가 인원 제한은 무엇이며, 30세 이상 청년과 40~50대 이상 성인 또는 고령 동반자는 어떤 자격으로 등록해야 하나요?"
+      "ko": "순례자의 연령 기준과 참가 인원 제한은 무엇이며, 30세 이상 청년과 40~50대 이상 성인 또는 고령 동반자는 어떤 자격으로 등록해야 하나요?",
+      "en": "What are the age criteria and participant limits for pilgrims, and in what capacity should young people over 30, adults in their 40s and 50s and older, or elderly companions register?"
     },
     "a": {
-      "ko": "WYD는 주로 14세부터 30세까지의 젊은이들을 중심으로 마련된 행사이지만, 참여를 원하는 모든 이들에게 열려 있으며 순례자의 참가 연령과 인원에 별도의 제한은 없습니다. 따라서 30세 이상 참가자와 40~50대 성인, 고령 동반자도 별도의 자격 구분 없이 순례자 그룹의 일원으로 등록할 수 있습니다."
+      "ko": "WYD는 주로 14세부터 30세까지의 젊은이들을 중심으로 마련된 행사이지만, 참여를 원하는 모든 이들에게 열려 있으며 순례자의 참가 연령과 인원에 별도의 제한은 없습니다. 따라서 30세 이상 참가자와 40~50대 성인, 고령 동반자도 별도의 자격 구분 없이 순례자 그룹의 일원으로 등록할 수 있습니다.",
+      "en": "World Youth Day is designed mainly around young people aged 14 to 30, but it is open to everyone who wishes to take part, and there are no limits on pilgrims' age or numbers. Participants over 30, adults in their 40s and 50s, and elderly companions can therefore all register as members of a pilgrim group without any separate category."
     },
     "sub": {
-      "ko": "등록방법"
+      "ko": "등록방법",
+      "en": "How to Register"
     },
     "subNo": "b"
   },
@@ -426,21 +521,26 @@ export const SEED = [
     "id": "Q20",
     "no": "Q20",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "등록 과정에서 참가자를 추가·삭제하거나 입력 정보를 수정할 수 있나요?"
+      "ko": "등록 과정에서 참가자를 추가·삭제하거나 입력 정보를 수정할 수 있나요?",
+      "en": "During registration, can participants be added or removed, or the information entered be changed?"
     },
     "a": {
-      "ko": "가능합니다. 결제 완료 전에는 그룹 리더가 등록시스템에서 전체 참가 인원을 늘리거나 줄일 수 있으며, 사제·부제, 장애가 있는 순례자 및 비자 신청자의 입력 정보도 수정할 수 있습니다. 결제 완료 후에는 조직위원회에 연락하여 정보 수정을 요청해 주시기 바랍니다. 다만, 참가 인원이 감소하더라도 해당 인원에 대한 참가 분담금은 환불되지 않으므로 유의해 주시기 바랍니다."
+      "ko": "가능합니다. 결제 완료 전에는 그룹 리더가 등록시스템에서 전체 참가 인원을 늘리거나 줄일 수 있으며, 사제·부제, 장애가 있는 순례자 및 비자 신청자의 입력 정보도 수정할 수 있습니다. 결제 완료 후에는 조직위원회에 연락하여 정보 수정을 요청해 주시기 바랍니다. 다만, 참가 인원이 감소하더라도 해당 인원에 대한 참가 분담금은 환불되지 않으므로 유의해 주시기 바랍니다.",
+      "en": "Yes. Before payment is complete, the group leader can increase or decrease the total number of participants in the registration system and can edit the information entered for priests and deacons, pilgrims with disabilities and visa applicants. After payment is complete, please contact the LOC to request changes. Please note, however, that if the number of participants falls, the Participation Contribution for those participants is not refunded."
     },
     "sub": {
-      "ko": "등록방법"
+      "ko": "등록방법",
+      "en": "How to Register"
     },
     "subNo": "b"
   },
@@ -448,21 +548,26 @@ export const SEED = [
     "id": "Q21",
     "no": "Q21",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "참가 취소 시 해당 자리를 대기자나 다른 순례자에게 양도할 수 있으며, 변경 가능한 시점과 범위는 어떻게 되나요?"
+      "ko": "참가 취소 시 해당 자리를 대기자나 다른 순례자에게 양도할 수 있으며, 변경 가능한 시점과 범위는 어떻게 되나요?",
+      "en": "When a participant cancels, can their place be transferred to someone on a waiting list or to another pilgrim? Until when, and to what extent, can changes be made?"
     },
     "a": {
-      "ko": "그룹 대표와 부대표를 제외한 순례자는 등록 시점이나 결제 여부와 관계없이 다른 참가자로 변경할 수 있습니다. 따라서 참가를 취소하는 순례자를 대기자나 다른 순례자로 대체하실 수 있습니다. 다만, 결제 완료 후 참가자를 대체하지 않아 그룹의 전체 참가 인원이 감소하는 경우에는, 감소한 인원에 대한 결제금액은 환불되지 않으므로 이 점을 유의해 주시기 바랍니다."
+      "ko": "그룹 대표와 부대표를 제외한 순례자는 등록 시점이나 결제 여부와 관계없이 다른 참가자로 변경할 수 있습니다. 따라서 참가를 취소하는 순례자를 대기자나 다른 순례자로 대체하실 수 있습니다. 다만, 결제 완료 후 참가자를 대체하지 않아 그룹의 전체 참가 인원이 감소하는 경우에는, 감소한 인원에 대한 결제금액은 환불되지 않으므로 이 점을 유의해 주시기 바랍니다.",
+      "en": "Pilgrims other than the group leader and second group leader can be replaced by another participant, regardless of when they registered or whether payment has been made. A pilgrim who cancels can therefore be replaced by someone on a waiting list or by another pilgrim. Please note, however, that if a group's total number of participants falls after payment because a participant is not replaced, the amount paid for those participants is not refunded."
     },
     "sub": {
-      "ko": "등록방법"
+      "ko": "등록방법",
+      "en": "How to Register"
     },
     "subNo": "b"
   },
@@ -470,21 +575,26 @@ export const SEED = [
     "id": "Q22",
     "no": "Q22",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "리더가 순례자의 정보를 잘못 입력했을 경우, 순례자 본인이 직접 수정할 수 있나요?"
+      "ko": "리더가 순례자의 정보를 잘못 입력했을 경우, 순례자 본인이 직접 수정할 수 있나요?",
+      "en": "If a leader enters a pilgrim's information incorrectly, can the pilgrim correct it themselves?"
     },
     "a": {
-      "ko": "순례자 본인이 등록시스템에서 자신의 정보를 직접 수정할 수는 없습니다. 개별 참가자 정보는 그룹의 대표와 부대표, 사제·부제, 장애가 있는 순례자 및 비자 발급 지원이 필요한 참가자에 한해 입력이 필요합니다. 그룹 리더가 해당 정보를 잘못 입력한 경우, 결제 완료 전에는 그룹 리더가 직접 수정할 수 있습니다. 결제 완료 후, 수정이 필요한 경우에는 조직위원회(inquiries@wydseoul.org)로 요청해 주시기 바랍니다."
+      "ko": "순례자 본인이 등록시스템에서 자신의 정보를 직접 수정할 수는 없습니다. 개별 참가자 정보는 그룹의 대표와 부대표, 사제·부제, 장애가 있는 순례자 및 비자 발급 지원이 필요한 참가자에 한해 입력이 필요합니다. 그룹 리더가 해당 정보를 잘못 입력한 경우, 결제 완료 전에는 그룹 리더가 직접 수정할 수 있습니다. 결제 완료 후, 수정이 필요한 경우에는 조직위원회(inquiries@wydseoul.org)로 요청해 주시기 바랍니다.",
+      "en": "Pilgrims cannot edit their own information in the registration system. Individual participant information needs to be entered only for the group leader and second group leader, priests and deacons, pilgrims with disabilities, and participants who need visa support. If the group leader enters this information incorrectly, they can correct it themselves before payment is complete. If changes are needed after payment, please send your request to the LOC (inquiries@wydseoul.org)."
     },
     "sub": {
-      "ko": "등록방법"
+      "ko": "등록방법",
+      "en": "How to Register"
     },
     "subNo": "b"
   },
@@ -492,21 +602,26 @@ export const SEED = [
     "id": "Q23",
     "no": "Q23",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "부득이한 사정으로 WYD에 참석하지 못하게 될 경우, 어느 단계에서든 환불이 가능한가요, 아니면 모든 결제 단계가 완료되면 전혀 환불이 안 되나요?(ex.전쟁,자연재해 등)"
+      "ko": "부득이한 사정으로 WYD에 참석하지 못하게 될 경우, 어느 단계에서든 환불이 가능한가요, 아니면 모든 결제 단계가 완료되면 전혀 환불이 안 되나요?(ex.전쟁,자연재해 등)",
+      "en": "If we are unable to attend WYD for unavoidable reasons (e.g. war, natural disaster), can we get a refund at any stage, or is no refund possible at all once every payment stage is complete?"
     },
     "a": {
-      "ko": "참가분담금은 원칙적으로 환불되지 않습니다. 다만 비자 발급이 거부되어 이를 확인할 수 있는 증빙 서류를 제출하신 경우에 한해 예외적으로 환불해 드립니다. 환불은 대회 종료 후에 진행되며, 관련 수수료 등을 제외한 금액이 지급됩니다. 현재 비자 미발급 사유 외 전쟁이나 자연재해 등 사유는 환불 대상에 포함되어 있지 않지만, 해당 사유들도 신중히 검토 하겠습니다."
+      "ko": "참가분담금은 원칙적으로 환불되지 않습니다. 다만 비자 발급이 거부되어 이를 확인할 수 있는 증빙 서류를 제출하신 경우에 한해 예외적으로 환불해 드립니다. 환불은 대회 종료 후에 진행되며, 관련 수수료 등을 제외한 금액이 지급됩니다. 현재 비자 미발급 사유 외 전쟁이나 자연재해 등 사유는 환불 대상에 포함되어 있지 않지만, 해당 사유들도 신중히 검토 하겠습니다.",
+      "en": "In principle, Participation Contributions are non-refundable. As an exception, however, a refund will be made only where a visa has been refused and supporting documents confirming this are submitted. Refunds are processed after the event, and the amount paid out excludes related fees and charges. At present, reasons other than visa refusal, such as war or natural disaster, are not covered, but we will consider these reasons carefully as well."
     },
     "sub": {
-      "ko": "결제 및 기금관련"
+      "ko": "결제 및 기금관련",
+      "en": "Payment and Funds"
     },
     "subNo": "c"
   },
@@ -514,21 +629,26 @@ export const SEED = [
     "id": "Q24",
     "no": "Q24",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "해외송금 및 회계 처리를 위해 공식 인보이스 또는 직인이 포함된 청구서를 발급받을 수 있나요?"
+      "ko": "해외송금 및 회계 처리를 위해 공식 인보이스 또는 직인이 포함된 청구서를 발급받을 수 있나요?",
+      "en": "For international transfers and accounting purposes, can we obtain an official invoice or a bill bearing an official seal?"
     },
     "a": {
-      "ko": "현재 기준으로는 별도의 정형화된 인보이스를 발급하지 않고 있습니다. 다만 국가 및 단체마다 해외 송금에 관한 법적·회계적 요건이 다르다는 점을 이해하고 있으며, 조직위는 조직위로의 직접 납부 방식을 전제로 납부에 필요한 서류를 어떤 형태로 제공할 수 있을지 검토하고 있습니다. 검토 결과는 확정되는 대로 안내 드리겠습니다."
+      "ko": "현재 기준으로는 별도의 정형화된 인보이스를 발급하지 않고 있습니다. 다만 국가 및 단체마다 해외 송금에 관한 법적·회계적 요건이 다르다는 점을 이해하고 있으며, 조직위는 조직위로의 직접 납부 방식을 전제로 납부에 필요한 서류를 어떤 형태로 제공할 수 있을지 검토하고 있습니다. 검토 결과는 확정되는 대로 안내 드리겠습니다.",
+      "en": "At present, we do not issue a standard invoice. We do understand, however, that legal and accounting requirements for international transfers differ by country and organization, and the LOC is reviewing what form of documentation it can provide for payment, on the basis that payment is made directly to the LOC. We will let you know the outcome as soon as it is confirmed."
     },
     "sub": {
-      "ko": "결제 및 기금관련"
+      "ko": "결제 및 기금관련",
+      "en": "Payment and Funds"
     },
     "subNo": "c"
   },
@@ -536,21 +656,26 @@ export const SEED = [
     "id": "Q25",
     "no": "Q25",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "동일한 대규모그룹(Macrogroup)안에서 하위그룹(Subgroup)별로 서로 다른 패키지를 선택하고 개별 결제할 수 있나요? 일부 하위그룹의 결제 지연이 전체 대규모그룹에 미치는 영향에 대해서도 궁금합니다."
+      "ko": "동일한 대규모그룹(Macrogroup)안에서 하위그룹(Subgroup)별로 서로 다른 패키지를 선택하고 개별 결제할 수 있나요? 일부 하위그룹의 결제 지연이 전체 대규모그룹에 미치는 영향에 대해서도 궁금합니다.",
+      "en": "Within the same Macrogroup, can each Subgroup choose a different package and pay separately? We would also like to know how a payment delay by some Subgroups affects the Macrogroup as a whole."
     },
     "a": {
-      "ko": "네, 동일한 대규모그룹(Macrogroup) 안에서 하위그룹(Subgroup)별로 서로 다른 패키지를 선택하고 각각 결제할 수 있습니다. 각 하위그룹은 본 대회 참가를 위한 동일한 서울 체류 일정과 패키지를 이용하는 순례자들로 구성해 주시기 바랍니다. 결제는 하위그룹별로 진행되므로, 일부 하위그룹의 결제가 지연되더라도 다른 하위그룹이나 매크로 그룹의 등록 및 결제에는 영향을 미치지 않습니다."
+      "ko": "네, 동일한 대규모그룹(Macrogroup) 안에서 하위그룹(Subgroup)별로 서로 다른 패키지를 선택하고 각각 결제할 수 있습니다. 각 하위그룹은 본 대회 참가를 위한 동일한 서울 체류 일정과 패키지를 이용하는 순례자들로 구성해 주시기 바랍니다. 결제는 하위그룹별로 진행되므로, 일부 하위그룹의 결제가 지연되더라도 다른 하위그룹이나 매크로 그룹의 등록 및 결제에는 영향을 미치지 않습니다.",
+      "en": "Yes. Within the same Macrogroup, each Subgroup can choose a different package and pay separately. Please make up each Subgroup of pilgrims who share the same stay in Seoul for WYD Seoul 2027 and the same package. Because payment is made per Subgroup, a delay in payment by some Subgroups will not affect the registration or payment of other Subgroups or of the Macrogroup."
     },
     "sub": {
-      "ko": "결제 및 기금관련"
+      "ko": "결제 및 기금관련",
+      "en": "Payment and Funds"
     },
     "subNo": "c"
   },
@@ -558,21 +683,26 @@ export const SEED = [
     "id": "Q26",
     "no": "Q26",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "등록 및 각 패키지의 결제 일정과 마감일은 어떻게 되나요? 첫 결제, 분할 납부, 잔금 및 보험료 등 각 항목별 납부 기한을 안내받을 수 있나요?"
+      "ko": "등록 및 각 패키지의 결제 일정과 마감일은 어떻게 되나요? 첫 결제, 분할 납부, 잔금 및 보험료 등 각 항목별 납부 기한을 안내받을 수 있나요?",
+      "en": "What are the payment schedules and deadlines for registration and for each package? Can we be told the deadline for each item, such as the first payment, installments, the balance and insurance?"
     },
     "a": {
-      "ko": "결제는 등록시스템이 오픈된 날부터 가능합니다. 결제 기한은 패키지 유형과 결제 방법에 따라 다음과 같습니다.\n- 숙박 포함 패키지 : 2027년 5월 31일까지\n- 비숙박 패키지 : 현장 등록 오픈 전까지 (현장 등록 오픈은 7월 하순으로 정확한 일정은 추후 안내 예정)\n- 비숙박 패키지 (해외 계좌이체) : 2027년 6월 30일까지\n해외 계좌이체는 은행 간 송금에 시간이 걸리므로 비숙박 패키지도 기한이 앞당겨져 있습니다. 기한 내에 결제를 마치지 못하신 경우에는 현장 등록(현장 등록 오픈은 7월 하순으로 정확한 일정은 추후 안내 예정)을 통해 결제하실 수 있습니다.\n분할 결제 시 첫 결제에는 별도의 기한이 없습니다. 다만 위 기한까지 전액을 납부하셔야 합니다. 참가분담금(Participation Contribution)은 패키지 항목별로 나누어 낼 수 없으며, 패키지 전체 금액으로만 결제하실 수 있습니다."
+      "ko": "결제는 등록시스템이 오픈된 날부터 가능합니다. 결제 기한은 패키지 유형과 결제 방법에 따라 다음과 같습니다.\n- 숙박 포함 패키지 : 2027년 5월 31일까지\n- 비숙박 패키지 : 현장 등록 오픈 전까지 (현장 등록 오픈은 7월 하순으로 정확한 일정은 추후 안내 예정)\n- 비숙박 패키지 (해외 계좌이체) : 2027년 6월 30일까지\n해외 계좌이체는 은행 간 송금에 시간이 걸리므로 비숙박 패키지도 기한이 앞당겨져 있습니다. 기한 내에 결제를 마치지 못하신 경우에는 현장 등록(현장 등록 오픈은 7월 하순으로 정확한 일정은 추후 안내 예정)을 통해 결제하실 수 있습니다.\n분할 결제 시 첫 결제에는 별도의 기한이 없습니다. 다만 위 기한까지 전액을 납부하셔야 합니다. 참가분담금(Participation Contribution)은 패키지 항목별로 나누어 낼 수 없으며, 패키지 전체 금액으로만 결제하실 수 있습니다.",
+      "en": "Payment is possible from the day the registration system opens. Payment deadlines depend on the package type and payment method:\n- Packages with accommodation: by May 31, 2027\n- Packages without accommodation: before on-site registration opens (on-site registration opens in late July; the exact date will be announced later)\n- Packages without accommodation (international bank transfer): by June 30, 2027\nBecause international bank transfers take time between banks, the deadline for packages without accommodation paid this way is earlier. If you cannot complete payment by the deadline, you can pay through on-site registration (on-site registration opens in late July; the exact date will be announced later).\n\nWhen paying in installments, there is no separate deadline for the first payment, but the full amount must be paid by the deadline above. The Participation Contribution cannot be split by package item; it can only be paid as the full package amount."
     },
     "sub": {
-      "ko": "결제 및 기금관련"
+      "ko": "결제 및 기금관련",
+      "en": "Payment and Funds"
     },
     "subNo": "c"
   },
@@ -580,21 +710,26 @@ export const SEED = [
     "id": "Q27",
     "no": "Q27",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "참가비는 얼마이며 어떤 방법과 통화로 결제할 수 있나요? 달러로만 가능한가요, 아니면 유로로도 결제할 수 있나요 ? ‘기타 결제 방법’에는 무엇이 포함되며, 하나의 그룹에 대해 서로 다른 기관이 나누어 결제하는 것도 가능한가요?"
+      "ko": "참가비는 얼마이며 어떤 방법과 통화로 결제할 수 있나요? 달러로만 가능한가요, 아니면 유로로도 결제할 수 있나요 ? ‘기타 결제 방법’에는 무엇이 포함되며, 하나의 그룹에 대해 서로 다른 기관이 나누어 결제하는 것도 가능한가요?",
+      "en": "How much is the Participation Contribution, and by what methods and in which currencies can it be paid? Only in dollars, or also in euros? What do 'other payment methods' include, and can different organizations split the payment for one group?"
     },
     "a": {
-      "ko": "참가비는 공식 홈페이지에서 확인하실 수 있습니다. 결제는 대한민국에서는 원화, 그 외 국가에서는 미국 달러로 진행됩니다. 결제창에서 '자국통화결제'를 선택하시면 주요 국가의 통화로도 결제하실 수 있으며, 이때 발생하는 추가 수수료는 결제자가 부담합니다. 결제 수단은 다음과 같습니다.\n-신용카드·체크카드\n-은행 계좌이체 (가상계좌)\n-간편결제: 국내는 네이버페이·카카오페이, 해외는 애플페이·알리페이"
+      "ko": "참가비는 공식 홈페이지에서 확인하실 수 있습니다. 결제는 대한민국에서는 원화, 그 외 국가에서는 미국 달러로 진행됩니다. 결제창에서 '자국통화결제'를 선택하시면 주요 국가의 통화로도 결제하실 수 있으며, 이때 발생하는 추가 수수료는 결제자가 부담합니다. 결제 수단은 다음과 같습니다.\n-신용카드·체크카드\n-은행 계좌이체 (가상계좌)\n-간편결제: 국내는 네이버페이·카카오페이, 해외는 애플페이·알리페이",
+      "en": "The Participation Contribution can be found on the official WYD Seoul 2027 website. Payment is made in Korean won in the Republic of Korea and in US dollars in all other countries. If you select 'pay in local currency' in the payment window, you can also pay in the currencies of major countries; any additional fees this incurs are borne by the payer. The payment methods are:\n- Credit and debit cards\n- Bank transfer (virtual account)\n- Mobile payment: Naver Pay and Kakao Pay in Korea; Apple Pay and Alipay abroad"
     },
     "sub": {
-      "ko": "결제 및 기금관련"
+      "ko": "결제 및 기금관련",
+      "en": "Payment and Funds"
     },
     "subNo": "c"
   },
@@ -602,21 +737,26 @@ export const SEED = [
     "id": "Q28",
     "no": "Q28",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "참가분담금(Participation Contribution)과 연대기금(Solidarity Fund)은 반드시 납부해야 하는 의무 사항인가요? 설문 결과에 따르면 많은 그룹이 재정 지원이 필요한데도 등록비 외에 추가로 납부해야 하는 상황이라, 참가분담금이 정말 의무인지 궁금합니다. 또한 연대기금을 특정 국가나 지역의 순례자 지원을 위해 지정할 수 있는지도 궁금합니다."
+      "ko": "참가분담금(Participation Contribution)과 연대기금(Solidarity Fund)은 반드시 납부해야 하는 의무 사항인가요? 설문 결과에 따르면 많은 그룹이 재정 지원이 필요한데도 등록비 외에 추가로 납부해야 하는 상황이라, 참가분담금이 정말 의무인지 궁금합니다. 또한 연대기금을 특정 국가나 지역의 순례자 지원을 위해 지정할 수 있는지도 궁금합니다.",
+      "en": "Are the Participation Contribution and the Solidarity Fund mandatory? According to the survey results, many groups need financial support yet would have to pay more on top of the registration fee, so we wonder whether the Participation Contribution is truly mandatory. We would also like to know whether Solidarity Fund contributions can be designated to support pilgrims from a particular country or region."
     },
     "a": {
-      "ko": "세계청년대회 참가 자체에는 비용이 들지 않습니다. 다만 '등록 참가자'로 참가하시려면 참가분담금을 납부하셔야 합니다. 분담금을 납부한 등록 참가자는 원하는 패키지를 선택하여 숙박, 식사, 이동수단, 보험, 순례자 키트를 제공받습니다. 등록하지 않고 참가하시는 경우에는 이러한 패키지가 제공되지 않습니다.\n연대기금은 더 많은 순례자가 함께 할 수 있도록, 특히 어려운 여건에 있는 나라의 청년들이 대회에 참가할 수 있도록 돕는 자발적 기부입니다. 납부는 의무가 아니며, 취지에 공감하는 순례자분들의 자발적인 참여로 마련됩니다."
+      "ko": "세계청년대회 참가 자체에는 비용이 들지 않습니다. 다만 '등록 참가자'로 참가하시려면 참가분담금을 납부하셔야 합니다. 분담금을 납부한 등록 참가자는 원하는 패키지를 선택하여 숙박, 식사, 이동수단, 보험, 순례자 키트를 제공받습니다. 등록하지 않고 참가하시는 경우에는 이러한 패키지가 제공되지 않습니다.\n연대기금은 더 많은 순례자가 함께 할 수 있도록, 특히 어려운 여건에 있는 나라의 청년들이 대회에 참가할 수 있도록 돕는 자발적 기부입니다. 납부는 의무가 아니며, 취지에 공감하는 순례자분들의 자발적인 참여로 마련됩니다.",
+      "en": "Taking part in World Youth Day itself costs nothing. To take part as a 'registered participant,' however, you must pay the Participation Contribution. Registered participants who have paid the contribution choose the package they want and receive accommodation, meals, transport, insurance and a pilgrim kit. Those who take part without registering do not receive these packages.\nThe Solidarity Fund is a voluntary donation that helps more pilgrims take part, especially young people from countries in difficult circumstances. It is not mandatory; it is made up of voluntary contributions from pilgrims who share its purpose."
     },
     "sub": {
-      "ko": "결제 및 기금관련"
+      "ko": "결제 및 기금관련",
+      "en": "Payment and Funds"
     },
     "subNo": "c"
   },
@@ -624,21 +764,26 @@ export const SEED = [
     "id": "Q29",
     "no": "Q29",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "각 패키지별 등록·참가 비용은 얼마이며, 매크로그룹 규모, 조기 또는 일시불 결제 등에 따른 할인 혜택이 있나요? 또한 미성년자에게도 성인과 동일한 참가비가 적용되는지, 별도의 할인이나 재정 지원이 있는지도 궁금합니다."
+      "ko": "각 패키지별 등록·참가 비용은 얼마이며, 매크로그룹 규모, 조기 또는 일시불 결제 등에 따른 할인 혜택이 있나요? 또한 미성년자에게도 성인과 동일한 참가비가 적용되는지, 별도의 할인이나 재정 지원이 있는지도 궁금합니다.",
+      "en": "How much does registration and participation cost for each package, and are there discounts based on Macrogroup size or for early or lump-sum payment? Also, do minors pay the same as adults, and are there separate discounts or financial support for them?"
     },
     "a": {
-      "ko": "패키지별 참가분담금은 공식 홈페이지에서 확인하실 수 있으며, 연령과 관계없이 모든 순례자에게 동일하게 적용됩니다. 미성년자, 단체 규모, 조기 결제 등에 따른 할인은 운영하지 않습니다. 대신 조직위원회는 패키지별 참가분담금을 합리적인 범위에서 최소한의 수준으로 책정하여 모든 순례자가 참가할 수 있도록 노력했습니다."
+      "ko": "패키지별 참가분담금은 공식 홈페이지에서 확인하실 수 있으며, 연령과 관계없이 모든 순례자에게 동일하게 적용됩니다. 미성년자, 단체 규모, 조기 결제 등에 따른 할인은 운영하지 않습니다. 대신 조직위원회는 패키지별 참가분담금을 합리적인 범위에서 최소한의 수준으로 책정하여 모든 순례자가 참가할 수 있도록 노력했습니다.",
+      "en": "The Participation Contribution for each package can be found on the official WYD Seoul 2027 website and applies equally to all pilgrims regardless of age. There are no discounts for minors, group size, early payment or the like. Instead, the LOC has set the Participation Contribution for each package at the lowest reasonable level so that every pilgrim can take part."
     },
     "sub": {
-      "ko": "결제 및 기금관련"
+      "ko": "결제 및 기금관련",
+      "en": "Payment and Funds"
     },
     "subNo": "c"
   },
@@ -646,21 +791,26 @@ export const SEED = [
     "id": "Q30",
     "no": "Q30",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "연대기금 지원을 받을 수 있는 국가·그룹·개별 순례자의 자격 요건은 무엇이며, 신청은 어떤 절차와 경로(조직위원회, DLFL, 웹사이트, 이메일 등)를 통해 이루어지나요? 대규모그룹 전체가 아닌 일부 순례자만 지원을 신청하는 것도 가능한가요?"
+      "ko": "연대기금 지원을 받을 수 있는 국가·그룹·개별 순례자의 자격 요건은 무엇이며, 신청은 어떤 절차와 경로(조직위원회, DLFL, 웹사이트, 이메일 등)를 통해 이루어지나요? 대규모그룹 전체가 아닌 일부 순례자만 지원을 신청하는 것도 가능한가요?",
+      "en": "What are the eligibility criteria for countries, groups and individual pilgrims to receive Solidarity Fund support, and through what procedure and channel (LOC, DLFL, website, email, etc.) is the application made? Can only some pilgrims apply for support, rather than the whole Macrogroup?"
     },
     "a": {
-      "ko": "조직위는 현재 교황청 평신도가정생명부와 협의하여 연대기금의 자격 요건과 신청 절차를 검토하고 있습니다. 자격 요건 및 신청 방법 등 세부 사항은 확정되는 대로 안내해 드리겠습니다."
+      "ko": "조직위는 현재 교황청 평신도가정생명부와 협의하여 연대기금의 자격 요건과 신청 절차를 검토하고 있습니다. 자격 요건 및 신청 방법 등 세부 사항은 확정되는 대로 안내해 드리겠습니다.",
+      "en": "The LOC is currently reviewing the eligibility criteria and application procedure for the Solidarity Fund in consultation with the Dicastery for Laity, Family and Life. Details such as eligibility and how to apply will be announced as soon as they are confirmed."
     },
     "sub": {
-      "ko": "결제 및 기금관련"
+      "ko": "결제 및 기금관련",
+      "en": "Payment and Funds"
     },
     "subNo": "c"
   },
@@ -668,21 +818,26 @@ export const SEED = [
     "id": "Q31",
     "no": "Q31",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "주교회의 대표들이 온라인 등록 시스템의 '백오피스'에 접근하여 자국에서 등록한 그룹과 그룹 리더 현황을 확인할 수 있는 관리 기능도 제공되나요? 지난 10년간의 모든 WYD에서는 이것이 가능했습니다."
+      "ko": "주교회의 대표들이 온라인 등록 시스템의 '백오피스'에 접근하여 자국에서 등록한 그룹과 그룹 리더 현황을 확인할 수 있는 관리 기능도 제공되나요? 지난 10년간의 모든 WYD에서는 이것이 가능했습니다.",
+      "en": "Will there be a management function allowing episcopal conference representatives to access the online registration system's 'back office' and see the groups and group leaders registered from their country? This has been possible at every WYD of the last ten years."
     },
     "a": {
-      "ko": "주교회의 대표는 등록시스템 백오피스 접근 및 열람 (읽기 전용) 권한을 DLFL에게 요청할 수 있습니다. 이를 통해, 해당 국가의 등록 현황을 확인할 수 있습니다."
+      "ko": "주교회의 대표는 등록시스템 백오피스 접근 및 열람 (읽기 전용) 권한을 DLFL에게 요청할 수 있습니다. 이를 통해, 해당 국가의 등록 현황을 확인할 수 있습니다.",
+      "en": "Episcopal conference representatives can request access to the registration system's back office, with viewing (read-only) rights, from the DLFL. This allows them to see the registration status for their country."
     },
     "sub": {
-      "ko": "주교등록"
+      "ko": "주교등록",
+      "en": "Bishops' Registration"
     },
     "subNo": "d"
   },
@@ -690,21 +845,26 @@ export const SEED = [
     "id": "Q32",
     "no": "Q32",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "주교의 등록 절차 및 교리교육 참여를 위한 별도 등록 절차가 있는지 안내 부탁드립니다. 또한 주교들의 숙소 유형에 따른 체크인 절차 및 성직자용 물품 수령에 대해 안내해 주십시오."
+      "ko": "주교의 등록 절차 및 교리교육 참여를 위한 별도 등록 절차가 있는지 안내 부탁드립니다. 또한 주교들의 숙소 유형에 따른 체크인 절차 및 성직자용 물품 수령에 대해 안내해 주십시오.",
+      "en": "Please tell us the registration procedure for bishops and whether there is a separate registration for taking part in the Catecheses. Please also explain the check-in procedure for each type of bishops' accommodation and how clerical items are collected."
     },
     "a": {
-      "ko": "주교 역시 등록시스템(주교)을 통해 등록합니다. 그리고 교리교육을 담당할 주교는 DLFL에서 선정하여 관리할 것입니다. 조직위원회가 지정한 호텔에 머무는 주교들의 체크인은 해당 호텔에서 진행할 예정이고, 물품 수령 역시 호텔에서 할 수 있습니다. 그외 숙소를 이용하는 주교들의 체크인과 물품 수령 관련한 사항은 현재 논의 중에 있습니다."
+      "ko": "주교 역시 등록시스템(주교)을 통해 등록합니다. 그리고 교리교육을 담당할 주교는 DLFL에서 선정하여 관리할 것입니다. 조직위원회가 지정한 호텔에 머무는 주교들의 체크인은 해당 호텔에서 진행할 예정이고, 물품 수령 역시 호텔에서 할 수 있습니다. 그외 숙소를 이용하는 주교들의 체크인과 물품 수령 관련한 사항은 현재 논의 중에 있습니다.",
+      "en": "Bishops also register through the registration system (bishops). The bishops who will give the Catecheses will be selected and managed by the DLFL. Check-in for bishops staying at hotels designated by the LOC will take place at those hotels, and items can also be collected there. Check-in and collection of items for bishops using other accommodation are currently under discussion."
     },
     "sub": {
-      "ko": "주교등록"
+      "ko": "주교등록",
+      "en": "Bishops' Registration"
     },
     "subNo": "d"
   },
@@ -712,21 +872,26 @@ export const SEED = [
     "id": "Q33",
     "no": "Q33",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "등록"
+      "ko": "등록",
+      "en": "Registration"
     },
     "topicNo": "1",
     "q": {
-      "ko": "주교는 홈스테이와 호텔 중 숙박 유형을 선택할 수 있나요? 홈스테이를 선택할 수 있다면 청년 순례자에게 우선 배정하지 않고 주교에게도 선택권을 제공하는 이유는 무엇인가요? 또한 LOC가 주교에게 제공하는 호텔의 비용 부담 여부와 객실 유형(1인실 등)은 어떻게 되나요?"
+      "ko": "주교는 홈스테이와 호텔 중 숙박 유형을 선택할 수 있나요? 홈스테이를 선택할 수 있다면 청년 순례자에게 우선 배정하지 않고 주교에게도 선택권을 제공하는 이유는 무엇인가요? 또한 LOC가 주교에게 제공하는 호텔의 비용 부담 여부와 객실 유형(1인실 등)은 어떻게 되나요?",
+      "en": "Can bishops choose between a homestay and a hotel? If they can choose a homestay, why are bishops given that choice rather than homestays being given first to young pilgrims? And who pays for the hotels the LOC provides for bishops, and what type of room (single, etc.) is it?"
     },
     "a": {
-      "ko": "주교는 호텔/홈스테이/동반그룹과 함께 숙박/개별 숙박 중 선택할 수 있습니다. 이는 주교의 상황에 맞게 선택을 할 수 있도록 배려한 것입니다. 호텔 숙박 비용은 주교 본인이 부담합니다. 그리고, 1인실이 기본적으로 배정될 예정입니다."
+      "ko": "주교는 호텔/홈스테이/동반그룹과 함께 숙박/개별 숙박 중 선택할 수 있습니다. 이는 주교의 상황에 맞게 선택을 할 수 있도록 배려한 것입니다. 호텔 숙박 비용은 주교 본인이 부담합니다. 그리고, 1인실이 기본적으로 배정될 예정입니다.",
+      "en": "Bishops can choose among a hotel, a homestay, staying with the group accompanying them, or arranging their own accommodation. This is to let bishops choose according to their circumstances. Hotel costs are paid by the bishops themselves. Single rooms will be assigned as standard."
     },
     "sub": {
-      "ko": "주교등록"
+      "ko": "주교등록",
+      "en": "Bishops' Registration"
     },
     "subNo": "d"
   },
@@ -734,183 +899,224 @@ export const SEED = [
     "id": "Q34",
     "no": "Q34",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "비자,K-ETA"
+      "ko": "비자,K-ETA",
+      "en": "Visa, K-ETA"
     },
     "topicNo": "2",
     "q": {
-      "ko": "2027년 K-ETA 적용 대상과 면제 국가는 어떻게 되며, 개인 또는 그룹 단위로 신청할 수 있나요?"
+      "ko": "2027년 K-ETA 적용 대상과 면제 국가는 어떻게 되며, 개인 또는 그룹 단위로 신청할 수 있나요?",
+      "en": "For 2027, which countries are subject to K-ETA and which are exempt? Can it be applied for individually or as a group?"
     },
     "a": {
-      "ko": "현재 2026년 12월 31일까지의 K- ETA 적용나라는 88개국, K-ETA 면제 국가는 22개국입니다. 자세한 내용은\nhttps://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299706&esntlPnotiMtYn=Y 를 참고하시면 본국의 면제 여부를 확인하실 수 있습니다. K-ETA면제에 대해 내년까지 연장 가능 여부에 대해 법무부와 논의중입니다.\n또한 그룹 단위로는 신청하실 수 없으며, 개인으로 신청해주시기 바랍니다."
+      "ko": "현재 2026년 12월 31일까지의 K- ETA 적용나라는 88개국, K-ETA 면제 국가는 22개국입니다. 자세한 내용은\nhttps://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299706&esntlPnotiMtYn=Y 를 참고하시면 본국의 면제 여부를 확인하실 수 있습니다. K-ETA면제에 대해 내년까지 연장 가능 여부에 대해 법무부와 논의중입니다.\n또한 그룹 단위로는 신청하실 수 없으며, 개인으로 신청해주시기 바랍니다.",
+      "en": "Currently, through December 31, 2026, K-ETA applies to 88 countries and 22 countries are exempt from K-ETA. For details, please see\nhttps://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299706&esntlPnotiMtYn=Y where you can check whether your country is exempt. We are in discussions with the Ministry of Justice on whether the K-ETA exemption can be extended through next year.\nK-ETA cannot be applied for as a group; please apply individually."
     }
   },
   {
     "id": "Q35",
     "no": "Q35",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "비자,K-ETA"
+      "ko": "비자,K-ETA",
+      "en": "Visa, K-ETA"
     },
     "topicNo": "2",
     "q": {
-      "ko": "비자 신청 시 필요한 한국 내 체류지 주소와 연락처를 LOC에서 제공하나요?"
+      "ko": "비자 신청 시 필요한 한국 내 체류지 주소와 연락처를 LOC에서 제공하나요?",
+      "en": "Will the LOC provide the address and contact details in Korea that are needed for a visa application?"
     },
     "a": {
-      "ko": "비자 신청 시 한국 내 체류지 주소와 연락처는 조직위원회 정보를 기재하시면 됩니다. 해당 정보는 등록 시스템에서 발급되는 참가확인서에서 확인하실 수 있습니다."
+      "ko": "비자 신청 시 한국 내 체류지 주소와 연락처는 조직위원회 정보를 기재하시면 됩니다. 해당 정보는 등록 시스템에서 발급되는 참가확인서에서 확인하실 수 있습니다.",
+      "en": "For the address and contact details in Korea on your visa application, please enter the LOC's details. This information can be found in the certificate of participation issued by the registration system."
     }
   },
   {
     "id": "Q36",
     "no": "Q36",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "비자,K-ETA"
+      "ko": "비자,K-ETA",
+      "en": "Visa, K-ETA"
     },
     "topicNo": "2",
     "q": {
-      "ko": "저희 그룹에는 다양한 국적의 순례자가 있습니다. 국적별 비자 또는 K-ETA 필요 여부를 확인할 수 있는 안내 자료가 제공되나요? WYD 전용 비자가 별도로 있는지, C-3 비자의 성격과 비자 면제 대상자의 초청장 필요 여부도 궁금합니다."
+      "ko": "저희 그룹에는 다양한 국적의 순례자가 있습니다. 국적별 비자 또는 K-ETA 필요 여부를 확인할 수 있는 안내 자료가 제공되나요? WYD 전용 비자가 별도로 있는지, C-3 비자의 성격과 비자 면제 대상자의 초청장 필요 여부도 궁금합니다.",
+      "en": "Our group has pilgrims of various nationalities. Will guidance be provided to check whether each nationality needs a visa or K-ETA?\nIs there a dedicated WYD visa?\nWe would also like to know what a C-3 visa is and whether visa-exempt pilgrims need an invitation letter."
     },
     "a": {
-      "ko": "조직위원회는 별도의 비자 안내 자료를 제공하고 있지 않습니다. 국적별로 비자와 K-ETA의 필요여부가 달라지므로, https://www.visa.go.kr/ 에 들어가셔서 국가별 비자 필요여부를 확인해주시기 바랍니다. WYD 전용비자는 없습니다. C-3는 단기체류비자로 자세한 체류 정보는 정부와 협의 중으로 추후에 안내 드리겠습니다. 비자 면제 대상자에게는 초정장이 필요하지 않습니다."
+      "ko": "조직위원회는 별도의 비자 안내 자료를 제공하고 있지 않습니다. 국적별로 비자와 K-ETA의 필요여부가 달라지므로, https://www.visa.go.kr/ 에 들어가셔서 국가별 비자 필요여부를 확인해주시기 바랍니다. WYD 전용비자는 없습니다. C-3는 단기체류비자로 자세한 체류 정보는 정부와 협의 중으로 추후에 안내 드리겠습니다. 비자 면제 대상자에게는 초정장이 필요하지 않습니다.",
+      "en": "We do not provide separate visa guidance materials. Visa and K-ETA requirements differ by nationality, so please visit https://www.visa.go.kr/ to check the visa requirements for each country.\nThere is no dedicated WYD visa.\nC-3 is a short-term visit visa; details of the permitted stay are being discussed with the government and will be announced later. Visa-exempt pilgrims do not need an invitation letter."
     }
   },
   {
     "id": "Q37",
     "no": "Q37",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "비자,K-ETA"
+      "ko": "비자,K-ETA",
+      "en": "Visa, K-ETA"
     },
     "topicNo": "2",
     "q": {
-      "ko": "조직위원회 또는 DLFL 에서 각국 한국 대사관·영사관에 WYD 개최 사실과 참가자 비자 절차를 안내하고 있나요? 비자 예약 지원, 단체 신청, 대사관과 멀리 떨어져 있는 원거리 거주 순례자를 위한 편의 (예. 일괄 신청) 및 WYD 참가 목적에 대한 별도 고려가 제공되나요?"
+      "ko": "조직위원회 또는 DLFL 에서 각국 한국 대사관·영사관에 WYD 개최 사실과 참가자 비자 절차를 안내하고 있나요? 비자 예약 지원, 단체 신청, 대사관과 멀리 떨어져 있는 원거리 거주 순례자를 위한 편의 (예. 일괄 신청) 및 WYD 참가 목적에 대한 별도 고려가 제공되나요?",
+      "en": "Is the LOC or the DLFL informing the Korean embassies and consulates in each country about WYD and the visa procedure for participants? Will there be help with visa appointments, group applications, arrangements for pilgrims living far from an embassy (e.g. batch applications), and separate consideration of the purpose of attending WYD?"
     },
     "a": {
-      "ko": "조직위원회는 한국 대사관과 영사관에 WYD 비자 절차에 대해 안내와 소통을 하고 있습니다. 이번 제2차 국제준비회의에도 정부와의 협의로 많은 도움을 받았습니다. 앞으로도 조직위는 한국 정부와 원만한 소통을 통해 비자 관련 절차 간소화를 진행하여 추후에 안내드릴 예정입니다."
+      "ko": "조직위원회는 한국 대사관과 영사관에 WYD 비자 절차에 대해 안내와 소통을 하고 있습니다. 이번 제2차 국제준비회의에도 정부와의 협의로 많은 도움을 받았습니다. 앞으로도 조직위는 한국 정부와 원만한 소통을 통해 비자 관련 절차 간소화를 진행하여 추후에 안내드릴 예정입니다.",
+      "en": "The LOC is informing and communicating with Korean embassies and consulates about the WYD visa procedure. For this Second International Preparatory Meeting too, we received a great deal of help through consultation with the government. The LOC will continue to work closely with the Korean government to simplify visa procedures and will share further information later."
     }
   },
   {
     "id": "Q38",
     "no": "Q38",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "비자,K-ETA"
+      "ko": "비자,K-ETA",
+      "en": "Visa, K-ETA"
     },
     "topicNo": "2",
     "q": {
-      "ko": "비자 발급 수수료는 얼마이며, WYD 참가 순례자를 위한 수수료 면제 또는 할인 방안이 검토되고 있나요?"
+      "ko": "비자 발급 수수료는 얼마이며, WYD 참가 순례자를 위한 수수료 면제 또는 할인 방안이 검토되고 있나요?",
+      "en": "How much is the visa fee, and is a fee waiver or discount for WYD pilgrims being considered?"
     },
     "a": {
-      "ko": "비자 발급 수수료 및 WYD 참가자에 대한 수수료 면제 또는 할인 여부는 현재 관계 기관과 논의 중입니다. 관련 사항이 확정되는 대로 안내드리겠습니다."
+      "ko": "비자 발급 수수료 및 WYD 참가자에 대한 수수료 면제 또는 할인 여부는 현재 관계 기관과 논의 중입니다. 관련 사항이 확정되는 대로 안내드리겠습니다.",
+      "en": "The visa fee, and whether it will be waived or discounted for WYD participants, are currently under discussion with the relevant authorities. We will let you know as soon as this is confirmed."
     }
   },
   {
     "id": "Q39",
     "no": "Q39",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "비자,K-ETA"
+      "ko": "비자,K-ETA",
+      "en": "Visa, K-ETA"
     },
     "topicNo": "2",
     "q": {
-      "ko": "학생 등 재직증명서나 급여명세서를 제출하기 어려운 순례자가 사용할 수 있는 대체 서류에 대한 지원 방안이 있나요?"
+      "ko": "학생 등 재직증명서나 급여명세서를 제출하기 어려운 순례자가 사용할 수 있는 대체 서류에 대한 지원 방안이 있나요?",
+      "en": "Is there support regarding alternative documents for pilgrims, such as students, who cannot easily submit a certificate of employment or pay slips?"
     },
     "a": {
-      "ko": "학생 및 청년 참가자 등을 위한 비자 제출서류를 현재 관계 기관과 협의하고 있습니다. 대체서류를 포함한 구체적인 제출 요건이 확정되는 대로 안내드리겠습니다."
+      "ko": "학생 및 청년 참가자 등을 위한 비자 제출서류를 현재 관계 기관과 협의하고 있습니다. 대체서류를 포함한 구체적인 제출 요건이 확정되는 대로 안내드리겠습니다.",
+      "en": "We are currently discussing visa supporting documents for students, young participants and others with the relevant authorities. We will let you know as soon as the specific requirements, including alternative documents, are confirmed."
     }
   },
   {
     "id": "Q40",
     "no": "Q40",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "봉사자"
+      "ko": "봉사자",
+      "en": "Volunteers"
     },
     "topicNo": "3",
     "q": {
-      "ko": "국제 봉사자의 참가 비용과 비자 소지자의 장기 봉사 지원 가능 여부는 어떻게 되나요?"
+      "ko": "국제 봉사자의 참가 비용과 비자 소지자의 장기 봉사 지원 가능 여부는 어떻게 되나요?",
+      "en": "What does it cost to take part as an international volunteer, and can visa holders apply for long-term volunteering?"
     },
     "a": {
-      "ko": "국제 장기 봉사자에게 별도의 참가 비용은 없습니다. 조직위원회에서는 숙소와 평일 점심 식권, 그리고 교통비 및 식비의 일부를 제공하며, 그 외의 비용은 본인이 부담해야 합니다.\n국제 봉사자가 한국에서 장기간(3개월 이상) 활동하기 위해서는 비자 발급이 필수이며, 대부분 종교비자(D-6)를 발급받게 됩니다. 이미 비자를 소지하고 계신 경우에도 지원이 가능하며, 입국 과정이 훨씬 수월하다는 장점이 있습니다. 다만 비자를 소지하고 있더라도 국제 장기 봉사자 지원 절차는 동일하게 거쳐야 하며, 소속 교구 또는 주교회의의 추천서 제출을 동일하게 요청받을 수 있다는 점을 알아 두시기 바랍니다."
+      "ko": "국제 장기 봉사자에게 별도의 참가 비용은 없습니다. 조직위원회에서는 숙소와 평일 점심 식권, 그리고 교통비 및 식비의 일부를 제공하며, 그 외의 비용은 본인이 부담해야 합니다.\n국제 봉사자가 한국에서 장기간(3개월 이상) 활동하기 위해서는 비자 발급이 필수이며, 대부분 종교비자(D-6)를 발급받게 됩니다. 이미 비자를 소지하고 계신 경우에도 지원이 가능하며, 입국 과정이 훨씬 수월하다는 장점이 있습니다. 다만 비자를 소지하고 있더라도 국제 장기 봉사자 지원 절차는 동일하게 거쳐야 하며, 소속 교구 또는 주교회의의 추천서 제출을 동일하게 요청받을 수 있다는 점을 알아 두시기 바랍니다.",
+      "en": "There is no separate participation cost for international long-term volunteers. The LOC provides accommodation, weekday lunch vouchers, and part of transport and meal costs; other costs are borne by the volunteers themselves.\n\nInternational volunteers must obtain a visa to serve in Korea for an extended period (three months or more), and most receive a religious visa (D-6). Those who already hold a visa can also apply, and this has the advantage of making entry much easier. Please note, however, that even visa holders must go through the same international long-term volunteer application procedure and may likewise be asked to submit a letter of recommendation from their diocese or episcopal conference."
     }
   },
   {
     "id": "Q41",
     "no": "Q41",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "봉사자"
+      "ko": "봉사자",
+      "en": "Volunteers"
     },
     "topicNo": "3",
     "q": {
-      "ko": "봉사위원회 협의 및 협업을 위한 절차 및 준비 사항은 어떻게 되나요?"
+      "ko": "봉사위원회 협의 및 협업을 위한 절차 및 준비 사항은 어떻게 되나요?",
+      "en": "What is the procedure for consulting and collaborating with the volunteer committee, and what needs to be prepared?"
     },
     "a": {
-      "ko": "향후 공식 홈페이지에 봉사자 섹션이 마련될 예정입니다. 그 전까지는 volunteer.intl@wydseoul.org로 연락해 주시기 바랍니다."
+      "ko": "향후 공식 홈페이지에 봉사자 섹션이 마련될 예정입니다. 그 전까지는 volunteer.intl@wydseoul.org로 연락해 주시기 바랍니다.",
+      "en": "A volunteer section will be set up on the official WYD website. Until then, please contact volunteer.intl@wydseoul.org."
     }
   },
   {
     "id": "Q42",
     "no": "Q42",
     "section": {
-      "ko": "참가 신청 및 등록"
+      "ko": "참가 신청 및 등록",
+      "en": "Application and Registration"
     },
     "sectionNo": "Ⅰ",
     "topic": {
-      "ko": "봉사자"
+      "ko": "봉사자",
+      "en": "Volunteers"
     },
     "topicNo": "3",
     "q": {
-      "ko": "장기 봉사자와 단기 봉사자의 차이, 지원 자격 및 등록 절차는 무엇입니까?"
+      "ko": "장기 봉사자와 단기 봉사자의 차이, 지원 자격 및 등록 절차는 무엇입니까?",
+      "en": "What is the difference between long-term and short-term volunteers, and what are the eligibility requirements and registration procedure?"
     },
     "a": {
-      "ko": "1. 장기 봉사\n장기 봉사자는 3개월 이상 조직위원회에서 활동하며, 2027 서울 WYD 준비와 기획에 함께하게 됩니다. 활동 시간과 분야에 따라 부서 봉사자와 팀 봉사자로 구분되며, 모집(국내/국외 거주 별도 모집)은 조직위원회 홈페이지를 통해 안내됩니다. 국외에서 장기 봉사자로 선발된 이에게는 숙소와 함께 식사비와 교통비 일부가 제공됩니다.\n2. 단기 봉사\n단기 봉사자는 2027년 8월 3일부터 8일까지 진행되는 본대회를 중심으로 활동하게 됩니다. 이전 대회와 마찬가지로 본대회 약 1주일 부터 활동이 시작되어 7월 26일까지 입국해야 하며, 교육, 봉사자 발대 미사 등 사전 프로그램부터 참여해야 합니다. 단기 자원봉사 신청은 공식 봉사자 등록 시스템을 통해 진행될 예정입니다."
+      "ko": "1. 장기 봉사\n장기 봉사자는 3개월 이상 조직위원회에서 활동하며, 2027 서울 WYD 준비와 기획에 함께하게 됩니다. 활동 시간과 분야에 따라 부서 봉사자와 팀 봉사자로 구분되며, 모집(국내/국외 거주 별도 모집)은 조직위원회 홈페이지를 통해 안내됩니다. 국외에서 장기 봉사자로 선발된 이에게는 숙소와 함께 식사비와 교통비 일부가 제공됩니다.\n2. 단기 봉사\n단기 봉사자는 2027년 8월 3일부터 8일까지 진행되는 본대회를 중심으로 활동하게 됩니다. 이전 대회와 마찬가지로 본대회 약 1주일 부터 활동이 시작되어 7월 26일까지 입국해야 하며, 교육, 봉사자 발대 미사 등 사전 프로그램부터 참여해야 합니다. 단기 자원봉사 신청은 공식 봉사자 등록 시스템을 통해 진행될 예정입니다.",
+      "en": "1. Long-term volunteering\nLong-term volunteers serve with the LOC for three months or more and take part in preparing and planning WYD Seoul 2027. They are divided into division volunteers and team volunteers according to their hours and area of service. Recruitment (separately for those living in Korea and abroad) is announced on the LOC website. Those selected from abroad as long-term volunteers are provided with accommodation and part of their meal and transport costs.\n\n2. Short-term volunteering\nShort-term volunteers serve mainly during the Main Event of WYD Seoul 2027, from August 3 to 8, 2027. As at previous editions, service begins about a week before the Main Event, so they must arrive in Korea by July 26 and take part from the preparatory programs onward, such as training and the volunteers' commissioning Mass. Applications for short-term volunteering will be made through the official volunteer registration system."
     }
   },
   {
     "id": "Q43",
     "no": "Q43",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "한국에서 단체 이동에 일반적으로 사용되는 버스는 몇 인승인가요? 45인승과 53인승 버스의 이용 가능 여부 및 수급 상황은 어떻게 되나요?"
+      "ko": "한국에서 단체 이동에 일반적으로 사용되는 버스는 몇 인승인가요? 45인승과 53인승 버스의 이용 가능 여부 및 수급 상황은 어떻게 되나요?",
+      "en": "How many seats do the buses commonly used for group travel in Korea have? What is the availability and supply of 45-seat and 53-seat buses?"
     },
     "a": {
-      "ko": "한국에서 일반적으로 사용되는 단체버스는 45인승만 있으며, 행사가 열리는 기간은 휴가철로 버스 수급은 문제 없으나 비용은 평소보다 높을 수 있습니다."
+      "ko": "한국에서 일반적으로 사용되는 단체버스는 45인승만 있으며, 행사가 열리는 기간은 휴가철로 버스 수급은 문제 없으나 비용은 평소보다 높을 수 있습니다.",
+      "en": "The group buses commonly used in Korea are 45-seaters only. The event falls during the holiday season, so bus supply will not be a problem, but costs may be higher than usual."
     },
     "sub": {
-      "ko": "교통"
+      "ko": "교통",
+      "en": "Transport"
     },
     "subNo": "a"
   },
@@ -918,21 +1124,26 @@ export const SEED = [
     "id": "Q44",
     "no": "Q44",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "WYD 기간 동안 지하철과 버스 등 대중교통의 운행 시간은 어떻게 되나요? 심야 또는 24시간 운행, 운행시간 연장 및 행사 기간의 혼잡에 대비한 증편 계획이 있나요? 또한 숙소와 주요 행사장 간 이동을 위한 교통 대책은 어떻게 마련될 예정인가요?"
+      "ko": "WYD 기간 동안 지하철과 버스 등 대중교통의 운행 시간은 어떻게 되나요? 심야 또는 24시간 운행, 운행시간 연장 및 행사 기간의 혼잡에 대비한 증편 계획이 있나요? 또한 숙소와 주요 행사장 간 이동을 위한 교통 대책은 어떻게 마련될 예정인가요?",
+      "en": "What will the operating hours of public transport such as the subway and buses be during WYD? Are there plans for late-night or 24-hour service, extended hours, or extra services to cope with congestion during the event? And what transport measures will be put in place for travel between accommodation and the main venues?"
     },
     "a": {
-      "ko": "WYD 기간 동안 순례자들의 대중교통 편의 제공을 위해 서울시 및 관계기관과 지하철, 버스 등 대중교통의 증편에 대해 지속적으로 협의중에 있습니다."
+      "ko": "WYD 기간 동안 순례자들의 대중교통 편의 제공을 위해 서울시 및 관계기관과 지하철, 버스 등 대중교통의 증편에 대해 지속적으로 협의중에 있습니다.",
+      "en": "To make public transport convenient for pilgrims during WYD, we are in ongoing discussions with the Seoul Metropolitan Government and related agencies about adding subway, bus and other public transport services."
     },
     "sub": {
-      "ko": "교통"
+      "ko": "교통",
+      "en": "Transport"
     },
     "subNo": "a"
   },
@@ -940,21 +1151,26 @@ export const SEED = [
     "id": "Q45",
     "no": "Q45",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "같은 그룹의 구성원들이 도착일과 출발일은 동일하더라도 서로 다른 항공편으로 서울에 도착하고 출발하는 것이 허용되는지 확인해주실 수 있나요?"
+      "ko": "같은 그룹의 구성원들이 도착일과 출발일은 동일하더라도 서로 다른 항공편으로 서울에 도착하고 출발하는 것이 허용되는지 확인해주실 수 있나요?",
+      "en": "Can you confirm whether members of the same group may arrive in and depart from Seoul on different flights, even if their arrival and departure dates are the same?"
     },
     "a": {
-      "ko": "같은 그룹의 참가자들이 서로 다른 항공편으로 서울에 도착하고 출발하는 것은 가능합니다. 도착일과 출발일이 동일하고, 같은 패키지를 이용하며 동일한 그룹 리더의 인솔과 관리 아래 참가한다면, 항공편이 다르다는 이유만으로 별도의 하위그룹을 구성할 필요는 없습니다."
+      "ko": "같은 그룹의 참가자들이 서로 다른 항공편으로 서울에 도착하고 출발하는 것은 가능합니다. 도착일과 출발일이 동일하고, 같은 패키지를 이용하며 동일한 그룹 리더의 인솔과 관리 아래 참가한다면, 항공편이 다르다는 이유만으로 별도의 하위그룹을 구성할 필요는 없습니다.",
+      "en": "Participants in the same group may arrive in and depart from Seoul on different flights. If their arrival and departure dates are the same, they use the same package and they take part under the guidance and supervision of the same group leader, there is no need to form a separate Subgroup just because the flights differ."
     },
     "sub": {
-      "ko": "교통"
+      "ko": "교통",
+      "en": "Transport"
     },
     "subNo": "a"
   },
@@ -962,21 +1178,26 @@ export const SEED = [
     "id": "Q46",
     "no": "Q46",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "부부나 가족의 경우 같은 숙소에 머물도록 요청할 수 있나요?"
+      "ko": "부부나 가족의 경우 같은 숙소에 머물도록 요청할 수 있나요?",
+      "en": "Can married couples or families ask to stay in the same accommodation?"
     },
     "a": {
-      "ko": "부부나 가족이 함께 숙박하기를 원하시는 경우, 등록 시 동일한 그룹으로 등록해 주시기 바랍니다. 숙소 배정은 동일한 그룹의 참가자를 같은 숙소에 배정하는 것을 원칙으로 합니다.\n다만, 전체 숙소의 수용 여건과 운영 기준에 따라 배정이 이루어지므로, 개별적인 숙소 배정 요청을 반영하기는 어려운 점 양해 부탁드립니다. 같은 숙소에 배정되더라도 가족 전용 객실이나 동일한 방 사용이 보장되는 것은 아닙니다."
+      "ko": "부부나 가족이 함께 숙박하기를 원하시는 경우, 등록 시 동일한 그룹으로 등록해 주시기 바랍니다. 숙소 배정은 동일한 그룹의 참가자를 같은 숙소에 배정하는 것을 원칙으로 합니다.\n다만, 전체 숙소의 수용 여건과 운영 기준에 따라 배정이 이루어지므로, 개별적인 숙소 배정 요청을 반영하기는 어려운 점 양해 부탁드립니다. 같은 숙소에 배정되더라도 가족 전용 객실이나 동일한 방 사용이 보장되는 것은 아닙니다.",
+      "en": "If married couples or families wish to stay together, please register them in the same group. As a rule, participants in the same group are assigned to the same accommodation.\nHowever, assignments are made according to overall accommodation capacity and operating criteria, so we regret that individual accommodation requests cannot be accommodated. Even when assigned to the same accommodation, a family room or the same room is not guaranteed."
     },
     "sub": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "subNo": "b"
   },
@@ -984,21 +1205,26 @@ export const SEED = [
     "id": "Q47",
     "no": "Q47",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "순례자 패키지에는 어떤 형태의 숙박시설이 제공되며, 참가자가 침낭 등 별도로 준비해야 할 물품은 무엇인가요? 또한 예상 인원을 초과할 경우 추가 숙소는 어떻게 확보할 예정인가요?"
+      "ko": "순례자 패키지에는 어떤 형태의 숙박시설이 제공되며, 참가자가 침낭 등 별도로 준비해야 할 물품은 무엇인가요? 또한 예상 인원을 초과할 경우 추가 숙소는 어떻게 확보할 예정인가요?",
+      "en": "What kind of accommodation is provided in the pilgrim packages, and what must participants bring themselves, such as sleeping bags? And if numbers exceed expectations, how will additional accommodation be secured?"
     },
     "a": {
-      "ko": "패키지에 포함된 숙박 유형은 본당· 학교·공공시설 등을 활용한 공동 숙소와 홈스테이 형태로 제공됩니다.\n침구는 별도로 제공되지 않으므로, 참가자는 본인의 침낭 등 개인 침구를 직접 준비해 주시기 바랍니다. 조직위원회에서는 예상 인원을 초가할 경우를 대비하여 일정 정도의 예비 숙소를 확보하고자 노력하고 있습니다.\n그러나 숙소 포함 패키지 마감일(2027년 5월 31일) 이후에는 추가되는 인원에 대해서는 조직위에서 숙소를 제공해 드리기 어려운 점을 이해해 주시기 바랍니다."
+      "ko": "패키지에 포함된 숙박 유형은 본당· 학교·공공시설 등을 활용한 공동 숙소와 홈스테이 형태로 제공됩니다.\n침구는 별도로 제공되지 않으므로, 참가자는 본인의 침낭 등 개인 침구를 직접 준비해 주시기 바랍니다. 조직위원회에서는 예상 인원을 초가할 경우를 대비하여 일정 정도의 예비 숙소를 확보하고자 노력하고 있습니다.\n그러나 숙소 포함 패키지 마감일(2027년 5월 31일) 이후에는 추가되는 인원에 대해서는 조직위에서 숙소를 제공해 드리기 어려운 점을 이해해 주시기 바랍니다.",
+      "en": "The accommodation in the packages is provided as shared accommodation in parishes, schools, and public facilities, or as homestays.\nBedding is not provided, so participants should bring their own, such as a sleeping bag. The LOC is working to secure a certain amount of reserve accommodation in case numbers exceed expectations.\nPlease understand, however, that after the deadline for packages with accommodation (May 31, 2027), the LOC will not be able to provide accommodation for additional participants."
     },
     "sub": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "subNo": "b"
   },
@@ -1006,21 +1232,26 @@ export const SEED = [
     "id": "Q48",
     "no": "Q48",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "그룹이 호텔 등 자체 숙소를 마련하는 경우 조직위원회에 숙소 정보를 알려야 하나요?"
+      "ko": "그룹이 호텔 등 자체 숙소를 마련하는 경우 조직위원회에 숙소 정보를 알려야 하나요?",
+      "en": "If a group arranges its own accommodation, such as a hotel, must it inform the LOC of the accommodation details?"
     },
     "a": {
-      "ko": "등록 시, 자체적으로 마련한 숙소의 정보를 기재하는 란이 있습니다.\n단, 이는 참고를 위해 기재를 요청드리며 의무 기재 사항은 아닙니다."
+      "ko": "등록 시, 자체적으로 마련한 숙소의 정보를 기재하는 란이 있습니다.\n단, 이는 참고를 위해 기재를 요청드리며 의무 기재 사항은 아닙니다.",
+      "en": "At registration there is a field for entering details of accommodation you have arranged yourselves.\nThis is requested for reference only and is not mandatory."
     },
     "sub": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "subNo": "b"
   },
@@ -1028,21 +1259,26 @@ export const SEED = [
     "id": "Q49",
     "no": "Q49",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "그룹 리더가 WYD 전에 배정된 숙소를 미리 방문하거나 확인할 수 있나요? 또한 실제 숙소가 사전에 안내된 시설 및 조건과 다른 경우 숙소 변경을 요청할 수 있으며, 그 절차는 어떻게 되나요?"
+      "ko": "그룹 리더가 WYD 전에 배정된 숙소를 미리 방문하거나 확인할 수 있나요? 또한 실제 숙소가 사전에 안내된 시설 및 조건과 다른 경우 숙소 변경을 요청할 수 있으며, 그 절차는 어떻게 되나요?",
+      "en": "Can group leaders visit or check their assigned accommodation before WYD? And if the actual accommodation differs from the facilities and conditions announced in advance, can we request a change, and what is the procedure?"
     },
     "a": {
-      "ko": "대회 전 숙소가 배정되었다 하더라도, 숙소가 공공기관일 경우는 방문이 어려울 수 있습니다. 다만 체크인을 할 본당과 배정받은 숙소의 위치 정도는 확인하실 수는 있습니다. 하지만 역대 대회들을 보았을 때 숙소는 워낙 많은 변수가 존재하기에, 배정 이후에도 발생할 수 있는 여러 상황을 염두에 두시면 좋겠습니다. 숙소 변경을 요청할 수는 있으나, 사유 검토 후 필요시에만 변경 절차가 진행될 예정입니다."
+      "ko": "대회 전 숙소가 배정되었다 하더라도, 숙소가 공공기관일 경우는 방문이 어려울 수 있습니다. 다만 체크인을 할 본당과 배정받은 숙소의 위치 정도는 확인하실 수는 있습니다. 하지만 역대 대회들을 보았을 때 숙소는 워낙 많은 변수가 존재하기에, 배정 이후에도 발생할 수 있는 여러 상황을 염두에 두시면 좋겠습니다. 숙소 변경을 요청할 수는 있으나, 사유 검토 후 필요시에만 변경 절차가 진행될 예정입니다.",
+      "en": "Even once accommodation has been assigned before the event, it may be difficult to visit if it is a public facility. You can, however, check the location of the parish where you will check in and of your assigned accommodation. Past editions have shown that accommodation is subject to a great many variables, so please bear in mind that various situations may arise even after assignment. You may request a change of accommodation, but the change procedure will go ahead only where necessary, after the reason has been reviewed."
     },
     "sub": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "subNo": "b"
   },
@@ -1050,21 +1286,26 @@ export const SEED = [
     "id": "Q50",
     "no": "Q50",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "숙소는 서울 내에 배정되나요, 아니면 서울 외 지역에도 배정될 수 있나요? 주요 WYD 행사장 및 대중교통과의 접근성은 어떻게 고려되며, 각 그룹은 배정된 숙소와 담당 본당의 위치를 언제, 어떤 방식으로 안내받을 수 있나요?"
+      "ko": "숙소는 서울 내에 배정되나요, 아니면 서울 외 지역에도 배정될 수 있나요? 주요 WYD 행사장 및 대중교통과의 접근성은 어떻게 고려되며, 각 그룹은 배정된 숙소와 담당 본당의 위치를 언제, 어떤 방식으로 안내받을 수 있나요?",
+      "en": "Will accommodation be assigned within Seoul, or may it also be outside Seoul? How will access to the main WYD venues and public transport be taken into account, and when and how will each group be told the location of its assigned accommodation and host parish?"
     },
     "a": {
-      "ko": "대부분의 숙소는 서울 내부에 있을 것입니다. 다만 경우에 따라 외곽에 위치한 숙소도 있을 수 있습니다. 외곽일지라도 대중교통을 이용하여 서울로 이동이 가능한 장소로 고려할 예정입니다.\n배정 결과는 대회 약 1개월 전 시점 부터 순차적으로 받게되며, 메일로 발송될 예정입니다."
+      "ko": "대부분의 숙소는 서울 내부에 있을 것입니다. 다만 경우에 따라 외곽에 위치한 숙소도 있을 수 있습니다. 외곽일지라도 대중교통을 이용하여 서울로 이동이 가능한 장소로 고려할 예정입니다.\n배정 결과는 대회 약 1개월 전 시점 부터 순차적으로 받게되며, 메일로 발송될 예정입니다.",
+      "en": "Most accommodation will be within Seoul, though in some cases accommodation may be on the outskirts. Even then, we will consider places from which Seoul can be reached by public transport.\nAssignment results will be sent out by email, in stages, from about one month before the event."
     },
     "sub": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "subNo": "b"
   },
@@ -1072,21 +1313,26 @@ export const SEED = [
     "id": "Q51",
     "no": "Q51",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "요즘 여러 그룹들이 항공권 예매를 시작했는데, 1일부터 10일까지의 숙박을 요청할 수 있는지 문의가 많습니다. 가능하다면 어떻게 신청하나요?"
+      "ko": "요즘 여러 그룹들이 항공권 예매를 시작했는데, 1일부터 10일까지의 숙박을 요청할 수 있는지 문의가 많습니다. 가능하다면 어떻게 신청하나요?",
+      "en": "Many groups have started booking flights, and we are getting many questions about whether accommodation can be requested from the 1st to the 10th. If so, how do we apply?"
     },
     "a": {
-      "ko": "패키지의 종류에 따라 일정이 상이합니다. 8/1-10까지의 투숙 가능 패키지는 없습니다. A1은 8/2-9 이며, A1+1은 8/1-8/9 또는 8/2-8/10 로 나뉘어져 있으니 참고 부탁드립니다."
+      "ko": "패키지의 종류에 따라 일정이 상이합니다. 8/1-10까지의 투숙 가능 패키지는 없습니다. A1은 8/2-9 이며, A1+1은 8/1-8/9 또는 8/2-8/10 로 나뉘어져 있으니 참고 부탁드립니다.",
+      "en": "The dates depend on the type of package. No package offers accommodation from August 1 to August 10. Please note that A1 runs from August 2 to 9, and A1+1 is split into August 1–9 or August 2–10."
     },
     "sub": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "subNo": "b"
   },
@@ -1094,21 +1340,26 @@ export const SEED = [
     "id": "Q52",
     "no": "Q52",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "숙소 및 담당 본당은 어떤 기준으로 배정되나요? 등록 시 숙박 옵션이나 특정 본당을 선택할 수 있는지, 또는 선착순으로 배정되는지도 궁금합니다."
+      "ko": "숙소 및 담당 본당은 어떤 기준으로 배정되나요? 등록 시 숙박 옵션이나 특정 본당을 선택할 수 있는지, 또는 선착순으로 배정되는지도 궁금합니다.",
+      "en": "On what basis are accommodation and host parishes assigned? Can we choose an accommodation option or a particular parish at registration, or is it first come, first served?"
     },
     "a": {
-      "ko": "순례자들은 사전에 특정 숙소 유형 및 본당을 선택할 수 없으며, 숙소 배정은 전반적인 운영 상황과 수용 인원에 따라 결정됩니다. 숙소 배정은 선착순으로 진행되지 않습니다. 다만, 등록 및 결제를 모두 완료한 그룹의 경우, 배정을 위한 정보 확인 및 절차가 원활하게 진행될 수 있으므로 가능한 한 빠른 시일 내에 등록과 결제를 완료해 주시기를 권장드립니다."
+      "ko": "순례자들은 사전에 특정 숙소 유형 및 본당을 선택할 수 없으며, 숙소 배정은 전반적인 운영 상황과 수용 인원에 따라 결정됩니다. 숙소 배정은 선착순으로 진행되지 않습니다. 다만, 등록 및 결제를 모두 완료한 그룹의 경우, 배정을 위한 정보 확인 및 절차가 원활하게 진행될 수 있으므로 가능한 한 빠른 시일 내에 등록과 결제를 완료해 주시기를 권장드립니다.",
+      "en": "Pilgrims cannot choose a particular type of accommodation or parish in advance; accommodation assignments are decided according to the overall operating situation and capacity. Accommodation is not assigned on a first-come, first-served basis. However, for groups that have completed both registration and payment, the information checks and procedures for assignment can proceed more smoothly, so we recommend completing registration and payment as early as possible."
     },
     "sub": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "subNo": "b"
   },
@@ -1116,21 +1367,26 @@ export const SEED = [
     "id": "Q53",
     "no": "Q53",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "두 개의 다른 그룹도 요청 시 같은 숙소에 배정받을 수 있는지 궁금합니다."
+      "ko": "두 개의 다른 그룹도 요청 시 같은 숙소에 배정받을 수 있는지 궁금합니다.",
+      "en": "Can two different groups be assigned to the same accommodation on request?"
     },
     "a": {
-      "ko": "그룹이 다를 경우, 동일 숙소 배정이 어려울 수 있으니 양해 부탁드립니다. 등록 후 해당 요청 사항을 조직위원회로 전달하여 주시면 도움드릴 수 있도록 노력하겠습니다."
+      "ko": "그룹이 다를 경우, 동일 숙소 배정이 어려울 수 있으니 양해 부탁드립니다. 등록 후 해당 요청 사항을 조직위원회로 전달하여 주시면 도움드릴 수 있도록 노력하겠습니다.",
+      "en": "Please understand that it may be difficult to assign different groups to the same accommodation. If you pass on this request to the LOC after registering, we will do our best to help."
     },
     "sub": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "subNo": "b"
   },
@@ -1138,21 +1394,26 @@ export const SEED = [
     "id": "Q54",
     "no": "Q54",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "저희 그룹에는 영어, 프랑스어, 스페인어를 사용하는 참가자들이 있습니다. 그룹 참가자들이 언어별로 나뉘게 되나요, 아니면 숙소는 함께 지낼 수 있나요?"
+      "ko": "저희 그룹에는 영어, 프랑스어, 스페인어를 사용하는 참가자들이 있습니다. 그룹 참가자들이 언어별로 나뉘게 되나요, 아니면 숙소는 함께 지낼 수 있나요?",
+      "en": "Our group has English-, French- and Spanish-speaking participants. Will the group be split by language, or can we stay together?"
     },
     "a": {
-      "ko": "동일 그룹은 동일 숙소에 배정하는 것을 원칙으로 합니다. 같은 숙소에 배정되시길 원하신다면 등록시 같은 그룹으로 등록을 부탁드립니다. 다만, 운영 상황과 수용 인원에 따라 불가피하게 동일 그룹이어도 다른 숙소에 배정될 수 있습니다. 이 경우는 최대한 인접한 숙소로 배정됩니다."
+      "ko": "동일 그룹은 동일 숙소에 배정하는 것을 원칙으로 합니다. 같은 숙소에 배정되시길 원하신다면 등록시 같은 그룹으로 등록을 부탁드립니다. 다만, 운영 상황과 수용 인원에 따라 불가피하게 동일 그룹이어도 다른 숙소에 배정될 수 있습니다. 이 경우는 최대한 인접한 숙소로 배정됩니다.",
+      "en": "As a rule, the same group is assigned to the same accommodation. If you wish to be assigned to the same accommodation, please register as one group. Depending on the operating situation and capacity, however, members of the same group may unavoidably be assigned to different accommodation. In that case they will be assigned to accommodation as close together as possible."
     },
     "sub": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "subNo": "b"
   },
@@ -1160,21 +1421,26 @@ export const SEED = [
     "id": "Q55",
     "no": "Q55",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "행사 후에도 홈스테이 숙소가 여전히 이용 가능한가요, 아니면 주로 성당이나 체육관 같은 시설에서 숙박하게 되나요? 교통편 제약으로 100명 그룹을 2~3개 항공편으로 나눠야 할 수도 있는데, 이 경우 일부는 8월 2일 이전에 도착하게 됩니다. 이럴 때 절차는 어떻게 되나요? 그룹에 배정된 숙소로 그대로 받아들여지나요?"
+      "ko": "행사 후에도 홈스테이 숙소가 여전히 이용 가능한가요, 아니면 주로 성당이나 체육관 같은 시설에서 숙박하게 되나요? 교통편 제약으로 100명 그룹을 2~3개 항공편으로 나눠야 할 수도 있는데, 이 경우 일부는 8월 2일 이전에 도착하게 됩니다. 이럴 때 절차는 어떻게 되나요? 그룹에 배정된 숙소로 그대로 받아들여지나요?",
+      "en": "Will homestay accommodation still be available after the event, or will we mainly stay in facilities such as churches or gyms?\n\nBecause of transport constraints we may have to split a group of 100 across two or three flights, which means some will arrive before August. What is the procedure in that case? Will they be accepted at the accommodation assigned to the group?"
     },
     "a": {
-      "ko": "선택하신 패키지에 따라 투숙일정이 정해집니다.\n패키지에 포함되지 않은 일정에 숙박이 필요하신 경우에는 자체적으로 숙소를 마련하셔야 합니다."
+      "ko": "선택하신 패키지에 따라 투숙일정이 정해집니다.\n패키지에 포함되지 않은 일정에 숙박이 필요하신 경우에는 자체적으로 숙소를 마련하셔야 합니다.",
+      "en": "Your accommodation dates are set by the package you choose.\nIf you need accommodation for dates not included in your package, you must arrange it yourselves."
     },
     "sub": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "subNo": "b"
   },
@@ -1182,21 +1448,26 @@ export const SEED = [
     "id": "Q56",
     "no": "Q56",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "8/2 월요일 저녁에는 어디에 묵나요? 교구에서 묵나요, 아니면 이미 서울에 있나요?"
+      "ko": "8/2 월요일 저녁에는 어디에 묵나요? 교구에서 묵나요, 아니면 이미 서울에 있나요?",
+      "en": "Where do we stay on the evening of Monday, August 2? In the dioceses, or already in Seoul?"
     },
     "a": {
-      "ko": "선택하신 패키지의 일정에 따라 숙박 일정이 정해집니다.\n예를 들어 A1패키지는 8/2-9 일정이므로 8/2에는 서울 내의 장소에서 투숙하시게 됩니다."
+      "ko": "선택하신 패키지의 일정에 따라 숙박 일정이 정해집니다.\n예를 들어 A1패키지는 8/2-9 일정이므로 8/2에는 서울 내의 장소에서 투숙하시게 됩니다.",
+      "en": "Your accommodation dates follow the dates of the package you choose.\nFor example, the A1 package runs from August 2 to 9, so on August 2 you will stay at a location in Seoul."
     },
     "sub": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "subNo": "b"
   },
@@ -1204,21 +1475,26 @@ export const SEED = [
     "id": "Q57",
     "no": "Q57",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "폭염으로 인한 열사병·탈진·질병 등으로 낮 시간에 휴식이 필요한 순례자는 숙소나 별도의 휴식 공간을 이용할 수 있나요? 또한 폐막 미사 이후에도 필요한 경우 숙소를 이용할 수 있나요?"
+      "ko": "폭염으로 인한 열사병·탈진·질병 등으로 낮 시간에 휴식이 필요한 순례자는 숙소나 별도의 휴식 공간을 이용할 수 있나요? 또한 폐막 미사 이후에도 필요한 경우 숙소를 이용할 수 있나요?",
+      "en": "Can pilgrims who need to rest during the day because of heatstroke, exhaustion or illness caused by the heat wave use their accommodation or a separate rest area? And can the accommodation be used after the Closing Mass if needed?"
     },
     "a": {
-      "ko": "본대회 기간 동안 폭염이나 건강 이상으로 낮 시간에 휴식이 필요한 경우, 지구위원회에서 각 지구별로 지정한 거점 본당을 휴식처로 이용하실 수 있습니다. 순례자들은 해당 거점 본당으로 이동하여 휴식을 취하실 수 있습니다.\n또한, 폐막미사 이후에도 머물 수 있는 옵션이 포함된 패키지를 선택하신 경우 숙소를 이용하실 수 있습니다."
+      "ko": "본대회 기간 동안 폭염이나 건강 이상으로 낮 시간에 휴식이 필요한 경우, 지구위원회에서 각 지구별로 지정한 거점 본당을 휴식처로 이용하실 수 있습니다. 순례자들은 해당 거점 본당으로 이동하여 휴식을 취하실 수 있습니다.\n또한, 폐막미사 이후에도 머물 수 있는 옵션이 포함된 패키지를 선택하신 경우 숙소를 이용하실 수 있습니다.",
+      "en": "During the Main Event, pilgrims who need to rest during the day because of the heat or a health problem can go to the hub parish designated by the Forane Organizing Committee in each deanery.\n\nPilgrims whose package includes the option to stay after the Closing Mass can also rest at their accommodation."
     },
     "sub": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "subNo": "b"
   },
@@ -1226,21 +1502,26 @@ export const SEED = [
     "id": "Q58",
     "no": "Q58",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "패키지 관련하여, 저희 그룹이 숙박과 교통 없이 참가할 수 있나요? 가능하다면 비용은 얼마인가요? 대부분의 패키지에 교통이 포함되어 있는데, 이러한 서비스가 제외된 옵션이 있는지 궁금합니다. 감사합니다."
+      "ko": "패키지 관련하여, 저희 그룹이 숙박과 교통 없이 참가할 수 있나요? 가능하다면 비용은 얼마인가요? 대부분의 패키지에 교통이 포함되어 있는데, 이러한 서비스가 제외된 옵션이 있는지 궁금합니다. 감사합니다.",
+      "en": "Regarding packages, can our group take part without accommodation and transport? If so, how much does it cost? Most packages include transport, and we wonder whether there is an option without these services. Thank you."
     },
     "a": {
-      "ko": "모든 패키지에는 교통이 포함되어 있기에 교통 제외는 불가하니 양해 부탁드립니다. 숙박이 제외된 패키지는 있으니 해당 패키지를 이용 부탁드립니다."
+      "ko": "모든 패키지에는 교통이 포함되어 있기에 교통 제외는 불가하니 양해 부탁드립니다. 숙박이 제외된 패키지는 있으니 해당 패키지를 이용 부탁드립니다.",
+      "en": "All packages include transport, so we regret that transport cannot be excluded. There are packages without accommodation, so please use one of those."
     },
     "sub": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "subNo": "b"
   },
@@ -1248,21 +1529,26 @@ export const SEED = [
     "id": "Q59",
     "no": "Q59",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "8월 7일 토요일의 식사는 도시락(팩박스)으로 제공되나요, 아니면 철야기도 장소로 가기 전에 카드로 결제해야 하나요?"
+      "ko": "8월 7일 토요일의 식사는 도시락(팩박스)으로 제공되나요, 아니면 철야기도 장소로 가기 전에 카드로 결제해야 하나요?",
+      "en": "Will meals on Saturday, August 7 be provided as packed boxes, or must they be paid for by card before going to the Vigil site?"
     },
     "a": {
-      "ko": "패키지별 식사 구성에 따라, 밤샘기도·폐막미사 기간에는 밀박스가 제공됩니다. 밀박스는 8월 7일 중식·석식과 8월 8일 조식·중식 등 총 4끼로 구성됩니다. 밀박스가 포함된 순례자 패키지는 해당 4끼를 선불카드(Prepaid meal card)로 별도 결제하지 않고 밀박스로 제공받습니다. 구체적인 배부 시간·장소 등 현장 운영방안은 추후 안내할 예정입니다."
+      "ko": "패키지별 식사 구성에 따라, 밤샘기도·폐막미사 기간에는 밀박스가 제공됩니다. 밀박스는 8월 7일 중식·석식과 8월 8일 조식·중식 등 총 4끼로 구성됩니다. 밀박스가 포함된 순례자 패키지는 해당 4끼를 선불카드(Prepaid meal card)로 별도 결제하지 않고 밀박스로 제공받습니다. 구체적인 배부 시간·장소 등 현장 운영방안은 추후 안내할 예정입니다.",
+      "en": "Depending on the meals in each package, meal boxes will be provided for the Vigil and Closing Mass. The meal boxes cover four meals in total: lunch and dinner on August 7, and breakfast and lunch on August 8. Pilgrim packages that include meal boxes receive these four meals as meal boxes, without paying separately with the prepaid meal card. On-site arrangements, such as specific distribution times and places, will be announced later."
     },
     "sub": {
-      "ko": "식사"
+      "ko": "식사",
+      "en": "Meals"
     },
     "subNo": "c"
   },
@@ -1270,21 +1556,26 @@ export const SEED = [
     "id": "Q60",
     "no": "Q60",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "음식 알레르기, 글루텐 불내증, 채식 등 특별한 식이 요구가 있는 순례자를 위한 식사 옵션은 어떻게 제공되나요? 도시락과 선불카드(Prepaid meal card) 이용 매장에서 땅콩, 소고기, 해산물, 새우, 채식 알레르기 유발 성분 및 식재료 정보를 확인할 수 있나요? 또한 알레르기 정보는 반드시 앱을 통해서만 등록해야 하나요, 아니면 다른 방법도 제공되나요?"
+      "ko": "음식 알레르기, 글루텐 불내증, 채식 등 특별한 식이 요구가 있는 순례자를 위한 식사 옵션은 어떻게 제공되나요? 도시락과 선불카드(Prepaid meal card) 이용 매장에서 땅콩, 소고기, 해산물, 새우, 채식 알레르기 유발 성분 및 식재료 정보를 확인할 수 있나요? 또한 알레르기 정보는 반드시 앱을 통해서만 등록해야 하나요, 아니면 다른 방법도 제공되나요?",
+      "en": "How will meal options be provided for pilgrims with special dietary needs such as food allergies, gluten intolerance or vegetarianism? Will information on allergens and ingredients — peanuts, beef, seafood, shrimp, vegetarian allergens — be available for the packed meals and at the outlets that accept the prepaid meal card? And must allergy information be entered only through the app, or will other methods be offered?"
     },
     "a": {
-      "ko": "식사에 대해서는 글루텐프리·비건 등 특수식 제공 여부와 식품정보 표시 방안을 검토하고 있습니다. 선불카드(Prepaid meal card) 이용 매장의 알레르겐·원재료 등 식품정보 제공 여부와 제공 방식도 함께 검토 중입니다. 특수식의 제공 범위와 신청 방법, 변경 가능 기한 등은 세부 운영계획이 확정되는 대로 안내할 예정입니다."
+      "ko": "식사에 대해서는 글루텐프리·비건 등 특수식 제공 여부와 식품정보 표시 방안을 검토하고 있습니다. 선불카드(Prepaid meal card) 이용 매장의 알레르겐·원재료 등 식품정보 제공 여부와 제공 방식도 함께 검토 중입니다. 특수식의 제공 범위와 신청 방법, 변경 가능 기한 등은 세부 운영계획이 확정되는 대로 안내할 예정입니다.",
+      "en": "We are reviewing whether to provide special meals, such as gluten-free and vegan, and how to display food information. Whether and how food information such as allergens and ingredients will be provided at the outlets that accept the prepaid meal card is also under review. The range of special meals, how to apply for them and the deadline for changes will be announced once the detailed operating plan is confirmed."
     },
     "sub": {
-      "ko": "식사"
+      "ko": "식사",
+      "en": "Meals"
     },
     "subNo": "c"
   },
@@ -1292,21 +1583,26 @@ export const SEED = [
     "id": "Q61",
     "no": "Q61",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "순례자 패키지"
+      "ko": "순례자 패키지",
+      "en": "Pilgrim Packages"
     },
     "topicNo": "1",
     "q": {
-      "ko": "WYD 기간 중 다치거나 아픈 사람을 위한 특수 이동 지원(장애인/환자 이송)이 제공되나요?"
+      "ko": "WYD 기간 중 다치거나 아픈 사람을 위한 특수 이동 지원(장애인/환자 이송)이 제공되나요?",
+      "en": "Will special transport (for people with disabilities or patients) be provided for those who are injured or fall ill during WYD?"
     },
     "a": {
-      "ko": "행사장 주변에 응급차가 상시 대기할 예정이며, 주변 병원과도 연계해서 의료서비스를 제공할 계획입니다."
+      "ko": "행사장 주변에 응급차가 상시 대기할 예정이며, 주변 병원과도 연계해서 의료서비스를 제공할 계획입니다.",
+      "en": "Ambulances will be on standby around the venues at all times, and we plan to provide medical services in cooperation with nearby hospitals."
     },
     "sub": {
-      "ko": "의료지원"
+      "ko": "의료지원",
+      "en": "Medical Support"
     },
     "subNo": "d"
   },
@@ -1314,237 +1610,290 @@ export const SEED = [
     "id": "Q62",
     "no": "Q62",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "세이프가딩, 미성년자"
+      "ko": "세이프가딩, 미성년자",
+      "en": "Safeguarding, Minors"
     },
     "topicNo": "2",
     "q": {
-      "ko": "세이프가딩 정책에 따르면 한국에서 미성년자 기준은 만 18세 7개월 미만인데, 저희 나라에서는 만 18세 미만입니다. 이 경우 보호자 동반 확인서(샤프론 레터)가 없을 것입니다."
+      "ko": "세이프가딩 정책에 따르면 한국에서 미성년자 기준은 만 18세 7개월 미만인데, 저희 나라에서는 만 18세 미만입니다. 이 경우 보호자 동반 확인서(샤프론 레터)가 없을 것입니다.",
+      "en": "Under the Safeguarding Policy, a minor in Korea is someone under 18 years and 7 months, whereas in our country it is someone under 18. In that case there will be no chaperone letter."
     },
     "a": {
-      "ko": "국가별로 미성년자 기준이 다를 수 있으나, 서울 WYD 참가 시에는 ' 미성년자 및 취약 성인 보호 지침' 에 따른 기준이 적용됩니다. 해당 지침에서는 대한민국 청소년 보호법의 연령 기준을 적용하여, 2009년 1월 1일 또는 그 이후에 출생한 참가자를 미성년자로 분류하고 있습니다. 이는 성인 자격이 요구되는 순례자 그룹 대표 및 부대표, 봉사자, 미성년자 인솔자 등의 기준이 되기도 합니다. 따라서 자국에서 성인으로 인정되는 참가자라도 위 출생일 기준에 해당하면, 부모 또는 법적보호자가 동행하거나 이들로부터 위임 받은 성인 인솔자가 동행해야 합니다. 성인 인솔자는 미성년자 최대 10명당 1명 이상이 필요합니다. 위임받은 성인 인솔자는 해당 미성년자의 부모 또는 법적보호자로부터 서면 위임 동의서를 받아 대회 기간 내내 지참해야 합니다."
+      "ko": "국가별로 미성년자 기준이 다를 수 있으나, 서울 WYD 참가 시에는 ' 미성년자 및 취약 성인 보호 지침' 에 따른 기준이 적용됩니다. 해당 지침에서는 대한민국 청소년 보호법의 연령 기준을 적용하여, 2009년 1월 1일 또는 그 이후에 출생한 참가자를 미성년자로 분류하고 있습니다. 이는 성인 자격이 요구되는 순례자 그룹 대표 및 부대표, 봉사자, 미성년자 인솔자 등의 기준이 되기도 합니다. 따라서 자국에서 성인으로 인정되는 참가자라도 위 출생일 기준에 해당하면, 부모 또는 법적보호자가 동행하거나 이들로부터 위임 받은 성인 인솔자가 동행해야 합니다. 성인 인솔자는 미성년자 최대 10명당 1명 이상이 필요합니다. 위임받은 성인 인솔자는 해당 미성년자의 부모 또는 법적보호자로부터 서면 위임 동의서를 받아 대회 기간 내내 지참해야 합니다.",
+      "en": "The age of minority may differ from country to country, but for WYD Seoul 2027 the criteria of the Safeguarding Policy for Minors and Vulnerable Adults apply. That policy applies the age criteria of the Republic of Korea's Juvenile Protection Act and classifies participants born on or after January 1, 2009 as minors. This is also the criterion for roles that require adult status, such as pilgrim group leaders and second group leaders, volunteers and chaperones of minors. So even a participant recognized as an adult in their own country must, if they fall within the birth-date criterion above, be accompanied by a parent or legal guardian or by an adult chaperone delegated by them. At least one adult chaperone is required for every 10 minors. Delegated adult chaperones must obtain a written delegation of consent from the minor's parent or legal guardian and carry it throughout the event."
     }
   },
   {
     "id": "Q63",
     "no": "Q63",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "세이프가딩, 미성년자"
+      "ko": "세이프가딩, 미성년자",
+      "en": "Safeguarding, Minors"
     },
     "topicNo": "2",
     "q": {
-      "ko": "대규모그룹(Macrogroup) 안에서 미성년자 등록은 어떻게 진행되나요? 미성년자를 먼저 등록하고 이후에 인솔자를 등록하나요, 아니면 특정 인솔자와 미성년자를 함께 등록하나요?"
+      "ko": "대규모그룹(Macrogroup) 안에서 미성년자 등록은 어떻게 진행되나요? 미성년자를 먼저 등록하고 이후에 인솔자를 등록하나요, 아니면 특정 인솔자와 미성년자를 함께 등록하나요?",
+      "en": "How are minors registered within a Macrogroup? Are the minors registered first and the chaperones afterward, or are particular chaperones registered together with particular minors?"
     },
     "a": {
-      "ko": "등록 2단계에서 그룹의 전체 참가 인원과 미성년자의 수, 성별을 입력하게 됩니다. 대규모그룹(Macrogroup) 내에서도 미성년자와 인솔자의 등록 순서는 정해져 있지 않으며, 특정 인솔자와 미성년자를 연결하여 등록하는 별도의 절차는 없습니다. 다만, 서울 세계청년대회의 \" 미성년자 및 취약 성인 보호 지침\"에 따라 미성년자 최대 10명당 성인 인솔자 1명 이상이 동행해야 합니다. 위임받은 성인 인솔자는 해당 미성년자의 부모 또는 법적 보호자로부터 서면 위임 동의서를 받아 대회 기간 내내 지참해야 합니다. 또한 미성년자가 홈스테이에 배정되는 경우에는 같은 성별의 미성년자 2명당 같은 성별의 성인 인솔자 1명이 함께 해야 합니다. 따라서 위 보호 지침에 따른 인솔자 수와 성별 구성을 고려하여 미성년자와 인솔자의 등록을 진행해 주시기 바랍니다."
+      "ko": "등록 2단계에서 그룹의 전체 참가 인원과 미성년자의 수, 성별을 입력하게 됩니다. 대규모그룹(Macrogroup) 내에서도 미성년자와 인솔자의 등록 순서는 정해져 있지 않으며, 특정 인솔자와 미성년자를 연결하여 등록하는 별도의 절차는 없습니다. 다만, 서울 세계청년대회의 \" 미성년자 및 취약 성인 보호 지침\"에 따라 미성년자 최대 10명당 성인 인솔자 1명 이상이 동행해야 합니다. 위임받은 성인 인솔자는 해당 미성년자의 부모 또는 법적 보호자로부터 서면 위임 동의서를 받아 대회 기간 내내 지참해야 합니다. 또한 미성년자가 홈스테이에 배정되는 경우에는 같은 성별의 미성년자 2명당 같은 성별의 성인 인솔자 1명이 함께 해야 합니다. 따라서 위 보호 지침에 따른 인솔자 수와 성별 구성을 고려하여 미성년자와 인솔자의 등록을 진행해 주시기 바랍니다.",
+      "en": "At Step 2 of registration, you enter the group's total number of participants and the number and sex of its minors. Within a Macrogroup too, there is no set order for registering minors and chaperones, and no separate procedure for linking particular chaperones to particular minors. However, under the WYD Seoul 2027 Safeguarding Policy for Minors and Vulnerable Adults, at least one adult chaperone must accompany every 10 minors. Delegated adult chaperones must obtain a written delegation of consent from the minor's parent or legal guardian and carry it throughout the event. In addition, where minors are assigned to a homestay, one adult chaperone of the same sex must accompany every two minors of the same sex. Please register minors and chaperones with the number and sex of chaperones required by the policy in mind."
     }
   },
   {
     "id": "Q64",
     "no": "Q64",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "세이프가딩, 미성년자"
+      "ko": "세이프가딩, 미성년자",
+      "en": "Safeguarding, Minors"
     },
     "topicNo": "2",
     "q": {
-      "ko": "만 18~19세 청년에게 문제가 생겼을 경우, 한국 법이 적용되나요, 아니면 그 청년의 본국 법이 적용되나요?"
+      "ko": "만 18~19세 청년에게 문제가 생겼을 경우, 한국 법이 적용되나요, 아니면 그 청년의 본국 법이 적용되나요?",
+      "en": "If something happens to a young person aged 18–19, does Korean law apply, or the law of their home country?"
     },
     "a": {
-      "ko": "기본적으로 대한민국의 법이 적용되고, 각국 법령에 따라 본국의 법도 중복 적용될 수 있습니다."
+      "ko": "기본적으로 대한민국의 법이 적용되고, 각국 법령에 따라 본국의 법도 중복 적용될 수 있습니다.",
+      "en": "Korean law applies in principle, and depending on each country's legislation, the law of the home country may also apply concurrently."
     }
   },
   {
     "id": "Q65",
     "no": "Q65",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "세이프가딩, 미성년자"
+      "ko": "세이프가딩, 미성년자",
+      "en": "Safeguarding, Minors"
     },
     "topicNo": "2",
     "q": {
-      "ko": "미성년 순례자의 참가를 위해 필요한 부모·법정대리인 동의서 및 인솔자(Chaperone) 지정 등 특별한 서류가 있나요? 사용할 수 있는 공식 양식(한국어/영어)을 제공할 예정인가요?"
+      "ko": "미성년 순례자의 참가를 위해 필요한 부모·법정대리인 동의서 및 인솔자(Chaperone) 지정 등 특별한 서류가 있나요? 사용할 수 있는 공식 양식(한국어/영어)을 제공할 예정인가요?",
+      "en": "Are special documents needed for minor pilgrims to take part, such as consent from parents or legal guardians and the designation of a chaperone? If so, will the WYD Seoul 2027 LOC provide official forms (Korean/English)?"
     },
     "a": {
-      "ko": "미성년 순례자의 참가를 위해서는 부모 또는 법적 보호자가 미성년자의 참가에 동의하며, 대회 기간 동안 성인 인솔자에게 미성년자의 보호를 맡긴다는 서면 동의서가 필요합니다. 미성년자의 인솔자는 대한민국 청소년 보호법에 따라 성인 (2008년 12월 31일 당일 또는 이전 출생자)에게 위임되어야 합니다. 미성년자 법적 보호자 동의서 서식은 등록시스템에서 6개 공식 언어로 제공 받을 수 있습니다."
+      "ko": "미성년 순례자의 참가를 위해서는 부모 또는 법적 보호자가 미성년자의 참가에 동의하며, 대회 기간 동안 성인 인솔자에게 미성년자의 보호를 맡긴다는 서면 동의서가 필요합니다. 미성년자의 인솔자는 대한민국 청소년 보호법에 따라 성인 (2008년 12월 31일 당일 또는 이전 출생자)에게 위임되어야 합니다. 미성년자 법적 보호자 동의서 서식은 등록시스템에서 6개 공식 언어로 제공 받을 수 있습니다.",
+      "en": "For a minor pilgrim to take part, a written consent is needed in which the parent or legal guardian agrees to the minor's participation and entrusts the minor's care to an adult chaperone for the duration of the event. Under the Republic of Korea's Juvenile Protection Act, the chaperone of a minor must be an adult (born on or before December 31, 2008). The legal guardian consent form for minors is available in the registration system in the six official languages."
     }
   },
   {
     "id": "Q66",
     "no": "Q66",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "세이프가딩, 미성년자"
+      "ko": "세이프가딩, 미성년자",
+      "en": "Safeguarding, Minors"
     },
     "topicNo": "2",
     "q": {
-      "ko": "미성년자가 인솔자·부모와 같은 숙소에 머물 수 있는지, 그룹에서 분리되어 별도 숙소에 배정되는지, 인솔자와 함께 머물 수 없는 경우 누가 미성년자를 책임지는지 알고 싶습니다."
+      "ko": "미성년자가 인솔자·부모와 같은 숙소에 머물 수 있는지, 그룹에서 분리되어 별도 숙소에 배정되는지, 인솔자와 함께 머물 수 없는 경우 누가 미성년자를 책임지는지 알고 싶습니다.",
+      "en": "We would like to know whether minors can stay in the same accommodation as their chaperones or parents, whether they are separated from the group and assigned separate accommodation, and who is responsible for minors if they cannot stay with their chaperones."
     },
     "a": {
-      "ko": "미성년 순례자는 부모 또는 성인 인솔자(부모 또는 법적 보호자의 동의 하에 서면 위임서에 인솔자로 명시된 자)와 동일한 숙소에 함께 배정될 예정입니다. 부모가 아닌 성인 인솔자와 동행할 경우, 동일한 숙소에서 숙박 공간은 물리적으로 분리하여 운영할 계획입니다. 하지만, 미성년자 숙소 운영 방식은 각 국가의 미성년자보호 규정과 현장의 안전 상황에 따라 다양한 방안이 적용될 수 있으며, 모든 경우에 일률적으로 적용되는 단일 정책을 정하기는 어렵다는 점을 양해 부탁드립니다. 조직위원회는 2027 서울 WYD 미성년자보호지침을 제시하는 동시에, 각 국가 주교회의의 미성년자보호지침과 기준을 존중합니다. 다만, 해당 기준에 따라 어떠한 숙소 운영 방식을 선택할 것인지에 대한 결정과 그에 따른 책임은 각 순례자 그룹이 부담하게 됩니다."
+      "ko": "미성년 순례자는 부모 또는 성인 인솔자(부모 또는 법적 보호자의 동의 하에 서면 위임서에 인솔자로 명시된 자)와 동일한 숙소에 함께 배정될 예정입니다. 부모가 아닌 성인 인솔자와 동행할 경우, 동일한 숙소에서 숙박 공간은 물리적으로 분리하여 운영할 계획입니다. 하지만, 미성년자 숙소 운영 방식은 각 국가의 미성년자보호 규정과 현장의 안전 상황에 따라 다양한 방안이 적용될 수 있으며, 모든 경우에 일률적으로 적용되는 단일 정책을 정하기는 어렵다는 점을 양해 부탁드립니다. 조직위원회는 2027 서울 WYD 미성년자보호지침을 제시하는 동시에, 각 국가 주교회의의 미성년자보호지침과 기준을 존중합니다. 다만, 해당 기준에 따라 어떠한 숙소 운영 방식을 선택할 것인지에 대한 결정과 그에 따른 책임은 각 순례자 그룹이 부담하게 됩니다.",
+      "en": "Minor pilgrims will be assigned to the same accommodation as their parents or adult chaperone (the person named as chaperone in the written delegation, with the consent of the parent or legal guardian). Where they are accompanied by an adult chaperone who is not a parent, we plan to separate the sleeping spaces physically within the same accommodation. Please understand, however, that the arrangements for minors' accommodation may vary according to each country's safeguarding rules and the safety situation on site, and that it is difficult to set a single policy that applies uniformly in every case. The WYD Seoul 2027 LOC sets out the WYD Seoul 2027 Safeguarding Policy while respecting the safeguarding policies and standards of each country's episcopal conference. The decision on which accommodation arrangement to choose under those standards, and the responsibility that follows from it, rest with each pilgrim group."
     }
   },
   {
     "id": "Q67",
     "no": "Q67",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "세이프가딩, 미성년자"
+      "ko": "세이프가딩, 미성년자",
+      "en": "Safeguarding, Minors"
     },
     "topicNo": "2",
     "q": {
-      "ko": "스코틀랜드 세이프가딩 규정상 수도자·성직자 리더는 청년들과 같은 숙소에 머물 수 없습니다. 이들을 위한 별도 공간이 마련되나요? 화장실은 어떻게 되나요?"
+      "ko": "스코틀랜드 세이프가딩 규정상 수도자·성직자 리더는 청년들과 같은 숙소에 머물 수 없습니다. 이들을 위한 별도 공간이 마련되나요? 화장실은 어떻게 되나요?",
+      "en": "Under Scotland's safeguarding rules, religious and clergy leaders may not stay in the same accommodation as young people. Will separate space be provided for them? What about bathrooms?"
     },
     "a": {
-      "ko": "수도자·성직자 리더를 위한 별도 공간은 준비되어 있지 않습니다. 등록 후 별도로 요청 주시면 반영될 수 있도록 최선을 다하겠습니다. 다만, 숙소의 여건 상 제공이 어려울 수 있는 점 양해 부탁드립니다."
+      "ko": "수도자·성직자 리더를 위한 별도 공간은 준비되어 있지 않습니다. 등록 후 별도로 요청 주시면 반영될 수 있도록 최선을 다하겠습니다. 다만, 숙소의 여건 상 제공이 어려울 수 있는 점 양해 부탁드립니다.",
+      "en": "No separate space has been prepared for religious and clergy leaders. If you make a separate request after registering, we will do our best to accommodate it. Please understand, however, that this may not be possible given the conditions of the accommodation."
     }
   },
   {
     "id": "Q68",
     "no": "Q68",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "세이프가딩, 미성년자"
+      "ko": "세이프가딩, 미성년자",
+      "en": "Safeguarding, Minors"
     },
     "topicNo": "2",
     "q": {
-      "ko": "미성년자가 응급 상황으로 병원 진료 또는 입원이 필요한 경우, 그룹 리더가 동행하여 의료 상태 및 치료 정보를 제공받을 수 있나요? 또한 이를 위한 보호자 동의 및 의료정보 공유 관련 사항이 미성년자 등록 양식에 포함되나요?"
+      "ko": "미성년자가 응급 상황으로 병원 진료 또는 입원이 필요한 경우, 그룹 리더가 동행하여 의료 상태 및 치료 정보를 제공받을 수 있나요? 또한 이를 위한 보호자 동의 및 의료정보 공유 관련 사항이 미성년자 등록 양식에 포함되나요?",
+      "en": "If a minor needs hospital treatment or admission in an emergency, can the group leader accompany them and receive information on their medical condition and treatment? Will guardian consent and the sharing of medical information be included in the minors' registration form?"
     },
     "a": {
-      "ko": "현재 미성년자 등록 절차에는 성인 인솔자 또는 그룹 대표의 의료 관련 동의 및 의료정보 공유에 관한 별도 항목을 표기하고 있지 않습니다. 다만, 부모 또는 법적 보호자로부터 서면 위임 동의서를 받은 성인 인솔자는 미성년자에 대한 포괄적인 인솔 권리를 획득하는 것으로 볼 수 있습니다. 현재 검토·수정 중인 \"미성년자 및 취약 성인 보호 지침\"에 응급 진료 시 보호자 동의와 의료정보 공유에 관한 사항을 포함하는 방안을 고려하고 있으며, 세부 절차는 확정 후 안내드리겠습니다."
+      "ko": "현재 미성년자 등록 절차에는 성인 인솔자 또는 그룹 대표의 의료 관련 동의 및 의료정보 공유에 관한 별도 항목을 표기하고 있지 않습니다. 다만, 부모 또는 법적 보호자로부터 서면 위임 동의서를 받은 성인 인솔자는 미성년자에 대한 포괄적인 인솔 권리를 획득하는 것으로 볼 수 있습니다. 현재 검토·수정 중인 \"미성년자 및 취약 성인 보호 지침\"에 응급 진료 시 보호자 동의와 의료정보 공유에 관한 사항을 포함하는 방안을 고려하고 있으며, 세부 절차는 확정 후 안내드리겠습니다.",
+      "en": "At present, the registration procedure for minors does not include a separate item on medical consent or the sharing of medical information by the adult chaperone or group leader. However, an adult chaperone who has received a written delegation of consent from the parent or legal guardian can be considered to have acquired comprehensive rights as the minor's chaperone. We are considering including guardian consent for emergency treatment and the sharing of medical information in the Safeguarding Policy for Minors and Vulnerable Adults, which is currently being reviewed and revised, and will share the detailed procedure once it is confirmed."
     }
   },
   {
     "id": "Q69",
     "no": "Q69",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "세이프가딩, 미성년자"
+      "ko": "세이프가딩, 미성년자",
+      "en": "Safeguarding, Minors"
     },
     "topicNo": "2",
     "q": {
-      "ko": "부모와 동행하는 미성년자 또는 어린이를 위한 특별 패키지 (가족 단위 특별 패키지) 가 있나요? 이 경우 숙박 배정은 어떻게 진행되나요 ? 또한 만 14세 미만도 부모 중 한 명이 동행하면 참가할 수 있나요 ?"
+      "ko": "부모와 동행하는 미성년자 또는 어린이를 위한 특별 패키지 (가족 단위 특별 패키지) 가 있나요? 이 경우 숙박 배정은 어떻게 진행되나요 ? 또한 만 14세 미만도 부모 중 한 명이 동행하면 참가할 수 있나요 ?",
+      "en": "Is there a special package for minors or children accompanied by their parents (a family package)? How is accommodation assigned in that case? And can children under 14 take part if accompanied by one parent?"
     },
     "a": {
-      "ko": "부모와 동행하는 미성년자 또는 어린이를 위한 별도의 가족 특별 패키지는 마련되어 있지 않습니다. 만 14세 미만의 어린이도 부모 중 한 명 이상 또는 법적 보호자가 위임한 성인 인솔자와 동행하여 참가할 수 있습니다. 다만, 조직위원회에서 제공하는 숙소가 포함된 패키지는 2013년 7월 31일 또는 그 이전에 출생한 참가자만 신청할 수 있습니다. 조직위원회가 제공하는 숙소는 학교·공공시설 등 공동 숙박시설과 홈스테이를 중심으로 운영됩니다. 이러한 숙박 환경과 대규모 순례자 수용 여건을 고려할 때, 만 14세 미만의 자녀와 함께 참가하는 가족은 숙소가 포함되지 않은 패키지로 등록하고, 가족에게 적합한 숙소를 직접 마련해 주시기 바랍니다."
+      "ko": "부모와 동행하는 미성년자 또는 어린이를 위한 별도의 가족 특별 패키지는 마련되어 있지 않습니다. 만 14세 미만의 어린이도 부모 중 한 명 이상 또는 법적 보호자가 위임한 성인 인솔자와 동행하여 참가할 수 있습니다. 다만, 조직위원회에서 제공하는 숙소가 포함된 패키지는 2013년 7월 31일 또는 그 이전에 출생한 참가자만 신청할 수 있습니다. 조직위원회가 제공하는 숙소는 학교·공공시설 등 공동 숙박시설과 홈스테이를 중심으로 운영됩니다. 이러한 숙박 환경과 대규모 순례자 수용 여건을 고려할 때, 만 14세 미만의 자녀와 함께 참가하는 가족은 숙소가 포함되지 않은 패키지로 등록하고, 가족에게 적합한 숙소를 직접 마련해 주시기 바랍니다.",
+      "en": "There is no separate family package for minors or children accompanied by their parents. Children under 14 can take part if accompanied by at least one parent or by an adult chaperone delegated by their legal guardian. However, packages that include accommodation provided by the LOC are available only to participants born on or before July 31, 2013. Accommodation provided by the LOC consists mainly of shared facilities such as schools and public buildings, and homestays. Given these conditions and the need to house very large numbers of pilgrims, families taking part with children under 14 are asked to register for a package without accommodation and arrange suitable family accommodation themselves."
     }
   },
   {
     "id": "Q70",
     "no": "Q70",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "세이프가딩, 미성년자"
+      "ko": "세이프가딩, 미성년자",
+      "en": "Safeguarding, Minors"
     },
     "topicNo": "2",
     "q": {
-      "ko": "개별 등록이 없는 그룹 등록 방식에서 각 순례자의 세이프가딩 정책 및 행동강령(Code of Conduct)에 대한 동의·서명은 어떻게 이루어지나요? 또한 등록 시스템 오픈 전에 관련 가이드라인을 사전 제공하고, 순례자를 위한 별도의 교육도 제공할 예정인가요?"
+      "ko": "개별 등록이 없는 그룹 등록 방식에서 각 순례자의 세이프가딩 정책 및 행동강령(Code of Conduct)에 대한 동의·서명은 어떻게 이루어지나요? 또한 등록 시스템 오픈 전에 관련 가이드라인을 사전 제공하고, 순례자를 위한 별도의 교육도 제공할 예정인가요?",
+      "en": "With group registration, where pilgrims do not register individually, how does each pilgrim agree to and sign the Safeguarding Policy and Code of Conduct? Will the relevant guidelines be provided before the registration system opens, and will separate training be offered for pilgrims?"
     },
     "a": {
-      "ko": "등록시스템에서는 참가 유형에 따라 순례자 그룹 대표, 성직자 (사제·부제), 주교, 봉사자, 가톨릭문화박람회 참가자, 젊은이 축제 참가자 및 언론인 등이 세이프가딩 정책과 행동 강령(Code of Conduct) 에 동의·서명하도록 되어 있습니다. 개별 순례자도 순례자앱을 통해 해당 정책과 행동강령에 동의·서명해야 합니다. 현재 세이프가딩 지침서와 행동강령은 검토·수정 중이며, 최종본은 2027년 초 등록시스템, 공식 홈페이지 및 각국 주교회의 등을 통해 공유할 예정입니다. 또한 순례자가 세이프가딩 정책과 행동강령을 이해하고 준수할 수 있도록 교육 자료도 함께 제공할 예정입니다."
+      "ko": "등록시스템에서는 참가 유형에 따라 순례자 그룹 대표, 성직자 (사제·부제), 주교, 봉사자, 가톨릭문화박람회 참가자, 젊은이 축제 참가자 및 언론인 등이 세이프가딩 정책과 행동 강령(Code of Conduct) 에 동의·서명하도록 되어 있습니다. 개별 순례자도 순례자앱을 통해 해당 정책과 행동강령에 동의·서명해야 합니다. 현재 세이프가딩 지침서와 행동강령은 검토·수정 중이며, 최종본은 2027년 초 등록시스템, 공식 홈페이지 및 각국 주교회의 등을 통해 공유할 예정입니다. 또한 순례자가 세이프가딩 정책과 행동강령을 이해하고 준수할 수 있도록 교육 자료도 함께 제공할 예정입니다.",
+      "en": "In the registration system, depending on the type of participation, pilgrim group leaders, clergy (priests and deacons), bishops, volunteers, Vocations Fair participants, Youth Festival participants, media representatives and others agree to and sign the Safeguarding Policy and Code of Conduct. Individual pilgrims must also agree to and sign the policy and Code of Conduct through the Pilgrim App. The Safeguarding Policy and Code of Conduct are currently being reviewed and revised, and the final versions will be shared in early 2027 through the registration system, the official website and each country's episcopal conference. Training materials will also be provided to help pilgrims understand and follow the Safeguarding Policy and Code of Conduct."
     }
   },
   {
     "id": "Q71",
     "no": "Q71",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "장애인"
+      "ko": "장애인",
+      "en": "Persons with Disabilities"
     },
     "topicNo": "3",
     "q": {
-      "ko": "장애인 순례자는 장애 유형이나 지원 필요에 따라 별도 숙소가 배정되는지, 또한 한국 도착부터 출국까지 전담 인력의 지원을 받을 수 있는지 궁금합니다."
+      "ko": "장애인 순례자는 장애 유형이나 지원 필요에 따라 별도 숙소가 배정되는지, 또한 한국 도착부터 출국까지 전담 인력의 지원을 받을 수 있는지 궁금합니다.",
+      "en": "We would like to know whether pilgrims with disabilities will be assigned separate accommodation according to their type of disability or support needs, and whether dedicated staff will support them from arrival in Korea until departure."
     },
     "a": {
-      "ko": "장애인 순례자도 소속 교구와 함께 동행하는 것이 원칙이지만, 원한다면 별도 숙소에 배정할 수 있습니다. 또한 한국 도착부터 출국까지 그룹 내 동행인이 있으면 좋겠지만, 없다면 봉사자 배정도 고려하고 있습니다."
+      "ko": "장애인 순례자도 소속 교구와 함께 동행하는 것이 원칙이지만, 원한다면 별도 숙소에 배정할 수 있습니다. 또한 한국 도착부터 출국까지 그룹 내 동행인이 있으면 좋겠지만, 없다면 봉사자 배정도 고려하고 있습니다.",
+      "en": "As a rule, pilgrims with disabilities also travel with their own diocese, but they can be assigned separate accommodation if they wish. And while it would be good to have a companion within the group from arrival in Korea until departure, if there is none, we are also considering assigning a volunteer."
     }
   },
   {
     "id": "Q72",
     "no": "Q72",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "장애인"
+      "ko": "장애인",
+      "en": "Persons with Disabilities"
     },
     "topicNo": "3",
     "q": {
-      "ko": "장애인 순례자는 소속 교구/주교회의 대표단등 소속 그룹과 함께 숙박하고 행사에 참여하면서 필요한 접근성·이동 지원을 받을 수 있나요?"
+      "ko": "장애인 순례자는 소속 교구/주교회의 대표단등 소속 그룹과 함께 숙박하고 행사에 참여하면서 필요한 접근성·이동 지원을 받을 수 있나요?",
+      "en": "Can pilgrims with disabilities stay and take part in events with their own group, such as their diocese or episcopal conference delegation, while receiving the accessibility and mobility support they need?"
     },
     "a": {
-      "ko": "장애인 순례자는 소속 교구와 주교회의 대표단 등 소속 그룹과 함께 숙박하면서 필요한 접근성 이동 지원을 받을 수 있을 것입니다. 구체적인 지원 내용은 추후 앱이나 홈페이지를 통해 안내해 드리겠습니다."
+      "ko": "장애인 순례자는 소속 교구와 주교회의 대표단 등 소속 그룹과 함께 숙박하면서 필요한 접근성 이동 지원을 받을 수 있을 것입니다. 구체적인 지원 내용은 추후 앱이나 홈페이지를 통해 안내해 드리겠습니다.",
+      "en": "Pilgrims with disabilities will be able to stay with their own group, such as their diocese or episcopal conference delegation, and receive the accessibility and mobility support they need. Details of the support will be provided later through the app or the website."
     }
   },
   {
     "id": "Q73",
     "no": "Q73",
     "section": {
-      "ko": "순례자 지원"
+      "ko": "순례자 지원",
+      "en": "Pilgrim Support"
     },
     "sectionNo": "Ⅱ",
     "topic": {
-      "ko": "장애인"
+      "ko": "장애인",
+      "en": "Persons with Disabilities"
     },
     "topicNo": "3",
     "q": {
-      "ko": "장애인 순례자의 등록 절차는 어떻게 되나요? 보호자 또는 동행인의 등록이 필수인지, 필요한 경우 장애인 순례자와 동행인을 어떻게 함께 등록하는지도 안내 부탁드립니다."
+      "ko": "장애인 순례자의 등록 절차는 어떻게 되나요? 보호자 또는 동행인의 등록이 필수인지, 필요한 경우 장애인 순례자와 동행인을 어떻게 함께 등록하는지도 안내 부탁드립니다.",
+      "en": "What is the registration procedure for pilgrims with disabilities? Please also tell us whether registering a caregiver or companion is mandatory and, where needed, how a pilgrim with a disability and their companion are registered together."
     },
     "a": {
-      "ko": "등록시에 장애인 순례자와 동행하는지의 여부를 묻는 체크 리스트 항목이 있습니다. 해당 한다면 그 곳에 체크해 주십시오. 동행인 등록이 필수는 아니며, 동행인이 있는 경우에는 동행인도 순례자로 등록 하시고 비고란에 동행인 이름과 연락처를 기입해 주시기 바랍니다."
+      "ko": "등록시에 장애인 순례자와 동행하는지의 여부를 묻는 체크 리스트 항목이 있습니다. 해당 한다면 그 곳에 체크해 주십시오. 동행인 등록이 필수는 아니며, 동행인이 있는 경우에는 동행인도 순례자로 등록 하시고 비고란에 동행인 이름과 연락처를 기입해 주시기 바랍니다.",
+      "en": "At registration there is a checklist item asking whether the pilgrim with a disability is accompanied. If so, please tick it. Registering a companion is not mandatory; if there is a companion, please register the companion as a pilgrim too and enter the companion's name and contact details in the remarks field."
     }
   },
   {
     "id": "Q74",
     "no": "Q74",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "체크인"
+      "ko": "체크인",
+      "en": "Check-in"
     },
     "topicNo": "1",
     "q": {
-      "ko": "순례자 키트와 카드 등은 어디에서 수령하나요? 숙박 포함 그룹과 숙박 미포함 그룹의 체크인 및 물품 수령 장소는 각각 어디인가요?"
+      "ko": "순례자 키트와 카드 등은 어디에서 수령하나요? 숙박 포함 그룹과 숙박 미포함 그룹의 체크인 및 물품 수령 장소는 각각 어디인가요?",
+      "en": "Where are pilgrim kits, cards and so on collected? Where do groups with and without accommodation each check in and collect their items?"
     },
     "a": {
-      "ko": "숙박이 포함된 패키지로 등록한 그룹은 배정된 본당에서 체크인하고 순례자 키트와 카드 등을 수령하게 됩니다. 해당 물품은 조직위원회에서 각 본당으로 사전에 배송할 예정입니다. 숙박이 포함되지 않은 패키지로 등록한 그룹은 순례자센터에서 체크인하고 순례자 키트와 카드 등을 수령하게 됩니다. 현장 등록 참가자도 순례자센터에서 등록 절차를 마친 후 해당 물품을 수령하실 수 있습니다."
+      "ko": "숙박이 포함된 패키지로 등록한 그룹은 배정된 본당에서 체크인하고 순례자 키트와 카드 등을 수령하게 됩니다. 해당 물품은 조직위원회에서 각 본당으로 사전에 배송할 예정입니다. 숙박이 포함되지 않은 패키지로 등록한 그룹은 순례자센터에서 체크인하고 순례자 키트와 카드 등을 수령하게 됩니다. 현장 등록 참가자도 순례자센터에서 등록 절차를 마친 후 해당 물품을 수령하실 수 있습니다.",
+      "en": "Groups registered for a package with accommodation will check in at their assigned parish and collect pilgrim kits, cards and other items there. The LOC will deliver these items to each parish in advance. Groups registered for a package without accommodation will check in and collect pilgrim kits, cards and other items at the Pilgrim Center. On-site registrants can also collect these items at the Pilgrim Center after completing registration."
     },
     "sub": {
-      "ko": "순례자 키트"
+      "ko": "순례자 키트",
+      "en": "Pilgrim Kit"
     },
     "subNo": "a"
   },
@@ -1552,21 +1901,26 @@ export const SEED = [
     "id": "Q75",
     "no": "Q75",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "체크인"
+      "ko": "체크인",
+      "en": "Check-in"
     },
     "topicNo": "1",
     "q": {
-      "ko": "순례자 키트에는 무엇이 들어있나요?"
+      "ko": "순례자 키트에는 무엇이 들어있나요?",
+      "en": "What's in the pilgrim kit?"
     },
     "a": {
-      "ko": "백팩(가방), T-shirts, 모자, 물통, 부채(접이식), 스포츠타올, 묵주(팔찌)가 포함될 예정이나, 일부 아이템은 바뀔 가능성 있습니다."
+      "ko": "백팩(가방), T-shirts, 모자, 물통, 부채(접이식), 스포츠타올, 묵주(팔찌)가 포함될 예정이나, 일부 아이템은 바뀔 가능성 있습니다.",
+      "en": "A backpack, T-shirt, hat, water bottle, folding fan, sports towel and rosary (bracelet) are planned, though some items may change."
     },
     "sub": {
-      "ko": "순례자 키트"
+      "ko": "순례자 키트",
+      "en": "Pilgrim Kit"
     },
     "subNo": "a"
   },
@@ -1574,21 +1928,26 @@ export const SEED = [
     "id": "Q76",
     "no": "Q76",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "체크인"
+      "ko": "체크인",
+      "en": "Check-in"
     },
     "topicNo": "1",
     "q": {
-      "ko": "스마트폰이 없는 순례자는 체크인 및 행사 참여에 필요한 정보와 서비스에 어떻게 접근하며, 식사카드 등 필요한 카드와 물품은 어떤 방식으로 제공받나요?"
+      "ko": "스마트폰이 없는 순례자는 체크인 및 행사 참여에 필요한 정보와 서비스에 어떻게 접근하며, 식사카드 등 필요한 카드와 물품은 어떤 방식으로 제공받나요?",
+      "en": "How will pilgrims without a smartphone access the information and services needed for check-in and the events, and how will they receive the cards and items they need, such as the meal card?"
     },
     "a": {
-      "ko": "리더 그룹이 카드 활성 및 추가적인 정보 제공을 해야 합니다. 체크인 시 그룹리더가 대표해서 선불카드를 포함한 KIT를 제공받고 구성원들에게 배분합니다."
+      "ko": "리더 그룹이 카드 활성 및 추가적인 정보 제공을 해야 합니다. 체크인 시 그룹리더가 대표해서 선불카드를 포함한 KIT를 제공받고 구성원들에게 배분합니다.",
+      "en": "The group leader must activate the cards and provide any additional information. At check-in, the group leader receives the kits, including the prepaid cards, on behalf of the group and distributes them to members."
     },
     "sub": {
-      "ko": "체크인 진행"
+      "ko": "체크인 진행",
+      "en": "Check-in Process"
     },
     "subNo": "b"
   },
@@ -1596,21 +1955,26 @@ export const SEED = [
     "id": "Q77",
     "no": "Q77",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "체크인"
+      "ko": "체크인",
+      "en": "Check-in"
     },
     "topicNo": "1",
     "q": {
-      "ko": "사제와 부제는 소속 그룹과 함께 체크인하나요, 아니면 별도의 지정 장소에서 체크인해야 하나요? 그룹 리더가 사제·부제를 대신하여 신분 확인 및 영대 등 성직자용 물품을 수령할 수 있는지, 또는 본인이 직접 방문해야 하는지 궁금합니다."
+      "ko": "사제와 부제는 소속 그룹과 함께 체크인하나요, 아니면 별도의 지정 장소에서 체크인해야 하나요? 그룹 리더가 사제·부제를 대신하여 신분 확인 및 영대 등 성직자용 물품을 수령할 수 있는지, 또는 본인이 직접 방문해야 하는지 궁금합니다.",
+      "en": "Do priests and deacons check in with their group, or at a separate designated place? Can the group leader complete identity verification on their behalf and collect clerical items such as stoles, or must they come in person?"
     },
     "a": {
-      "ko": "숙박이 포함된 패키지로 등록한 사제와 부제는 배정된 본당에서 소속 그룹과 함께 체크인할 수 있습니다. 다만, 체크인 담당자가 사제·부제의 신분을 직접 확인한 후 크리덴셜과 키트를 지급하므로, 그룹 리더가 신분 확인이나 해당 물품 수령을 대신할 수는 없습니다. 숙박이 포함되지 않은 패키지로 등록한 사제와 부제는 순례자센터 내 사제·부제 전용 체크인 장소를 직접 방문하여 신분 확인과 물품 수령을 진행해야 합니다.\n영대 및 제의 배포건은 현재 검토중이며, 구체적인 사항은 확정 후 안내드리겠습니다."
+      "ko": "숙박이 포함된 패키지로 등록한 사제와 부제는 배정된 본당에서 소속 그룹과 함께 체크인할 수 있습니다. 다만, 체크인 담당자가 사제·부제의 신분을 직접 확인한 후 크리덴셜과 키트를 지급하므로, 그룹 리더가 신분 확인이나 해당 물품 수령을 대신할 수는 없습니다. 숙박이 포함되지 않은 패키지로 등록한 사제와 부제는 순례자센터 내 사제·부제 전용 체크인 장소를 직접 방문하여 신분 확인과 물품 수령을 진행해야 합니다.\n영대 및 제의 배포건은 현재 검토중이며, 구체적인 사항은 확정 후 안내드리겠습니다.",
+      "en": "Priests and deacons registered for a package with accommodation can check in with their group at their assigned parish. Because check-in staff verify priests' and deacons' identity in person before issuing credentials and kits, the group leader cannot complete identity verification or collect these items on their behalf. Priests and deacons registered for a package without accommodation must go in person to the dedicated priests' and deacons' check-in area in the Pilgrim Center to complete identity verification and collect their items.\nThe distribution of stoles and vestments is currently under review. We will provide further details once it has been confirmed."
     },
     "sub": {
-      "ko": "체크인 진행"
+      "ko": "체크인 진행",
+      "en": "Check-in Process"
     },
     "subNo": "b"
   },
@@ -1618,21 +1982,26 @@ export const SEED = [
     "id": "Q78",
     "no": "Q78",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "체크인"
+      "ko": "체크인",
+      "en": "Check-in"
     },
     "topicNo": "1",
     "q": {
-      "ko": "숙박 미포함 그룹의 경우 그룹 리더가 전체 순례자를 동반하지 않고 대표로 순례자센터에서 체크인 및 물품 수령을 할 수 있나요?"
+      "ko": "숙박 미포함 그룹의 경우 그룹 리더가 전체 순례자를 동반하지 않고 대표로 순례자센터에서 체크인 및 물품 수령을 할 수 있나요?",
+      "en": "For groups without accommodation, can the group leader check in and collect items at the Pilgrim Center on behalf of everyone, without bringing all the pilgrims?"
     },
     "a": {
-      "ko": "가능합니다. 숙박이 포함되지 않은 패키지로 등록한 그룹은 전체 참가자가 동행하지 않아도 그룹 리더가 대표로 순례자센터를 방문하여 그룹 체크인과 물품 수령을 진행할 수 있습니다. 다만, 그룹에 소속된 사제와 부제는 순례자센터 내 사제·부제 전용 체크인 장소를 직접 방문하여 별도의 체크인 절차를 진행해야 합니다."
+      "ko": "가능합니다. 숙박이 포함되지 않은 패키지로 등록한 그룹은 전체 참가자가 동행하지 않아도 그룹 리더가 대표로 순례자센터를 방문하여 그룹 체크인과 물품 수령을 진행할 수 있습니다. 다만, 그룹에 소속된 사제와 부제는 순례자센터 내 사제·부제 전용 체크인 장소를 직접 방문하여 별도의 체크인 절차를 진행해야 합니다.",
+      "en": "Yes. For groups registered for a package without accommodation, the group leader can visit the Pilgrim Center on the group's behalf to check in and collect items, without all participants being present. However, priests and deacons in the group must go in person to the dedicated priests' and deacons' check-in area in the Pilgrim Center for a separate check-in."
     },
     "sub": {
-      "ko": "순례자 센터"
+      "ko": "순례자 센터",
+      "en": "Pilgrim Centre"
     },
     "subNo": "c"
   },
@@ -1640,21 +2009,26 @@ export const SEED = [
     "id": "Q79",
     "no": "Q79",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "체크인"
+      "ko": "체크인",
+      "en": "Check-in"
     },
     "topicNo": "1",
     "q": {
-      "ko": "순례자센터는 하루 중 몇 시부터 몇 시까지 운영되나요?"
+      "ko": "순례자센터는 하루 중 몇 시부터 몇 시까지 운영되나요?",
+      "en": "What hours of the day will the Pilgrim Center be open?"
     },
     "a": {
-      "ko": "현장등록과 비숙박 포함 패키지를 신청한 그룹의 체크인이 진행될 순례자센터는 단기 봉사자 체크인이 시작되는 7월 25일부터 8월 8일까지 운영 예정입니다. 보다 구체적인 운영 계획은 추후 공지 드리도록 하겠습니다."
+      "ko": "현장등록과 비숙박 포함 패키지를 신청한 그룹의 체크인이 진행될 순례자센터는 단기 봉사자 체크인이 시작되는 7월 25일부터 8월 8일까지 운영 예정입니다. 보다 구체적인 운영 계획은 추후 공지 드리도록 하겠습니다.",
+      "en": "The Pilgrim Center, where on-site registration and check-in for groups on packages without accommodation will take place, is scheduled to operate from July 25, when check-in for short-term volunteers begins, to August 8. A more detailed operating plan will be announced later."
     },
     "sub": {
-      "ko": "순례자 센터"
+      "ko": "순례자 센터",
+      "en": "Pilgrim Centre"
     },
     "subNo": "c"
   },
@@ -1662,21 +2036,26 @@ export const SEED = [
     "id": "Q80",
     "no": "Q80",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "순례자 앱 사용 등 원활한 인터넷 이용을 위해 WYD 기간 동안 숙소와 주요 행사장 등에 공공 Wi-Fi가 제공되나요? 대규모 순례자가 동시에 접속할 경우에도 안정적으로 이용할 수 있는 통신 환경이 마련되나요?"
+      "ko": "순례자 앱 사용 등 원활한 인터넷 이용을 위해 WYD 기간 동안 숙소와 주요 행사장 등에 공공 Wi-Fi가 제공되나요? 대규모 순례자가 동시에 접속할 경우에도 안정적으로 이용할 수 있는 통신 환경이 마련되나요?",
+      "en": "Will public Wi-Fi be provided at accommodation and the main venues during WYD for smooth internet use, including the Pilgrim App? Will there be a network environment that remains stable when large numbers of pilgrims connect at the same time?"
     },
     "a": {
-      "ko": "서울시내에는 많은 공공 와이파이가 설치되어 있습니다. 조직위원회는 순례자들의 편의와 안전을 위해 서울시 및 관련 기업, 기관들과 다양한 분야에서 협력 중입니다."
+      "ko": "서울시내에는 많은 공공 와이파이가 설치되어 있습니다. 조직위원회는 순례자들의 편의와 안전을 위해 서울시 및 관련 기업, 기관들과 다양한 분야에서 협력 중입니다.",
+      "en": "There is a great deal of public Wi-Fi throughout Seoul. The LOC is working with the Seoul Metropolitan Government and related companies and institutions in many areas for pilgrims' convenience and safety."
     },
     "sub": {
-      "ko": "기능"
+      "ko": "기능",
+      "en": "Features"
     },
     "subNo": "a"
   },
@@ -1684,21 +2063,26 @@ export const SEED = [
     "id": "Q81",
     "no": "Q81",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "교황청이 승인한 순례길의 운영 방식과 참여 방법, 순례 확인서 또는 증명서 발급 절차도 안내받을 수 있나요?"
+      "ko": "교황청이 승인한 순례길의 운영 방식과 참여 방법, 순례 확인서 또는 증명서 발급 절차도 안내받을 수 있나요?",
+      "en": "Can we also get information on how the Vatican-approved pilgrimage routes work, how to take part, and how pilgrimage confirmations or certificates are issued?"
     },
     "a": {
-      "ko": "교황청이 승인한 순례길은 별도의 신청 없이 언제든지 자유롭게 방문하여 걸으실 수 있습니다. 순례길은 총 24개소, 3개 코스(1코스 말씀의 길 / 2코스 생명의 길 / 3코스 일치의 길)로 구성되어 있습니다.\nWYD 한정 프로그램인 '박물관과 함께하는 순례길' 대상 박물관 3곳을 모두 방문하시면 완주 발급증을 다운받으실 수 있습니다. 박물관 운영 시간 내에 사전 신청없이 방문 가능하며, 스마트폰의 블루투스를 켜고 순례자앱을 실행한 상태로 박물관을 관람합니다. 박물관 내 인증 기기와 휴대폰이 연동되어 순례자앱에서 방문이 자동으로 인증됩니다. 지정 박물관 3곳을 모두 방문하면 방문 인증 완료 메시지가 표시됩니다. 화면 하단의 완주증 내려받기 버튼을 눌러 완주증을 발급받으실 수 있습니다."
+      "ko": "교황청이 승인한 순례길은 별도의 신청 없이 언제든지 자유롭게 방문하여 걸으실 수 있습니다. 순례길은 총 24개소, 3개 코스(1코스 말씀의 길 / 2코스 생명의 길 / 3코스 일치의 길)로 구성되어 있습니다.\nWYD 한정 프로그램인 '박물관과 함께하는 순례길' 대상 박물관 3곳을 모두 방문하시면 완주 발급증을 다운받으실 수 있습니다. 박물관 운영 시간 내에 사전 신청없이 방문 가능하며, 스마트폰의 블루투스를 켜고 순례자앱을 실행한 상태로 박물관을 관람합니다. 박물관 내 인증 기기와 휴대폰이 연동되어 순례자앱에서 방문이 자동으로 인증됩니다. 지정 박물관 3곳을 모두 방문하면 방문 인증 완료 메시지가 표시됩니다. 화면 하단의 완주증 내려받기 버튼을 눌러 완주증을 발급받으실 수 있습니다.",
+      "en": "The Vatican-approved pilgrimage routes can be visited and walked freely at any time, without registration. The Seoul Pilgrimage Routes cover 24 sites on three courses (Course 1, The Good News Road / Course 2, The Eternal Life Road / Course 3, The Unity Road).\nIf you visit all three museums in the 'Pilgrimage with Museums' program, which is only available during WYD Seoul 2027, you can download a certificate of completion. You can visit during museum opening hours without booking: turn on your smartphone's Bluetooth, open the Pilgrim App and tour the museum. The verification device in the museum links with your phone, and your visit is automatically verified in the Pilgrim App. Once you have visited all three designated museums, a message confirming completion appears. Press the download button for the certificate of completion at the bottom of the screen to receive it."
     },
     "sub": {
-      "ko": "기능"
+      "ko": "기능",
+      "en": "Features"
     },
     "subNo": "a"
   },
@@ -1706,21 +2090,26 @@ export const SEED = [
     "id": "Q82",
     "no": "Q82",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "그룹 리더와 하위그룹 리더도 같은 앱 안에서 자신의 순례자 기능과 리더 기능을 함께 사용할 수 있는지 궁금합니다. 즉, 본인 화면과 리더용 화면을 서로 전환할 수 있는지에 관한 물음입니다."
+      "ko": "그룹 리더와 하위그룹 리더도 같은 앱 안에서 자신의 순례자 기능과 리더 기능을 함께 사용할 수 있는지 궁금합니다. 즉, 본인 화면과 리더용 화면을 서로 전환할 수 있는지에 관한 물음입니다.",
+      "en": "Can group leaders and Subgroup leaders use both their own pilgrim functions and their leader functions within the same app? In other words, can they switch between their own screen and the leader screen?"
     },
     "a": {
-      "ko": "불가능합니다.\n웹회원 -> 참가인증(그룹코드) -> 리더인증이 일관성 있게 1개의 계정으로만 사용가능합니다. 만약 N개 계정을 사용하려면 웹회원부터 N개를 등록하셔야 합니다. 다만 오프라인에서의 앱 사용을 원활히 하기 위해 폰 로컬에 저장되어 있는 일부 정보는 제외될 수 있습니다. (관심, 완주증 등)"
+      "ko": "불가능합니다.\n웹회원 -> 참가인증(그룹코드) -> 리더인증이 일관성 있게 1개의 계정으로만 사용가능합니다. 만약 N개 계정을 사용하려면 웹회원부터 N개를 등록하셔야 합니다. 다만 오프라인에서의 앱 사용을 원활히 하기 위해 폰 로컬에 저장되어 있는 일부 정보는 제외될 수 있습니다. (관심, 완주증 등)",
+      "en": "No.\nWeb membership → participation verification (group code) → leader verification can be used consistently with only one account. To use X number of accounts, you must register that number of web memberships from the start. However, some information stored locally on the phone, to keep the app working smoothly offline, may be excluded (favorites, certificates of completion, etc.)."
     },
     "sub": {
-      "ko": "기능"
+      "ko": "기능",
+      "en": "Features"
     },
     "subNo": "a"
   },
@@ -1728,21 +2117,26 @@ export const SEED = [
     "id": "Q83",
     "no": "Q83",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "각 순례자는 개인 계정과 접속 정보를 받아 직접 앱을 활성화하나요?"
+      "ko": "각 순례자는 개인 계정과 접속 정보를 받아 직접 앱을 활성화하나요?",
+      "en": "Does each pilgrim receive a personal account and login details and activate the app themselves?"
     },
     "a": {
-      "ko": "웹회원은 개인별로 자유롭게 가입합니다.\n그룹코드는 리더를 통해 공유 받은 그룹정보를 입력해서 추가 인증을 받을 수 있습니다."
+      "ko": "웹회원은 개인별로 자유롭게 가입합니다.\n그룹코드는 리더를 통해 공유 받은 그룹정보를 입력해서 추가 인증을 받을 수 있습니다.",
+      "en": "Each person signs up for web membership freely.\nFor the group code, an additional verification can be obtained by entering the group information shared by the leader."
     },
     "sub": {
-      "ko": "기능"
+      "ko": "기능",
+      "en": "Features"
     },
     "subNo": "a"
   },
@@ -1750,21 +2144,26 @@ export const SEED = [
     "id": "Q84",
     "no": "Q84",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "하나의 계정에 이메일 하나를 사용할 경우, 그룹 내에서 해당 이메일과 비밀번호를 공유해서 로그인해야 하나요, 아니면 앱상으로는 같은 그룹에 여러 항목으로 들어가더라도 각 참가자가 자신만의 계정으로 로그인하나요?"
+      "ko": "하나의 계정에 이메일 하나를 사용할 경우, 그룹 내에서 해당 이메일과 비밀번호를 공유해서 로그인해야 하나요, 아니면 앱상으로는 같은 그룹에 여러 항목으로 들어가더라도 각 참가자가 자신만의 계정으로 로그인하나요?",
+      "en": "If one email is used per account, must the group share that email and password to log in, or does each participant log in with their own account even if they appear as several entries in the same group in the app?"
     },
     "a": {
-      "ko": "계정은 개인 정보이기에 개별적으로 가입해야 합니다. 그룹코드 인증과는 별개입니다."
+      "ko": "계정은 개인 정보이기에 개별적으로 가입해야 합니다. 그룹코드 인증과는 별개입니다.",
+      "en": "An account is personal information, so each person must sign up individually. This is separate from group code verification."
     },
     "sub": {
-      "ko": "기능"
+      "ko": "기능",
+      "en": "Features"
     },
     "subNo": "a"
   },
@@ -1772,21 +2171,26 @@ export const SEED = [
     "id": "Q85",
     "no": "Q85",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "앱을 사용하려면 인터넷에 연결되어 있어야 하나요? 그렇다면 와이파이가 제공되나요, 아니면 순례자가 심카드나 이심(eSIM)을 구매해야 하나요?"
+      "ko": "앱을 사용하려면 인터넷에 연결되어 있어야 하나요? 그렇다면 와이파이가 제공되나요, 아니면 순례자가 심카드나 이심(eSIM)을 구매해야 하나요?",
+      "en": "Does the app require an internet connection? If so, will Wi-Fi be provided, or must pilgrims buy a SIM card or eSIM?"
     },
     "a": {
-      "ko": "순례자는 공공 와이파이 및 개인의 셀룰러 데이터를 이용하여 앱을 사용할 수 있습니다. 다만 오프라인 상태에서도 최소기능은 유지될수 있도록 제작되었습니다(ex. 행사안내 등) 순례자는 본인의 심카드나 이심(eSIM)을 직접 구매하여 사용해야 합니다."
+      "ko": "순례자는 공공 와이파이 및 개인의 셀룰러 데이터를 이용하여 앱을 사용할 수 있습니다. 다만 오프라인 상태에서도 최소기능은 유지될수 있도록 제작되었습니다(ex. 행사안내 등) 순례자는 본인의 심카드나 이심(eSIM)을 직접 구매하여 사용해야 합니다.",
+      "en": "Pilgrims can use the app with public Wi-Fi or their own mobile data. It has been built so that minimum functions remain available offline (e.g. event information). Pilgrims must buy and use their own SIM card or eSIM."
     },
     "sub": {
-      "ko": "기능"
+      "ko": "기능",
+      "en": "Features"
     },
     "subNo": "a"
   },
@@ -1794,21 +2198,26 @@ export const SEED = [
     "id": "Q86",
     "no": "Q86",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "순례자앱에는 다국어 번역, 문의용 챗봇 등의 기능이 제공되나요? 예를 들어 텍스트를 사진으로 찍어 번역하거나, 대화를 음성으로 번역하는 기능이 있나요?"
+      "ko": "순례자앱에는 다국어 번역, 문의용 챗봇 등의 기능이 제공되나요? 예를 들어 텍스트를 사진으로 찍어 번역하거나, 대화를 음성으로 번역하는 기능이 있나요?",
+      "en": "Will the Pilgrim App offer features such as multilingual translation or a chatbot for inquiries? For example, translating text by taking a photo, or translating conversations by voice?"
     },
     "a": {
-      "ko": "순례자앱에서는 6개 국어가 제공됩니다. 번역 및 통역 관련 별도 기능은 제공되지 않습니다."
+      "ko": "순례자앱에서는 6개 국어가 제공됩니다. 번역 및 통역 관련 별도 기능은 제공되지 않습니다.",
+      "en": "The Pilgrim App is available in six languages. No separate translation or interpretation features are provided."
     },
     "sub": {
-      "ko": "기능"
+      "ko": "기능",
+      "en": "Features"
     },
     "subNo": "a"
   },
@@ -1816,21 +2225,26 @@ export const SEED = [
     "id": "Q87",
     "no": "Q87",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "순례자앱을 통해 주변 식당의 위치·수용 가능 인원 등 순례자에게 필요한 현지 정보를 제공하거나 실시간으로 안내받을 수 있나요? 순례지 주변 식당을 이용할 시 한꺼번에 많은 팀이 몰려서 식당을 찾아 해매다가 식사 시간을 놓치거나 예상 밖의 메뉴로 식사를 해결 못 할 경우도 있을것 같습니다."
+      "ko": "순례자앱을 통해 주변 식당의 위치·수용 가능 인원 등 순례자에게 필요한 현지 정보를 제공하거나 실시간으로 안내받을 수 있나요? 순례지 주변 식당을 이용할 시 한꺼번에 많은 팀이 몰려서 식당을 찾아 해매다가 식사 시간을 놓치거나 예상 밖의 메뉴로 식사를 해결 못 할 경우도 있을것 같습니다.",
+      "en": "Can the Pilgrim App provide local information pilgrims need, such as the location and capacity of nearby restaurants, or give real-time guidance? When using restaurants near the pilgrimage sites, many teams may arrive at once, wander looking for a restaurant, miss mealtimes, or be unable to eat because of unexpected menus."
     },
     "a": {
-      "ko": "순례자앱을 통해 모든 식당의 현재 정보를 제공해드리지는 않습니다."
+      "ko": "순례자앱을 통해 모든 식당의 현재 정보를 제공해드리지는 않습니다.",
+      "en": "The Pilgrim App does not provide current information on any restaurants."
     },
     "sub": {
-      "ko": "기능"
+      "ko": "기능",
+      "en": "Features"
     },
     "subNo": "a"
   },
@@ -1838,21 +2252,26 @@ export const SEED = [
     "id": "Q88",
     "no": "Q88",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "순례자앱은 언제부터 다운로드하여 사용할 수 있으며, iOS와 Android 모두 지원하나요? 또한 인터넷 연결이 원활하지 않은 상황에서도 앱의 주요 기능을 오프라인으로 사용할 수 있나요?"
+      "ko": "순례자앱은 언제부터 다운로드하여 사용할 수 있으며, iOS와 Android 모두 지원하나요? 또한 인터넷 연결이 원활하지 않은 상황에서도 앱의 주요 기능을 오프라인으로 사용할 수 있나요?",
+      "en": "From when can the Pilgrim App be downloaded and used, and does it support both iOS and Android? Can its main features be used offline when the internet connection is poor?"
     },
     "a": {
-      "ko": "현재 서비스 제공중에 있습니다. 온라인에서 기본적인 정보를 일정 시간마다 업데이트해서 오프라인에서도 사용 가능하지만, 신규 정보 추출은 온라인상에서만 가능합니다."
+      "ko": "현재 서비스 제공중에 있습니다. 온라인에서 기본적인 정보를 일정 시간마다 업데이트해서 오프라인에서도 사용 가능하지만, 신규 정보 추출은 온라인상에서만 가능합니다.",
+      "en": "The app is already in service. Basic information is updated online at set intervals so it can be used offline, but new information can only be retrieved online."
     },
     "sub": {
-      "ko": "기능"
+      "ko": "기능",
+      "en": "Features"
     },
     "subNo": "a"
   },
@@ -1860,21 +2279,26 @@ export const SEED = [
     "id": "Q89",
     "no": "Q89",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "주요 행사의 실시간 통역은 순례자앱에서도 이용할 수 있나요, 아니면 라디오 주파수를 통해서만 가능한가요?"
+      "ko": "주요 행사의 실시간 통역은 순례자앱에서도 이용할 수 있나요, 아니면 라디오 주파수를 통해서만 가능한가요?",
+      "en": "Will live interpretation of the main events be available in the Pilgrim App too, or only through radio frequencies?"
     },
     "a": {
-      "ko": "순례자앱에서는 실시간 통역 기능을 제공하지 않습니다."
+      "ko": "순례자앱에서는 실시간 통역 기능을 제공하지 않습니다.",
+      "en": "The Pilgrim App does not provide live interpretation."
     },
     "sub": {
-      "ko": "기능"
+      "ko": "기능",
+      "en": "Features"
     },
     "subNo": "a"
   },
@@ -1882,21 +2306,26 @@ export const SEED = [
     "id": "Q90",
     "no": "Q90",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "그룹 리더와 순례자가 각각 입력해야 하는 정보는 무엇이며, 여권·티셔츠 사이즈·알레르기 등의 정보는 어떻게 등록하나요? 그룹 리더용 대시보드의 기능도 안내해 주시기 바랍니다."
+      "ko": "그룹 리더와 순례자가 각각 입력해야 하는 정보는 무엇이며, 여권·티셔츠 사이즈·알레르기 등의 정보는 어떻게 등록하나요? 그룹 리더용 대시보드의 기능도 안내해 주시기 바랍니다.",
+      "en": "What information must group leaders and pilgrims each enter, and how are passport details, T-shirt sizes, allergies and the like registered? Please also explain the features of the group leader dashboard."
     },
     "a": {
-      "ko": "사전정보 입력은 그룹 리더만 등록 가능합니다. 순례자는 사전정보 입력이 불가합니다.\n인증된 그룹 리더는 그룹 대표로써 사전정보 입력 및 그룹원의 선불카드의 활성, 재발급 신청할 수 있는 권한이 부여됩니다."
+      "ko": "사전정보 입력은 그룹 리더만 등록 가능합니다. 순례자는 사전정보 입력이 불가합니다.\n인증된 그룹 리더는 그룹 대표로써 사전정보 입력 및 그룹원의 선불카드의 활성, 재발급 신청할 수 있는 권한이 부여됩니다.",
+      "en": "Only group leaders can enter advance information; pilgrims cannot.\nA verified group leader, as the group's representative, is given the rights to enter advance information and to activate group members' prepaid cards and request reissues."
     },
     "sub": {
-      "ko": "기능"
+      "ko": "기능",
+      "en": "Features"
     },
     "subNo": "a"
   },
@@ -1904,21 +2333,26 @@ export const SEED = [
     "id": "Q91",
     "no": "Q91",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "앱에는 어떤 개인정보가 언제 입력되며, 티셔츠 사이즈·알레르기 등의 정보는 순례자가 직접 입력하나요, 아니면 그룹 리더가 관리하나요? 이러한 정보를 웹사이트에서도 입력·관리할 수 있는지와 개인정보 보호 및 앱 보안 대책도 안내 부탁드립니다."
+      "ko": "앱에는 어떤 개인정보가 언제 입력되며, 티셔츠 사이즈·알레르기 등의 정보는 순례자가 직접 입력하나요, 아니면 그룹 리더가 관리하나요? 이러한 정보를 웹사이트에서도 입력·관리할 수 있는지와 개인정보 보호 및 앱 보안 대책도 안내 부탁드립니다.",
+      "en": "What personal information is entered in the app, and when? Do pilgrims enter details such as T-shirt size and allergies themselves, or does the group leader manage them? Please also tell us whether this information can be entered and managed on the website, and what privacy and app security measures are in place."
     },
     "a": {
-      "ko": "기본적으로 웹회원은 본인 이메일 주소로 인증번호가 발송됩니다. 사전 입력 정보는 그룹 리더만 입력합니다. 개인정보에 해당되는 영역은 기본 웹회원에만 해당 되며 법적 검토된 내용으로 회원가입 시 약관 제공 및 동의를 받습니다."
+      "ko": "기본적으로 웹회원은 본인 이메일 주소로 인증번호가 발송됩니다. 사전 입력 정보는 그룹 리더만 입력합니다. 개인정보에 해당되는 영역은 기본 웹회원에만 해당 되며 법적 검토된 내용으로 회원가입 시 약관 제공 및 동의를 받습니다.",
+      "en": "For web membership, a verification code is sent to the member's own email address. Advance information is entered only by the group leader. Personal information applies only to the basic web membership; its terms have been legally reviewed and are presented, and consent obtained, at sign-up."
     },
     "sub": {
-      "ko": "기능"
+      "ko": "기능",
+      "en": "Features"
     },
     "subNo": "a"
   },
@@ -1926,21 +2360,26 @@ export const SEED = [
     "id": "Q92",
     "no": "Q92",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "참가자들이 순례자 앱을 사전에 익할 수 있도록 공식 사이트에 단계별 사용 가이드나 사전 체험 환경을 제공할 예정인가요?"
+      "ko": "참가자들이 순례자 앱을 사전에 익할 수 있도록 공식 사이트에 단계별 사용 가이드나 사전 체험 환경을 제공할 예정인가요?",
+      "en": "Will the official website provide a step-by-step user guide or a trial environment so participants can get familiar with the Pilgrim App in advance?"
     },
     "a": {
-      "ko": "현재 앱은 서비스 진행중이며, 앱관련 사전 가이드가 제공될 예정입니다."
+      "ko": "현재 앱은 서비스 진행중이며, 앱관련 사전 가이드가 제공될 예정입니다.",
+      "en": "The app is already in service, and an advance guide to the app will be provided."
     },
     "sub": {
-      "ko": "기능"
+      "ko": "기능",
+      "en": "Features"
     },
     "subNo": "a"
   },
@@ -1948,21 +2387,26 @@ export const SEED = [
     "id": "Q93",
     "no": "Q93",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "WYD 순례자 교통카드를 Apple Pay, Google Pay, Samsung Pay 등 모바일 지갑에 등록하여 사용할 수 있나요?"
+      "ko": "WYD 순례자 교통카드를 Apple Pay, Google Pay, Samsung Pay 등 모바일 지갑에 등록하여 사용할 수 있나요?",
+      "en": "Can the WYD pilgrim transport card be added to a mobile wallet such as Apple Pay, Google Pay or Samsung Pay?"
     },
     "a": {
-      "ko": "순례자 카드는 교통카드와 결제 카드가 통합된 실물카드를 발행해드립니다. 해당 실물카드는 NFC와의 연동은 지원하지 않습니다."
+      "ko": "순례자 카드는 교통카드와 결제 카드가 통합된 실물카드를 발행해드립니다. 해당 실물카드는 NFC와의 연동은 지원하지 않습니다.",
+      "en": "The pilgrim card is issued as a physical card combining a transport card and a payment card. The physical card does not support NFC linking."
     },
     "sub": {
-      "ko": "선불카드"
+      "ko": "선불카드",
+      "en": "Prepaid Card"
     },
     "subNo": "b"
   },
@@ -1970,21 +2414,26 @@ export const SEED = [
     "id": "Q94",
     "no": "Q94",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "WYD 이후, 선불카드(Prepaid meal card)는 카드에 예를 들어 100달러 정도의 잔액이 남아 있다면 환불받을 수 있나요? 환불이 가능하다면 원화로 받나요, 달러로 받나요? 아니면 최소한 연대기금(Solidarity Fund)에 기부할 수 있게 해줄 수 있나요?"
+      "ko": "WYD 이후, 선불카드(Prepaid meal card)는 카드에 예를 들어 100달러 정도의 잔액이 남아 있다면 환불받을 수 있나요? 환불이 가능하다면 원화로 받나요, 달러로 받나요? 아니면 최소한 연대기금(Solidarity Fund)에 기부할 수 있게 해줄 수 있나요?",
+      "en": "After WYD, if about $100, say, is left on the prepaid meal card, can it be refunded? If so, in won or in dollars? Or could you at least let us donate it to the Solidarity Fund?"
     },
     "a": {
-      "ko": "조직위원회에서 매일 충전하는 식사비는 당일 식사비를 모두 사용하지 않은 경우, 잔액이 이월되며 등록한 패키지의 종료일까지 사용할 수 있습니다. 대회 종료 이후 미사용 잔액에 대해서는 환불되지 않습니다. 미사용된 잔액은 참가 분담금의 일환으로 기부하는 방안을 논의 중입니다. 추후 자세한 안내 드리겠습니다."
+      "ko": "조직위원회에서 매일 충전하는 식사비는 당일 식사비를 모두 사용하지 않은 경우, 잔액이 이월되며 등록한 패키지의 종료일까지 사용할 수 있습니다. 대회 종료 이후 미사용 잔액에 대해서는 환불되지 않습니다. 미사용된 잔액은 참가 분담금의 일환으로 기부하는 방안을 논의 중입니다. 추후 자세한 안내 드리겠습니다.",
+      "en": "The meal allowance the LOC tops up each day carries over if it is not fully used that day and can be used until the end date of the registered package. Unused balances are not refunded after the event. We are discussing a way for unused balances to be donated as part of the Participation Contribution, and will share details later."
     },
     "sub": {
-      "ko": "선불카드"
+      "ko": "선불카드",
+      "en": "Prepaid Card"
     },
     "subNo": "b"
   },
@@ -1992,21 +2441,26 @@ export const SEED = [
     "id": "Q95",
     "no": "Q95",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "선불카드(Prepaid meal card)는 실물 카드인가요, 디지털인가요? 로마 희년(Jubilee) 행사 당시 앱에 큰 문제가 있어 일부 그룹은 모든 식사를 받지 못했습니다."
+      "ko": "선불카드(Prepaid meal card)는 실물 카드인가요, 디지털인가요? 로마 희년(Jubilee) 행사 당시 앱에 큰 문제가 있어 일부 그룹은 모든 식사를 받지 못했습니다.",
+      "en": "Is the prepaid meal card a physical card or digital? At the Jubilee in Rome the app had major problems, and some groups did not receive all their meals."
     },
     "a": {
-      "ko": "선불카드(Prepaid meal card)는 실물 카드입니다. 순례자앱에서는 결제 기능을 제공하지 않으며, 사용 내역과 잔액을 확인할 수 있습니다."
+      "ko": "선불카드(Prepaid meal card)는 실물 카드입니다. 순례자앱에서는 결제 기능을 제공하지 않으며, 사용 내역과 잔액을 확인할 수 있습니다.",
+      "en": "The prepaid meal card is a physical card. The Pilgrim App does not offer a payment function, but you can check your transaction history and balance in it."
     },
     "sub": {
-      "ko": "선불카드"
+      "ko": "선불카드",
+      "en": "Prepaid Card"
     },
     "subNo": "b"
   },
@@ -2014,21 +2468,26 @@ export const SEED = [
     "id": "Q96",
     "no": "Q96",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "WYD 기간의 식사는 선불카드(Prepaid meal card)를 이용해 식당·편의점 등에서 자유롭게 선택하는 방식인가요, 아니면 별도의 식사 텐트나 도시락도 제공되나요? 이용 가능한 식당 및 편의점에서는 다양한 문화권의 음식점도 포함되나요?"
+      "ko": "WYD 기간의 식사는 선불카드(Prepaid meal card)를 이용해 식당·편의점 등에서 자유롭게 선택하는 방식인가요, 아니면 별도의 식사 텐트나 도시락도 제공되나요? 이용 가능한 식당 및 편의점에서는 다양한 문화권의 음식점도 포함되나요?",
+      "en": "During WYD, are meals chosen freely at restaurants, convenience stores and so on using the prepaid meal card, or are separate meal tents or packed meals also provided? Do the participating restaurants and convenience stores include restaurants serving food from different cultures?"
     },
     "a": {
-      "ko": "조식은 숙소에서 일괄 제공하는 방식으로 운영하며, 중식 및 석식은 선불카드(Prepaid meal card)를 이용하여 지정된 식당에서 자유롭게 이용할 수 있도록 운영할 예정입니다. 이용가능한 식당, 메뉴 및 식사카드 운영방식 등은 구체적인 사항은 현재 협의 중입니다."
+      "ko": "조식은 숙소에서 일괄 제공하는 방식으로 운영하며, 중식 및 석식은 선불카드(Prepaid meal card)를 이용하여 지정된 식당에서 자유롭게 이용할 수 있도록 운영할 예정입니다. 이용가능한 식당, 메뉴 및 식사카드 운영방식 등은 구체적인 사항은 현재 협의 중입니다.",
+      "en": "Breakfast will be provided at the accommodation, and lunch and dinner can be taken freely at designated restaurants using the prepaid meal card. The participating restaurants, menus and the way the meal card will work are still under discussion."
     },
     "sub": {
-      "ko": "선불카드"
+      "ko": "선불카드",
+      "en": "Prepaid Card"
     },
     "subNo": "b"
   },
@@ -2036,21 +2495,26 @@ export const SEED = [
     "id": "Q97",
     "no": "Q97",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "선불카드(Prepaid meal card)를 사용하려면 휴대폰에 NFC 기능이 필요한가요?"
+      "ko": "선불카드(Prepaid meal card)를 사용하려면 휴대폰에 NFC 기능이 필요한가요?",
+      "en": "Does using the prepaid meal card require NFC on the phone?"
     },
     "a": {
-      "ko": "아니오. 체크인시 수령받는 실물카드로 활성 및 폰에 연동해서 사용가능합니다. NFC 기능을 필요하지 않습니다."
+      "ko": "아니오. 체크인시 수령받는 실물카드로 활성 및 폰에 연동해서 사용가능합니다. NFC 기능을 필요하지 않습니다.",
+      "en": "No. The physical card received at check-in can be activated and linked to your phone. NFC is not required."
     },
     "sub": {
-      "ko": "선불카드"
+      "ko": "선불카드",
+      "en": "Prepaid Card"
     },
     "subNo": "b"
   },
@@ -2058,21 +2522,26 @@ export const SEED = [
     "id": "Q98",
     "no": "Q98",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "순례자앱"
+      "ko": "순례자앱",
+      "en": "Pilgrim App"
     },
     "topicNo": "2",
     "q": {
-      "ko": "순례자 카드를 분실했을 때 제2리더(second leader)만 새 카드를 발급/요청할 수 있나요, 아니면 제1리더도 가능한가요?"
+      "ko": "순례자 카드를 분실했을 때 제2리더(second leader)만 새 카드를 발급/요청할 수 있나요, 아니면 제1리더도 가능한가요?",
+      "en": "When a pilgrim card is lost, can only the second leader issue or request a new card, or can the first leader do so too?"
     },
     "a": {
-      "ko": "앱관련 모든 권한은 제2리더만 가능합니다. 정책적으로 하위그룹(Subgroup)리더, 제1리더는 중복이 가능하기에 유니크한 리더 계정은 제2리더만 해당되어 이런 결정을 내렸습니다."
+      "ko": "앱관련 모든 권한은 제2리더만 가능합니다. 정책적으로 하위그룹(Subgroup)리더, 제1리더는 중복이 가능하기에 유니크한 리더 계정은 제2리더만 해당되어 이런 결정을 내렸습니다.",
+      "en": "All app-related rights belong only to the second leader. Because, as a matter of policy, a Subgroup leader (first leader) can be duplicated, the unique leader account is the second leader's, which is why this decision was made."
     },
     "sub": {
-      "ko": "선불카드"
+      "ko": "선불카드",
+      "en": "Prepaid Card"
     },
     "subNo": "b"
   },
@@ -2080,327 +2549,400 @@ export const SEED = [
     "id": "Q99",
     "no": "Q99",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "조직위원회 관련"
+      "ko": "조직위원회 관련",
+      "en": "Local Organising Committee"
     },
     "topicNo": "3",
     "q": {
-      "ko": "WYD 기간 중 대륙별·지역별·국가별 모임을 조율하는 조직위원회의 전담 창구나 담당자가 있으며, 이러한 모임을 위한 장소가 제공되나요? 아니면 주최 단체가 직접 장소를 마련해야 하나요?"
+      "ko": "WYD 기간 중 대륙별·지역별·국가별 모임을 조율하는 조직위원회의 전담 창구나 담당자가 있으며, 이러한 모임을 위한 장소가 제공되나요? 아니면 주최 단체가 직접 장소를 마련해야 하나요?",
+      "en": "During WYD, will the LOC have a dedicated contact point or staff to coordinate continental, regional or national gatherings, and will venues be provided for them? Or must the organizing bodies arrange venues themselves?"
     },
     "a": {
-      "ko": "대륙별 또는 국가별 모임 제안은 국제부(international@wydseoul.org)로 문의해 주시기 바랍니다. 행사 운영 및 실무와 관련된 자세한 안내를 받으실 수 있습니다."
+      "ko": "대륙별 또는 국가별 모임 제안은 국제부(international@wydseoul.org)로 문의해 주시기 바랍니다. 행사 운영 및 실무와 관련된 자세한 안내를 받으실 수 있습니다.",
+      "en": "For continental or national gathering proposals, please contact the Global Relations Division at international@wydseoul.org. They can provide you with further information regarding the logistics."
     }
   },
   {
     "id": "Q100",
     "no": "Q100",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "조직위원회 관련"
+      "ko": "조직위원회 관련",
+      "en": "Local Organising Committee"
     },
     "topicNo": "3",
     "q": {
-      "ko": "WYD에 직접 참가하지 못하는 국가와 청년들이 자국 교구나 본당에서 자체 행사 및 철야기도를 통해 함께 참여할 수 있도록, 조직위원회에서 공식 프로그램과 기도 자료를 제공할 예정인가요?"
+      "ko": "WYD에 직접 참가하지 못하는 국가와 청년들이 자국 교구나 본당에서 자체 행사 및 철야기도를 통해 함께 참여할 수 있도록, 조직위원회에서 공식 프로그램과 기도 자료를 제공할 예정인가요?",
+      "en": "Will the LOC provide official programs and prayer materials so that countries and young people unable to attend WYD Seoul 2027 in person can join in through their own events and vigils in their dioceses and parishes?"
     },
     "a": {
-      "ko": "조직위원회는 여러가지 이유로 현장에서 함께 할 수 없는 순례자들을 위해 다양한 방법을 기획, 준비하고 있습니다. 참여 형식과 방법이 확정되는 대로 공지할 예정입니다."
+      "ko": "조직위원회는 여러가지 이유로 현장에서 함께 할 수 없는 순례자들을 위해 다양한 방법을 기획, 준비하고 있습니다. 참여 형식과 방법이 확정되는 대로 공지할 예정입니다.",
+      "en": "The LOC is planning and preparing various ways for pilgrims who cannot be there in person, for whatever reason, to take part. We will announce the format and means of participation as soon as they are confirmed."
     }
   },
   {
     "id": "Q101",
     "no": "Q101",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "조직위원회 관련"
+      "ko": "조직위원회 관련",
+      "en": "Local Organising Committee"
     },
     "topicNo": "3",
     "q": {
-      "ko": "저희는 숙소 미포함 패키지를 선택할 예정이며, 신부님들도 함께 계십니다. WYD에서 미사가 계획되지 않은 날, 저희 그룹을 위해 신부님이 미사를 집전할 수 있는 인근 본당을 어떻게 마련할 수 있나요?"
+      "ko": "저희는 숙소 미포함 패키지를 선택할 예정이며, 신부님들도 함께 계십니다. WYD에서 미사가 계획되지 않은 날, 저희 그룹을 위해 신부님이 미사를 집전할 수 있는 인근 본당을 어떻게 마련할 수 있나요?",
+      "en": "We are staying in non-LOC accommodation, and our priests are with us. On days when no Mass is scheduled at WYD, how can we find a nearby parish where our priest can celebrate Mass for our group?"
     },
     "a": {
-      "ko": "서울 시내 대부분의 본당은 숙소 포함 패키지를 이용하는 그룹이 배정될 예정입니다. 이에, 배정된 그룹이 우선적으로 해당 본당을 사용하게 됩니다. 배정된 그룹이 사용하지 않는 시간대로 이용을 요청하셔야 하니 양해부탁드립니다."
+      "ko": "서울 시내 대부분의 본당은 숙소 포함 패키지를 이용하는 그룹이 배정될 예정입니다. 이에, 배정된 그룹이 우선적으로 해당 본당을 사용하게 됩니다. 배정된 그룹이 사용하지 않는 시간대로 이용을 요청하셔야 하니 양해부탁드립니다.",
+      "en": "Most parishes in Seoul will be assigned groups on packages with accommodation, so those assigned groups will have priority use of those parishes. We ask for your understanding that you will need to request use at times when the assigned groups are not using them."
     }
   },
   {
     "id": "Q102",
     "no": "Q102",
     "section": {
-      "ko": "현장 도착 및 운영"
+      "ko": "현장 도착 및 운영",
+      "en": "Arrival and On-site Operations"
     },
     "sectionNo": "Ⅲ",
     "topic": {
-      "ko": "조직위원회 관련"
+      "ko": "조직위원회 관련",
+      "en": "Local Organising Committee"
     },
     "topicNo": "3",
     "q": {
-      "ko": "WYD를 준비하는 순례자들을 위해 이단·사이비 활동 등에 대한 안전·인식 제고 자료가 제공되나요?"
+      "ko": "WYD를 준비하는 순례자들을 위해 이단·사이비 활동 등에 대한 안전·인식 제고 자료가 제공되나요?",
+      "en": "Will safety and awareness materials on heretical groups and cult activity be provided for pilgrims preparing for WYD?"
     },
     "a": {
-      "ko": "현재 한국천주교주교회의 유사종교대책위원회에서 안내 자료를 작성하고 있으며, 초안 검토 중입니다. 검토 후 공식언어로 번역하여 배포할 예정입니다."
+      "ko": "현재 한국천주교주교회의 유사종교대책위원회에서 안내 자료를 작성하고 있으며, 초안 검토 중입니다. 검토 후 공식언어로 번역하여 배포할 예정입니다.",
+      "en": "The Committee Against Pseudo-religions of the Catholic Bishops' Conference of Korea is currently preparing guidance materials, and the draft is under review. After review, they will be translated into the official languages and distributed."
     }
   },
   {
     "id": "Q103",
     "no": "Q103",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "교구대회(Days In Diocese, DID)"
+      "ko": "교구대회(Days In Diocese, DID)",
+      "en": "Days in the Dioceses (DID)"
     },
     "topicNo": "1",
     "q": {
-      "ko": "입국날짜를 서울 도착일이 아니라 교구대회를 위한 입국 비자를 위한 날짜라고 밝혀야 할 것 같네요\n교구대회 참가자가 서울조직위 주소로 비자 신청해도 되나요?"
+      "ko": "입국날짜를 서울 도착일이 아니라 교구대회를 위한 입국 비자를 위한 날짜라고 밝혀야 할 것 같네요\n교구대회 참가자가 서울조직위 주소로 비자 신청해도 되나요?",
+      "en": "It seems the entry date should be stated as the date of entry on the visa for Days in the Dioceses, rather than the date of arrival in Seoul.\nCan DID participants apply for their visa using the Seoul LOC's address?"
     },
     "a": {
-      "ko": "한국 입국일은 교구대회 참가 여부와 관계없이 실제 항공편의 한국 도착일과 동일하게 기재해야 합니다. 또한 WYD에서 발급한 서류를 바탕으로 비자를 신청하므로, 신청 시에는 한국 내 주소와 연락처로 조직위원회 정보를 기재하는 것을 권장합니다. 다만 입국일과 출국일은 실제 항공편 일정과 동일하게 기재해야 합니다."
+      "ko": "한국 입국일은 교구대회 참가 여부와 관계없이 실제 항공편의 한국 도착일과 동일하게 기재해야 합니다. 또한 WYD에서 발급한 서류를 바탕으로 비자를 신청하므로, 신청 시에는 한국 내 주소와 연락처로 조직위원회 정보를 기재하는 것을 권장합니다. 다만 입국일과 출국일은 실제 항공편 일정과 동일하게 기재해야 합니다.",
+      "en": "The date of entry into Korea must be the actual arrival date of your flight to Korea, whether or not you take part in Days in the Dioceses.\n\nVisa applications are made on the basis of documents issued by WYD, so we recommend entering the WYD LOC's details for the address and contact details in Korea. The dates of entry and departure, however, must match your actual flight schedule."
     }
   },
   {
     "id": "Q104",
     "no": "Q104",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "교구대회(Days In Diocese, DID)"
+      "ko": "교구대회(Days In Diocese, DID)",
+      "en": "Days in the Dioceses (DID)"
     },
     "topicNo": "1",
     "q": {
-      "ko": "알러지 정보는 교구대회 관계자에게 공유 되나요? 교구대회 참가비와 공헌금 등록은 별도로 진행 하고 별도로 결재 해야 하겠지만 링크는 제공하나요? 완전히 별개로 모두 다시 입력하나요"
+      "ko": "알러지 정보는 교구대회 관계자에게 공유 되나요? 교구대회 참가비와 공헌금 등록은 별도로 진행 하고 별도로 결재 해야 하겠지만 링크는 제공하나요? 완전히 별개로 모두 다시 입력하나요",
+      "en": "Will allergy information be shared with those running Days in the Dioceses?\nRegistration and payment of the fee and contribution for Days in the Dioceses will presumably be separate, but will a link be provided? Or must everything be entered again entirely separately?"
     },
     "a": {
-      "ko": "교구대회를 신청하면서 현재는 규모만 등록한 상태이고, 이후 교구에서 명단을 제출할 때 세부정보를 요청할 예정입니다. 이때 알러지 및 기타 특이사항을 수집하게 됩니다. 교구대회 기부금은 참가 교구로 납부하게 되고 계좌이체로 진행될 예정입니다."
+      "ko": "교구대회를 신청하면서 현재는 규모만 등록한 상태이고, 이후 교구에서 명단을 제출할 때 세부정보를 요청할 예정입니다. 이때 알러지 및 기타 특이사항을 수집하게 됩니다. 교구대회 기부금은 참가 교구로 납부하게 되고 계좌이체로 진행될 예정입니다.",
+      "en": "At this stage of applying for Days in the Dioceses, only group sizes have been registered. Detailed information will be requested later, when the list of names is submitted to the diocese, and allergies and other special needs will be collected then.\n\nThe contribution for Days in the Dioceses is paid to the host diocese, by bank transfer."
     }
   },
   {
     "id": "Q105",
     "no": "Q105",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "교구대회(Days In Diocese, DID)"
+      "ko": "교구대회(Days In Diocese, DID)",
+      "en": "Days in the Dioceses (DID)"
     },
     "topicNo": "1",
     "q": {
-      "ko": "교구대회를 진행하는 교구에서 서울로 가는 교통비는 교구에서 지원받을 수 있나요?"
+      "ko": "교구대회를 진행하는 교구에서 서울로 가는 교통비는 교구에서 지원받을 수 있나요?",
+      "en": "Can the diocese hosting DID cover the cost of transport to Seoul?"
     },
     "a": {
-      "ko": "교구대회의 운영은 교구마다 다릅니다. 교구대회 후 본대회 이동에 대해서는 참가를 희망하는 교구에 직접 문의하시길 바랍니다."
+      "ko": "교구대회의 운영은 교구마다 다릅니다. 교구대회 후 본대회 이동에 대해서는 참가를 희망하는 교구에 직접 문의하시길 바랍니다.",
+      "en": "Days in the Dioceses is run differently in each diocese. For travel to Seoul after Days in the Dioceses, please contact the diocese you wish to join directly."
     }
   },
   {
     "id": "Q106",
     "no": "Q106",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "교구대회(Days In Diocese, DID)"
+      "ko": "교구대회(Days In Diocese, DID)",
+      "en": "Days in the Dioceses (DID)"
     },
     "topicNo": "1",
     "q": {
-      "ko": "교구대회 참가 시 공항에서 주최 교구까지, 서울에서 주최 교구까지, 그리고 교구대회 종료 후 서울 숙소까지의 교통편은 주최 측에서 제공하거나 패키지에 포함되나요, 아니면 각 대표단·그룹이 직접 준비해야 하나요?"
+      "ko": "교구대회 참가 시 공항에서 주최 교구까지, 서울에서 주최 교구까지, 그리고 교구대회 종료 후 서울 숙소까지의 교통편은 주최 측에서 제공하거나 패키지에 포함되나요, 아니면 각 대표단·그룹이 직접 준비해야 하나요?",
+      "en": "For Days in the Dioceses, is transport from the airport to the host diocese, from Seoul to the host diocese, and from the end of DID to accommodation in Seoul provided by the hosts or included in the package, or must each delegation or group arrange it?"
     },
     "a": {
-      "ko": "교구대회의 운영은 교구마다 다릅니다. 공항에서 교구대회 교구까지, 교구대회 교구에서 본대회까지의 교통편은 참가를 희망하는 교구에 직접 문의하시길 바랍니다."
+      "ko": "교구대회의 운영은 교구마다 다릅니다. 공항에서 교구대회 교구까지, 교구대회 교구에서 본대회까지의 교통편은 참가를 희망하는 교구에 직접 문의하시길 바랍니다.",
+      "en": "Days in the Dioceses is run differently in each diocese. For transport from the airport to the host diocese and from the host diocese to Seoul, please contact the diocese you wish to join directly."
     }
   },
   {
     "id": "Q107",
     "no": "Q107",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "교구대회(Days In Diocese, DID)"
+      "ko": "교구대회(Days In Diocese, DID)",
+      "en": "Days in the Dioceses (DID)"
     },
     "topicNo": "1",
     "q": {
-      "ko": "교구대회 등록은 언제 시작하나요?"
+      "ko": "교구대회 등록은 언제 시작하나요?",
+      "en": "When does registration for Days in the Dioceses begin?"
     },
     "a": {
-      "ko": "교구대회의 등록은 이미 시작하였습니다. 방문, 전화, 이메일, 교구대회 홈페이지(https://wyd2027did.org)를 통해 신청이 가능합니다. 다만 교구대회를 위해 준비된 인원이 채워진 교구로는 신청이 어렵습니다."
+      "ko": "교구대회의 등록은 이미 시작하였습니다. 방문, 전화, 이메일, 교구대회 홈페이지(https://wyd2027did.org)를 통해 신청이 가능합니다. 다만 교구대회를 위해 준비된 인원이 채워진 교구로는 신청이 어렵습니다.",
+      "en": "Registration for Days in the Dioceses has already begun. You can apply in person, by phone, by email, or through the Days in the Dioceses website (https://wyd2027did.org). However, it is difficult to apply to a diocese whose places for Days in the Dioceses are already filled."
     }
   },
   {
     "id": "Q108",
     "no": "Q108",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "교구대회(Days In Diocese, DID)"
+      "ko": "교구대회(Days In Diocese, DID)",
+      "en": "Days in the Dioceses (DID)"
     },
     "topicNo": "1",
     "q": {
-      "ko": "교구대회 기간도 보험 적용 대상인가요?"
+      "ko": "교구대회 기간도 보험 적용 대상인가요?",
+      "en": "Is the Days in the Dioceses period also covered by insurance?"
     },
     "a": {
-      "ko": "교구대회를 운영하는 교구는 행사보험을 준비하고 있습니다. 하지만 개인 여행자 보험은 순례자가 준비하시길 바랍니다."
+      "ko": "교구대회를 운영하는 교구는 행사보험을 준비하고 있습니다. 하지만 개인 여행자 보험은 순례자가 준비하시길 바랍니다.",
+      "en": "Dioceses hosting Days in the Dioceses are arranging event liability insurance. Personal travel insurance, however, should be arranged by pilgrims themselves."
     }
   },
   {
     "id": "Q109",
     "no": "Q109",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "교구대회(Days In Diocese, DID)"
+      "ko": "교구대회(Days In Diocese, DID)",
+      "en": "Days in the Dioceses (DID)"
     },
     "topicNo": "1",
     "q": {
-      "ko": "2027년 7월 29일 이전에 교구대회를 위해 도착하는 분들을 위한 숙박 해결책이 있나요?"
+      "ko": "2027년 7월 29일 이전에 교구대회를 위해 도착하는 분들을 위한 숙박 해결책이 있나요?",
+      "en": "Is there an accommodation solution for those arriving for DID before July 29, 2027?"
     },
     "a": {
-      "ko": "교구대회의 운영은 교구마다 다릅니다. 조기 도착에 따른 숙박문제는 참가를 희망하는 교구에 직접 문의하시길 바랍니다."
+      "ko": "교구대회의 운영은 교구마다 다릅니다. 조기 도착에 따른 숙박문제는 참가를 희망하는 교구에 직접 문의하시길 바랍니다.",
+      "en": "Days in the Dioceses is run differently in each diocese. For accommodation for early arrivals, please contact the diocese you wish to join directly."
     }
   },
   {
     "id": "Q110",
     "no": "Q110",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "교구대회(Days In Diocese, DID)"
+      "ko": "교구대회(Days In Diocese, DID)",
+      "en": "Days in the Dioceses (DID)"
     },
     "topicNo": "1",
     "q": {
-      "ko": "미성년자가 교구대회에 참가할 때 홈스테이를 하게 되나요?"
+      "ko": "미성년자가 교구대회에 참가할 때 홈스테이를 하게 되나요?",
+      "en": "Will minors taking part in Days in the Dioceses stay in homestays?"
     },
     "a": {
-      "ko": "현재 대부분의 교구는 홈스테이를 기본으로 준비하고 있습니다. 미성년자가 교구대회에 참가할 때에는 보호자 동반하에서만 홈스테이를 하게 됩니다. 미성년자 수에 맞추어 충분한 보호자를 확보하시길 바랍니다. 홈스테이가 아닌 별도의 숙박에 대해서는 참가를 희망하는 교구에 직접 문의하시길 바랍니다."
+      "ko": "현재 대부분의 교구는 홈스테이를 기본으로 준비하고 있습니다. 미성년자가 교구대회에 참가할 때에는 보호자 동반하에서만 홈스테이를 하게 됩니다. 미성년자 수에 맞추어 충분한 보호자를 확보하시길 바랍니다. 홈스테이가 아닌 별도의 숙박에 대해서는 참가를 희망하는 교구에 직접 문의하시길 바랍니다.",
+      "en": "At present, most dioceses are preparing homestays as standard. Minors taking part in Days in the Dioceses will stay in homestays only when accompanied by a chaperone. Please make sure you have enough chaperones for the number of minors. For accommodation other than homestays, please contact the diocese you wish to join directly."
     }
   },
   {
     "id": "Q111",
     "no": "Q111",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "교구대회(Days In Diocese, DID)"
+      "ko": "교구대회(Days In Diocese, DID)",
+      "en": "Days in the Dioceses (DID)"
     },
     "topicNo": "1",
     "q": {
-      "ko": "많은 교구가 이미 정원이 찼나 보네요. 그렇다면 우리가 교구를 찾기에 너무 늦은 건 아닐까요?"
+      "ko": "많은 교구가 이미 정원이 찼나 보네요. 그렇다면 우리가 교구를 찾기에 너무 늦은 건 아닐까요?",
+      "en": "It seems many dioceses are already full. Is it too late for us to find a diocese?"
     },
     "a": {
-      "ko": "10월 7일 현재 순례자들의 교구대회 참가를 위해 준비한 인원의 55%가 신청되었습니다. 아직은 여유가 있는 상황이고, 한국 교회가 교구대회를 위해 준비한 인원에 비해 신청이 초과하더라도 이를 수용할 여유가 있습니다. 교구대회 참가를 희망하는 모든 순례자를 환영합니다. 걱정하지 마시고 신청하시기 바랍니다."
+      "ko": "10월 7일 현재 순례자들의 교구대회 참가를 위해 준비한 인원의 55%가 신청되었습니다. 아직은 여유가 있는 상황이고, 한국 교회가 교구대회를 위해 준비한 인원에 비해 신청이 초과하더라도 이를 수용할 여유가 있습니다. 교구대회 참가를 희망하는 모든 순례자를 환영합니다. 걱정하지 마시고 신청하시기 바랍니다.",
+      "en": "As of October 7, applications have been received for 55% of the places prepared for pilgrims at Days in the Dioceses. There is still room, and even if applications exceed the places the Church in Korea has prepared, there is capacity to accommodate them. All pilgrims who wish to take part in Days in the Dioceses are welcome. Please apply without worry."
     }
   },
   {
     "id": "Q112",
     "no": "Q112",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "교구대회(Days In Diocese, DID)"
+      "ko": "교구대회(Days In Diocese, DID)",
+      "en": "Days in the Dioceses (DID)"
     },
     "topicNo": "1",
     "q": {
-      "ko": "교구대회 등록은 언제부터 유효한가요? 일부 교구에서는 이미 연락을 주셨지만, 실제 WYD 등록은 10월이 되어야 시작됩니다. 교구대회 등록만으로도 이미 유효한 건가요, 아니면 WYD 등록을 해야만 유효해지는 건가요?"
+      "ko": "교구대회 등록은 언제부터 유효한가요? 일부 교구에서는 이미 연락을 주셨지만, 실제 WYD 등록은 10월이 되어야 시작됩니다. 교구대회 등록만으로도 이미 유효한 건가요, 아니면 WYD 등록을 해야만 유효해지는 건가요?",
+      "en": "From when is DID registration valid? Some dioceses have already contacted us, but actual WYD registration only starts in October. Is DID registration valid on its own, or only once we have registered for WYD?"
     },
     "a": {
-      "ko": "교구대회의 등록은 본대회와 별개로 진행됩니다. 그리고 교구대회의 등록은 이미 시작되었고 다음과 같은 3단계로 진행됩니다.\n1) 참가 규모의 등록 2) 참가 명단의 등록 3) 순례자 기부금의 입금\n참고로, 참가를 희망하는 교구가 준비한 인원이 채워지면 해당 교구로 참가를 신청할 수는 없습니다."
+      "ko": "교구대회의 등록은 본대회와 별개로 진행됩니다. 그리고 교구대회의 등록은 이미 시작되었고 다음과 같은 3단계로 진행됩니다.\n1) 참가 규모의 등록 2) 참가 명단의 등록 3) 순례자 기부금의 입금\n참고로, 참가를 희망하는 교구가 준비한 인원이 채워지면 해당 교구로 참가를 신청할 수는 없습니다.",
+      "en": "Registration for Days in the Dioceses is separate from the registration for WYD Seoul 2027. It has already begun and proceeds in three steps:\n1) registration of group size 2) registration of the list of names 3) payment of the pilgrim contribution\nPlease note that once the places prepared by the diocese you wish to join are filled, you can no longer apply to that diocese."
     }
   },
   {
     "id": "Q113",
     "no": "Q113",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "교구대회(Days In Diocese, DID)"
+      "ko": "교구대회(Days In Diocese, DID)",
+      "en": "Days in the Dioceses (DID)"
     },
     "topicNo": "1",
     "q": {
-      "ko": "또한 교구대회에서 WYD로 이동하는 날짜는 8월 2일인가요, 3일인가요?"
+      "ko": "또한 교구대회에서 WYD로 이동하는 날짜는 8월 2일인가요, 3일인가요?",
+      "en": "Also, is the date of moving from DID to WYD August 2 or August 3?"
     },
     "a": {
-      "ko": "교구대회는 2027년 7월 29일부터 8월 2일까지 4박 5일의 일정으로 진행됩니다. 8월 2일 일정을 마치고 당일 본대회로 이동하게 됩니다."
+      "ko": "교구대회는 2027년 7월 29일부터 8월 2일까지 4박 5일의 일정으로 진행됩니다. 8월 2일 일정을 마치고 당일 본대회로 이동하게 됩니다.",
+      "en": "Days in the Dioceses runs for five days and four nights, from July 29 to August 2, 2027.\nAfter the program on August 2, pilgrims move to the Main Event the same day."
     }
   },
   {
     "id": "Q114",
     "no": "Q114",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "교구대회(Days In Diocese, DID)"
+      "ko": "교구대회(Days In Diocese, DID)",
+      "en": "Days in the Dioceses (DID)"
     },
     "topicNo": "1",
     "q": {
-      "ko": "국제 운동, 공동체 및 평신도 단체들이 각자의 고유한 카리스마를 발휘하며 DID 프로그램에 어떻게 통합되고 있나요?"
+      "ko": "국제 운동, 공동체 및 평신도 단체들이 각자의 고유한 카리스마를 발휘하며 DID 프로그램에 어떻게 통합되고 있나요?",
+      "en": "How are international movements, communities and lay associations being integrated into the DID program while exercising their own charisms?"
     },
     "a": {
-      "ko": "교구대회의 운영방향은 순례자들의 지역 교회 체험입니다. 고유의 카리스마와 교구대회 프로그램과의 통합은 참가를 희망하는 교구에 직접 문의하시길 바랍니다."
+      "ko": "교구대회의 운영방향은 순례자들의 지역 교회 체험입니다. 고유의 카리스마와 교구대회 프로그램과의 통합은 참가를 희망하는 교구에 직접 문의하시길 바랍니다.",
+      "en": "Days in the Dioceses is designed around pilgrims experiencing the local Church. For integrating your own charism with the Days in the Dioceses program, please contact the diocese you wish to join directly."
     }
   },
   {
     "id": "Q115",
     "no": "Q115",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "교구대회(Days In Diocese, DID)"
+      "ko": "교구대회(Days In Diocese, DID)",
+      "en": "Days in the Dioceses (DID)"
     },
     "topicNo": "1",
     "q": {
-      "ko": "비용과 결제 얼마인가요? 무료인가요, 아니면 별도 요금이 있나요? 등록과 동시에 결제하나요, 아니면 교구에 직접 결제하나요?"
+      "ko": "비용과 결제 얼마인가요? 무료인가요, 아니면 별도 요금이 있나요? 등록과 동시에 결제하나요, 아니면 교구에 직접 결제하나요?",
+      "en": "What does it cost and how is it paid? Is it free, or is there a separate charge? Is payment made at registration or directly to the diocese?"
     },
     "a": {
-      "ko": "교구대회 순례자 기부금은 모든 교구 동일하게 $100입니다. 대부분의 교구는 홈스테이와 아침식사, 행사보험, 기념품을 제공합니다. 아침식사 이외 식사나 교통편 및 기타 비용은 참가를 희망하는 교구에 직접 문의하시길 바랍니다."
+      "ko": "교구대회 순례자 기부금은 모든 교구 동일하게 $100입니다. 대부분의 교구는 홈스테이와 아침식사, 행사보험, 기념품을 제공합니다. 아침식사 이외 식사나 교통편 및 기타 비용은 참가를 희망하는 교구에 직접 문의하시길 바랍니다.",
+      "en": "The Days in the Dioceses pilgrim contribution is the same in every diocese: $100. Most dioceses provide a homestay, breakfast, event insurance and a souvenir. For meals other than breakfast, transport and other costs, please contact the diocese you wish to join directly."
     }
   },
   {
     "id": "Q116",
     "no": "Q116",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "만약 경기장 내에서 행사를 진행한다면, 사람들을 공평하게 순환시킬 기회가 없을 것입니다. 많은 사람에게 매우 불공평하게 느껴질 것이며, 이 계획은 여전히 많은 청년을 배제하고 거부하는 결과가 될 것입니다. 실내외 좌석은 어떤 기준으로 그룹을 선정하나요? 추첨인가요? 이것이 배제적으로 보이지 않게 하려면 어떻게 해야 할까요? 마치 '가진 자와 못 가진 자'를 나누는 상황처럼 보입니다. 청년들에게는 배타적이지 않은 무언가가 필요합니다. 교회가 그들을 또다시 거부하는 조직이 되지 않았으면 합니다."
+      "ko": "만약 경기장 내에서 행사를 진행한다면, 사람들을 공평하게 순환시킬 기회가 없을 것입니다. 많은 사람에게 매우 불공평하게 느껴질 것이며, 이 계획은 여전히 많은 청년을 배제하고 거부하는 결과가 될 것입니다. 실내외 좌석은 어떤 기준으로 그룹을 선정하나요? 추첨인가요? 이것이 배제적으로 보이지 않게 하려면 어떻게 해야 할까요? 마치 '가진 자와 못 가진 자'를 나누는 상황처럼 보입니다. 청년들에게는 배타적이지 않은 무언가가 필요합니다. 교회가 그들을 또다시 거부하는 조직이 되지 않았으면 합니다.",
+      "en": "If the event is held inside the stadium, there will be no opportunity to rotate people fairly. Many will feel this is deeply unfair, and the plan will still end up excluding and turning away many young people.\nOn what basis will groups be selected for indoor and outdoor seating? Will it be by lottery? What can be done so that this does not appear exclusionary? It looks like a situation that divides the \"haves\" from the \"have-nots.\" Young people need something that is not exclusive. We hope the Church will not once again become an institution that rejects them."
     },
     "a": {
-      "ko": "행사를 담당하는 입장에서 질문자의 우려스러운 마음을 충분히 이해합니다. 그러한 걱정이 불공평함이 되지 않도록 소통의 원칙과 기준을 세우고 배정할 것입니다. 또한 자리에 따라 순례자들이 소외감을 느끼지 않도록 여러 배려와 소통의 장치들을 마련할 것입니다."
+      "ko": "행사를 담당하는 입장에서 질문자의 우려스러운 마음을 충분히 이해합니다. 그러한 걱정이 불공평함이 되지 않도록 소통의 원칙과 기준을 세우고 배정할 것입니다. 또한 자리에 따라 순례자들이 소외감을 느끼지 않도록 여러 배려와 소통의 장치들을 마련할 것입니다.",
+      "en": "As those responsible for the events, we fully understand your concern. We will set principles and criteria for communication and allocation so that this concern does not turn into unfairness. We will also put in place a range of considerations and means of communication so that no pilgrim feels left out because of where they are seated."
     },
     "sub": {
-      "ko": "개막미사 · 교황 환영 행사 · 십자가의 길"
+      "ko": "개막미사 · 교황 환영 행사 · 십자가의 길",
+      "en": "Opening Mass · Papal Welcome · Way of the Cross"
     },
     "subNo": "a"
   },
@@ -2408,21 +2950,26 @@ export const SEED = [
     "id": "Q117",
     "no": "Q117",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "십자가의 길 구분에 중미와 카리브해 지역이 보이지 않습니다. 고려될 예정인가요?"
+      "ko": "십자가의 길 구분에 중미와 카리브해 지역이 보이지 않습니다. 고려될 예정인가요?",
+      "en": "Central America and the Caribbean do not appear in the regional divisions for the Way of the Cross. Will they be considered?"
     },
     "a": {
-      "ko": "십자가의 길과 본대회의 모든 행사의 대륙구분은 교황청에서 나누는 대륙을 기준으로 구분합니다."
+      "ko": "십자가의 길과 본대회의 모든 행사의 대륙구분은 교황청에서 나누는 대륙을 기준으로 구분합니다.",
+      "en": "The continental divisions for the Way of the Cross and all Main Event events follow the continents as divided by the Holy See."
     },
     "sub": {
-      "ko": "개막미사 · 교황 환영 행사 · 십자가의 길"
+      "ko": "개막미사 · 교황 환영 행사 · 십자가의 길",
+      "en": "Opening Mass · Papal Welcome · Way of the Cross"
     },
     "subNo": "a"
   },
@@ -2430,21 +2977,26 @@ export const SEED = [
     "id": "Q118",
     "no": "Q118",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "만약 경기장 내에서 행사를 진행한다면 내부와 외부 구역은 어떤 기준으로 그룹과 순례자에게 배정되나요? 주교회의 대표단 등에 우선권이 있는지, 사전 지정 또는 추첨 방식인지 궁금합니다. 또한 경기장 수용 인원을 초과하는 순례자들도 현장에서 행사와 미사에 의미 있게 참여할 수 있도록 어떤 방안이 마련되나요?"
+      "ko": "만약 경기장 내에서 행사를 진행한다면 내부와 외부 구역은 어떤 기준으로 그룹과 순례자에게 배정되나요? 주교회의 대표단 등에 우선권이 있는지, 사전 지정 또는 추첨 방식인지 궁금합니다. 또한 경기장 수용 인원을 초과하는 순례자들도 현장에서 행사와 미사에 의미 있게 참여할 수 있도록 어떤 방안이 마련되나요?",
+      "en": "If the event is held inside the stadium, on what basis are places inside and outside the stadium allocated to groups and pilgrims? Is there priority for episcopal conference delegations and the like, and is it by advance assignment or lottery? And what will be done so that pilgrims beyond the stadium capacity can also take part meaningfully in the events and Masses on site?"
     },
     "a": {
-      "ko": "경기장 내 좌석은 사전 배정을 하겠지만 일부 성직자들에게 우선권을 주지 않을 것입니다. 청년대회는 소외된 청년들과 장애인 그리고 각국의 청년 대표들을 우선 배려해야 합니다. 경기장 밖 순례자들을 위한 다양한 장치와 배려 방안이 논의되고 있습니다. 경기장 내가 특권이 되지 않고 외부에 있어도 아쉽지 않도록 하는 다양한 배려와 소통의 방안들을 준비중입니다."
+      "ko": "경기장 내 좌석은 사전 배정을 하겠지만 일부 성직자들에게 우선권을 주지 않을 것입니다. 청년대회는 소외된 청년들과 장애인 그리고 각국의 청년 대표들을 우선 배려해야 합니다. 경기장 밖 순례자들을 위한 다양한 장치와 배려 방안이 논의되고 있습니다. 경기장 내가 특권이 되지 않고 외부에 있어도 아쉽지 않도록 하는 다양한 배려와 소통의 방안들을 준비중입니다.",
+      "en": "Seats inside the stadium will be assigned in advance, but priority will not be given to certain clergy. World Youth Day must give priority consideration to marginalized young people, people with disabilities and youth representatives from each country. Various arrangements and measures are being discussed for pilgrims outside the stadium. We are preparing a range of considerations and means of communication so that being inside the stadium does not become a privilege, and those outside do not feel they are missing out."
     },
     "sub": {
-      "ko": "개막미사 · 교황 환영 행사 · 십자가의 길"
+      "ko": "개막미사 · 교황 환영 행사 · 십자가의 길",
+      "en": "Opening Mass · Papal Welcome · Way of the Cross"
     },
     "subNo": "a"
   },
@@ -2452,21 +3004,26 @@ export const SEED = [
     "id": "Q119",
     "no": "Q119",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "행사가 경기장 안에서 폐쇄적으로 진행되어 고립된 느낌을 줄까 걱정됩니다. 교황님께서 가까이 다가가는 목자가 되고자 하시더라도, 이것이 모두를 위한 대회라는 느낌을 갖기 어려울 것 같습니다."
+      "ko": "행사가 경기장 안에서 폐쇄적으로 진행되어 고립된 느낌을 줄까 걱정됩니다. 교황님께서 가까이 다가가는 목자가 되고자 하시더라도, 이것이 모두를 위한 대회라는 느낌을 갖기 어려울 것 같습니다.",
+      "en": "We worry that the events will take place behind closed doors inside the stadium and feel isolated. Even if the Holy Father wants to be a shepherd who draws close, it may be hard to feel that this is a gathering for everyone."
     },
     "a": {
-      "ko": "대회가 경기장이라는 공간에 고립되어 진행되지 않도록 다양한 방법을 고민 중입니다. 경기장과 서울을 넘어 지구 반대편에 있는 청년들은 물론이고, 경기장 외부의 청년들과 소통하는 다양한 방법을 준비중입니다."
+      "ko": "대회가 경기장이라는 공간에 고립되어 진행되지 않도록 다양한 방법을 고민 중입니다. 경기장과 서울을 넘어 지구 반대편에 있는 청년들은 물론이고, 경기장 외부의 청년들과 소통하는 다양한 방법을 준비중입니다.",
+      "en": "We are considering various ways to keep the event from being isolated within the stadium. We are preparing various ways to connect not only with young people beyond the stadium and Seoul, on the other side of the world, but also with young people outside the stadium."
     },
     "sub": {
-      "ko": "개막미사 · 교황 환영 행사 · 십자가의 길"
+      "ko": "개막미사 · 교황 환영 행사 · 십자가의 길",
+      "en": "Opening Mass · Papal Welcome · Way of the Cross"
     },
     "subNo": "a"
   },
@@ -2474,21 +3031,26 @@ export const SEED = [
     "id": "Q120",
     "no": "Q120",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "현재 교통편이 저희를 어디에 내려줄지, 그리고 그곳에서 폐막 미사 장소까지 청년들이 대략 얼마나 걸어야 하는지에 대해 명확한 정보가 있나요?"
+      "ko": "현재 교통편이 저희를 어디에 내려줄지, 그리고 그곳에서 폐막 미사 장소까지 청년들이 대략 얼마나 걸어야 하는지에 대해 명확한 정보가 있나요?",
+      "en": "Is there clear information yet on where transport will drop us off, and roughly how far young people will have to walk from there to the Closing Mass site?"
     },
     "a": {
-      "ko": "현재 운영계획 작성 중이며, 대회 직전 순례자를 위한 수송/교통가이드 배포 예정입니다."
+      "ko": "현재 운영계획 작성 중이며, 대회 직전 순례자를 위한 수송/교통가이드 배포 예정입니다.",
+      "en": "The operating plan is currently being drawn up, and a transport guide for pilgrims will be distributed shortly before the event."
     },
     "sub": {
-      "ko": "밤샘기도 · 폐막미사"
+      "ko": "밤샘기도 · 폐막미사",
+      "en": "Vigil · Closing Mass"
     },
     "subNo": "b"
   },
@@ -2496,21 +3058,26 @@ export const SEED = [
     "id": "Q121",
     "no": "Q121",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "폐막미사 장소에 관한 기밀 정보에 대해 답변 부탁드립니다. 이 정보를 물어볼 주교님들과 지도자분들께는 공유할 수 없다는 말씀이신가요? 내부적으로 공유하는 것은 괜찮은가요? 아니면 이 정보가 이 방 안에만 머물러야 한다는 말씀이신가요?"
+      "ko": "폐막미사 장소에 관한 기밀 정보에 대해 답변 부탁드립니다. 이 정보를 물어볼 주교님들과 지도자분들께는 공유할 수 없다는 말씀이신가요? 내부적으로 공유하는 것은 괜찮은가요? 아니면 이 정보가 이 방 안에만 머물러야 한다는 말씀이신가요?",
+      "en": "Please answer regarding the confidential information about the Closing Mass site. Are you saying it cannot be shared with the bishops and leaders who will ask about it? Is it all right to share it internally? Or must this information stay in this room?"
     },
     "a": {
-      "ko": "폐막미사 장소에 대한 정보는 주교회의와 교구 차원의 내부 공유가 가능합니다. 하지만 공식적인 발표가 나기 전에 공적인 매체(방송, 인터넷, 유튜브, 신문기사, 개인SNS 등)으로는 공유해서는 안됩니다. 발표가 되기 전까지 기도하는 마음으로 기다려 주시기 바랍니다."
+      "ko": "폐막미사 장소에 대한 정보는 주교회의와 교구 차원의 내부 공유가 가능합니다. 하지만 공식적인 발표가 나기 전에 공적인 매체(방송, 인터넷, 유튜브, 신문기사, 개인SNS 등)으로는 공유해서는 안됩니다. 발표가 되기 전까지 기도하는 마음으로 기다려 주시기 바랍니다.",
+      "en": "Information about the Closing Mass site may be shared internally at the level of episcopal conferences and dioceses. It must not, however, be shared through public channels (broadcast, internet, YouTube, newspaper articles, personal social media, etc.) before the official announcement. Please wait prayerfully until it is announced."
     },
     "sub": {
-      "ko": "밤샘기도 · 폐막미사"
+      "ko": "밤샘기도 · 폐막미사",
+      "en": "Vigil · Closing Mass"
     },
     "subNo": "b"
   },
@@ -2518,21 +3085,26 @@ export const SEED = [
     "id": "Q122",
     "no": "Q122",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "폐막미사 장소에 대해 여쭤보겠습니다. A1과 A3 구역에 신부님들을 배치해 주실 수 있을까요? 그래야 청소년들도 A2 구역, 즉 무대 바로 앞쪽에 자리를 잡을 수 있을 것 같습니다."
+      "ko": "폐막미사 장소에 대해 여쭤보겠습니다. A1과 A3 구역에 신부님들을 배치해 주실 수 있을까요? 그래야 청소년들도 A2 구역, 즉 무대 바로 앞쪽에 자리를 잡을 수 있을 것 같습니다.",
+      "en": "About the Closing Mass site: could priests be placed in sections A1 and A3? Then young people could take section A2, right in front of the stage."
     },
     "a": {
-      "ko": "무대 전면의 구역들은 특별히 관리될것입니다. 사제석은 별도의 전면구역에 배정계획중이고 대표청년들, 소외계층의 청년들과 특수참가자들은 별도로 관리되어 무대 앞자리에 배석할 것입니다. 구체적인 좌석배치는 순례자 등록 마감이 되어야 확정됩니다."
+      "ko": "무대 전면의 구역들은 특별히 관리될것입니다. 사제석은 별도의 전면구역에 배정계획중이고 대표청년들, 소외계층의 청년들과 특수참가자들은 별도로 관리되어 무대 앞자리에 배석할 것입니다. 구체적인 좌석배치는 순례자 등록 마감이 되어야 확정됩니다.",
+      "en": "The sections in front of the stage will be specially managed. We plan to place the priests' seating in a separate front section, and youth representatives, young people from marginalized communities and special participants will be managed separately and seated in front of the stage. The exact seating will be confirmed only once pilgrim registration has closed."
     },
     "sub": {
-      "ko": "밤샘기도 · 폐막미사"
+      "ko": "밤샘기도 · 폐막미사",
+      "en": "Vigil · Closing Mass"
     },
     "subNo": "b"
   },
@@ -2540,21 +3112,26 @@ export const SEED = [
     "id": "Q123",
     "no": "Q123",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "개막 미사와 폐막 미사에 가져갈 수 있는 물품과 가져갈 수 없는 물품에 대한 목록이 미리 공개될 예정인가요? 예를 들어, 폐막 미사 때 텐트를 설치해도 되나요?"
+      "ko": "개막 미사와 폐막 미사에 가져갈 수 있는 물품과 가져갈 수 없는 물품에 대한 목록이 미리 공개될 예정인가요? 예를 들어, 폐막 미사 때 텐트를 설치해도 되나요?",
+      "en": "Will a list of items that may and may not be brought to the Opening and Closing Masses be published in advance? For example, may we pitch tents at the Closing Mass?"
     },
     "a": {
-      "ko": "반입가능 물품은 미리 공지될 것이고 상식적으로 하룻밤 비박에 필요한 물품 정도에 한해 가능합니다. 텐트설치는 불가합니다."
+      "ko": "반입가능 물품은 미리 공지될 것이고 상식적으로 하룻밤 비박에 필요한 물품 정도에 한해 가능합니다. 텐트설치는 불가합니다.",
+      "en": "The items that may be brought will be announced in advance and will be limited to what is reasonably needed for one night sleeping outdoors. Tents may not be pitched."
     },
     "sub": {
-      "ko": "밤샘기도 · 폐막미사"
+      "ko": "밤샘기도 · 폐막미사",
+      "en": "Vigil · Closing Mass"
     },
     "subNo": "b"
   },
@@ -2562,21 +3139,26 @@ export const SEED = [
     "id": "Q124",
     "no": "Q124",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "폐막미사때, 순례자들이 지정된 구역으로 이동하도록 안내해 줄 자원봉사자들이 배치될 예정인가요? 지난번 행사에서는 일부 순례자들이 지정된 구역을 따르지 않고 무대 근처 자리를 차지하려는 경향이 있었기 때문입니다."
+      "ko": "폐막미사때, 순례자들이 지정된 구역으로 이동하도록 안내해 줄 자원봉사자들이 배치될 예정인가요? 지난번 행사에서는 일부 순례자들이 지정된 구역을 따르지 않고 무대 근처 자리를 차지하려는 경향이 있었기 때문입니다.",
+      "en": "At the Closing Mass, will volunteers be deployed to guide pilgrims to their assigned sections? At the last event, some pilgrims tended to ignore their assigned sections and try to take places near the stage."
     },
     "a": {
-      "ko": "조직위는 대규모 인파가 몰릴 것으로 예상되는 모든 행사에 있어 안전을 최우선으로 고려하여 준비하고 있습니다. 순례자들의 안전을 위해 봉사자 배치를 포함한 많은 방법을 준비하고 실행하겠습니다."
+      "ko": "조직위는 대규모 인파가 몰릴 것으로 예상되는 모든 행사에 있어 안전을 최우선으로 고려하여 준비하고 있습니다. 순례자들의 안전을 위해 봉사자 배치를 포함한 많은 방법을 준비하고 실행하겠습니다.",
+      "en": "For every event where large crowds are expected, the LOC is preparing with safety as its first priority. For pilgrims' safety we will prepare and carry out many measures, including deploying volunteers."
     },
     "sub": {
-      "ko": "밤샘기도 · 폐막미사"
+      "ko": "밤샘기도 · 폐막미사",
+      "en": "Vigil · Closing Mass"
     },
     "subNo": "b"
   },
@@ -2584,21 +3166,26 @@ export const SEED = [
     "id": "Q125",
     "no": "Q125",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "밤샘기도와 폐막미사 장소까지 어떻게 가면 될까요? 대중교통을 이용해서 갈 수 있을까요?"
+      "ko": "밤샘기도와 폐막미사 장소까지 어떻게 가면 될까요? 대중교통을 이용해서 갈 수 있을까요?",
+      "en": "How do we get to the Vigil and Closing Mass venue? Can we go by public transport?"
     },
     "a": {
-      "ko": "지하철과 도보로 이동합니다. 자세한 내용은 대회 직전 순례자를 위한\n수송/교통가이드를 배포해 안내 예정입니다."
+      "ko": "지하철과 도보로 이동합니다. 자세한 내용은 대회 직전 순례자를 위한\n수송/교통가이드를 배포해 안내 예정입니다.",
+      "en": "You will travel by subway and on foot. Details will be given in the transport guide for pilgrims, to be distributed shortly before the event."
     },
     "sub": {
-      "ko": "밤샘기도 · 폐막미사"
+      "ko": "밤샘기도 · 폐막미사",
+      "en": "Vigil · Closing Mass"
     },
     "subNo": "b"
   },
@@ -2606,21 +3193,26 @@ export const SEED = [
     "id": "Q126",
     "no": "Q126",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "밤샘기도 중에 폭우가 내릴 경우를 대비한 대체 계획이 있나요?"
+      "ko": "밤샘기도 중에 폭우가 내릴 경우를 대비한 대체 계획이 있나요?",
+      "en": "Is there a backup plan in case of heavy rain during the Vigil?"
     },
     "a": {
-      "ko": "밤샘기도 중에 폭우가 내릴 경우 현장에 설치된 대형텐트, 격납고 등을 활용할 예정이며,\n구체적인 우천 대응방안을 마련하고 있습니다."
+      "ko": "밤샘기도 중에 폭우가 내릴 경우 현장에 설치된 대형텐트, 격납고 등을 활용할 예정이며,\n구체적인 우천 대응방안을 마련하고 있습니다.",
+      "en": "If there is heavy rain during the Vigil, we plan to use large tents, hangars and other structures on site, and are preparing a specific plan for wet weather."
     },
     "sub": {
-      "ko": "밤샘기도 · 폐막미사"
+      "ko": "밤샘기도 · 폐막미사",
+      "en": "Vigil · Closing Mass"
     },
     "subNo": "b"
   },
@@ -2628,21 +3220,26 @@ export const SEED = [
     "id": "Q127",
     "no": "Q127",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "WYD 기간 중 예상되는 폭염과 폭우에 대비하여 철야기도 및 폐막 미사 등 야외 행사에서 순례자를 보호하기 위한 대책은 무엇인가요? 그늘막, 식수, 휴식 공간 등은 LOC에서 제공하는지, 모자·양산 등 참가자가 개별적으로 준비해야 할 사항도 안내해 주실 수 있나요?"
+      "ko": "WYD 기간 중 예상되는 폭염과 폭우에 대비하여 철야기도 및 폐막 미사 등 야외 행사에서 순례자를 보호하기 위한 대책은 무엇인가요? 그늘막, 식수, 휴식 공간 등은 LOC에서 제공하는지, 모자·양산 등 참가자가 개별적으로 준비해야 할 사항도 안내해 주실 수 있나요?",
+      "en": "What measures will protect pilgrims at outdoor events such as the Vigil and the Closing Mass from the heat waves and heavy rain expected during WYD? Will the LOC provide shade, drinking water and rest areas, and can you tell us what participants should bring themselves, such as hats and parasols?"
     },
     "a": {
-      "ko": "행사장 내부에 폭염과 폭우에 대비할 수 있는 대기소나 천막을 설치할 예정이나 모든 사람을 수용하기 어렵기 때문에 각자 모자와 양산을 개별적으로 지참해야 하며 등록이 오픈되면 이를 다시 한 번 안내할 예정입니다."
+      "ko": "행사장 내부에 폭염과 폭우에 대비할 수 있는 대기소나 천막을 설치할 예정이나 모든 사람을 수용하기 어렵기 때문에 각자 모자와 양산을 개별적으로 지참해야 하며 등록이 오픈되면 이를 다시 한 번 안내할 예정입니다.",
+      "en": "We plan to set up waiting areas or tents inside the venue for protection from heat and heavy rain, but they cannot hold everyone, so each person should bring their own hat and parasol (sun umbrella). We will remind you of this once registration opens."
     },
     "sub": {
-      "ko": "밤샘기도 · 폐막미사"
+      "ko": "밤샘기도 · 폐막미사",
+      "en": "Vigil · Closing Mass"
     },
     "subNo": "b"
   },
@@ -2650,21 +3247,26 @@ export const SEED = [
     "id": "Q128",
     "no": "Q128",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "철야기도 장소에 예상보다 많은 순례자가 몰려 수용 인원을 초과하거나 혼잡이 발생할 경우, 입장하지 못하는 순례자가 없도록 어떤 입장 관리 및 대체 참여 방안을 마련할 예정인가요? 리스본에서는 일부 순례자가 혼잡으로 인해 철야기도 장소에 들어가지 못했습니다."
+      "ko": "철야기도 장소에 예상보다 많은 순례자가 몰려 수용 인원을 초과하거나 혼잡이 발생할 경우, 입장하지 못하는 순례자가 없도록 어떤 입장 관리 및 대체 참여 방안을 마련할 예정인가요? 리스본에서는 일부 순례자가 혼잡으로 인해 철야기도 장소에 들어가지 못했습니다.",
+      "en": "If more pilgrims than expected come to the Vigil site and it exceeds capacity or becomes congested, what entry management and alternative ways of taking part will be put in place so that no pilgrim is left unable to enter? In Lisbon some pilgrims could not get into the Vigil site because of congestion."
     },
     "a": {
-      "ko": "그룹별로 순차이동 가이드를 제공하여 최대한 많은 순례자가 폐막미사에 올 수 있도록 준비중입니다."
+      "ko": "그룹별로 순차이동 가이드를 제공하여 최대한 많은 순례자가 폐막미사에 올 수 있도록 준비중입니다.",
+      "en": "We are preparing staggered movement guidance for each group so that as many pilgrims as possible can attend the Closing Mass."
     },
     "sub": {
-      "ko": "밤샘기도 · 폐막미사"
+      "ko": "밤샘기도 · 폐막미사",
+      "en": "Vigil · Closing Mass"
     },
     "subNo": "b"
   },
@@ -2672,21 +3274,26 @@ export const SEED = [
     "id": "Q129",
     "no": "Q129",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "주요 미사에서 사제의 공동집전과 부제의 전례 참여는 어떻게 운영되나요? 별도의 사전 등록이나 자격 확인이 필요한지, 장백의(Alb)와 영대(Stole) 등 전례복은 개인이 준비해야 하는지도 안내 부탁드립니다."
+      "ko": "주요 미사에서 사제의 공동집전과 부제의 전례 참여는 어떻게 운영되나요? 별도의 사전 등록이나 자격 확인이 필요한지, 장백의(Alb)와 영대(Stole) 등 전례복은 개인이 준비해야 하는지도 안내 부탁드립니다.",
+      "en": "How will concelebration by priests and liturgical participation by deacons be organized at the main Masses? Please tell us whether separate advance registration or verification is needed, and whether individuals must bring their own vestments such as an alb and stole."
     },
     "a": {
-      "ko": "개막미사 사제석은 무대 뒷 좌석을 전용좌석으로 고려중입니다. 폐막미사에는 보다 청년들을 제단에 가까이 배려하고자 청년들 좌-우측 맨 끝자리로 사제석을 고려중입니다. 영대 및 제의 배포건은 현재 검토중이며, 구체적인 사항은 확정 후 안내드리겠습니다."
+      "ko": "개막미사 사제석은 무대 뒷 좌석을 전용좌석으로 고려중입니다. 폐막미사에는 보다 청년들을 제단에 가까이 배려하고자 청년들 좌-우측 맨 끝자리로 사제석을 고려중입니다. 영대 및 제의 배포건은 현재 검토중이며, 구체적인 사항은 확정 후 안내드리겠습니다.",
+      "en": "For the Opening Mass, we are considering dedicated priests' seating behind the stage. For the Closing Mass, to bring young people closer to the altar, we are considering priests' seating at the far left and right ends of the young people's area. The distribution of stoles and vestments is currently under review. We will provide further details once it has been confirmed."
     },
     "sub": {
-      "ko": "밤샘기도 · 폐막미사"
+      "ko": "밤샘기도 · 폐막미사",
+      "en": "Vigil · Closing Mass"
     },
     "subNo": "b"
   },
@@ -2694,21 +3301,26 @@ export const SEED = [
     "id": "Q130",
     "no": "Q130",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "WYD에서 국제 청년 단체와 외부 주최자가 일반 행사, 워크숍 또는 부대행사를 제안하고 참여·협력할 수 있는 기회와 절차는 어떻게 되나요? 젊은이 축제에 참가하려는 단체는 무엇을 준비해야 하며, 공간·부스의 신청 및 배정 절차와 참가 비용은 어떻게 되나요?"
+      "ko": "WYD에서 국제 청년 단체와 외부 주최자가 일반 행사, 워크숍 또는 부대행사를 제안하고 참여·협력할 수 있는 기회와 절차는 어떻게 되나요? 젊은이 축제에 참가하려는 단체는 무엇을 준비해야 하며, 공간·부스의 신청 및 배정 절차와 참가 비용은 어떻게 되나요?",
+      "en": "What opportunities and procedures are there for international youth organizations and external organizers to propose, take part in or collaborate on general events, workshops or side events at WYD Seoul 2027?\n\nWhat must organizations wishing to take part in the Youth Festival prepare, and what are the procedures for applying for and allocating space or booths, and the participation costs?"
     },
     "a": {
-      "ko": "젊은이 축제에 참가하려는 단체는 등록시스템을 통해서 자신들이 하고자 하는 프로젝트를 신청할 수 있습니다. 공연, 강연, 전시, 기도와 찬양, 워크샵 등 다양한 장르의 프로젝트가 가능하고, 참가비는 무료입니다. 모든 나라에서 참여 가능합니다. 참가팀의 최종 선정은 교황청과 조직위가 하고, 장소는 조직위가 배정 및 제공합니다."
+      "ko": "젊은이 축제에 참가하려는 단체는 등록시스템을 통해서 자신들이 하고자 하는 프로젝트를 신청할 수 있습니다. 공연, 강연, 전시, 기도와 찬양, 워크샵 등 다양한 장르의 프로젝트가 가능하고, 참가비는 무료입니다. 모든 나라에서 참여 가능합니다. 참가팀의 최종 선정은 교황청과 조직위가 하고, 장소는 조직위가 배정 및 제공합니다.",
+      "en": "Organizations wishing to take part in the Youth Festival can apply with the project they want to run through the registration system. Projects in many genres are possible — performances, talks, exhibitions, prayer and praise, workshops and more — and participation is free. Organizations from every country may take part. Final selection of participating teams is made by the Holy See and the LOC, and venues are assigned and provided by the LOC."
     },
     "sub": {
-      "ko": "젊은이 축제"
+      "ko": "젊은이 축제",
+      "en": "Youth Festival"
     },
     "subNo": "c"
   },
@@ -2716,21 +3328,26 @@ export const SEED = [
     "id": "Q131",
     "no": "Q131",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "다른 나라의 청년들은 그들의 젊은이 축제를 어떻게 공연하나요? 등록이 필요한가요? 행사장이 배정되나요? 참가비를 내야 하나요!"
+      "ko": "다른 나라의 청년들은 그들의 젊은이 축제를 어떻게 공연하나요? 등록이 필요한가요? 행사장이 배정되나요? 참가비를 내야 하나요!",
+      "en": "How do young people from other countries perform at the Youth Festival? Is registration required? Is a venue assigned? Do they have to pay a participation fee?"
     },
     "a": {
-      "ko": "젊은이 축제와 성소박람회는 본대회 기간 동안만 본대회 개최교구에서 운영됩니다. 참가를 원하는 그룹이나 단체는 등록시스템을 통하여 신청할 수 있습니다. 젊은이 축제는 참가비가 없으며, 성소박람회는 부스 1개일 때 700 미국달러, 부스 2개일 때 1,300 미국달러의 부스 비용이 필요합니다. 젊은이 축제의 경우, 프로젝트를 운영하는 팀이 원하는 대로 언어를 결정할 수 있습니다. 대부분 영어를 포함합니다."
+      "ko": "젊은이 축제와 성소박람회는 본대회 기간 동안만 본대회 개최교구에서 운영됩니다. 참가를 원하는 그룹이나 단체는 등록시스템을 통하여 신청할 수 있습니다. 젊은이 축제는 참가비가 없으며, 성소박람회는 부스 1개일 때 700 미국달러, 부스 2개일 때 1,300 미국달러의 부스 비용이 필요합니다. 젊은이 축제의 경우, 프로젝트를 운영하는 팀이 원하는 대로 언어를 결정할 수 있습니다. 대부분 영어를 포함합니다.",
+      "en": "The Youth Festival and the Vocations Fair run only during WYD, in the host diocese. Groups or organizations wishing to take part can apply through the registration system. There is no participation fee for the Youth Festival; for the Vocations Fair there is a booth fee of US$700 for one booth and US$1,300 for two. For the Youth Festival, the team running a project can decide its language as it wishes. Most include English."
     },
     "sub": {
-      "ko": "젊은이 축제"
+      "ko": "젊은이 축제",
+      "en": "Youth Festival"
     },
     "subNo": "c"
   },
@@ -2738,21 +3355,26 @@ export const SEED = [
     "id": "Q132",
     "no": "Q132",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "젊은이 축제와 성소 박람회에 참가하는 절차는 어떤 웹사이트나 홈페이지에서 확인할 수 있나요? 어떻게 알 수 있나요? 이 경험을 더욱 풍요롭게 만들기 위해 우리 각국에서 해당 정보를 널리 알릴 수 있을까요? WYD의 City of Joy, 성소 박람회 및 젊은이 축제는 언제, 어디에서, 어떤 형태로 운영되며, 여러 교구에 분산하여 개최되는지와 언어권별 프로그램이 마련되는지 궁금합니다."
+      "ko": "젊은이 축제와 성소 박람회에 참가하는 절차는 어떤 웹사이트나 홈페이지에서 확인할 수 있나요? 어떻게 알 수 있나요? 이 경험을 더욱 풍요롭게 만들기 위해 우리 각국에서 해당 정보를 널리 알릴 수 있을까요? WYD의 City of Joy, 성소 박람회 및 젊은이 축제는 언제, 어디에서, 어떤 형태로 운영되며, 여러 교구에 분산하여 개최되는지와 언어권별 프로그램이 마련되는지 궁금합니다.",
+      "en": "On what website or homepage can we find the procedure for taking part in the Youth Festival and the Vocations Fair? How can we find out? Can we spread this information widely in each of our countries to make the experience even richer?\n\nWhen, where and in what form will the City of Joy, the Vocations Fair and the Youth Festival of WYD Seoul 2027 run? Will they be spread across several dioceses, and will there be programs by language group?"
     },
     "a": {
-      "ko": "젊은이 축제와 성소박람회는 등록시스템을 통하여 신청할 수 있습니다. 등록시스템은 10월말경 오픈 예정이며, 공식 홈페이지(https://wydseoul.org/)를 통하여 접근할 수 있습니다. 이 경험을 더욱 풍요롭게 하기 위하여 공식 홈페이지를 널리 홍보해주시기를 부탁드립니다."
+      "ko": "젊은이 축제와 성소박람회는 등록시스템을 통하여 신청할 수 있습니다. 등록시스템은 10월말경 오픈 예정이며, 공식 홈페이지(https://wydseoul.org/)를 통하여 접근할 수 있습니다. 이 경험을 더욱 풍요롭게 하기 위하여 공식 홈페이지를 널리 홍보해주시기를 부탁드립니다.",
+      "en": "You can apply for the Youth Festival and the Vocations Fair through the registration system. The registration system is scheduled to open around the end of October and can be accessed through the official WYD website (https://wydseoul.org/). To make this experience even richer, please help promote the official WYD website widely."
     },
     "sub": {
-      "ko": "젊은이 축제"
+      "ko": "젊은이 축제",
+      "en": "Youth Festival"
     },
     "subNo": "c"
   },
@@ -2760,21 +3382,26 @@ export const SEED = [
     "id": "Q133",
     "no": "Q133",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "‘화해의 공원’ 기간 동안 사제들은 고해성사를 듣기 위해 어떻게 등록하나요?"
+      "ko": "‘화해의 공원’ 기간 동안 사제들은 고해성사를 듣기 위해 어떻게 등록하나요?",
+      "en": "How do priests register to hear confessions at Reconciliation Park?"
     },
     "a": {
-      "ko": "사제들은 등록시스템에서 순례자 그룹 등록 시에 함께 등록합니다. 순례자 그룹 등록은 그룹 대표가 하게 되어있으므로 '화해의 공원'에서 고해성사를 듣고자 하는 사제들은 본인이 가능한 날짜와 시간을 대표에게 알리면 됩니다. 그룹없이 홀로 순례하는 사제는 1인그룹으로 등록가능합니다."
+      "ko": "사제들은 등록시스템에서 순례자 그룹 등록 시에 함께 등록합니다. 순례자 그룹 등록은 그룹 대표가 하게 되어있으므로 '화해의 공원'에서 고해성사를 듣고자 하는 사제들은 본인이 가능한 날짜와 시간을 대표에게 알리면 됩니다. 그룹없이 홀로 순례하는 사제는 1인그룹으로 등록가능합니다.",
+      "en": "Priests register together with their pilgrim group in the registration system. Because group registration is done by the group leader, priests who wish to hear confessions at Reconciliation Park should tell their group leader the dates and times they are available. Priests making the pilgrimage alone, without a group, can register as a one-person group."
     },
     "sub": {
-      "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)"
+      "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)",
+      "en": "Catholic Cultural Fair (Vocations Fair · Park of Reconciliation)"
     },
     "subNo": "d"
   },
@@ -2782,21 +3409,26 @@ export const SEED = [
     "id": "Q134",
     "no": "Q134",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "성소 박람회의 ‘부스’란 무엇을 의미하나요?"
+      "ko": "성소 박람회의 ‘부스’란 무엇을 의미하나요?",
+      "en": "What does a 'booth' mean at the Vocations Fair?"
     },
     "a": {
-      "ko": "성소박람회(가톨릭문화박람회)에서 '부스'란 박람회에 참가하는 각 수도회 또는 사도직/신심 단체에게 주어지는 3m X 3m 짜리의 텐트 또는 스탠드로 만들어진 공간을 의미합니다. 한 수도회 당 최대 2개까지 신청할 수 있습니다."
+      "ko": "성소박람회(가톨릭문화박람회)에서 '부스'란 박람회에 참가하는 각 수도회 또는 사도직/신심 단체에게 주어지는 3m X 3m 짜리의 텐트 또는 스탠드로 만들어진 공간을 의미합니다. 한 수도회 당 최대 2개까지 신청할 수 있습니다.",
+      "en": "At the Vocations Fair, a 'booth' means a 3 m × 3 m space, made of a tent or stand, given to each religious congregation or apostolic/devotional association taking part. Each congregation may apply for up to two."
     },
     "sub": {
-      "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)"
+      "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)",
+      "en": "Catholic Cultural Fair (Vocations Fair · Park of Reconciliation)"
     },
     "subNo": "d"
   },
@@ -2804,21 +3436,26 @@ export const SEED = [
     "id": "Q135",
     "no": "Q135",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "성소 박람회의 내용은 무엇인가요? 참가비는 구체적으로 어떤 용도로 사용되나요?"
+      "ko": "성소 박람회의 내용은 무엇인가요? 참가비는 구체적으로 어떤 용도로 사용되나요?",
+      "en": "What does the Vocations Fair involve? What specifically is the participation fee used for?"
     },
     "a": {
-      "ko": "성소박람회는 참가하는 각 수도회 또는 단체의 카리스마와 영성을 순례자들과 나눔으로써 순례자들로 하여금 자신의 부르심을 식별하도록 도와주는 행사입니다. 참가비용은 행사장 대여와 부스 설치를 위하여 사용됩니다."
+      "ko": "성소박람회는 참가하는 각 수도회 또는 단체의 카리스마와 영성을 순례자들과 나눔으로써 순례자들로 하여금 자신의 부르심을 식별하도록 도와주는 행사입니다. 참가비용은 행사장 대여와 부스 설치를 위하여 사용됩니다.",
+      "en": "The Vocations Fair helps pilgrims discern their own calling by sharing with them the charism and spirituality of each participating congregation or organization. The participation fee is used to rent the venue and set up the booths."
     },
     "sub": {
-      "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)"
+      "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)",
+      "en": "Catholic Cultural Fair (Vocations Fair · Park of Reconciliation)"
     },
     "subNo": "d"
   },
@@ -2826,21 +3463,26 @@ export const SEED = [
     "id": "Q136",
     "no": "Q136",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "고해성사에 참여하는 사제들의 선정 기준은 무엇입니까? 선별된 사제들만 참여할 수 있는 것입니까, 아니면 누구나 참여할 수 있습니까? 사제들은 등록 시에 참여 여부를 표시해야 합니까?"
+      "ko": "고해성사에 참여하는 사제들의 선정 기준은 무엇입니까? 선별된 사제들만 참여할 수 있는 것입니까, 아니면 누구나 참여할 수 있습니까? 사제들은 등록 시에 참여 여부를 표시해야 합니까?",
+      "en": "What are the criteria for selecting priests to hear confessions? Can only selected priests take part, or anyone? Must priests indicate whether they will take part when they register?"
     },
     "a": {
-      "ko": "사제라면 누구나 참여할 수 있으나 신분 검증을 위해 등록시스템에 등록되어야 합니다."
+      "ko": "사제라면 누구나 참여할 수 있으나 신분 검증을 위해 등록시스템에 등록되어야 합니다.",
+      "en": "Any priest may take part, but they must be registered in the registration system for identity verification."
     },
     "sub": {
-      "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)"
+      "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)",
+      "en": "Catholic Cultural Fair (Vocations Fair · Park of Reconciliation)"
     },
     "subNo": "d"
   },
@@ -2848,21 +3490,26 @@ export const SEED = [
     "id": "Q137",
     "no": "Q137",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "화해의 공원은 이번 행사 기간 동안 며칠 동안 운영되나요? 하루 중 몇 시간 동안 고해 성사가 제공되나요? 청년들이 공원에 자유롭게 드나들 수 있나요? 로마에서 열린 희년 행사 당시에는 고해 성사가 이루어지는 장소로의 접근이 매우 제한적이었고, 거의 통제된 상태였습니다."
+      "ko": "화해의 공원은 이번 행사 기간 동안 며칠 동안 운영되나요? 하루 중 몇 시간 동안 고해 성사가 제공되나요? 청년들이 공원에 자유롭게 드나들 수 있나요? 로마에서 열린 희년 행사 당시에는 고해 성사가 이루어지는 장소로의 접근이 매우 제한적이었고, 거의 통제된 상태였습니다.",
+      "en": "For how many days will Reconciliation Park be open during the event? For how many hours a day will confession be available? Can young people move freely in and out of the park? At the Jubilee in Rome, access to the places where confessions were heard was very restricted, almost controlled."
     },
     "a": {
-      "ko": "화해의 공원은 본대회 주간 화요일부터 금요일까지 오후 1시부터 5시까지 진행됩니다.\n고해성사의 고해기밀 유지 때문에 청년들이 공원을 자유롭게 걸어다닐 수는 없습니다.\n정해진 코스와 봉사자의 안내에 따라 공원 입장이 가능합니다. 고해성사는 준비된 누구나 받을 수 있습니다."
+      "ko": "화해의 공원은 본대회 주간 화요일부터 금요일까지 오후 1시부터 5시까지 진행됩니다.\n고해성사의 고해기밀 유지 때문에 청년들이 공원을 자유롭게 걸어다닐 수는 없습니다.\n정해진 코스와 봉사자의 안내에 따라 공원 입장이 가능합니다. 고해성사는 준비된 누구나 받을 수 있습니다.",
+      "en": "Reconciliation Park will be open from Tuesday to Friday of Main Event week, from 1 p.m. to 5 p.m.\nBecause of the seal of confession, young people cannot walk freely around the park.\nEntry to the park follows a set route under the guidance of volunteers. Anyone who is prepared may receive the Sacrament of Reconciliation."
     },
     "sub": {
-      "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)"
+      "ko": "가톨릭 문화박람회 (성소박람회 · 화해공원)",
+      "en": "Catholic Cultural Fair (Vocations Fair · Park of Reconciliation)"
     },
     "subNo": "d"
   },
@@ -2870,21 +3517,26 @@ export const SEED = [
     "id": "Q138",
     "no": "Q138",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "호텔에 묵는 경우, 교리교육 장소로 가는 길을 어떻게 안내받을 수 있나요?"
+      "ko": "호텔에 묵는 경우, 교리교육 장소로 가는 길을 어떻게 안내받을 수 있나요?",
+      "en": "If we are staying in a hotel, how will we be guided on how to get to the catechesis venue?"
     },
     "a": {
-      "ko": "호텔 등 숙소를 직접 마련한 그룹도 배정된 교리교육 장소를 기준으로 이동하시면 됩니다. 교리교육 장소와 이동에 필요한 안내는 추후 공지할 예정입니다."
+      "ko": "호텔 등 숙소를 직접 마련한 그룹도 배정된 교리교육 장소를 기준으로 이동하시면 됩니다. 교리교육 장소와 이동에 필요한 안내는 추후 공지할 예정입니다.",
+      "en": "Groups that have arranged their own accommodation, such as a hotel, should also travel to their assigned catechesis venue. Information on Catecheses venues and how to get there will be announced later."
     },
     "sub": {
-      "ko": "주교와의 만남 (교리교육)"
+      "ko": "주교와의 만남 (교리교육)",
+      "en": "Meeting with Bishops (Catechesis)"
     },
     "subNo": "e"
   },
@@ -2892,21 +3544,26 @@ export const SEED = [
     "id": "Q139",
     "no": "Q139",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "파나마에서는 사전 행사와 본 행사 전에 교리교육 자료를 제공해 주었습니다. 이번에도 그럴까요?"
+      "ko": "파나마에서는 사전 행사와 본 행사 전에 교리교육 자료를 제공해 주었습니다. 이번에도 그럴까요?",
+      "en": "In Panama, catechesis materials were provided before the pre-events and the main event. Will that happen this time too????"
     },
     "a": {
-      "ko": "가능하면 본행사 전에 제공되리라 생각합니다."
+      "ko": "가능하면 본행사 전에 제공되리라 생각합니다.",
+      "en": "We expect it to be provided before the main event, if possible."
     },
     "sub": {
-      "ko": "주교와의 만남 (교리교육)"
+      "ko": "주교와의 만남 (교리교육)",
+      "en": "Meeting with Bishops (Catechesis)"
     },
     "subNo": "e"
   },
@@ -2914,21 +3571,26 @@ export const SEED = [
     "id": "Q140",
     "no": "Q140",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "숙소가 서울에서 다소 떨어져 있는 경우에도 숙소 위치를 고려하여 가장 가까운 교리교육 장소로 배정받을 수 있나요?"
+      "ko": "숙소가 서울에서 다소 떨어져 있는 경우에도 숙소 위치를 고려하여 가장 가까운 교리교육 장소로 배정받을 수 있나요?",
+      "en": "Even if our accommodation is somewhat far from Seoul, can we be assigned to the nearest catechesis venue, taking its location into account?"
     },
     "a": {
-      "ko": "숙소에서 교리교육 장소까지의 경로와 소요 시간은 숙소 위치에 따라 달라지므로, 안내받은 장소의 주소를 기준으로 지도 앱 등을 통해 확인해 주시기 바랍니다."
+      "ko": "숙소에서 교리교육 장소까지의 경로와 소요 시간은 숙소 위치에 따라 달라지므로, 안내받은 장소의 주소를 기준으로 지도 앱 등을 통해 확인해 주시기 바랍니다.",
+      "en": "The route and travel time from your accommodation to the catechesis venue depend on where you are staying, so please check them using a map app or similar, based on the address of the venue you are given."
     },
     "sub": {
-      "ko": "주교와의 만남 (교리교육)"
+      "ko": "주교와의 만남 (교리교육)",
+      "en": "Meeting with Bishops (Catechesis)"
     },
     "subNo": "e"
   },
@@ -2936,21 +3598,26 @@ export const SEED = [
     "id": "Q141",
     "no": "Q141",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "교리교육은 어떻게 신청하며, 리스본 때와 같이 참여형·역동적인 프로그램으로 진행될 예정인가요?"
+      "ko": "교리교육은 어떻게 신청하며, 리스본 때와 같이 참여형·역동적인 프로그램으로 진행될 예정인가요?",
+      "en": "How do we sign up for the Catecheses, and will they be participatory, dynamic programs like those at WYD Lisbon 2023?"
     },
     "a": {
-      "ko": "교리교육은 강사 선정 후 참여 인원을 예상하여 진행할 예정입니다. 리스본과 비슷하게 진행될 것이라 예상합니다."
+      "ko": "교리교육은 강사 선정 후 참여 인원을 예상하여 진행할 예정입니다. 리스본과 비슷하게 진행될 것이라 예상합니다.",
+      "en": "The Catecheses will go ahead once speakers have been selected and participant numbers estimated. We expect them to run much as in Lisbon."
     },
     "sub": {
-      "ko": "주교와의 만남 (교리교육)"
+      "ko": "주교와의 만남 (교리교육)",
+      "en": "Meeting with Bishops (Catechesis)"
     },
     "subNo": "e"
   },
@@ -2958,21 +3625,26 @@ export const SEED = [
     "id": "Q142",
     "no": "Q142",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "교리 교육 시간에 사용할 언어들을 알려 주실 수 있나요?"
+      "ko": "교리 교육 시간에 사용할 언어들을 알려 주실 수 있나요?",
+      "en": "Can you tell us the languages that will be used in the Catecheses sessions?"
     },
     "a": {
-      "ko": "6개 공식언어로 진행되리라 예상합니다."
+      "ko": "6개 공식언어로 진행되리라 예상합니다.",
+      "en": "We expect them to be held in the six official languages of WYD Seoul 2027."
     },
     "sub": {
-      "ko": "주교와의 만남 (교리교육)"
+      "ko": "주교와의 만남 (교리교육)",
+      "en": "Meeting with Bishops (Catechesis)"
     },
     "subNo": "e"
   },
@@ -2980,21 +3652,26 @@ export const SEED = [
     "id": "Q143",
     "no": "Q143",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "교리교육 장소는 언제 확정·안내되나요?"
+      "ko": "교리교육 장소는 언제 확정·안내되나요?",
+      "en": "When will the Catecheses venues be confirmed and announced?"
     },
     "a": {
-      "ko": "대회 약 1개월 전 시점 부터 순차적으로 확정되어 메일로 안내될 예정입니다."
+      "ko": "대회 약 1개월 전 시점 부터 순차적으로 확정되어 메일로 안내될 예정입니다.",
+      "en": "They will be confirmed in stages and announced by email from about one month before the event."
     },
     "sub": {
-      "ko": "주교와의 만남 (교리교육)"
+      "ko": "주교와의 만남 (교리교육)",
+      "en": "Meeting with Bishops (Catechesis)"
     },
     "subNo": "e"
   },
@@ -3002,21 +3679,26 @@ export const SEED = [
     "id": "Q144",
     "no": "Q144",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "전체 등록 인원이 교리교육 장소의 수용 가능 인원을 초과할 경우, 모든 순례자가 교리교육에 참여할 수 있도록 어떤 방식으로 장소와 수용 인원을 확보·배정할 예정인가요?"
+      "ko": "전체 등록 인원이 교리교육 장소의 수용 가능 인원을 초과할 경우, 모든 순례자가 교리교육에 참여할 수 있도록 어떤 방식으로 장소와 수용 인원을 확보·배정할 예정인가요?",
+      "en": "If the total number registered exceeds the capacity of the Catecheses venues, how will venues and capacity be secured and allocated so that every pilgrim can take part in a catechesis?"
     },
     "a": {
-      "ko": "교리교육 장소는 지속적으로 확인 중에 있으며, 교리 교육을 신청한 참가자 모두 교육을 받을 수 있도록 최선을 다할 것입니다."
+      "ko": "교리교육 장소는 지속적으로 확인 중에 있으며, 교리 교육을 신청한 참가자 모두 교육을 받을 수 있도록 최선을 다할 것입니다.",
+      "en": "Catecheses venues are being checked on an ongoing basis, and we will do our best to make sure every participant who has signed up for a catechesis can attend one."
     },
     "sub": {
-      "ko": "주교와의 만남 (교리교육)"
+      "ko": "주교와의 만남 (교리교육)",
+      "en": "Meeting with Bishops (Catechesis)"
     },
     "subNo": "e"
   },
@@ -3024,21 +3706,26 @@ export const SEED = [
     "id": "Q145",
     "no": "Q145",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "교리교육을 기획하고자 할 때 미리 알려야 하나요?"
+      "ko": "교리교육을 기획하고자 할 때 미리 알려야 하나요?",
+      "en": "If we want to organize catecheses, do we need to let you know in advance?"
     },
     "a": {
-      "ko": "교리교육의 강사와 주제는 DLFL에서 선정합니다."
+      "ko": "교리교육의 강사와 주제는 DLFL에서 선정합니다.",
+      "en": "The speakers and topics for the Catecheses are selected by the DLFL."
     },
     "sub": {
-      "ko": "주교와의 만남 (교리교육)"
+      "ko": "주교와의 만남 (교리교육)",
+      "en": "Meeting with Bishops (Catechesis)"
     },
     "subNo": "e"
   },
@@ -3046,21 +3733,26 @@ export const SEED = [
     "id": "Q146",
     "no": "Q146",
     "section": {
-      "ko": "프로그램"
+      "ko": "프로그램",
+      "en": "Programme"
     },
     "sectionNo": "Ⅳ",
     "topic": {
-      "ko": "본대회(World Youth Day, WYD)"
+      "ko": "본대회(World Youth Day, WYD)",
+      "en": "Main Event (World Youth Day, WYD)"
     },
     "topicNo": "2",
     "q": {
-      "ko": "교리교육 진행자로 참여하려면 어떻게 해야 하나요?"
+      "ko": "교리교육 진행자로 참여하려면 어떻게 해야 하나요?",
+      "en": "What must we do to take part as a catechesis facilitator?"
     },
     "a": {
-      "ko": "교리교육에 관련하여 DLFL과 논의를 진행하면서 안내하도록 하겠습니다."
+      "ko": "교리교육에 관련하여 DLFL과 논의를 진행하면서 안내하도록 하겠습니다.",
+      "en": "We will share information on the Catecheses as discussions with the DLFL progress."
     },
     "sub": {
-      "ko": "주교와의 만남 (교리교육)"
+      "ko": "주교와의 만남 (교리교육)",
+      "en": "Meeting with Bishops (Catechesis)"
     },
     "subNo": "e"
   }
@@ -3072,130 +3764,156 @@ export const OPINIONS = [
     "id": "O1",
     "no": 1,
     "topic": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "text": {
-      "ko": "같은 숙소에서 화장실 하나당 25명이라니, 조금 부족해 보입니다."
+      "ko": "같은 숙소에서 화장실 하나당 25명이라니, 조금 부족해 보입니다.",
+      "en": "Twenty-five people per toilet in the same accommodation seems a little insufficient."
     }
   },
   {
     "id": "O2",
     "no": 2,
     "topic": {
-      "ko": "숙소"
+      "ko": "숙소",
+      "en": "Accommodation"
     },
     "text": {
-      "ko": "한 대표단이 자체적으로 호텔에 숙박할 경우, 나눔(교류)의 경험이 덜 풍성해질 수 있지 않을까요? 어떤 방안을 권장하시나요?"
+      "ko": "한 대표단이 자체적으로 호텔에 숙박할 경우, 나눔(교류)의 경험이 덜 풍성해질 수 있지 않을까요? 어떤 방안을 권장하시나요?",
+      "en": "If a delegation stays in a hotel on its own, might the experience of sharing (exchange) be less rich? What would you recommend?"
     }
   },
   {
     "id": "O3",
     "no": 3,
     "topic": {
-      "ko": "체크인"
+      "ko": "체크인",
+      "en": "Check-in"
     },
     "text": {
-      "ko": "동일한 매크로그룹 내 숙박 포함·미포함 하위그룹이 함께 체크인할 수 있나요? 순례자 센터가 하나뿐이라 하위그룹들이 서로 다른 장소를 오가면 혼란스러울 수 있어 걱정됩니다."
+      "ko": "동일한 매크로그룹 내 숙박 포함·미포함 하위그룹이 함께 체크인할 수 있나요? 순례자 센터가 하나뿐이라 하위그룹들이 서로 다른 장소를 오가면 혼란스러울 수 있어 걱정됩니다.",
+      "en": "Can Subgroups with and without accommodation within the same Macrogroup check in together? Since there is only one Pilgrim Centre, we are worried it could be confusing if the Subgroups have to move between different places."
     }
   },
   {
     "id": "O4",
     "no": 4,
     "topic": {
-      "ko": "조직위원회 관련"
+      "ko": "조직위원회 관련",
+      "en": "Local Organising Committee"
     },
     "text": {
-      "ko": "청년 순례자가 자국에서 개최국으로 왔다가 돌아가지 않고 이주민이나 난민 신청자가 되는 경우, 교회적 측면과 정부적 측면에서 각각 어떤 장단점이 있나요?"
+      "ko": "청년 순례자가 자국에서 개최국으로 왔다가 돌아가지 않고 이주민이나 난민 신청자가 되는 경우, 교회적 측면과 정부적 측면에서 각각 어떤 장단점이 있나요?",
+      "en": "If young pilgrims come from their own country to the host country and do not return, becoming migrants or asylum seekers, what are the advantages and disadvantages from the Church's perspective and from the government's perspective respectively?"
     }
   },
   {
     "id": "O5",
     "no": 5,
     "topic": {
-      "ko": "조직위원회 관련"
+      "ko": "조직위원회 관련",
+      "en": "Local Organising Committee"
     },
     "text": {
-      "ko": "개신교 청년들을 포함하는 근거는 교회의 에큐메니즘(일치 운동) 교리에 어긋납니다. 그리스도인 청년을 조종하여 가톨릭으로 개종시키려는 것은 교회의 종교 간 대화 원칙에 위배됩니다. 이를 수정하시어 개신교 청년들을 '소품'처럼 이용하지 마시고 그들에게 합당한 존엄성을 갖고 대해주시기 바랍니다."
+      "ko": "개신교 청년들을 포함하는 근거는 교회의 에큐메니즘(일치 운동) 교리에 어긋납니다. 그리스도인 청년을 조종하여 가톨릭으로 개종시키려는 것은 교회의 종교 간 대화 원칙에 위배됩니다. 이를 수정하시어 개신교 청년들을 '소품'처럼 이용하지 마시고 그들에게 합당한 존엄성을 갖고 대해주시기 바랍니다.",
+      "en": "The rationale for including Protestant young people goes against the Church's teaching on ecumenism (the unity movement). Manipulating Christian young people in order to convert them to Catholicism violates the Church's principles of interreligious dialogue. Please correct this, do not use Protestant young people like 'props', and treat them with the dignity they deserve."
     }
   },
   {
     "id": "O6",
     "no": 6,
     "topic": {
-      "ko": "조직위원회 관련"
+      "ko": "조직위원회 관련",
+      "en": "Local Organising Committee"
     },
     "text": {
-      "ko": "많은 젊은이들에게 WYD는 전 세계의 다양한 언어와 문화를 접하는 진정한 경험입니다. 하지만 이는 또한 아프리카나 중동 국가 중 한 곳에서 열릴 수도 있는 WYD를 앞두고, 그리고 바로 이곳 서울에서 열리는 이번 대회를 통해, 동방 가톨릭 교회들의 참여를 통해 교회의 보편성을 어떻게 더 구체적으로 구현할 수 있을지 보여주는 가톨릭 교회의 경험이기도 합니다."
+      "ko": "많은 젊은이들에게 WYD는 전 세계의 다양한 언어와 문화를 접하는 진정한 경험입니다. 하지만 이는 또한 아프리카나 중동 국가 중 한 곳에서 열릴 수도 있는 WYD를 앞두고, 그리고 바로 이곳 서울에서 열리는 이번 대회를 통해, 동방 가톨릭 교회들의 참여를 통해 교회의 보편성을 어떻게 더 구체적으로 구현할 수 있을지 보여주는 가톨릭 교회의 경험이기도 합니다.",
+      "en": "For many young people, WYD is a genuine experience of encountering the diverse languages and cultures of the whole world. But it is also an experience of the Catholic Church that shows how the universality of the Church can be realised more concretely through the participation of the Eastern Catholic Churches — ahead of a WYD that might be held in an African or Middle Eastern country, and through this event held right here in Seoul."
     }
   },
   {
     "id": "O7",
     "no": 7,
     "topic": {
-      "ko": "조직위원회 관련"
+      "ko": "조직위원회 관련",
+      "en": "Local Organising Committee"
     },
     "text": {
-      "ko": "WYD에 물리적으로 참가가 불가한 순례자들의 경우 대회에 어떻게 참여할 수 있을지"
+      "ko": "WYD에 물리적으로 참가가 불가한 순례자들의 경우 대회에 어떻게 참여할 수 있을지",
+      "en": "How pilgrims who cannot physically attend WYD might take part in the event."
     }
   },
   {
     "id": "O8",
     "no": 8,
     "topic": {
-      "ko": "[본대회] 개막미사·교황 환영행사·십자가의 길"
+      "ko": "[본대회] 개막미사·교황 환영행사·십자가의 길",
+      "en": "[Main Event] Opening Mass · Papal Welcome · Way of the Cross"
     },
     "text": {
-      "ko": "“안”과 “밖”에 대한 심리적 인식은 중요합니다. 경기장의 경계가 정해지면, 평화공원에 있는 사람들은 자연스럽게 주요 행사가 경기장 안에서 진행되고 있다는 사실을 알게 될 것입니다. 경기장 밖에서 아무리 훌륭한 프로그램을 진행하더라도 이러한 인식을 없애기는 어려울 수 있습니다."
+      "ko": "“안”과 “밖”에 대한 심리적 인식은 중요합니다. 경기장의 경계가 정해지면, 평화공원에 있는 사람들은 자연스럽게 주요 행사가 경기장 안에서 진행되고 있다는 사실을 알게 될 것입니다. 경기장 밖에서 아무리 훌륭한 프로그램을 진행하더라도 이러한 인식을 없애기는 어려울 수 있습니다.",
+      "en": "The psychological perception of 'inside' and 'outside' matters. Once the boundary of the stadium is set, people in the Peace Park will naturally realise that the main events are taking place inside the stadium. However excellent the programme outside the stadium may be, it may be difficult to remove this perception."
     }
   },
   {
     "id": "O9",
     "no": 9,
     "topic": {
-      "ko": "[본대회] 개막미사·교황 환영행사·십자가의 길"
+      "ko": "[본대회] 개막미사·교황 환영행사·십자가의 길",
+      "en": "[Main Event] Opening Mass · Papal Welcome · Way of the Cross"
     },
     "text": {
-      "ko": "서울 월드컵 경기장에 대해 우려하고 있습니다. 좌석 배정이 공평하더라도 물리적 장벽 자체가 배제를 암시할 수 있습니다. 대규모 대표단의 경우, 왜 어떤 사람들은 경기장에 들어가고 다른 사람들은 화면으로 봐야 하는지 설명하기 어려울 것입니다. 청년들은 참석을 꺼릴 수도 있습니다. 다른 사람들이 경기장 안에 있는 동안 멀리서 화면으로 봐야 한다면, 이는 의욕을 꺾게 될 것입니다. 재고해 주시기를 바랍니다."
+      "ko": "서울 월드컵 경기장에 대해 우려하고 있습니다. 좌석 배정이 공평하더라도 물리적 장벽 자체가 배제를 암시할 수 있습니다. 대규모 대표단의 경우, 왜 어떤 사람들은 경기장에 들어가고 다른 사람들은 화면으로 봐야 하는지 설명하기 어려울 것입니다. 청년들은 참석을 꺼릴 수도 있습니다. 다른 사람들이 경기장 안에 있는 동안 멀리서 화면으로 봐야 한다면, 이는 의욕을 꺾게 될 것입니다. 재고해 주시기를 바랍니다.",
+      "en": "We are concerned about Seoul World Cup Stadium. Even if seating allocation is fair, the physical barrier itself can suggest exclusion. For large delegations, it will be hard to explain why some people go into the stadium while others have to watch on a screen. Young people may be reluctant to attend. Having to watch on a screen from afar while others are inside the stadium will be discouraging. We ask you to reconsider."
     }
   },
   {
     "id": "O10",
     "no": 10,
     "topic": {
-      "ko": "[본대회] 개막미사·교황 환영행사·십자가의 길"
+      "ko": "[본대회] 개막미사·교황 환영행사·십자가의 길",
+      "en": "[Main Event] Opening Mass · Papal Welcome · Way of the Cross"
     },
     "text": {
-      "ko": "경기장 방식이 수용 인원 제한 문제를 해결하기보다는 그저 관리하는 데 그친다는 점에 대해 여전히 깊은 우려를 가지고 있습니다. 로테이션과 평화공원 방식이 공정할 수는 있겠지만, 많은 순례자들은 여전히 주요 행사에서 소외감을 느낄 것입니다. 청년들은 WYD에 참석하기 위해 큰 희생을 치릅니다. 만약 그들이 행사에 온전히 참여하지 못한다면, 많은 사람들이 당연히 “가는 게 무슨 의미가 있는가?”라고 물을 것입니다."
+      "ko": "경기장 방식이 수용 인원 제한 문제를 해결하기보다는 그저 관리하는 데 그친다는 점에 대해 여전히 깊은 우려를 가지고 있습니다. 로테이션과 평화공원 방식이 공정할 수는 있겠지만, 많은 순례자들은 여전히 주요 행사에서 소외감을 느낄 것입니다. 청년들은 WYD에 참석하기 위해 큰 희생을 치릅니다. 만약 그들이 행사에 온전히 참여하지 못한다면, 많은 사람들이 당연히 “가는 게 무슨 의미가 있는가?”라고 물을 것입니다.",
+      "en": "We remain deeply concerned that the stadium approach merely manages the capacity limit rather than solving it. Rotation and the Peace Park approach may be fair, but many pilgrims will still feel left out of the main events. Young people make great sacrifices to attend WYD. If they cannot take part fully in the events, many will naturally ask, 'What is the point of going?'"
     }
   },
   {
     "id": "O11",
     "no": 11,
     "topic": {
-      "ko": "[본대회] 개막미사·교황 환영행사·십자가의 길"
+      "ko": "[본대회] 개막미사·교황 환영행사·십자가의 길",
+      "en": "[Main Event] Opening Mass · Papal Welcome · Way of the Cross"
     },
     "text": {
-      "ko": "제안된 경기장 시스템은 수용 인원 문제를 해결하기보다는 입장 제한을 관리하는 데 초점을 맞추고 있습니다. “3회 순환 / 중복 배정 금지” 방식은 경기장 입장 기회를 공정하게 배분할 수는 있겠지만, 그럼에도 불구하고 많은 등록된 순례자들이 특정 행사가 열리는 주 경기장 내부에서 행사에 참여하지 못하게 될 것입니다."
+      "ko": "제안된 경기장 시스템은 수용 인원 문제를 해결하기보다는 입장 제한을 관리하는 데 초점을 맞추고 있습니다. “3회 순환 / 중복 배정 금지” 방식은 경기장 입장 기회를 공정하게 배분할 수는 있겠지만, 그럼에도 불구하고 많은 등록된 순례자들이 특정 행사가 열리는 주 경기장 내부에서 행사에 참여하지 못하게 될 것입니다.",
+      "en": "The proposed stadium system focuses on managing restricted entry rather than solving the capacity problem. The '3 rotations / no double allocation' approach may distribute the opportunity to enter the stadium fairly, but even so, many registered pilgrims will not be able to take part in the events inside the main stadium where particular events are held."
     }
   },
   {
     "id": "O12",
     "no": 12,
     "topic": {
-      "ko": "[본대회] 개막미사·교황 환영행사·십자가의 길"
+      "ko": "[본대회] 개막미사·교황 환영행사·십자가의 길",
+      "en": "[Main Event] Opening Mass · Papal Welcome · Way of the Cross"
     },
     "text": {
-      "ko": "경기장 - 혼잡과 혼란이 발생할까 우려됩니다. 각 행사마다 출입 경로가 다른 상황에서 수많은 순례자들을 경기장과 평화 공원 사이로 순환시키다 보면, 인파 이동과 의사소통에 큰 어려움이 생길 수 있습니다. 수십만 명이 한꺼번에 이동하는 상황에서 사소한 오해조차도 순식간에 안전 및 사목적 문제로 번질 수 있습니다."
+      "ko": "경기장 - 혼잡과 혼란이 발생할까 우려됩니다. 각 행사마다 출입 경로가 다른 상황에서 수많은 순례자들을 경기장과 평화 공원 사이로 순환시키다 보면, 인파 이동과 의사소통에 큰 어려움이 생길 수 있습니다. 수십만 명이 한꺼번에 이동하는 상황에서 사소한 오해조차도 순식간에 안전 및 사목적 문제로 번질 수 있습니다.",
+      "en": "Stadium – we are worried about congestion and confusion. Rotating huge numbers of pilgrims between the stadium and the Peace Park, with different entry and exit routes for each event, could cause major difficulties in crowd movement and communication. When hundreds of thousands of people are moving at once, even a minor misunderstanding can quickly turn into a safety and pastoral problem."
     }
   },
   {
     "id": "O13",
     "no": 13,
     "topic": {
-      "ko": "[본대회] 전례"
+      "ko": "[본대회] 전례",
+      "en": "[Main Event] Liturgy"
     },
     "text": {
-      "ko": "전례에 각별한 주의를 기울여 주시기 바랍니다. 가능하다면 대상자가 젊은이들이라는 점을 고려해 주시기 바랍니다. 희년 행사 이후, 젊은이들과 인솔자들은 전례가 세심하게 준비되고 새로운 세대를 배려할 수 있도록(찬양, 제스처, 침묵 등에서…) 요청해 왔습니다."
+      "ko": "전례에 각별한 주의를 기울여 주시기 바랍니다. 가능하다면 대상자가 젊은이들이라는 점을 고려해 주시기 바랍니다. 희년 행사 이후, 젊은이들과 인솔자들은 전례가 세심하게 준비되고 새로운 세대를 배려할 수 있도록(찬양, 제스처, 침묵 등에서…) 요청해 왔습니다.",
+      "en": "Please pay particular attention to the liturgy. If possible, please take into account that the participants are young people. Since the Jubilee events, young people and their leaders have asked that the liturgy be carefully prepared and attentive to the new generation (in music, gestures, silence, etc.)."
     }
   }
 ];
@@ -3204,42 +3922,52 @@ export const OPINIONS = [
 export const MEETING_INFO = [
   {
     "label": {
-      "ko": "회의명"
+      "ko": "회의명",
+      "en": "Meeting"
     },
     "value": {
-      "ko": "2027 서울 세계청년대회 제2차 국제준비회의"
+      "ko": "2027 서울 세계청년대회 제2차 국제준비회의",
+      "en": "WYD Seoul 2027 Second Preparatory Meeting"
     }
   },
   {
     "label": {
-      "ko": "일자"
+      "ko": "일자",
+      "en": "Date"
     },
     "value": {
-      "ko": "2026. 9. 14.(월) ~ 17.(목)"
+      "ko": "2026. 9. 14.(월) ~ 17.(목)",
+      "en": "September 14 (Mon) – 17 (Thu), 2026"
     }
   },
   {
     "label": {
-      "ko": "장소"
+      "ko": "장소",
+      "en": "Venue"
     },
     "value": {
-      "ko": "네스트 호텔 (인천 소재)"
+      "ko": "네스트 호텔 (인천 소재)",
+      "en": "Nest Hotel, Incheon"
     }
   },
   {
     "label": {
-      "ko": "참가인원"
+      "ko": "참가인원",
+      "en": "Participants"
     },
     "value": {
-      "ko": "총 100여 개국 교구 및 수도회, 신심단체 관계자 등 270여명"
+      "ko": "총 100여 개국 교구 및 수도회, 신심단체 관계자 등 270여명",
+      "en": "Approx. 270 representatives of dioceses, religious congregations and ecclesial associations from about 100 countries"
     }
   },
   {
     "label": {
-      "ko": "주최/주관"
+      "ko": "주최/주관",
+      "en": "Organizers"
     },
     "value": {
-      "ko": "교황청 평신도가정생명부, 2027 서울 세계청년대회 조직위원회"
+      "ko": "교황청 평신도가정생명부, 2027 서울 세계청년대회 조직위원회",
+      "en": "Dicastery for Laity, Family and Life\nWYD Seoul 2027 Local Organizing Committee"
     }
   }
 ];

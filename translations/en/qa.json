@@ -1,0 +1,589 @@
+{
+  "_출처": "#2PM_Session_Q_A_Final_EN_261019.xlsx 의 Questions 시트 (Question·Answer 열만, 확인된 영어). 번호 NO.n = Qn",
+  "qa": {
+    "Q1": {
+      "q": "Can a group from one country (a diocese, organization or individual group) register independently, or does it need the episcopal conference's approval or a joint registration?",
+      "a": "Each diocese, organization or individual group in a country can register independently through the registration system; it does not have to register jointly through the episcopal conference.\nHowever, whether prior approval from the episcopal conference or national-level coordination of participation is needed may depend on each episcopal conference's internal policy, so please check with your episcopal conference or national WYD coordinator."
+    },
+    "Q2": {
+      "q": "How many leaders and assistant leaders are required for each group size, and can additional leaders be designated later? Also, how much information can group leaders and Subgroup leaders view and manage?",
+      "a": "A Single Group and a Macrogroup each have one group leader and one second group leader. If a group is large, or its members have different arrival and departure dates in Seoul or different packages, Subgroups can be formed within the Macrogroup. A Subgroup can be created with an account separate from the Macrogroup leader's account, and in that case the Subgroup also designates one group leader and one second group leader.\nThe Subgroup's group leader and second group leader can view and edit that Subgroup's registration information and make payment. For a Subgroup created with a separate account, the Macrogroup's group leader can view its registration information and make payment, but is not given permission to edit the information directly."
+    },
+    "Q3": {
+      "q": "Can a single family be recognized as one Subgroup within a Macrogroup? What is the minimum number of people? And in shared accommodation, if minors are separated from adults, who is responsible for them?",
+      "a": "There is no minimum size for a Macrogroup. The criteria for forming a Subgroup within a Macrogroup are the same package and the same arrival/departure dates in Seoul. A family that chooses the same package and has the same stay in Seoul can therefore form one Subgroup.\nUnder the Safeguarding Policy of WYD Seoul 2027, the basic principle is that adults and minors are accommodated separately. This must, however, be applied together with the safeguarding rules of each country's episcopal conference and national regulations, and with practical safety requirements.\nFor example, some countries do not allow even adult chaperones to use the same accommodation as minors. In such cases, chaperones can stay in a space close to the minors' accommodation so that they can respond quickly if a problem arises. In some countries, two adult chaperones stay in the minors' accommodation and take turns supervising.\nConversely, where a country's episcopal conference or national standards consider it more appropriate for the safety and protection of minors that adult chaperones sleep in the same space as the minors in their care, sleeping in the same space is also possible in line with those standards. Even then, appropriate safeguards must be in place, such as designating a minor representative who can contact the chaperone immediately in an emergency.\nThe arrangements for minors' accommodation may therefore vary according to each country's safeguarding rules and the safety situation on site, and it is difficult to set a single policy that applies uniformly in every case.\nThe WYD Seoul 2027 LOC sets out the Safeguarding Policy of WYD Seoul 2027 while respecting the safeguarding policies and standards of each country's episcopal conference, as co-organizers. The decision on which accommodation arrangement to choose under those standards, and the responsibility that follows from it, rest with each pilgrim group."
+    },
+    "Q4": {
+      "q": "If a representative registered under our diocese (vicariate) is coming from another country (e.g. the child of a parishioner living abroad who wants to accompany their parents), is it right to register them under our organization?",
+      "a": "A participant who lives abroad or departs from another country can be registered in your diocesan (vicariate) group if they will take part as a member of that group, under the group leader's guidance and supervision. For example, the child of a parishioner living abroad who joins your diocesan group with their parents can be registered in the same group."
+    },
+    "Q5": {
+      "q": "For international organizations or bodies made up of several countries or dioceses, how should registration and package selection be handled when members of the same group or Macrogroup arrive or depart on different dates, at different times, or by different flights or means of transport?",
+      "a": "Register one Macrogroup in the name of your international organization or diocese, and then register Subgroups made up of participants who share the same package and the same stay in Seoul. Each Subgroup can register up to 150 people."
+    },
+    "Q6": {
+      "q": "Do priests, deacons and religious register as members of an ordinary pilgrim group, or do they register separately? Is it the same when a priest belongs to a Macrogroup?",
+      "a": "Priests, deacons and religious all register as participants in an ordinary pilgrim group. In a Macrogroup too, pilgrims are actually registered by Subgroup, so they are registered in the Subgroup they belong to. Unlike other pilgrims, priests and deacons must have their personal details entered separately for identity verification and clergy-related preparations; the group leader collects this information and enters it in the registration system."
+    },
+    "Q7": {
+      "q": "We are the coordinators of an international group. Is it better to create one Macrogroup with a Subgroup for each country, or a separate Macrogroup for each country with Subgroups by package inside it?",
+      "a": "The registration structure for an international group is best chosen in light of how the group operates and the role of each country's coordinator. If the international coordinator will manage the whole group and each country's coordinator will manage a Subgroup, you could form country Subgroups under one Macrogroup. If, on the other hand, each country will manage its participants and its registration and payment independently, a separate Macrogroup for each country may be easier to manage. Whether to form Subgroups by package should be considered according to each country's participants and package choices."
+    },
+    "Q8": {
+      "q": "If the number of pilgrims in a Single Group grows, is it automatically converted into a Macrogroup?",
+      "a": "A Single Group is not automatically converted into a Macrogroup when its number of pilgrims grows. A Single Group can register up to 150 people, so if your numbers may exceed 150, you must register as a Macrogroup from the start. The group type is chosen when registration begins and cannot be changed once registration has started."
+    },
+    "Q9": {
+      "q": "You said the difference between a Single Group and a Macrogroup is not just the number of people. What conditions (characteristics) must be met to be a Macrogroup, and what are the advantages of registering as one?",
+      "a": "The difference between a Single Group and a Macrogroup lies not only in the number of participants but also in the participation dates, the package arrangements and how registration is managed. A Single Group registers up to 150 people as one group without Subgroups, and suits groups in which every participant has the same dates and package. A Macrogroup can register up to 5,000 people and can manage participants with different dates or packages by dividing them into Subgroups. Each Subgroup is made up of participants with the same package and the same arrival and departure dates. The advantage of a Macrogroup is that, while keeping several Subgroups under one organization, each Subgroup can register, edit its information and pay independently. Please choose the registration type in light of not only group size but also the variety of dates and packages and the need to manage each Subgroup separately."
+    },
+    "Q10": {
+      "q": "Do people who belong to the same group but travel to Korea individually need to form a separate Subgroup?",
+      "a": "Even if they travel to Korea individually, they can register in the same group without forming a separate Subgroup, provided they will follow the same schedule during WYD Seoul 2027, use the same package, and take part under the guidance and supervision of the same group leader. If participants choose different packages or dates, however, Subgroups may be needed, so please check the detailed criteria in the registration system."
+    },
+    "Q11": {
+      "q": "We are a Single Group of fewer than 150 people arriving by two different means of transport. Can we register as one group and be picked up at two different places?",
+      "a": "A Single Group of fewer than 150 people can register as one group even if its members arrive by different means of transport, provided they will take part on the same schedule and package under the guidance and supervision of the same group leader.\nRegistering as one group and being picked up at two places are, however, separate matters. The LOC currently has no plans to provide a pickup service on arrival at the airport, so please make your own way from each arrival point to the check-in location and your accommodation. For travel from your accommodation to the main venues and catechesis venues, you can use public transport with the transport card included in your package."
+    },
+    "Q12": {
+      "q": "Is there a limit on the number of Macrogroups a diocese can form?",
+      "a": "There is no limit on the number of Macrogroups; only the number of people in a group is limited, to 5,000 or fewer."
+    },
+    "Q13": {
+      "q": "What role does the episcopal conference play in the registration process? Do all groups need the approval of the episcopal conference's youth department?",
+      "a": "Each episcopal conference is allowed to decide its role in registration. The LOC does not require all groups from a country to have the approval of the episcopal conference's youth department in order to register."
+    },
+    "Q14": {
+      "q": "Our group is taking part in Days in the Dioceses, but we are preparing our own program (and arranging our own accommodation) and do not need the LOC's logistical support. On the registration portal, should we tick 'Yes' or 'No' for participation in Days in the Dioceses?",
+      "a": "Please tick 'Yes' so that it can be taken into account in preparing and running Days in the Dioceses."
+    },
+    "Q15": {
+      "q": "From the start of registration, will direct support be provided so that each country's coordinator can resolve registration queries? And will you provide a full video with step-by-step guidance?",
+      "a": "We are preparing support measures and guidance materials so that each country's coordinators can respond smoothly to registration queries. Whether to offer direct support for coordinators, and a full video explaining the registration procedure step by step, is currently under internal review and discussion; we will share the details and timing as soon as they are confirmed."
+    },
+    "Q16": {
+      "q": "Is a group registration officially confirmed (including allocation of zones, accommodation, etc.) only after full payment, or is it already confirmed when basic information is first submitted on the registration portal?",
+      "a": "A group registration is officially confirmed only once the Participation Contribution has been paid in full."
+    },
+    "Q17": {
+      "q": "What documents are needed to register and verify priests? Are a celebret, faculties and a certificate of good standing required? For priests of a religious order, is a certificate from the provincial sufficient, or is one from the diocesan bishop required?",
+      "a": "Priests register as members of their group. To verify their status as priests, they must submit a photo of their ID, a certificate of priestly status issued by the Ordinary of their diocese, and a safeguarding declaration for minors and vulnerable adults. Priests of a religious order may submit a certificate from their provincial."
+    },
+    "Q18": {
+      "q": "When does registration begin? Can the pilgrims of a Macrogroup be registered in stages, or must it all be done at once?",
+      "a": "Online registration is scheduled to open at the end of October, and a Macrogroup does not need to complete its whole registration at once. Using the registration system's 'Save as draft' function, you can save what you have entered and later add further information or edit it. Please make payment after entering and checking all the required registration information. You can also form Subgroups within the Macrogroup, register the Subgroups that are ready first, and register the rest one by one as they become ready."
+    },
+    "Q19": {
+      "q": "What are the age criteria and participant limits for pilgrims, and in what capacity should young people over 30, adults in their 40s and 50s and older, or elderly companions register?",
+      "a": "World Youth Day is designed mainly around young people aged 14 to 30, but it is open to everyone who wishes to take part, and there are no limits on pilgrims' age or numbers. Participants over 30, adults in their 40s and 50s, and elderly companions can therefore all register as members of a pilgrim group without any separate category."
+    },
+    "Q20": {
+      "q": "During registration, can participants be added or removed, or the information entered be changed?",
+      "a": "Yes. Before payment is complete, the group leader can increase or decrease the total number of participants in the registration system and can edit the information entered for priests and deacons, pilgrims with disabilities and visa applicants. After payment is complete, please contact the LOC to request changes. Please note, however, that if the number of participants falls, the Participation Contribution for those participants is not refunded."
+    },
+    "Q21": {
+      "q": "When a participant cancels, can their place be transferred to someone on a waiting list or to another pilgrim? Until when, and to what extent, can changes be made?",
+      "a": "Pilgrims other than the group leader and second group leader can be replaced by another participant, regardless of when they registered or whether payment has been made. A pilgrim who cancels can therefore be replaced by someone on a waiting list or by another pilgrim. Please note, however, that if a group's total number of participants falls after payment because a participant is not replaced, the amount paid for those participants is not refunded."
+    },
+    "Q22": {
+      "q": "If a leader enters a pilgrim's information incorrectly, can the pilgrim correct it themselves?",
+      "a": "Pilgrims cannot edit their own information in the registration system. Individual participant information needs to be entered only for the group leader and second group leader, priests and deacons, pilgrims with disabilities, and participants who need visa support. If the group leader enters this information incorrectly, they can correct it themselves before payment is complete. If changes are needed after payment, please send your request to the LOC (inquiries@wydseoul.org)."
+    },
+    "Q23": {
+      "q": "If we are unable to attend WYD for unavoidable reasons (e.g. war, natural disaster), can we get a refund at any stage, or is no refund possible at all once every payment stage is complete?",
+      "a": "In principle, Participation Contributions are non-refundable. As an exception, however, a refund will be made only where a visa has been refused and supporting documents confirming this are submitted. Refunds are processed after the event, and the amount paid out excludes related fees and charges. At present, reasons other than visa refusal, such as war or natural disaster, are not covered, but we will consider these reasons carefully as well."
+    },
+    "Q24": {
+      "q": "For international transfers and accounting purposes, can we obtain an official invoice or a bill bearing an official seal?",
+      "a": "At present, we do not issue a standard invoice. We do understand, however, that legal and accounting requirements for international transfers differ by country and organization, and the LOC is reviewing what form of documentation it can provide for payment, on the basis that payment is made directly to the LOC. We will let you know the outcome as soon as it is confirmed."
+    },
+    "Q25": {
+      "q": "Within the same Macrogroup, can each Subgroup choose a different package and pay separately? We would also like to know how a payment delay by some Subgroups affects the Macrogroup as a whole.",
+      "a": "Yes. Within the same Macrogroup, each Subgroup can choose a different package and pay separately. Please make up each Subgroup of pilgrims who share the same stay in Seoul for WYD Seoul 2027 and the same package. Because payment is made per Subgroup, a delay in payment by some Subgroups will not affect the registration or payment of other Subgroups or of the Macrogroup."
+    },
+    "Q26": {
+      "q": "What are the payment schedules and deadlines for registration and for each package? Can we be told the deadline for each item, such as the first payment, installments, the balance and insurance?",
+      "a": "Payment is possible from the day the registration system opens. Payment deadlines depend on the package type and payment method:\n- Packages with accommodation: by May 31, 2027\n- Packages without accommodation: before on-site registration opens (on-site registration opens in late July; the exact date will be announced later)\n- Packages without accommodation (international bank transfer): by June 30, 2027\nBecause international bank transfers take time between banks, the deadline for packages without accommodation paid this way is earlier. If you cannot complete payment by the deadline, you can pay through on-site registration (on-site registration opens in late July; the exact date will be announced later).\n\nWhen paying in installments, there is no separate deadline for the first payment, but the full amount must be paid by the deadline above. The Participation Contribution cannot be split by package item; it can only be paid as the full package amount."
+    },
+    "Q27": {
+      "q": "How much is the Participation Contribution, and by what methods and in which currencies can it be paid? Only in dollars, or also in euros? What do 'other payment methods' include, and can different organizations split the payment for one group?",
+      "a": "The Participation Contribution can be found on the official WYD Seoul 2027 website. Payment is made in Korean won in the Republic of Korea and in US dollars in all other countries. If you select 'pay in local currency' in the payment window, you can also pay in the currencies of major countries; any additional fees this incurs are borne by the payer. The payment methods are:\n- Credit and debit cards\n- Bank transfer (virtual account)\n- Mobile payment: Naver Pay and Kakao Pay in Korea; Apple Pay and Alipay abroad"
+    },
+    "Q28": {
+      "q": "Are the Participation Contribution and the Solidarity Fund mandatory? According to the survey results, many groups need financial support yet would have to pay more on top of the registration fee, so we wonder whether the Participation Contribution is truly mandatory. We would also like to know whether Solidarity Fund contributions can be designated to support pilgrims from a particular country or region.",
+      "a": "Taking part in World Youth Day itself costs nothing. To take part as a 'registered participant,' however, you must pay the Participation Contribution. Registered participants who have paid the contribution choose the package they want and receive accommodation, meals, transport, insurance and a pilgrim kit. Those who take part without registering do not receive these packages.\nThe Solidarity Fund is a voluntary donation that helps more pilgrims take part, especially young people from countries in difficult circumstances. It is not mandatory; it is made up of voluntary contributions from pilgrims who share its purpose."
+    },
+    "Q29": {
+      "q": "How much does registration and participation cost for each package, and are there discounts based on Macrogroup size or for early or lump-sum payment? Also, do minors pay the same as adults, and are there separate discounts or financial support for them?",
+      "a": "The Participation Contribution for each package can be found on the official WYD Seoul 2027 website and applies equally to all pilgrims regardless of age. There are no discounts for minors, group size, early payment or the like. Instead, the LOC has set the Participation Contribution for each package at the lowest reasonable level so that every pilgrim can take part."
+    },
+    "Q30": {
+      "q": "What are the eligibility criteria for countries, groups and individual pilgrims to receive Solidarity Fund support, and through what procedure and channel (LOC, DLFL, website, email, etc.) is the application made? Can only some pilgrims apply for support, rather than the whole Macrogroup?",
+      "a": "The LOC is currently reviewing the eligibility criteria and application procedure for the Solidarity Fund in consultation with the Dicastery for Laity, Family and Life. Details such as eligibility and how to apply will be announced as soon as they are confirmed."
+    },
+    "Q31": {
+      "q": "Will there be a management function allowing episcopal conference representatives to access the online registration system's 'back office' and see the groups and group leaders registered from their country? This has been possible at every WYD of the last ten years.",
+      "a": "Episcopal conference representatives can request access to the registration system's back office, with viewing (read-only) rights, from the DLFL. This allows them to see the registration status for their country."
+    },
+    "Q32": {
+      "q": "Please tell us the registration procedure for bishops and whether there is a separate registration for taking part in the Catecheses. Please also explain the check-in procedure for each type of bishops' accommodation and how clerical items are collected.",
+      "a": "Bishops also register through the registration system (bishops). The bishops who will give the Catecheses will be selected and managed by the DLFL. Check-in for bishops staying at hotels designated by the LOC will take place at those hotels, and items can also be collected there. Check-in and collection of items for bishops using other accommodation are currently under discussion."
+    },
+    "Q33": {
+      "q": "Can bishops choose between a homestay and a hotel? If they can choose a homestay, why are bishops given that choice rather than homestays being given first to young pilgrims? And who pays for the hotels the LOC provides for bishops, and what type of room (single, etc.) is it?",
+      "a": "Bishops can choose among a hotel, a homestay, staying with the group accompanying them, or arranging their own accommodation. This is to let bishops choose according to their circumstances. Hotel costs are paid by the bishops themselves. Single rooms will be assigned as standard."
+    },
+    "Q34": {
+      "q": "For 2027, which countries are subject to K-ETA and which are exempt? Can it be applied for individually or as a group?",
+      "a": "Currently, through December 31, 2026, K-ETA applies to 88 countries and 22 countries are exempt from K-ETA. For details, please see\nhttps://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299706&esntlPnotiMtYn=Y where you can check whether your country is exempt. We are in discussions with the Ministry of Justice on whether the K-ETA exemption can be extended through next year.\nK-ETA cannot be applied for as a group; please apply individually."
+    },
+    "Q35": {
+      "q": "Will the LOC provide the address and contact details in Korea that are needed for a visa application?",
+      "a": "For the address and contact details in Korea on your visa application, please enter the LOC's details. This information can be found in the certificate of participation issued by the registration system."
+    },
+    "Q36": {
+      "q": "Our group has pilgrims of various nationalities. Will guidance be provided to check whether each nationality needs a visa or K-ETA?\nIs there a dedicated WYD visa?\nWe would also like to know what a C-3 visa is and whether visa-exempt pilgrims need an invitation letter.",
+      "a": "We do not provide separate visa guidance materials. Visa and K-ETA requirements differ by nationality, so please visit https://www.visa.go.kr/ to check the visa requirements for each country.\nThere is no dedicated WYD visa.\nC-3 is a short-term visit visa; details of the permitted stay are being discussed with the government and will be announced later. Visa-exempt pilgrims do not need an invitation letter."
+    },
+    "Q37": {
+      "q": "Is the LOC or the DLFL informing the Korean embassies and consulates in each country about WYD and the visa procedure for participants? Will there be help with visa appointments, group applications, arrangements for pilgrims living far from an embassy (e.g. batch applications), and separate consideration of the purpose of attending WYD?",
+      "a": "The LOC is informing and communicating with Korean embassies and consulates about the WYD visa procedure. For this Second International Preparatory Meeting too, we received a great deal of help through consultation with the government. The LOC will continue to work closely with the Korean government to simplify visa procedures and will share further information later."
+    },
+    "Q38": {
+      "q": "How much is the visa fee, and is a fee waiver or discount for WYD pilgrims being considered?",
+      "a": "The visa fee, and whether it will be waived or discounted for WYD participants, are currently under discussion with the relevant authorities. We will let you know as soon as this is confirmed."
+    },
+    "Q39": {
+      "q": "Is there support regarding alternative documents for pilgrims, such as students, who cannot easily submit a certificate of employment or pay slips?",
+      "a": "We are currently discussing visa supporting documents for students, young participants and others with the relevant authorities. We will let you know as soon as the specific requirements, including alternative documents, are confirmed."
+    },
+    "Q40": {
+      "q": "What does it cost to take part as an international volunteer, and can visa holders apply for long-term volunteering?",
+      "a": "There is no separate participation cost for international long-term volunteers. The LOC provides accommodation, weekday lunch vouchers, and part of transport and meal costs; other costs are borne by the volunteers themselves.\n\nInternational volunteers must obtain a visa to serve in Korea for an extended period (three months or more), and most receive a religious visa (D-6). Those who already hold a visa can also apply, and this has the advantage of making entry much easier. Please note, however, that even visa holders must go through the same international long-term volunteer application procedure and may likewise be asked to submit a letter of recommendation from their diocese or episcopal conference."
+    },
+    "Q41": {
+      "q": "What is the procedure for consulting and collaborating with the volunteer committee, and what needs to be prepared?",
+      "a": "A volunteer section will be set up on the official WYD website. Until then, please contact volunteer.intl@wydseoul.org."
+    },
+    "Q42": {
+      "q": "What is the difference between long-term and short-term volunteers, and what are the eligibility requirements and registration procedure?",
+      "a": "1. Long-term volunteering\nLong-term volunteers serve with the LOC for three months or more and take part in preparing and planning WYD Seoul 2027. They are divided into division volunteers and team volunteers according to their hours and area of service. Recruitment (separately for those living in Korea and abroad) is announced on the LOC website. Those selected from abroad as long-term volunteers are provided with accommodation and part of their meal and transport costs.\n\n2. Short-term volunteering\nShort-term volunteers serve mainly during the Main Event of WYD Seoul 2027, from August 3 to 8, 2027. As at previous editions, service begins about a week before the Main Event, so they must arrive in Korea by July 26 and take part from the preparatory programs onward, such as training and the volunteers' commissioning Mass. Applications for short-term volunteering will be made through the official volunteer registration system."
+    },
+    "Q43": {
+      "q": "How many seats do the buses commonly used for group travel in Korea have? What is the availability and supply of 45-seat and 53-seat buses?",
+      "a": "The group buses commonly used in Korea are 45-seaters only. The event falls during the holiday season, so bus supply will not be a problem, but costs may be higher than usual."
+    },
+    "Q44": {
+      "q": "What will the operating hours of public transport such as the subway and buses be during WYD? Are there plans for late-night or 24-hour service, extended hours, or extra services to cope with congestion during the event? And what transport measures will be put in place for travel between accommodation and the main venues?",
+      "a": "To make public transport convenient for pilgrims during WYD, we are in ongoing discussions with the Seoul Metropolitan Government and related agencies about adding subway, bus and other public transport services."
+    },
+    "Q45": {
+      "q": "Can you confirm whether members of the same group may arrive in and depart from Seoul on different flights, even if their arrival and departure dates are the same?",
+      "a": "Participants in the same group may arrive in and depart from Seoul on different flights. If their arrival and departure dates are the same, they use the same package and they take part under the guidance and supervision of the same group leader, there is no need to form a separate Subgroup just because the flights differ."
+    },
+    "Q46": {
+      "q": "Can married couples or families ask to stay in the same accommodation?",
+      "a": "If married couples or families wish to stay together, please register them in the same group. As a rule, participants in the same group are assigned to the same accommodation.\nHowever, assignments are made according to overall accommodation capacity and operating criteria, so we regret that individual accommodation requests cannot be accommodated. Even when assigned to the same accommodation, a family room or the same room is not guaranteed."
+    },
+    "Q47": {
+      "q": "What kind of accommodation is provided in the pilgrim packages, and what must participants bring themselves, such as sleeping bags? And if numbers exceed expectations, how will additional accommodation be secured?",
+      "a": "The accommodation in the packages is provided as shared accommodation in parishes, schools, and public facilities, or as homestays.\nBedding is not provided, so participants should bring their own, such as a sleeping bag. The LOC is working to secure a certain amount of reserve accommodation in case numbers exceed expectations.\nPlease understand, however, that after the deadline for packages with accommodation (May 31, 2027), the LOC will not be able to provide accommodation for additional participants."
+    },
+    "Q48": {
+      "q": "If a group arranges its own accommodation, such as a hotel, must it inform the LOC of the accommodation details?",
+      "a": "At registration there is a field for entering details of accommodation you have arranged yourselves.\nThis is requested for reference only and is not mandatory."
+    },
+    "Q49": {
+      "q": "Can group leaders visit or check their assigned accommodation before WYD? And if the actual accommodation differs from the facilities and conditions announced in advance, can we request a change, and what is the procedure?",
+      "a": "Even once accommodation has been assigned before the event, it may be difficult to visit if it is a public facility. You can, however, check the location of the parish where you will check in and of your assigned accommodation. Past editions have shown that accommodation is subject to a great many variables, so please bear in mind that various situations may arise even after assignment. You may request a change of accommodation, but the change procedure will go ahead only where necessary, after the reason has been reviewed."
+    },
+    "Q50": {
+      "q": "Will accommodation be assigned within Seoul, or may it also be outside Seoul? How will access to the main WYD venues and public transport be taken into account, and when and how will each group be told the location of its assigned accommodation and host parish?",
+      "a": "Most accommodation will be within Seoul, though in some cases accommodation may be on the outskirts. Even then, we will consider places from which Seoul can be reached by public transport.\nAssignment results will be sent out by email, in stages, from about one month before the event."
+    },
+    "Q51": {
+      "q": "Many groups have started booking flights, and we are getting many questions about whether accommodation can be requested from the 1st to the 10th. If so, how do we apply?",
+      "a": "The dates depend on the type of package. No package offers accommodation from August 1 to August 10. Please note that A1 runs from August 2 to 9, and A1+1 is split into August 1–9 or August 2–10."
+    },
+    "Q52": {
+      "q": "On what basis are accommodation and host parishes assigned? Can we choose an accommodation option or a particular parish at registration, or is it first come, first served?",
+      "a": "Pilgrims cannot choose a particular type of accommodation or parish in advance; accommodation assignments are decided according to the overall operating situation and capacity. Accommodation is not assigned on a first-come, first-served basis. However, for groups that have completed both registration and payment, the information checks and procedures for assignment can proceed more smoothly, so we recommend completing registration and payment as early as possible."
+    },
+    "Q53": {
+      "q": "Can two different groups be assigned to the same accommodation on request?",
+      "a": "Please understand that it may be difficult to assign different groups to the same accommodation. If you pass on this request to the LOC after registering, we will do our best to help."
+    },
+    "Q54": {
+      "q": "Our group has English-, French- and Spanish-speaking participants. Will the group be split by language, or can we stay together?",
+      "a": "As a rule, the same group is assigned to the same accommodation. If you wish to be assigned to the same accommodation, please register as one group. Depending on the operating situation and capacity, however, members of the same group may unavoidably be assigned to different accommodation. In that case they will be assigned to accommodation as close together as possible."
+    },
+    "Q55": {
+      "q": "Will homestay accommodation still be available after the event, or will we mainly stay in facilities such as churches or gyms?\n\nBecause of transport constraints we may have to split a group of 100 across two or three flights, which means some will arrive before August. What is the procedure in that case? Will they be accepted at the accommodation assigned to the group?",
+      "a": "Your accommodation dates are set by the package you choose.\nIf you need accommodation for dates not included in your package, you must arrange it yourselves."
+    },
+    "Q56": {
+      "q": "Where do we stay on the evening of Monday, August 2? In the dioceses, or already in Seoul?",
+      "a": "Your accommodation dates follow the dates of the package you choose.\nFor example, the A1 package runs from August 2 to 9, so on August 2 you will stay at a location in Seoul."
+    },
+    "Q57": {
+      "q": "Can pilgrims who need to rest during the day because of heatstroke, exhaustion or illness caused by the heat wave use their accommodation or a separate rest area? And can the accommodation be used after the Closing Mass if needed?",
+      "a": "During the Main Event, pilgrims who need to rest during the day because of the heat or a health problem can go to the hub parish designated by the Forane Organizing Committee in each deanery.\n\nPilgrims whose package includes the option to stay after the Closing Mass can also rest at their accommodation."
+    },
+    "Q58": {
+      "q": "Regarding packages, can our group take part without accommodation and transport? If so, how much does it cost? Most packages include transport, and we wonder whether there is an option without these services. Thank you.",
+      "a": "All packages include transport, so we regret that transport cannot be excluded. There are packages without accommodation, so please use one of those."
+    },
+    "Q59": {
+      "q": "Will meals on Saturday, August 7 be provided as packed boxes, or must they be paid for by card before going to the Vigil site?",
+      "a": "Depending on the meals in each package, meal boxes will be provided for the Vigil and Closing Mass. The meal boxes cover four meals in total: lunch and dinner on August 7, and breakfast and lunch on August 8. Pilgrim packages that include meal boxes receive these four meals as meal boxes, without paying separately with the prepaid meal card. On-site arrangements, such as specific distribution times and places, will be announced later."
+    },
+    "Q60": {
+      "q": "How will meal options be provided for pilgrims with special dietary needs such as food allergies, gluten intolerance or vegetarianism? Will information on allergens and ingredients — peanuts, beef, seafood, shrimp, vegetarian allergens — be available for the packed meals and at the outlets that accept the prepaid meal card? And must allergy information be entered only through the app, or will other methods be offered?",
+      "a": "We are reviewing whether to provide special meals, such as gluten-free and vegan, and how to display food information. Whether and how food information such as allergens and ingredients will be provided at the outlets that accept the prepaid meal card is also under review. The range of special meals, how to apply for them and the deadline for changes will be announced once the detailed operating plan is confirmed."
+    },
+    "Q61": {
+      "q": "Will special transport (for people with disabilities or patients) be provided for those who are injured or fall ill during WYD?",
+      "a": "Ambulances will be on standby around the venues at all times, and we plan to provide medical services in cooperation with nearby hospitals."
+    },
+    "Q62": {
+      "q": "Under the Safeguarding Policy, a minor in Korea is someone under 18 years and 7 months, whereas in our country it is someone under 18. In that case there will be no chaperone letter.",
+      "a": "The age of minority may differ from country to country, but for WYD Seoul 2027 the criteria of the Safeguarding Policy for Minors and Vulnerable Adults apply. That policy applies the age criteria of the Republic of Korea's Juvenile Protection Act and classifies participants born on or after January 1, 2009 as minors. This is also the criterion for roles that require adult status, such as pilgrim group leaders and second group leaders, volunteers and chaperones of minors. So even a participant recognized as an adult in their own country must, if they fall within the birth-date criterion above, be accompanied by a parent or legal guardian or by an adult chaperone delegated by them. At least one adult chaperone is required for every 10 minors. Delegated adult chaperones must obtain a written delegation of consent from the minor's parent or legal guardian and carry it throughout the event."
+    },
+    "Q63": {
+      "q": "How are minors registered within a Macrogroup? Are the minors registered first and the chaperones afterward, or are particular chaperones registered together with particular minors?",
+      "a": "At Step 2 of registration, you enter the group's total number of participants and the number and sex of its minors. Within a Macrogroup too, there is no set order for registering minors and chaperones, and no separate procedure for linking particular chaperones to particular minors. However, under the WYD Seoul 2027 Safeguarding Policy for Minors and Vulnerable Adults, at least one adult chaperone must accompany every 10 minors. Delegated adult chaperones must obtain a written delegation of consent from the minor's parent or legal guardian and carry it throughout the event. In addition, where minors are assigned to a homestay, one adult chaperone of the same sex must accompany every two minors of the same sex. Please register minors and chaperones with the number and sex of chaperones required by the policy in mind."
+    },
+    "Q64": {
+      "q": "If something happens to a young person aged 18–19, does Korean law apply, or the law of their home country?",
+      "a": "Korean law applies in principle, and depending on each country's legislation, the law of the home country may also apply concurrently."
+    },
+    "Q65": {
+      "q": "Are special documents needed for minor pilgrims to take part, such as consent from parents or legal guardians and the designation of a chaperone? If so, will the WYD Seoul 2027 LOC provide official forms (Korean/English)?",
+      "a": "For a minor pilgrim to take part, a written consent is needed in which the parent or legal guardian agrees to the minor's participation and entrusts the minor's care to an adult chaperone for the duration of the event. Under the Republic of Korea's Juvenile Protection Act, the chaperone of a minor must be an adult (born on or before December 31, 2008). The legal guardian consent form for minors is available in the registration system in the six official languages."
+    },
+    "Q66": {
+      "q": "We would like to know whether minors can stay in the same accommodation as their chaperones or parents, whether they are separated from the group and assigned separate accommodation, and who is responsible for minors if they cannot stay with their chaperones.",
+      "a": "Minor pilgrims will be assigned to the same accommodation as their parents or adult chaperone (the person named as chaperone in the written delegation, with the consent of the parent or legal guardian). Where they are accompanied by an adult chaperone who is not a parent, we plan to separate the sleeping spaces physically within the same accommodation. Please understand, however, that the arrangements for minors' accommodation may vary according to each country's safeguarding rules and the safety situation on site, and that it is difficult to set a single policy that applies uniformly in every case. The WYD Seoul 2027 LOC sets out the WYD Seoul 2027 Safeguarding Policy while respecting the safeguarding policies and standards of each country's episcopal conference. The decision on which accommodation arrangement to choose under those standards, and the responsibility that follows from it, rest with each pilgrim group."
+    },
+    "Q67": {
+      "q": "Under Scotland's safeguarding rules, religious and clergy leaders may not stay in the same accommodation as young people. Will separate space be provided for them? What about bathrooms?",
+      "a": "No separate space has been prepared for religious and clergy leaders. If you make a separate request after registering, we will do our best to accommodate it. Please understand, however, that this may not be possible given the conditions of the accommodation."
+    },
+    "Q68": {
+      "q": "If a minor needs hospital treatment or admission in an emergency, can the group leader accompany them and receive information on their medical condition and treatment? Will guardian consent and the sharing of medical information be included in the minors' registration form?",
+      "a": "At present, the registration procedure for minors does not include a separate item on medical consent or the sharing of medical information by the adult chaperone or group leader. However, an adult chaperone who has received a written delegation of consent from the parent or legal guardian can be considered to have acquired comprehensive rights as the minor's chaperone. We are considering including guardian consent for emergency treatment and the sharing of medical information in the Safeguarding Policy for Minors and Vulnerable Adults, which is currently being reviewed and revised, and will share the detailed procedure once it is confirmed."
+    },
+    "Q69": {
+      "q": "Is there a special package for minors or children accompanied by their parents (a family package)? How is accommodation assigned in that case? And can children under 14 take part if accompanied by one parent?",
+      "a": "There is no separate family package for minors or children accompanied by their parents. Children under 14 can take part if accompanied by at least one parent or by an adult chaperone delegated by their legal guardian. However, packages that include accommodation provided by the LOC are available only to participants born on or before July 31, 2013. Accommodation provided by the LOC consists mainly of shared facilities such as schools and public buildings, and homestays. Given these conditions and the need to house very large numbers of pilgrims, families taking part with children under 14 are asked to register for a package without accommodation and arrange suitable family accommodation themselves."
+    },
+    "Q70": {
+      "q": "With group registration, where pilgrims do not register individually, how does each pilgrim agree to and sign the Safeguarding Policy and Code of Conduct? Will the relevant guidelines be provided before the registration system opens, and will separate training be offered for pilgrims?",
+      "a": "In the registration system, depending on the type of participation, pilgrim group leaders, clergy (priests and deacons), bishops, volunteers, Vocations Fair participants, Youth Festival participants, media representatives and others agree to and sign the Safeguarding Policy and Code of Conduct. Individual pilgrims must also agree to and sign the policy and Code of Conduct through the Pilgrim App. The Safeguarding Policy and Code of Conduct are currently being reviewed and revised, and the final versions will be shared in early 2027 through the registration system, the official website and each country's episcopal conference. Training materials will also be provided to help pilgrims understand and follow the Safeguarding Policy and Code of Conduct."
+    },
+    "Q71": {
+      "q": "We would like to know whether pilgrims with disabilities will be assigned separate accommodation according to their type of disability or support needs, and whether dedicated staff will support them from arrival in Korea until departure.",
+      "a": "As a rule, pilgrims with disabilities also travel with their own diocese, but they can be assigned separate accommodation if they wish. And while it would be good to have a companion within the group from arrival in Korea until departure, if there is none, we are also considering assigning a volunteer."
+    },
+    "Q72": {
+      "q": "Can pilgrims with disabilities stay and take part in events with their own group, such as their diocese or episcopal conference delegation, while receiving the accessibility and mobility support they need?",
+      "a": "Pilgrims with disabilities will be able to stay with their own group, such as their diocese or episcopal conference delegation, and receive the accessibility and mobility support they need. Details of the support will be provided later through the app or the website."
+    },
+    "Q73": {
+      "q": "What is the registration procedure for pilgrims with disabilities? Please also tell us whether registering a caregiver or companion is mandatory and, where needed, how a pilgrim with a disability and their companion are registered together.",
+      "a": "At registration there is a checklist item asking whether the pilgrim with a disability is accompanied. If so, please tick it. Registering a companion is not mandatory; if there is a companion, please register the companion as a pilgrim too and enter the companion's name and contact details in the remarks field."
+    },
+    "Q74": {
+      "q": "Where are pilgrim kits, cards and so on collected? Where do groups with and without accommodation each check in and collect their items?",
+      "a": "Groups registered for a package with accommodation will check in at their assigned parish and collect pilgrim kits, cards and other items there. The LOC will deliver these items to each parish in advance. Groups registered for a package without accommodation will check in and collect pilgrim kits, cards and other items at the Pilgrim Center. On-site registrants can also collect these items at the Pilgrim Center after completing registration."
+    },
+    "Q75": {
+      "q": "What's in the pilgrim kit?",
+      "a": "A backpack, T-shirt, hat, water bottle, folding fan, sports towel and rosary (bracelet) are planned, though some items may change."
+    },
+    "Q76": {
+      "q": "How will pilgrims without a smartphone access the information and services needed for check-in and the events, and how will they receive the cards and items they need, such as the meal card?",
+      "a": "The group leader must activate the cards and provide any additional information. At check-in, the group leader receives the kits, including the prepaid cards, on behalf of the group and distributes them to members."
+    },
+    "Q77": {
+      "q": "Do priests and deacons check in with their group, or at a separate designated place? Can the group leader complete identity verification on their behalf and collect clerical items such as stoles, or must they come in person?",
+      "a": "Priests and deacons registered for a package with accommodation can check in with their group at their assigned parish. Because check-in staff verify priests' and deacons' identity in person before issuing credentials and kits, the group leader cannot complete identity verification or collect these items on their behalf. Priests and deacons registered for a package without accommodation must go in person to the dedicated priests' and deacons' check-in area in the Pilgrim Center to complete identity verification and collect their items.\nThe distribution of stoles and vestments is currently under review. We will provide further details once it has been confirmed."
+    },
+    "Q78": {
+      "q": "For groups without accommodation, can the group leader check in and collect items at the Pilgrim Center on behalf of everyone, without bringing all the pilgrims?",
+      "a": "Yes. For groups registered for a package without accommodation, the group leader can visit the Pilgrim Center on the group's behalf to check in and collect items, without all participants being present. However, priests and deacons in the group must go in person to the dedicated priests' and deacons' check-in area in the Pilgrim Center for a separate check-in."
+    },
+    "Q79": {
+      "q": "What hours of the day will the Pilgrim Center be open?",
+      "a": "The Pilgrim Center, where on-site registration and check-in for groups on packages without accommodation will take place, is scheduled to operate from July 25, when check-in for short-term volunteers begins, to August 8. A more detailed operating plan will be announced later."
+    },
+    "Q80": {
+      "q": "Will public Wi-Fi be provided at accommodation and the main venues during WYD for smooth internet use, including the Pilgrim App? Will there be a network environment that remains stable when large numbers of pilgrims connect at the same time?",
+      "a": "There is a great deal of public Wi-Fi throughout Seoul. The LOC is working with the Seoul Metropolitan Government and related companies and institutions in many areas for pilgrims' convenience and safety."
+    },
+    "Q81": {
+      "q": "Can we also get information on how the Vatican-approved pilgrimage routes work, how to take part, and how pilgrimage confirmations or certificates are issued?",
+      "a": "The Vatican-approved pilgrimage routes can be visited and walked freely at any time, without registration. The Seoul Pilgrimage Routes cover 24 sites on three courses (Course 1, The Good News Road / Course 2, The Eternal Life Road / Course 3, The Unity Road).\nIf you visit all three museums in the 'Pilgrimage with Museums' program, which is only available during WYD Seoul 2027, you can download a certificate of completion. You can visit during museum opening hours without booking: turn on your smartphone's Bluetooth, open the Pilgrim App and tour the museum. The verification device in the museum links with your phone, and your visit is automatically verified in the Pilgrim App. Once you have visited all three designated museums, a message confirming completion appears. Press the download button for the certificate of completion at the bottom of the screen to receive it."
+    },
+    "Q82": {
+      "q": "Can group leaders and Subgroup leaders use both their own pilgrim functions and their leader functions within the same app? In other words, can they switch between their own screen and the leader screen?",
+      "a": "No.\nWeb membership → participation verification (group code) → leader verification can be used consistently with only one account. To use X number of accounts, you must register that number of web memberships from the start. However, some information stored locally on the phone, to keep the app working smoothly offline, may be excluded (favorites, certificates of completion, etc.)."
+    },
+    "Q83": {
+      "q": "Does each pilgrim receive a personal account and login details and activate the app themselves?",
+      "a": "Each person signs up for web membership freely.\nFor the group code, an additional verification can be obtained by entering the group information shared by the leader."
+    },
+    "Q84": {
+      "q": "If one email is used per account, must the group share that email and password to log in, or does each participant log in with their own account even if they appear as several entries in the same group in the app?",
+      "a": "An account is personal information, so each person must sign up individually. This is separate from group code verification."
+    },
+    "Q85": {
+      "q": "Does the app require an internet connection? If so, will Wi-Fi be provided, or must pilgrims buy a SIM card or eSIM?",
+      "a": "Pilgrims can use the app with public Wi-Fi or their own mobile data. It has been built so that minimum functions remain available offline (e.g. event information). Pilgrims must buy and use their own SIM card or eSIM."
+    },
+    "Q86": {
+      "q": "Will the Pilgrim App offer features such as multilingual translation or a chatbot for inquiries? For example, translating text by taking a photo, or translating conversations by voice?",
+      "a": "The Pilgrim App is available in six languages. No separate translation or interpretation features are provided."
+    },
+    "Q87": {
+      "q": "Can the Pilgrim App provide local information pilgrims need, such as the location and capacity of nearby restaurants, or give real-time guidance? When using restaurants near the pilgrimage sites, many teams may arrive at once, wander looking for a restaurant, miss mealtimes, or be unable to eat because of unexpected menus.",
+      "a": "The Pilgrim App does not provide current information on any restaurants."
+    },
+    "Q88": {
+      "q": "From when can the Pilgrim App be downloaded and used, and does it support both iOS and Android? Can its main features be used offline when the internet connection is poor?",
+      "a": "The app is already in service. Basic information is updated online at set intervals so it can be used offline, but new information can only be retrieved online."
+    },
+    "Q89": {
+      "q": "Will live interpretation of the main events be available in the Pilgrim App too, or only through radio frequencies?",
+      "a": "The Pilgrim App does not provide live interpretation."
+    },
+    "Q90": {
+      "q": "What information must group leaders and pilgrims each enter, and how are passport details, T-shirt sizes, allergies and the like registered? Please also explain the features of the group leader dashboard.",
+      "a": "Only group leaders can enter advance information; pilgrims cannot.\nA verified group leader, as the group's representative, is given the rights to enter advance information and to activate group members' prepaid cards and request reissues."
+    },
+    "Q91": {
+      "q": "What personal information is entered in the app, and when? Do pilgrims enter details such as T-shirt size and allergies themselves, or does the group leader manage them? Please also tell us whether this information can be entered and managed on the website, and what privacy and app security measures are in place.",
+      "a": "For web membership, a verification code is sent to the member's own email address. Advance information is entered only by the group leader. Personal information applies only to the basic web membership; its terms have been legally reviewed and are presented, and consent obtained, at sign-up."
+    },
+    "Q92": {
+      "q": "Will the official website provide a step-by-step user guide or a trial environment so participants can get familiar with the Pilgrim App in advance?",
+      "a": "The app is already in service, and an advance guide to the app will be provided."
+    },
+    "Q93": {
+      "q": "Can the WYD pilgrim transport card be added to a mobile wallet such as Apple Pay, Google Pay or Samsung Pay?",
+      "a": "The pilgrim card is issued as a physical card combining a transport card and a payment card. The physical card does not support NFC linking."
+    },
+    "Q94": {
+      "q": "After WYD, if about $100, say, is left on the prepaid meal card, can it be refunded? If so, in won or in dollars? Or could you at least let us donate it to the Solidarity Fund?",
+      "a": "The meal allowance the LOC tops up each day carries over if it is not fully used that day and can be used until the end date of the registered package. Unused balances are not refunded after the event. We are discussing a way for unused balances to be donated as part of the Participation Contribution, and will share details later."
+    },
+    "Q95": {
+      "q": "Is the prepaid meal card a physical card or digital? At the Jubilee in Rome the app had major problems, and some groups did not receive all their meals.",
+      "a": "The prepaid meal card is a physical card. The Pilgrim App does not offer a payment function, but you can check your transaction history and balance in it."
+    },
+    "Q96": {
+      "q": "During WYD, are meals chosen freely at restaurants, convenience stores and so on using the prepaid meal card, or are separate meal tents or packed meals also provided? Do the participating restaurants and convenience stores include restaurants serving food from different cultures?",
+      "a": "Breakfast will be provided at the accommodation, and lunch and dinner can be taken freely at designated restaurants using the prepaid meal card. The participating restaurants, menus and the way the meal card will work are still under discussion."
+    },
+    "Q97": {
+      "q": "Does using the prepaid meal card require NFC on the phone?",
+      "a": "No. The physical card received at check-in can be activated and linked to your phone. NFC is not required."
+    },
+    "Q98": {
+      "q": "When a pilgrim card is lost, can only the second leader issue or request a new card, or can the first leader do so too?",
+      "a": "All app-related rights belong only to the second leader. Because, as a matter of policy, a Subgroup leader (first leader) can be duplicated, the unique leader account is the second leader's, which is why this decision was made."
+    },
+    "Q99": {
+      "q": "During WYD, will the LOC have a dedicated contact point or staff to coordinate continental, regional or national gatherings, and will venues be provided for them? Or must the organizing bodies arrange venues themselves?",
+      "a": "For continental or national gathering proposals, please contact the Global Relations Division at international@wydseoul.org. They can provide you with further information regarding the logistics."
+    },
+    "Q100": {
+      "q": "Will the LOC provide official programs and prayer materials so that countries and young people unable to attend WYD Seoul 2027 in person can join in through their own events and vigils in their dioceses and parishes?",
+      "a": "The LOC is planning and preparing various ways for pilgrims who cannot be there in person, for whatever reason, to take part. We will announce the format and means of participation as soon as they are confirmed."
+    },
+    "Q101": {
+      "q": "We are staying in non-LOC accommodation, and our priests are with us. On days when no Mass is scheduled at WYD, how can we find a nearby parish where our priest can celebrate Mass for our group?",
+      "a": "Most parishes in Seoul will be assigned groups on packages with accommodation, so those assigned groups will have priority use of those parishes. We ask for your understanding that you will need to request use at times when the assigned groups are not using them."
+    },
+    "Q102": {
+      "q": "Will safety and awareness materials on heretical groups and cult activity be provided for pilgrims preparing for WYD?",
+      "a": "The Committee Against Pseudo-religions of the Catholic Bishops' Conference of Korea is currently preparing guidance materials, and the draft is under review. After review, they will be translated into the official languages and distributed."
+    },
+    "Q103": {
+      "q": "It seems the entry date should be stated as the date of entry on the visa for Days in the Dioceses, rather than the date of arrival in Seoul.\nCan DID participants apply for their visa using the Seoul LOC's address?",
+      "a": "The date of entry into Korea must be the actual arrival date of your flight to Korea, whether or not you take part in Days in the Dioceses.\n\nVisa applications are made on the basis of documents issued by WYD, so we recommend entering the WYD LOC's details for the address and contact details in Korea. The dates of entry and departure, however, must match your actual flight schedule."
+    },
+    "Q104": {
+      "q": "Will allergy information be shared with those running Days in the Dioceses?\nRegistration and payment of the fee and contribution for Days in the Dioceses will presumably be separate, but will a link be provided? Or must everything be entered again entirely separately?",
+      "a": "At this stage of applying for Days in the Dioceses, only group sizes have been registered. Detailed information will be requested later, when the list of names is submitted to the diocese, and allergies and other special needs will be collected then.\n\nThe contribution for Days in the Dioceses is paid to the host diocese, by bank transfer."
+    },
+    "Q105": {
+      "q": "Can the diocese hosting DID cover the cost of transport to Seoul?",
+      "a": "Days in the Dioceses is run differently in each diocese. For travel to Seoul after Days in the Dioceses, please contact the diocese you wish to join directly."
+    },
+    "Q106": {
+      "q": "For Days in the Dioceses, is transport from the airport to the host diocese, from Seoul to the host diocese, and from the end of DID to accommodation in Seoul provided by the hosts or included in the package, or must each delegation or group arrange it?",
+      "a": "Days in the Dioceses is run differently in each diocese. For transport from the airport to the host diocese and from the host diocese to Seoul, please contact the diocese you wish to join directly."
+    },
+    "Q107": {
+      "q": "When does registration for Days in the Dioceses begin?",
+      "a": "Registration for Days in the Dioceses has already begun. You can apply in person, by phone, by email, or through the Days in the Dioceses website (https://wyd2027did.org). However, it is difficult to apply to a diocese whose places for Days in the Dioceses are already filled."
+    },
+    "Q108": {
+      "q": "Is the Days in the Dioceses period also covered by insurance?",
+      "a": "Dioceses hosting Days in the Dioceses are arranging event liability insurance. Personal travel insurance, however, should be arranged by pilgrims themselves."
+    },
+    "Q109": {
+      "q": "Is there an accommodation solution for those arriving for DID before July 29, 2027?",
+      "a": "Days in the Dioceses is run differently in each diocese. For accommodation for early arrivals, please contact the diocese you wish to join directly."
+    },
+    "Q110": {
+      "q": "Will minors taking part in Days in the Dioceses stay in homestays?",
+      "a": "At present, most dioceses are preparing homestays as standard. Minors taking part in Days in the Dioceses will stay in homestays only when accompanied by a chaperone. Please make sure you have enough chaperones for the number of minors. For accommodation other than homestays, please contact the diocese you wish to join directly."
+    },
+    "Q111": {
+      "q": "It seems many dioceses are already full. Is it too late for us to find a diocese?",
+      "a": "As of October 7, applications have been received for 55% of the places prepared for pilgrims at Days in the Dioceses. There is still room, and even if applications exceed the places the Church in Korea has prepared, there is capacity to accommodate them. All pilgrims who wish to take part in Days in the Dioceses are welcome. Please apply without worry."
+    },
+    "Q112": {
+      "q": "From when is DID registration valid? Some dioceses have already contacted us, but actual WYD registration only starts in October. Is DID registration valid on its own, or only once we have registered for WYD?",
+      "a": "Registration for Days in the Dioceses is separate from the registration for WYD Seoul 2027. It has already begun and proceeds in three steps:\n1) registration of group size 2) registration of the list of names 3) payment of the pilgrim contribution\nPlease note that once the places prepared by the diocese you wish to join are filled, you can no longer apply to that diocese."
+    },
+    "Q113": {
+      "q": "Also, is the date of moving from DID to WYD August 2 or August 3?",
+      "a": "Days in the Dioceses runs for five days and four nights, from July 29 to August 2, 2027.\nAfter the program on August 2, pilgrims move to the Main Event the same day."
+    },
+    "Q114": {
+      "q": "How are international movements, communities and lay associations being integrated into the DID program while exercising their own charisms?",
+      "a": "Days in the Dioceses is designed around pilgrims experiencing the local Church. For integrating your own charism with the Days in the Dioceses program, please contact the diocese you wish to join directly."
+    },
+    "Q115": {
+      "q": "What does it cost and how is it paid? Is it free, or is there a separate charge? Is payment made at registration or directly to the diocese?",
+      "a": "The Days in the Dioceses pilgrim contribution is the same in every diocese: $100. Most dioceses provide a homestay, breakfast, event insurance and a souvenir. For meals other than breakfast, transport and other costs, please contact the diocese you wish to join directly."
+    },
+    "Q116": {
+      "q": "If the event is held inside the stadium, there will be no opportunity to rotate people fairly. Many will feel this is deeply unfair, and the plan will still end up excluding and turning away many young people.\nOn what basis will groups be selected for indoor and outdoor seating? Will it be by lottery? What can be done so that this does not appear exclusionary? It looks like a situation that divides the \"haves\" from the \"have-nots.\" Young people need something that is not exclusive. We hope the Church will not once again become an institution that rejects them.",
+      "a": "As those responsible for the events, we fully understand your concern. We will set principles and criteria for communication and allocation so that this concern does not turn into unfairness. We will also put in place a range of considerations and means of communication so that no pilgrim feels left out because of where they are seated."
+    },
+    "Q117": {
+      "q": "Central America and the Caribbean do not appear in the regional divisions for the Way of the Cross. Will they be considered?",
+      "a": "The continental divisions for the Way of the Cross and all Main Event events follow the continents as divided by the Holy See."
+    },
+    "Q118": {
+      "q": "If the event is held inside the stadium, on what basis are places inside and outside the stadium allocated to groups and pilgrims? Is there priority for episcopal conference delegations and the like, and is it by advance assignment or lottery? And what will be done so that pilgrims beyond the stadium capacity can also take part meaningfully in the events and Masses on site?",
+      "a": "Seats inside the stadium will be assigned in advance, but priority will not be given to certain clergy. World Youth Day must give priority consideration to marginalized young people, people with disabilities and youth representatives from each country. Various arrangements and measures are being discussed for pilgrims outside the stadium. We are preparing a range of considerations and means of communication so that being inside the stadium does not become a privilege, and those outside do not feel they are missing out."
+    },
+    "Q119": {
+      "q": "We worry that the events will take place behind closed doors inside the stadium and feel isolated. Even if the Holy Father wants to be a shepherd who draws close, it may be hard to feel that this is a gathering for everyone.",
+      "a": "We are considering various ways to keep the event from being isolated within the stadium. We are preparing various ways to connect not only with young people beyond the stadium and Seoul, on the other side of the world, but also with young people outside the stadium."
+    },
+    "Q120": {
+      "q": "Is there clear information yet on where transport will drop us off, and roughly how far young people will have to walk from there to the Closing Mass site?",
+      "a": "The operating plan is currently being drawn up, and a transport guide for pilgrims will be distributed shortly before the event."
+    },
+    "Q121": {
+      "q": "Please answer regarding the confidential information about the Closing Mass site. Are you saying it cannot be shared with the bishops and leaders who will ask about it? Is it all right to share it internally? Or must this information stay in this room?",
+      "a": "Information about the Closing Mass site may be shared internally at the level of episcopal conferences and dioceses. It must not, however, be shared through public channels (broadcast, internet, YouTube, newspaper articles, personal social media, etc.) before the official announcement. Please wait prayerfully until it is announced."
+    },
+    "Q122": {
+      "q": "About the Closing Mass site: could priests be placed in sections A1 and A3? Then young people could take section A2, right in front of the stage.",
+      "a": "The sections in front of the stage will be specially managed. We plan to place the priests' seating in a separate front section, and youth representatives, young people from marginalized communities and special participants will be managed separately and seated in front of the stage. The exact seating will be confirmed only once pilgrim registration has closed."
+    },
+    "Q123": {
+      "q": "Will a list of items that may and may not be brought to the Opening and Closing Masses be published in advance? For example, may we pitch tents at the Closing Mass?",
+      "a": "The items that may be brought will be announced in advance and will be limited to what is reasonably needed for one night sleeping outdoors. Tents may not be pitched."
+    },
+    "Q124": {
+      "q": "At the Closing Mass, will volunteers be deployed to guide pilgrims to their assigned sections? At the last event, some pilgrims tended to ignore their assigned sections and try to take places near the stage.",
+      "a": "For every event where large crowds are expected, the LOC is preparing with safety as its first priority. For pilgrims' safety we will prepare and carry out many measures, including deploying volunteers."
+    },
+    "Q125": {
+      "q": "How do we get to the Vigil and Closing Mass venue? Can we go by public transport?",
+      "a": "You will travel by subway and on foot. Details will be given in the transport guide for pilgrims, to be distributed shortly before the event."
+    },
+    "Q126": {
+      "q": "Is there a backup plan in case of heavy rain during the Vigil?",
+      "a": "If there is heavy rain during the Vigil, we plan to use large tents, hangars and other structures on site, and are preparing a specific plan for wet weather."
+    },
+    "Q127": {
+      "q": "What measures will protect pilgrims at outdoor events such as the Vigil and the Closing Mass from the heat waves and heavy rain expected during WYD? Will the LOC provide shade, drinking water and rest areas, and can you tell us what participants should bring themselves, such as hats and parasols?",
+      "a": "We plan to set up waiting areas or tents inside the venue for protection from heat and heavy rain, but they cannot hold everyone, so each person should bring their own hat and parasol (sun umbrella). We will remind you of this once registration opens."
+    },
+    "Q128": {
+      "q": "If more pilgrims than expected come to the Vigil site and it exceeds capacity or becomes congested, what entry management and alternative ways of taking part will be put in place so that no pilgrim is left unable to enter? In Lisbon some pilgrims could not get into the Vigil site because of congestion.",
+      "a": "We are preparing staggered movement guidance for each group so that as many pilgrims as possible can attend the Closing Mass."
+    },
+    "Q129": {
+      "q": "How will concelebration by priests and liturgical participation by deacons be organized at the main Masses? Please tell us whether separate advance registration or verification is needed, and whether individuals must bring their own vestments such as an alb and stole.",
+      "a": "For the Opening Mass, we are considering dedicated priests' seating behind the stage. For the Closing Mass, to bring young people closer to the altar, we are considering priests' seating at the far left and right ends of the young people's area. The distribution of stoles and vestments is currently under review. We will provide further details once it has been confirmed."
+    },
+    "Q130": {
+      "q": "What opportunities and procedures are there for international youth organizations and external organizers to propose, take part in or collaborate on general events, workshops or side events at WYD Seoul 2027?\n\nWhat must organizations wishing to take part in the Youth Festival prepare, and what are the procedures for applying for and allocating space or booths, and the participation costs?",
+      "a": "Organizations wishing to take part in the Youth Festival can apply with the project they want to run through the registration system. Projects in many genres are possible — performances, talks, exhibitions, prayer and praise, workshops and more — and participation is free. Organizations from every country may take part. Final selection of participating teams is made by the Holy See and the LOC, and venues are assigned and provided by the LOC."
+    },
+    "Q131": {
+      "q": "How do young people from other countries perform at the Youth Festival? Is registration required? Is a venue assigned? Do they have to pay a participation fee?",
+      "a": "The Youth Festival and the Vocations Fair run only during WYD, in the host diocese. Groups or organizations wishing to take part can apply through the registration system. There is no participation fee for the Youth Festival; for the Vocations Fair there is a booth fee of US$700 for one booth and US$1,300 for two. For the Youth Festival, the team running a project can decide its language as it wishes. Most include English."
+    },
+    "Q132": {
+      "q": "On what website or homepage can we find the procedure for taking part in the Youth Festival and the Vocations Fair? How can we find out? Can we spread this information widely in each of our countries to make the experience even richer?\n\nWhen, where and in what form will the City of Joy, the Vocations Fair and the Youth Festival of WYD Seoul 2027 run? Will they be spread across several dioceses, and will there be programs by language group?",
+      "a": "You can apply for the Youth Festival and the Vocations Fair through the registration system. The registration system is scheduled to open around the end of October and can be accessed through the official WYD website (https://wydseoul.org/). To make this experience even richer, please help promote the official WYD website widely."
+    },
+    "Q133": {
+      "q": "How do priests register to hear confessions at Reconciliation Park?",
+      "a": "Priests register together with their pilgrim group in the registration system. Because group registration is done by the group leader, priests who wish to hear confessions at Reconciliation Park should tell their group leader the dates and times they are available. Priests making the pilgrimage alone, without a group, can register as a one-person group."
+    },
+    "Q134": {
+      "q": "What does a 'booth' mean at the Vocations Fair?",
+      "a": "At the Vocations Fair, a 'booth' means a 3 m × 3 m space, made of a tent or stand, given to each religious congregation or apostolic/devotional association taking part. Each congregation may apply for up to two."
+    },
+    "Q135": {
+      "q": "What does the Vocations Fair involve? What specifically is the participation fee used for?",
+      "a": "The Vocations Fair helps pilgrims discern their own calling by sharing with them the charism and spirituality of each participating congregation or organization. The participation fee is used to rent the venue and set up the booths."
+    },
+    "Q136": {
+      "q": "What are the criteria for selecting priests to hear confessions? Can only selected priests take part, or anyone? Must priests indicate whether they will take part when they register?",
+      "a": "Any priest may take part, but they must be registered in the registration system for identity verification."
+    },
+    "Q137": {
+      "q": "For how many days will Reconciliation Park be open during the event? For how many hours a day will confession be available? Can young people move freely in and out of the park? At the Jubilee in Rome, access to the places where confessions were heard was very restricted, almost controlled.",
+      "a": "Reconciliation Park will be open from Tuesday to Friday of Main Event week, from 1 p.m. to 5 p.m.\nBecause of the seal of confession, young people cannot walk freely around the park.\nEntry to the park follows a set route under the guidance of volunteers. Anyone who is prepared may receive the Sacrament of Reconciliation."
+    },
+    "Q138": {
+      "q": "If we are staying in a hotel, how will we be guided on how to get to the catechesis venue?",
+      "a": "Groups that have arranged their own accommodation, such as a hotel, should also travel to their assigned catechesis venue. Information on Catecheses venues and how to get there will be announced later."
+    },
+    "Q139": {
+      "q": "In Panama, catechesis materials were provided before the pre-events and the main event. Will that happen this time too????",
+      "a": "We expect it to be provided before the main event, if possible."
+    },
+    "Q140": {
+      "q": "Even if our accommodation is somewhat far from Seoul, can we be assigned to the nearest catechesis venue, taking its location into account?",
+      "a": "The route and travel time from your accommodation to the catechesis venue depend on where you are staying, so please check them using a map app or similar, based on the address of the venue you are given."
+    },
+    "Q141": {
+      "q": "How do we sign up for the Catecheses, and will they be participatory, dynamic programs like those at WYD Lisbon 2023?",
+      "a": "The Catecheses will go ahead once speakers have been selected and participant numbers estimated. We expect them to run much as in Lisbon."
+    },
+    "Q142": {
+      "q": "Can you tell us the languages that will be used in the Catecheses sessions?",
+      "a": "We expect them to be held in the six official languages of WYD Seoul 2027."
+    },
+    "Q143": {
+      "q": "When will the Catecheses venues be confirmed and announced?",
+      "a": "They will be confirmed in stages and announced by email from about one month before the event."
+    },
+    "Q144": {
+      "q": "If the total number registered exceeds the capacity of the Catecheses venues, how will venues and capacity be secured and allocated so that every pilgrim can take part in a catechesis?",
+      "a": "Catecheses venues are being checked on an ongoing basis, and we will do our best to make sure every participant who has signed up for a catechesis can attend one."
+    },
+    "Q145": {
+      "q": "If we want to organize catecheses, do we need to let you know in advance?",
+      "a": "The speakers and topics for the Catecheses are selected by the DLFL."
+    },
+    "Q146": {
+      "q": "What must we do to take part as a catechesis facilitator?",
+      "a": "We will share information on the Catecheses as discussions with the DLFL progress."
+    }
+  }
+}

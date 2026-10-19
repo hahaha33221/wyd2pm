@@ -208,6 +208,8 @@ def load_translations():
         merged = {}
         for f in sorted(lang_dir.glob("*.json")):
             for key, val in json.loads(f.read_text(encoding="utf-8")).items():
+                if key.startswith("_"):
+                    continue
                 merged.setdefault(key, {}).update(val)
         out[lang_dir.name] = merged
     return out

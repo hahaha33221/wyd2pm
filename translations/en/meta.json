@@ -1,4 +1,5 @@
 {
+  "_출처": "meeting: #[2PM]세션발표 Q&A_취합개요_EN_261019.docx (확인됨). 그 외 분류명 등은 초안(미확인).",
   "sections": {
     "Ⅰ": "Application and Registration",
     "Ⅱ": "Pilgrim Support",
@@ -41,23 +42,23 @@
   "meeting": {
     "회의명": {
       "label": "Meeting",
-      "value": "2nd International Preparatory Meeting for World Youth Day Seoul 2027"
+      "value": "WYD Seoul 2027 Second Preparatory Meeting"
     },
     "일자": {
-      "label": "Dates",
-      "value": "Mon 14 – Thu 17 September 2026"
+      "label": "Date",
+      "value": "September 14 (Mon) – 17 (Thu), 2026"
     },
     "장소": {
       "label": "Venue",
-      "value": "Nest Hotel (Incheon)"
+      "value": "Nest Hotel, Incheon"
     },
     "참가인원": {
       "label": "Participants",
-      "value": "About 270 people in total, including representatives of dioceses, religious institutes and ecclesial associations from some 100 countries"
+      "value": "Approx. 270 representatives of dioceses, religious congregations and ecclesial associations from about 100 countries"
     },
     "주최/주관": {
-      "label": "Organisers",
-      "value": "Dicastery for Laity, Family and Life; Local Organising Committee of WYD Seoul 2027"
+      "label": "Organizers",
+      "value": "Dicastery for Laity, Family and Life\nWYD Seoul 2027 Local Organizing Committee"
     }
   },
   "opinionTopics": {
