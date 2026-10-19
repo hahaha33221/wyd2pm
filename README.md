@@ -26,7 +26,7 @@ python3 scripts/import_db.py "WYD_2nd_Prep_Meeting_QA_DB.xlsx"
 
 엑셀과 다르게 보여야 하는 한국어 문장은 `overrides/ko.json`에 "이 문장 → 이 문장"으로 적습니다 (현재 Q77·Q129 영대 관련 답변).
 바꿀 문장을 엑셀에서 찾지 못하면 변환이 멈추므로, 엑셀이 바뀌어 수정이 빠지는 일은 없습니다.
-'Q&A 소개 > 취합 개요' 화면의 2~4번 내용은 `src/constants/overview.js`에 있습니다 (1번 회의 개요 표는 엑셀 Meeting_Info 시트).
+'Q&A 소개 > 취합 개요' 화면의 2번(배경 및 목적) 내용은 `src/constants/overview.js`에 있습니다 (1번 회의 개요 표는 엑셀 Meeting_Info 시트).
 
 같은 스크립트가 VPS 데이터베이스용 `db/seed.sql`도 만듭니다 (테이블 설계는 `db/schema.sql`).
 
