@@ -158,22 +158,44 @@ def build_sql(qa, opinions, info, source):
 
 
 def apply_ko_overrides(qa):
-    """overrides/ko.json 의 문장 교체를 적용합니다. 바꿀 문장을 못 찾으면 멈춥니다."""
+    """overrides/ko.json 의 한국어 수정을 적용합니다. 원문을 못 찾으면 멈춥니다.
+
+    - topics   : {"Ⅳ-1": [{"from", "to"}]}           중분류 이름 교체
+    - questions: {"Q1": [{"from", "to"} | {"was", "set"}]} 질문 문장/전체 교체
+    - answers  : {"Q1": [{"from", "to"} | {"was", "set"}]} 답변 문장/전체 교체
+    """
     if not KO_OVERRIDES.exists():
         return []
-    rules = json.loads(KO_OVERRIDES.read_text(encoding="utf-8")).get("answers", {})
+    rules = json.loads(KO_OVERRIDES.read_text(encoding="utf-8"))
     by_no = {it["no"]: it for it in qa}
     done = []
-    for no, edits in rules.items():
-        it = by_no.get(no)
-        if not it:
-            sys.exit(f"overrides/ko.json: {no} 질문이 엑셀에 없습니다.")
+
+    def edit(text, e, where):
+        if "set" in e:
+            if not text.startswith(e.get("was", "")):
+                sys.exit(f"overrides/ko.json: {where} 원문이 예상과 다릅니다 (엑셀이 바뀌었는지 확인) → {text[:30]}…")
+            return e["set"]
+        if e["from"] not in text:
+            sys.exit(f"overrides/ko.json: {where} 에서 바꿀 문장을 찾지 못했습니다 → {e['from'][:40]}…")
+        return text.replace(e["from"], e["to"])
+
+    for key, edits in rules.get("topics", {}).items():
+        targets = [it for it in qa if f"{it['sectionNo']}-{it['topicNo']}" == key]
+        if not targets:
+            sys.exit(f"overrides/ko.json: 중분류 {key} 가 엑셀에 없습니다.")
         for e in edits:
-            ans = it["a"].get("ko", "")
-            if e["from"] not in ans:
-                sys.exit(f"overrides/ko.json: {no} 답변에서 바꿀 문장을 찾지 못했습니다 → {e['from'][:40]}…")
-            it["a"]["ko"] = ans.replace(e["from"], e["to"])
-            done.append(no)
+            for it in targets:
+                it["topic"]["ko"] = edit(it["topic"]["ko"], e, f"중분류 {key}")
+        done.append(f"중분류 {key}")
+
+    for kind, field in (("questions", "q"), ("answers", "a")):
+        for no, edits in rules.get(kind, {}).items():
+            it = by_no.get(no)
+            if not it:
+                sys.exit(f"overrides/ko.json: {no} 질문이 엑셀에 없습니다.")
+            for e in edits:
+                it[field]["ko"] = edit(it[field].get("ko", ""), e, f"{no} {'질문' if field == 'q' else '답변'}")
+            done.append(f"{no}{'질문' if field == 'q' else '답변'}")
     return done
 
 
