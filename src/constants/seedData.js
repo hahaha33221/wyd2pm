@@ -6771,11 +6771,11 @@ export const MEETING_INFO = [
     },
     "value": {
       "ko": "교황청 평신도가정생명부, 2027 서울 세계청년대회 조직위원회, 천주교 서울대교구",
-      "en": "Dicastery for Laity, Family and Life\nWYD Seoul 2027 Local Organizing Committee",
-      "es": "Dicasterio para los Laicos, la Familia y la Vida\nComité Organizador Local de la JMJ Seúl 2027",
-      "fr": "Dicastère pour les laïcs, la famille et la vie\nComité d'organisation local des JMJ Séoul 2027",
-      "it": "Dicastero per i Laici, la Famiglia e la Vita\nComitato Organizzatore Locale della GMG Seoul 2027",
-      "pt": "Dicastério para os Leigos, a Família e a Vida\nComité Organizador Local da JMJ Seul 2027"
+      "en": "Dicastery for Laity, Family and Life\nWYD Seoul 2027 Local Organizing Committee\nArchdiocese of Seoul",
+      "es": "Dicasterio para los Laicos, la Familia y la Vida\nComité Organizador Local de la JMJ Seúl 2027\nArquidiócesis de Seúl",
+      "fr": "Dicastère pour les laïcs, la famille et la vie\nComité d'organisation local des JMJ Séoul 2027\nArchidiocèse de Séoul",
+      "it": "Dicastero per i Laici, la Famiglia e la Vita\nComitato Organizzatore Locale della GMG Seoul 2027\nArcidiocesi di Seoul",
+      "pt": "Dicastério para os Leigos, a Família e a Vida\nComité Organizador Local da JMJ Seul 2027\nArquidiocese de Seul"
     }
   }
 ];
