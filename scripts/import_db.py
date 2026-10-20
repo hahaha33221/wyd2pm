@@ -157,12 +157,13 @@ def build_sql(qa, opinions, info, source):
     return "\n".join(out)
 
 
-def apply_ko_overrides(qa):
+def apply_ko_overrides(qa, info=()):
     """overrides/ko.json 의 한국어 수정을 적용합니다. 원문을 못 찾으면 멈춥니다.
 
     - topics   : {"Ⅳ-1": [{"from", "to"}]}           중분류 이름 교체
     - questions: {"Q1": [{"from", "to"} | {"was", "set"}]} 질문 문장/전체 교체
     - answers  : {"Q1": [{"from", "to"} | {"was", "set"}]} 답변 문장/전체 교체
+    - meeting  : {"주최/주관": [{"from", "to"} | {"was", "set"}]} 회의 정보(Meeting_Info) 내용 교체
     """
     if not KO_OVERRIDES.exists():
         return []
@@ -196,6 +197,15 @@ def apply_ko_overrides(qa):
             for e in edits:
                 it[field]["ko"] = edit(it[field].get("ko", ""), e, f"{no} {'질문' if field == 'q' else '답변'}")
             done.append(f"{no}{'질문' if field == 'q' else '답변'}")
+
+    by_label = {r["label"]["ko"]: r for r in info}
+    for label, edits in rules.get("meeting", {}).items():
+        r = by_label.get(label)
+        if not r:
+            sys.exit(f"overrides/ko.json: 회의 정보 '{label}' 항목이 엑셀에 없습니다.")
+        for e in edits:
+            r["value"]["ko"] = edit(r["value"]["ko"], e, f"회의 정보 {label}")
+        done.append(f"회의정보 {label}")
     return done
 
 
@@ -304,7 +314,7 @@ def main():
         if r["항목"]
     ]
 
-    overridden = apply_ko_overrides(qa)
+    overridden = apply_ko_overrides(qa, info)
     apply_translations(qa, opinions, info, load_translations(), problems)
     # DB(seed.sql)에는 모든 번역을 넣고, 화면 데이터(seedData.js)에는 켜진 언어만 넣습니다.
     sql = build_sql(qa, opinions, info, Path(sys.argv[1]).name)

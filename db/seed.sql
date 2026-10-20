@@ -8,7 +8,7 @@ INSERT INTO meeting_info (label, value, sort_order) VALUES ('회의명', '2027 �
 INSERT INTO meeting_info (label, value, sort_order) VALUES ('일자', '2026. 9. 14.(월) ~ 17.(목)', 1) ON CONFLICT (label) DO UPDATE SET value = EXCLUDED.value, sort_order = EXCLUDED.sort_order;
 INSERT INTO meeting_info (label, value, sort_order) VALUES ('장소', '네스트 호텔 (인천 소재)', 2) ON CONFLICT (label) DO UPDATE SET value = EXCLUDED.value, sort_order = EXCLUDED.sort_order;
 INSERT INTO meeting_info (label, value, sort_order) VALUES ('참가인원', '총 100여 개국 교구 및 수도회, 신심단체 관계자 등 270여명', 3) ON CONFLICT (label) DO UPDATE SET value = EXCLUDED.value, sort_order = EXCLUDED.sort_order;
-INSERT INTO meeting_info (label, value, sort_order) VALUES ('주최/주관', '교황청 평신도가정생명부, 2027 서울 세계청년대회 조직위원회', 4) ON CONFLICT (label) DO UPDATE SET value = EXCLUDED.value, sort_order = EXCLUDED.sort_order;
+INSERT INTO meeting_info (label, value, sort_order) VALUES ('주최/주관', '교황청 평신도가정생명부, 2027 서울 세계청년대회 조직위원회, 천주교 서울대교구', 4) ON CONFLICT (label) DO UPDATE SET value = EXCLUDED.value, sort_order = EXCLUDED.sort_order;
 DELETE FROM meeting_info WHERE label NOT IN ('회의명', '일자', '장소', '참가인원', '주최/주관');
 
 -- 분류: 대분류 > 중분류 > 소분류
