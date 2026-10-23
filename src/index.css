@@ -1559,6 +1559,23 @@ code {
   animation: intro-up 0.7s ease 0.8s both, intro-breathe 2.4s ease-in-out 1.6s infinite;
 }
 
+.intro-en {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.intro-subtitle-en {
+  max-width: 340px;
+  margin-top: 0;
+  animation-delay: 0.65s;
+}
+
+.intro-hint-en {
+  animation-delay: 0.95s, 1.75s;
+}
+
 .intro-hint-dot {
   width: 7px;
   height: 7px;
