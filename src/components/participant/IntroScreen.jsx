@@ -39,7 +39,10 @@ export default function IntroScreen({ onEnter }) {
               <br />
               Session Q&amp;A
             </p>
-            <p className="intro-hint intro-hint-en">Tap the logo to enter</p>
+            <p className="intro-hint intro-hint-en">
+              <span className="intro-hint-dot" aria-hidden="true" />
+              Tap the logo to enter
+            </p>
           </div>
         )}
       </div>
